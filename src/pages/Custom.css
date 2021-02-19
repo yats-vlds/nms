@@ -1,0 +1,159 @@
+.custom {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    padding-top: 7rem;
+    margin-bottom: 21rem;
+}
+
+.custom__left {
+    width: 50%;
+    padding-left: 4.5rem;
+}
+
+.custom__leftTitle {
+    font-size: 115px;
+    line-height: 120px;
+    color: #9d54bf;
+    font-weight: bold;
+    padding-left: 3.5rem;
+}
+
+.custom__right {
+    width: 38%;
+    padding-top: 1.5rem;
+}
+
+.custom__rightTitle {
+    font-size: 51px;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.custom__rightText {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.custom__rightSubtitle {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.vectorSmartCustom {
+    height: 500px;
+    width: 815px;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1440px) {
+    .vectorSmartCustom {
+        height: 453px;
+        width: 90%;
+        margin-top: 6rem;
+    }
+
+    .custom__rightTitle {
+        font-size: 45px;
+    }
+
+    .custom__rightText {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: normal;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .custom {
+        margin-bottom: 34rem;
+    }
+
+    .custom__leftTitle {
+        padding-left: 0;
+    }
+
+    .custom__left {
+        width: 50%;
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .vectorSmartCustom {
+        height: 362px;
+        width: 475px;
+        margin-top: 4rem;
+        object-fit: contain;
+    }
+
+    .custom {
+        padding-top: 4rem;
+        margin-bottom: 35rem;
+    }
+
+    .custom__leftTitle {
+        font-size: 96px;
+        line-height: 105px;
+        color: #9d54bf;
+        font-weight: bold;
+    }
+
+    .custom__rightTitle {
+        font-size: 40px;
+    }
+
+    .custom__rightText {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .custom__leftTitle {
+        font-size: 83px;
+        line-height: 95px;
+    }
+
+    .custom__rightSubtitle {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom {
+        margin-bottom: 30rem;
+    }
+
+    .vectorSmartCustom {
+        height: 247px;
+        width: 358px;
+        margin-top: 4rem;
+        object-fit: contain;
+    }
+
+    .custom__leftTitle {
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .custom__rightTitle {
+        font-size: 30px;
+    }
+
+    .custom__rightSubtitleText,  .custom__rightText  {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .custom__rightLastTitle {
+        font-size: 18px;
+    }
+}

@@ -1,31 +1,28 @@
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Home from "./pages/Home";
+import Custom from "./pages/Custom";
 import Header from "./components/Header";
-import {BrowserRouter} from "react-router-dom";
-import Cap from "./components/Cap";
-import StarProject from "./components/StarProject";
-import Expert from "./components/Expert";
-import Why from "./components/Why";
-import FormRequest from "./components/FormRequest";
-import Ten from "./components/Ten";
-import Footer from "./components/Footer";
-import Jobs from "./components/Jobs";
-import AnimateRocket from "./components/AnimateRocket";
-import AnimateHorse from "./components/AnimateHorse";
-import CircleIcons from "./components/CircleIcons";
 
 function App() {
     return (
-            <BrowserRouter>
-                <Header />
-                <Cap />
-                <StarProject />
-                <Expert />
-                <Why />
-                <Jobs/>
-                <FormRequest />
-                <Ten />
-                <Footer />
-            </BrowserRouter>
+        <Router>
+            <Header />
+            <Switch>
+                <Route path="/" exact>
+                    <Home/>
+                </Route>
+                <Route path="/custom">
+                    <Custom type="custom" />
+                </Route>
+                <Route path="/mobile-and-web">
+                    <Custom type="mobile" />
+                </Route>
+                <Route path="/ui-ux">
+                    <Custom />
+                </Route>
+            </Switch>
+        </Router>
     );
 }
 
