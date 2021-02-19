@@ -1,0 +1,168 @@
+.ten {
+    position: relative;
+    z-index: -1;
+    min-height: 900px;
+    width: 100%;
+}
+
+.tenSloy {
+    position: relative;
+    z-index: 1;
+    min-height: 900px;
+    clip-path: polygon(50% 13%, 100% 0, 100% 61%, 50% 74%, 0 74%, 0 13%);
+    background: #2d66fc;
+    width: 100%;
+}
+
+.ten__img {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    min-height: 900px;
+}
+.ten__content {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+}
+
+.ten__contentLeft {
+    width: 50%;
+}
+
+.ten__contentRight {
+    width: 50%;
+}
+
+.ten__contentLeftTitle {
+    padding-top: 16rem;
+    padding-left: 9rem;
+    font-size: 86px;
+    color: #ffffff;
+}
+
+.ten__yog {
+    position: absolute;
+    margin-left: 75rem;
+    margin-top: -47rem;
+    height: 650px;
+    -webkit-animation: tenyog 1s infinite;
+    animation: tenyog 1s infinite;
+}
+
+@-webkit-keyframes tenyog{
+    0% {
+        margin-top: -46rem;
+    }
+    50% {
+        margin-top: -47rem;
+    }
+    100% {
+        margin-top: -46rem;
+    }
+}
+
+@keyframes tenyog{
+    0% {
+        margin-top: -46rem;
+    }
+    50% {
+        margin-top: -47rem;
+    }
+    100% {
+        margin-top: -46rem;
+    }
+}
+
+.ellipse {
+    position: absolute;
+    background-color: #3f00fd;
+    width: 153px;
+    height: 36px;
+    opacity: 0.3;
+    border-radius: 110px / 30px;
+    margin-left: auto;
+    margin-right: 33rem;
+    margin-top: -6rem;
+    margin-left: 81rem;
+    -webkit-animation: tenellipse 1s infinite;
+    animation: tenellipse 1s infinite;
+}
+
+@-webkit-keyframes tenellipse{
+    0% {
+        margin-top: -6rem;
+    }
+    50% {
+        margin-top: -6.5rem;
+    }
+    100% {
+        margin-top: -6rem;
+    }
+}
+
+@keyframes tenellipse{
+    0% {
+        margin-top: -6rem;
+    }
+    50% {
+        margin-top: -6.5rem;
+    }
+    100% {
+        margin-top: -6rem;
+    }
+}
+
+
+
+/*@media (max-width: 1440px) {*/
+/*    .ten {*/
+/*        margin-bottom: -285px;*/
+/*    }*/
+/*    .ten__yog {*/
+/*        margin-left: 60rem;*/
+/*        margin-top: -37rem;*/
+/*    }*/
+
+/*    .ellipse {*/
+/*        margin-right: 13rem;*/
+/*    }*/
+
+/*    .ten__contentLeftTitle {*/
+/*        font-size: 57px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+/*    .ten {*/
+/*        margin-bottom: -300px;*/
+/*    }*/
+/*    .ten__yog {*/
+/*        margin-left: 40rem;*/
+/*        margin-top: -48rem;*/
+/*        height: 604px;*/
+/*        width: 242px;*/
+/*        object-fit: contain;*/
+/*    }*/
+
+/*    .ten__contentLeftTitle {*/
+/*        font-size: 40px;*/
+/*    }*/
+
+/*    .tenSloy {*/
+/*        min-height: 652px;*/
+/*    }*/
+
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 14rem;*/
+/*        padding-left: 6rem;*/
+/*    }*/
+/*    .ellipse {*/
+/*        margin-right: 13rem;*/
+/*        width: 118px;*/
+/*    }*/
+/*    .ten {*/
+/*        min-height: 898px;*/
+/*    }*/
+/*}*/

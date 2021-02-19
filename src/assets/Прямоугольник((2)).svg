@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1034 892" width="1034" height="892">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.251;fill: #cbcbcb } 
+	</style>
+	<g id="Работы">
+		<g id="01">
+			<path id="Прямоугольник 3" class="shp0" d="M71 0L1019 0C1027.28 0 1034 6.72 1034 15L1034 877C1034 885.28 1027.28 892 1019 892L16 892C7.72 892 1 885.28 1 877L1 70C1 31.34 32.34 0 71 0Z" />
+		</g>
+	</g>
+</svg>

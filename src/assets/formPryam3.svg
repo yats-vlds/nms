@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 833 305" width="833" height="305">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #efefef } 
+	</style>
+	<g id="форма связи">
+		<path id="Прямоугольник 14" class="shp0" d="M51 0L818 0C826.28 0 833 6.71 833 15L833 180C833 188.28 826.28 195 818 195L761.28 195L604.28 305L604.28 195L16 195C7.72 195 1 188.28 1 180L1 50C1 22.38 23.39 0 51 0Z" />
+	</g>
+</svg>

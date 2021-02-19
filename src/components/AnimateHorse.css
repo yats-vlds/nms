@@ -1,0 +1,69 @@
+.table {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.kon {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    -webkit-animation: kon 6s infinite;
+    animation: kon 6s infinite;
+}
+
+.kind {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    -webkit-animation: kind 6s infinite;
+    animation: kind 6s infinite;
+}
+
+@-webkit-keyframes kind {
+    0% {
+        margin-left: 0rem;
+    }
+    50% {
+        margin-left: 8rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+@keyframes kind {
+    0% {
+        margin-left: 0rem;
+    }
+    50% {
+        margin-left: 8rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+@-webkit-keyframes kon {
+    0% {
+        margin-left: 0rem;
+    }
+    50% {
+        margin-left: -8rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+@keyframes kon {
+    0% {
+        margin-left: 0rem;
+    }
+    50% {
+        margin-left: -8rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}

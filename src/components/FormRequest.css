@@ -1,0 +1,255 @@
+.form-request {
+    display: flex;
+    justify-content: center;
+}
+
+.form-header-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+    z-index: 2;
+    margin-top: 15rem;
+}
+
+.from-pryam1 {
+    position: relative;
+    z-index: 5;
+}
+
+.from-pryam2 {
+    position: absolute;
+    z-index: 6;
+}
+
+.from-pryam3 {
+    position: absolute;
+    z-index: 7;
+}
+
+.from-pryam4 {
+    position: absolute;
+    z-index: 9;
+    /*font-size: 46px;*/
+    /*line-height: 57px;*/
+    /*color: #4000ff;*/
+    /*font-weight: 700;*/
+    /*max-width: 750px;*/
+    margin-top: 4rem;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    background-color: #dedede;
+}
+
+.form {
+    position: relative;
+    z-index: 2;
+    width: 746px;
+    height: 610px;
+    border-radius: 15px;
+    background-color: #efefef;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.input {
+    font-size: 16px;
+    width: 625px;
+    height: 59px;
+    border-radius: 29px;
+    background-color: #efefef;
+    border: 1px solid #dedede;
+    margin-bottom: 30px;
+    padding-left: 1rem;
+}
+
+textarea {
+    font-size: 16px;
+    width: 625px;
+    height: 248px;
+    border-radius: 29px;
+    background-color: #efefef;
+    border: 1px solid #dedede;
+    padding: 1rem;
+}
+
+.form__skrepka {
+    margin-left: -35rem;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+.btnForm {
+    width: 300px;
+    height: 55px;
+    border-radius: 37px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.1rem;
+    margin-bottom: 6.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btnForm-twoSloy {
+    width: 300px;
+    height: 55px;
+    border-radius: 37px;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-threeSloyBefore {
+    width: 200px;
+    height: 55px;
+    border-radius: 32px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    background-color: #cb6ce6;
+    opacity: 0.5;
+}
+
+.btn-threeSloyAfter {
+    width: 300px;
+    height: 55px;
+    border-radius: 32px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    background-color: #cb6ce6;
+    opacity: 0.5;
+}
+
+.btn-fourSloyBefore {
+    width: 200px;
+    height: 55px;
+    border-radius: 32px;
+    background-color: #c000ff;
+}
+
+.btn-fourSloyAfter {
+    width: 300px;
+    height: 55px;
+    border-radius: 32px;
+    background-color: #c000ff;
+}
+
+.btn-fourSloyTitle {
+    font-size: 28px;
+    line-height: 28px;
+    padding: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.ellipse-btnFormBefore {
+    width: 22px;
+    height: 22px;
+    border-radius: 13px;
+    background-color: #4f47ff;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+.ellipse-btnFormAfter {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 13px;
+    background-color: #4f47ff;
+    margin-left: 16rem;
+    cursor: pointer;
+}
+
+/*@media (max-width: 1440px) {*/
+/*    .from-pryam1, .from-pryam2, .from-pryam3 {*/
+/*        width: 40%;*/
+/*        height: 270px;*/
+/*    }*/
+
+/*    .from-pryam4 {*/
+/*        font-size: 23px;*/
+/*        line-height: 70px;*/
+/*        margin-top: 4rem;*/
+/*    }*/
+
+/*    .card {*/
+/*        width: 470px;*/
+/*        height: 510px;*/
+/*    }*/
+
+/*    .form {*/
+/*        width: 470px;*/
+/*        height: 510px;*/
+/*    }*/
+
+/*    .input, textarea {*/
+/*        width: 400px;*/
+/*    }*/
+
+/*    textarea {*/
+/*        height: 155px;*/
+/*    }*/
+
+/*    .btn {*/
+/*        margin-top: 2.1rem;*/
+/*        width: 250px;*/
+/*        height: 49px;*/
+/*    }*/
+
+/*    .btn-twoSloy {*/
+/*        width: 250px;*/
+/*        height: 49px;*/
+/*    }*/
+
+/*    .btn-threeSloy {*/
+/*        width: 158px;*/
+/*        height: 45px;*/
+/*    }*/
+
+/*    .btn-fourSloy {*/
+/*        width: 158px;*/
+/*        height: 45px;*/
+/*        border-radius: 32px;*/
+/*        background-color: #c000ff;*/
+/*    }*/
+
+/*    .btn-fourSloyTitle {*/
+/*        font-size: 24px;*/
+/*        line-height: 17px;*/
+/*        padding: 14px;*/
+/*    }*/
+
+/*    .form__skrepka {*/
+/*        margin-left: -21rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+/*    .from-pryam1, .from-pryam2, .from-pryam3 {*/
+/*        width: 55%;*/
+/*        height: 270px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    .from-pryam1, .from-pryam2, .from-pryam3 {*/
+/*        width: 70%;*/
+/*        height: 270px;*/
+/*    }*/
+/*    .form__skrepka {*/
+/*        margin-left: -21rem;*/
+/*        height: 25px;*/
+/*    }*/
+/*}*/

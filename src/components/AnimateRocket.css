@@ -1,0 +1,169 @@
+.kamen {
+    position: absolute;
+    width: 750px;
+    margin-left:2rem;
+    margin-top: 1.6rem;
+}
+
+.line {
+    position: absolute;
+    width: 850px;
+    -webkit-animation: line 7s infinite;
+    animation: line 7s infinite;
+}
+
+@-webkit-keyframes line {
+    0% {
+        transform: rotate(-5deg);
+        margin-left: 1.5rem;
+    }
+    50% {
+        transform: rotate(
+                25deg
+        );
+        margin-left: 7rem;
+        margin-top: 2px
+    }
+    85% {
+        margin-top: 6px;
+    }
+    100% {
+        transform: rotate(-5deg);
+        margin-left: 1.5rem;
+        margin-top: 3px;
+    }
+}
+
+@keyframes line {
+    0% {
+        transform: rotate(-5deg);
+        margin-left: 1.5rem;
+
+    }
+    50% {
+        transform: rotate(
+                25deg
+        );
+        margin-left: 7rem;
+        margin-top: 2px;
+    }
+    85% {
+        margin-top: 6px;
+    }
+    100% {
+        transform: rotate(-5deg);
+        margin-left: 1.5rem;;
+        margin-top: 3px;
+    }
+}
+
+.leftVazhel {
+    position: absolute;
+    z-index: 3;
+    width: 700px;
+    -webkit-animation: leftVazhel 7s infinite;
+    animation: leftVazhel 7s infinite;
+}
+
+@-webkit-keyframes leftVazhel {
+    0% {
+        margin-top: -11.1rem;
+        margin-left: -21.5rem;
+    }
+    50% {
+        margin-top: -18rem;
+        margin-left: -21.5rem;
+    }
+    100% {
+        margin-top:  -11.1rem;
+        margin-left: -21.5rem;
+    }
+}
+
+@keyframes leftVazhel {
+    0% {
+        margin-top:  -11.1rem;
+        margin-left: -21.5rem;
+    }
+    50% {
+        margin-top: -18rem;
+        margin-left: -21.5rem;
+    }
+    100% {
+        margin-top:  -11.1rem;
+        margin-left: -21.5rem;
+    }
+}
+
+.rightVazhel {
+    position: absolute;
+    z-index: 10;
+    width: 700px;
+    -webkit-animation: rightVazhel 7s infinite;
+    animation: rightVazhel 7s infinite;
+}
+
+@-webkit-keyframes rightVazhel {
+    0% {
+        margin-left: -18rem;
+        margin-top: -14rem;
+    }
+    50% {
+    margin-left: -18rem;
+    margin-top: -9.5rem;
+    }
+    100% {
+    margin-left: -18rem;
+    margin-top: -14rem;
+    }
+}
+
+@keyframes rightVazhel {
+    0% {
+        margin-left: -18rem;
+        margin-top: -14rem;
+    }
+    50% {
+        margin-left: -18rem;
+        margin-top: -9.5rem;
+    }
+    100% {
+        margin-left: -18rem;
+        margin-top: -14rem;
+    }
+}
+
+.rocket {
+    position: absolute;
+    height: 500px;
+    margin-left: 4rem;
+    -webkit-animation: rocket 7s infinite;
+    animation: rocket 7s infinite;
+}
+
+@-webkit-keyframes rocket {
+    0% {
+    }
+    50% {
+        margin-top: 7.7rem
+    }
+    65% {
+        margin-top: -2.3rem;
+    }
+    100% {
+
+    }
+}
+
+@keyframes rocket {
+    0% {
+    }
+    50% {
+        margin-top: 7.7rem
+    }
+    65% {
+        margin-top: -2.3rem;
+    }
+    100% {
+    }
+}
