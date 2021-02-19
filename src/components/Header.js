@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
 import {Link, animateScroll as scroll} from "react-scroll";
-import {Link as LinkRouterDom} from "react-router-dom"
+import {NavLink} from "react-router-dom";
 import "./Header.css"
 
 const Header = () => {
@@ -10,9 +10,9 @@ const Header = () => {
             <div className="container header__container">
                 <div className="row header__row">
                     <div className="col-6">
-                        <Link to="/">
+                        <NavLink to="/">
                             <img src={logo} className="header__logo"/>
-                        </Link>
+                        </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">
                         <Link

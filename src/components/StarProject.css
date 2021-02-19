@@ -137,6 +137,10 @@ h1.star__projectLeftTitle {
     font-weight: bold;
 }
 
+.link__starPorject:hover {
+    border-bottom: 4px solid #3f00fd;
+}
+
 .iconDown {
     height: 35px;
     width: 35px;

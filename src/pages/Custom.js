@@ -2,27 +2,28 @@ import React, {useEffect} from 'react'
 import vectorSmart from "../assets/vectorSmart.png"
 import iconDown from "../assets/iconDown.svg"
 import "../pages/Custom.css"
+import CircleIcons from "../components/CircleIcons";
 
 const Custom = ({type}) => {
     useEffect(() => {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }, [])
     return (
         <div className="custom">
-            <div className="row">
-                <div className="col">
-                    {type === 'custom'
-                        ? <h1 className="custom__leftTitle">Custom <br/> SaaS</h1>
-                        : type === 'mobile' ? <h1 className="custom__leftTitle">Mobile <br/> and Web Development</h1>
-                            : <h1 className="custom__leftTitle">UI/UX <br/> Design</h1>}
-                    <img src={vectorSmart} alt="vectorSmart" className="vectorSmartCustom"/>
-                </div>
-                <div className="col">
-                    <div className="custom__right">
-                        <h1 className="custom__rightTitle">
+            <div className="container">
+                <div className="row">
+                    <div className="col-6 customLeft">
+                        {type === 'custom'
+                            ? <h1 className="display-1 custom__leftTitle">Custom <br/> SaaS</h1>
+                            : type === 'mobile' ? <h1 className="display-1">Mobile <br/> and Web Development</h1>
+                                : <h1 className="display-1">UI/UX <br/> Design</h1>}
+                        <CircleIcons/>
+                    </div>
+                    <div className="col-5 customRight">
+                        <h1 className="customTitle">
                             What’s possible with SaaS
                         </h1>
-                        <p className="custom__rightText">
+                        <p>
                             There’s no disputing the fact that what was once the exclusive turf of
                             an IT department can now be done by non-tech staff. Even a moderately
                             sized business would probably need the following:
@@ -35,15 +36,15 @@ const Custom = ({type}) => {
                             <li className="custom__rightSubtitleText">Billing system</li>
                             <li className="custom__rightSubtitleText">CRM</li>
                         </ul>
-                        <p className="custom__rightText">
+                        <p>
                             That’s true of business that don’t offer a technical product, say a specialty
                             shop selling a niche product. Once the core business becomes more
                             technical, dozens more services become necessary.
                         </p>
-                        <h1 className="custom__rightTitle">
+                        <h1 className="customTitle">
                             Working manually
                         </h1>
-                        <p className="custom__rightText">
+                        <p>
                             In the most rudimentary cases, a business handles all of these tasks
                             manually using email, spreadsheets and templates from platforms such
                             as Wordpress or Wix. The problem is that this is horrendously inefficient
@@ -54,8 +55,8 @@ const Custom = ({type}) => {
                             pasting email addresses, manually sending out promotion codes or doing
                             data entry.
                         </p>
-                        <h2 className="custom__rightLastTitle">
-                            See cases <img src={iconDown}/>
+                        <h2 className="customTitle">
+                            See cases <img src={iconDown} className="iconDown"/>
                         </h2>
                     </div>
                 </div>

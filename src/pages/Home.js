@@ -13,13 +13,12 @@ const Home = () => {
     return (
         <>
             <Cap/>
-            <StarProject/>
-            <Expert/>
-            <Why/>
-            <Jobs/>
+            <StarProject id="expertise"/>
+            <Expert />
+            <Why id="why"/>
+            <Jobs id="works"/>
             <FormRequest/>
             <Ten/>
-            <Footer/>
         </>
     )
 }
