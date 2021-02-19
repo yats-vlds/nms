@@ -41,9 +41,9 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="row expert-row">
+                <div className="row expert-row expertRocket">
                     <div className="col-6 expertLeft">
-                        <AnimateHorse />
+                        <AnimateRocket />
                     </div>
                     <div className="col-6 expertRight">
                         <h1 className="expertTitleRight">

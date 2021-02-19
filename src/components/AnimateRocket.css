@@ -1,13 +1,24 @@
-.kamen {
-    position: absolute;
-    width: 750px;
-    margin-left:2rem;
-    margin-top: 1.6rem;
+.animateRocket {
+    width: 700px;
+    height: 700px;
+    padding: 20rem;
+}
+
+.stone {
+    position: relative;
+    z-index: -1;
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
 .line {
     position: absolute;
-    width: 850px;
+    z-index: 1;
+    width: 19rem;
+    height: 19rem;
+    margin-top: -13.5rem;
+    margin-left: -6.6rem;
+    margin-bottom: 0.8rem;
     -webkit-animation: line 7s infinite;
     animation: line 7s infinite;
 }
@@ -15,155 +26,312 @@
 @-webkit-keyframes line {
     0% {
         transform: rotate(-5deg);
-        margin-left: 1.5rem;
     }
     50% {
         transform: rotate(
                 25deg
         );
-        margin-left: 7rem;
-        margin-top: 2px
     }
     85% {
-        margin-top: 6px;
     }
     100% {
         transform: rotate(-5deg);
-        margin-left: 1.5rem;
-        margin-top: 3px;
+
     }
 }
 
 @keyframes line {
     0% {
         transform: rotate(-5deg);
-        margin-left: 1.5rem;
 
     }
     50% {
         transform: rotate(
                 25deg
         );
-        margin-left: 7rem;
-        margin-top: 2px;
     }
     85% {
-        margin-top: 6px;
+
     }
     100% {
         transform: rotate(-5deg);
-        margin-left: 1.5rem;;
-        margin-top: 3px;
     }
 }
 
-.leftVazhel {
+.scalesRocket {
     position: absolute;
-    z-index: 3;
-    width: 700px;
-    -webkit-animation: leftVazhel 7s infinite;
-    animation: leftVazhel 7s infinite;
+    height: 30rem;
+    width: 30rem;
+    z-index: 4;
+    margin-top: -20.5rem;
+    margin-left: -15rem;
+    -webkit-animation: scalesRocket 7s infinite;
+    animation: scalesRocket 7s infinite;
 }
 
-@-webkit-keyframes leftVazhel {
-    0% {
-        margin-top: -11.1rem;
-        margin-left: -21.5rem;
-    }
-    50% {
-        margin-top: -18rem;
-        margin-left: -21.5rem;
-    }
-    100% {
-        margin-top:  -11.1rem;
-        margin-left: -21.5rem;
-    }
-}
-
-@keyframes leftVazhel {
-    0% {
-        margin-top:  -11.1rem;
-        margin-left: -21.5rem;
-    }
-    50% {
-        margin-top: -18rem;
-        margin-left: -21.5rem;
-    }
-    100% {
-        margin-top:  -11.1rem;
-        margin-left: -21.5rem;
-    }
-}
-
-.rightVazhel {
+.scalesRocketRight {
     position: absolute;
-    z-index: 10;
-    width: 700px;
-    -webkit-animation: rightVazhel 7s infinite;
-    animation: rightVazhel 7s infinite;
+    height: 6.5rem;
+    width: 6.5rem;
+    margin-left: 7.3rem;
+    margin-top: -2.8rem;
+    /*margin-top: -6.8rem;*/
+    -webkit-animation: scalesRocketRight 7s infinite;
+    animation: scalesRocketRight 7s infinite;
 }
-
-@-webkit-keyframes rightVazhel {
+@-webkit-keyframes scalesRocket {
     0% {
-        margin-left: -18rem;
-        margin-top: -14rem;
+        margin-top: -20.5rem;
     }
     50% {
-    margin-left: -18rem;
-    margin-top: -9.5rem;
+        margin-top: -24.9rem;
     }
     100% {
-    margin-left: -18rem;
-    margin-top: -14rem;
+        margin-top: -20.5rem;
     }
 }
 
-@keyframes rightVazhel {
+@keyframes scalesRocket {
     0% {
-        margin-left: -18rem;
-        margin-top: -14rem;
+        margin-top: -20.5rem;
     }
     50% {
-        margin-left: -18rem;
-        margin-top: -9.5rem;
+        margin-top: -24.9rem;
     }
     100% {
-        margin-left: -18rem;
-        margin-top: -14rem;
+        margin-top: -20.5rem;
+    }
+}
+
+@-webkit-keyframes scalesRocketRight {
+    0% {
+        margin-top: -6.8rem;
+    }
+    50% {
+        margin-top: -2.6rem;
+    }
+    100% {
+        margin-top: -6.8rem;
+    }
+}
+
+@keyframes scalesRocketRight {
+    0% {
+        margin-top: -6.8rem;
+    }
+    50% {
+        margin-top: -2.6rem;
+    }
+    100% {
+        margin-top: -6.8rem;
     }
 }
 
 .rocket {
     position: absolute;
-    height: 500px;
-    margin-left: 4rem;
+    width: 35rem;
+    height: 35rem;
+    z-index: 2;
+    margin-left: -13.2rem;
+    margin-top: -24.5rem;
     -webkit-animation: rocket 7s infinite;
     animation: rocket 7s infinite;
 }
 
 @-webkit-keyframes rocket {
     0% {
+        margin-top: -24.5rem;
     }
     50% {
-        margin-top: 7.7rem
+        margin-top: -20.2rem;
     }
     65% {
-        margin-top: -2.3rem;
+        margin-top: -26.5rem;
     }
     100% {
-
+        margin-top: -25rem;
     }
 }
 
 @keyframes rocket {
     0% {
+        margin-top: -24.5rem;
     }
     50% {
-        margin-top: 7.7rem
+        margin-top: -20.2rem;
     }
     65% {
-        margin-top: -2.3rem;
+        margin-top: -26.5rem;
     }
     100% {
+        margin-top: -24.5rem;
     }
 }
+
+
+/*.kamen {*/
+/*    position: absolute;*/
+/*    width: 750px;*/
+/*    margin-left:2rem;*/
+/*    margin-top: 1.5rem;*/
+/*}*/
+
+/*.line {*/
+/*    position: absolute;*/
+/*    width: 850px;*/
+/*    -webkit-animation: line 7s infinite;*/
+/*    animation: line 7s infinite;*/
+/*}*/
+
+/*@-webkit-keyframes line {*/
+/*    0% {*/
+/*        transform: rotate(-5deg);*/
+/*        margin-left: 1.5rem;*/
+/*    }*/
+/*    50% {*/
+/*        transform: rotate(*/
+/*                25deg*/
+/*        );*/
+/*        margin-left: 7rem;*/
+/*    }*/
+/*    85% {*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(-5deg);*/
+/*        margin-left: 1.5rem;*/
+
+/*    }*/
+/*}*/
+
+/*@keyframes line {*/
+/*    0% {*/
+/*        transform: rotate(-5deg);*/
+/*        margin-left: 1.5rem;*/
+
+/*    }*/
+/*    50% {*/
+/*        transform: rotate(*/
+/*                25deg*/
+/*        );*/
+/*        margin-left: 7rem;*/
+/*    }*/
+/*    85% {*/
+
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(-5deg);*/
+/*        margin-left: 1.5rem;;*/
+
+/*    }*/
+/*}*/
+
+/*.leftVazhel {*/
+/*    position: absolute;*/
+/*    z-index: 3;*/
+/*    width: 700px;*/
+/*    -webkit-animation: leftVazhel 7s infinite;*/
+/*    animation: leftVazhel 7s infinite;*/
+/*}*/
+
+/*@-webkit-keyframes leftVazhel {*/
+/*    0% {*/
+/*        margin-top: -11.1rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: -18rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top:  -11.1rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*}*/
+
+/*@keyframes leftVazhel {*/
+/*    0% {*/
+/*        margin-top:  -11.1rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: -18rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top:  -11.1rem;*/
+/*        margin-left: -21.5rem;*/
+/*    }*/
+/*}*/
+
+/*.rightVazhel {*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    width: 700px;*/
+/*    -webkit-animation: rightVazhel 7s infinite;*/
+/*    animation: rightVazhel 7s infinite;*/
+/*}*/
+
+/*@-webkit-keyframes rightVazhel {*/
+/*    0% {*/
+/*        margin-left: -18rem;*/
+/*        margin-top: -14rem;*/
+/*    }*/
+/*    50% {*/
+/*    margin-left: -18rem;*/
+/*    margin-top: -9.5rem;*/
+/*    }*/
+/*    100% {*/
+/*    margin-left: -18rem;*/
+/*    margin-top: -14rem;*/
+/*    }*/
+/*}*/
+
+/*@keyframes rightVazhel {*/
+/*    0% {*/
+/*        margin-left: -18rem;*/
+/*        margin-top: -14rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-left: -18rem;*/
+/*        margin-top: -9.5rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-left: -18rem;*/
+/*        margin-top: -14rem;*/
+/*    }*/
+/*}*/
+
+/*.rocket {*/
+/*    position: absolute;*/
+/*    height: 500px;*/
+/*    margin-left: 4rem;*/
+/*    -webkit-animation: rocket 7s infinite;*/
+/*    animation: rocket 7s infinite;*/
+/*}*/
+
+/*@-webkit-keyframes rocket {*/
+/*    0% {*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: 7.7rem*/
+/*    }*/
+/*    65% {*/
+/*        margin-top: -2.3rem;*/
+/*    }*/
+/*    100% {*/
+
+/*    }*/
+/*}*/
+
+/*@keyframes rocket {*/
+/*    0% {*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: 7.7rem*/
+/*    }*/
+/*    65% {*/
+/*        margin-top: -2.3rem;*/
+/*    }*/
+/*    100% {*/
+/*    }*/
+/*}*/

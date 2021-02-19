@@ -9,19 +9,13 @@ import FormRequest from "./components/FormRequest";
 import Ten from "./components/Ten";
 import Footer from "./components/Footer";
 import Jobs from "./components/Jobs";
+import AnimateRocket from "./components/AnimateRocket";
+import AnimateHorse from "./components/AnimateHorse";
 
 function App() {
     return (
             <BrowserRouter>
-                <Header/>
-                <Cap/>
-                <StarProject/>
-                <Expert/>
-                <Why/>
-                <Jobs />
-                <FormRequest />
-                <Ten />
-                <Footer />
+                <Expert />
             </BrowserRouter>
     );
 }

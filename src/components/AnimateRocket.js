@@ -5,16 +5,19 @@ import lineRocket from "../assets/lineRocket.svg"
 import leftVazhel from "../assets/LeftVazhel.svg"
 import rightVazhel from "../assets/rightVazhel.svg"
 import rocket from "../assets/rocket.svg"
+import stoneRocket from "../assets/stoneRocket.svg"
+import scalesRocket from "../assets/scalesRocket.svg"
+import scalesRocketRight from "../assets/scalesRocketRight.svg"
 
 const AnimateRocket = (props) => {
-    return <div style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "300px"}}>
-        {/*<object type="image/svg+xml" data={lineRocket} className="line" />*/}
-        {/*<object type="image/svg+xml" data={kamen} className="kamen" />*/}
-        {/*<div className={{dispay: "flex"}}>*/}
-        {/*    <object type="image/svg+xml" data={leftVazhel} className="leftVazhel" />*/}
-        {/*    <object type="image/svg+xml" data={rightVazhel} className="rightVazhel" />*/}
-        {/*</div>*/}
-        {/*<object type="image/svg+xml" data={rocket} className="rocket" />*/}
+    return <div className="animateRocket justify-content-center">
+        <div className="scales">
+            <object type="image/svg+xml" data={scalesRocket} className="scalesRocket" />
+            <object type="image/svg+xml" data={scalesRocketRight} className="scalesRocketRight" />
+            <object type="image/svg+xml" data={rocket} className="rocket" />
+        </div>
+        <object type="image/svg+xml" data={stoneRocket} className="stone" />
+        <object type="image/svg+xml" data={lineRocket} className="line" />
     </div>
 }
 

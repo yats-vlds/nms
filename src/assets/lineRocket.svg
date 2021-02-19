@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 841.89 595.28" width="841.89pt" height="595.28pt"><defs><clipPath id="_clipPath_Qa2diOJLW0kaxhG1KobX1puGqmD19ALM"><rect width="841.89" height="595.28"/></clipPath></defs><g clip-path="url(#_clipPath_Qa2diOJLW0kaxhG1KobX1puGqmD19ALM)"><path d=" M 609.98 480.47 L 263.79 550.17 C 258.46 551.24 253.27 547.79 252.2 542.46 L 252.2 542.46 C 251.13 537.13 254.58 531.94 259.91 530.87 L 606.1 461.17 C 611.43 460.1 616.62 463.55 617.69 468.88 L 617.69 468.88 C 618.76 474.21 615.31 479.4 609.98 480.47 Z " fill="rgb(30,14,0)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 90" width="366" height="90">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #1e0e00 } 
+	</style>
+	<path id="Layer" class="shp0" d="M357.98 19.47L11.79 89.17C6.46 90.24 1.27 86.79 0.2 81.46L0.2 81.46C-0.87 76.13 2.58 70.94 7.91 69.87L354.1 0.17C359.43 -0.9 364.62 2.55 365.69 7.88L365.69 7.88C366.76 13.21 363.31 18.4 357.98 19.47Z" />
+</svg>
