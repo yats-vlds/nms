@@ -51,6 +51,8 @@
 .img-yog {
     width: 25rem;
     height: 25rem;
+    -webkit-animation: aligning 3s infinite;
+    animation: aligning 3s infinite;
 }
 
 .expertTitleFirst {
@@ -61,29 +63,29 @@
 .expertRocket {
     margin-bottom: -15rem;
 }
-/*@-webkit-keyframes aligning {*/
-/*    0% {*/
+@-webkit-keyframes aligning {
+    0% {
+        padding-right: 0px;
+    }
+    50% {
+        padding-right: 20px;
+    }
+    100% {
+        padding-right: 0px;
+    }
+}
 
-/*    }*/
-/*    50% {*/
-/*        align-items: center;*/
-/*    }*/
-/*    100% {*/
-/*        padding-top: 5px;*/
-/*    }*/
-/*}*/
-
-/*@keyframes aligning {*/
-/*    0% {*/
-/*        padding-top: 5px;*/
-/*    }*/
-/*    50% {*/
-/*        padding-top: 0;*/
-/*    }*/
-/*    100% {*/
-/*        padding-top: 5px;*/
-/*    }*/
-/*}*/
+@keyframes aligning {
+    0% {
+        padding-right: 0px;
+    }
+    50% {
+        padding-right: 20px;
+    }
+    100% {
+        padding-right: 0px;
+    }
+}
 .expert__lineLeft {
     width: 50%;
     margin-right: 50px;

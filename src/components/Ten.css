@@ -35,16 +35,15 @@
 }
 
 .ten__yog {
-    position: relative;
-    z-index: 99;
-    margin-left: 75rem;
-    margin-top: -47rem;
-    height: 650px;
+    position: absolute;
+    height: 585px;
     object-fit: contain;
-    /*-webkit-animation: tenyog 1s infinite;*/
-    /*animation: tenyog 1s infinite;*/
+    width: 570px;
+    margin-left: 48rem;
+    margin-top: 5rem;
+    /* -webkit-animation: tenyog 1s infinite; */
+    /* animation: tenyog 1s infinite; */
 }
-
 @-webkit-keyframes tenyog{
     0% {
         margin-top: -46rem;
@@ -71,17 +70,16 @@
 
 .ellipse {
     position: absolute;
+    z-index: 9999;
     background-color: #3f00fd;
     width: 153px;
     height: 36px;
     opacity: 0.3;
     border-radius: 110px / 30px;
-    margin-left: auto;
-    margin-right: 33rem;
-    margin-top: -6rem;
-    margin-left: 81rem;
-    -webkit-animation: tenellipse 1s infinite;
-    animation: tenellipse 1s infinite;
+    margin-top: -16rem;
+    margin-left: 62rem;
+    /*-webkit-animation: tenellipse 1s infinite;*/
+    /*animation: tenellipse 1s infinite;*/
 }
 
 @-webkit-keyframes tenellipse{

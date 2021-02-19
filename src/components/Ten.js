@@ -7,6 +7,9 @@ import tenYog from "../assets/tenYog.png"
 const Ten = () => {
     return (
         <>
+            {/*<div className="ellipse">*/}
+            {/*</div>*/}
+            <img src={tenYog} className="ten__yog"/>
             <div className="ten">
                 <div className="tenSloy">
                     <div className="row ten__content">
@@ -19,13 +22,11 @@ const Ten = () => {
 
                         </div>
                     </div>
-                    {/*<img src={tenYog} className="ten__yog"/>*/}
                     <img src={background} className="ten__img"/>
                 </div>
+                <div className="ellipse">
+                </div>
             </div>
-            {/*<div className="ellipse">*/}
-
-            {/*</div>*/}
         </>
     )
 }

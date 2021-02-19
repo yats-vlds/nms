@@ -6,7 +6,6 @@
     border-radius: 50%;
     -webkit-animation: circleIcons 5s infinite;
     animation: circleIcons 5s infinite;
-    /*background: red;*/
 }
 
 @-webkit-keyframes circleIcons {
@@ -36,69 +35,68 @@
 }
 
 .message {
-    margin-left: 4.3rem;
-    margin-top: 6rem;
+    margin-left: 2.9rem;
+    margin-top: 4rem;
 }
 
 .back {
     margin-left: 10.2rem;
-    margin-top: 2.8rem;
     width: 10%;
     height: 10%;
 }
 
 .wifi {
     margin-left: 10.5rem;
-    margin-top: -4rem;
+    margin-top: -4.7rem;
     width: 65%;
     height: 65%;
 }
 
 .call {
-    margin-left: -9rem;
+    margin-left: -9.5rem;
     margin-top: 1rem;
     width: 90%;
     height: 90%;
 }
 
 .home {
-    margin-left: 14.5rem;
-    margin-top: 0.2rem;
+    margin-left: 14.2rem;
+    margin-top: 1.2rem;
     width: 65%;
     height: 65%;
 }
 
 .browser {
-    margin-left: -3rem;
-    margin-top: 12rem;
+    margin-left: -4.4rem;
+    margin-top: 10rem;
     width: 65%;
     height: 65%;
 }
 
 .message2 {
-    margin-left: 16.5rem;
-    margin-top: 4rem;
+    margin-left: 14rem;
+    margin-top: 7rem;
     width: 70%;
     height: 70%;
 }
 
 .settings {
-    margin-left: 13rem;
-    margin-top: 6.5rem;
+    margin-left: 9rem;
+    margin-top: 8.5rem;
     width: 90%;
     height: 90%;
 }
 
 .camera {
-    margin-left: 10.5rem;
+    margin-left: 6.5rem;
     margin-top: 14rem;
     width: 70%;
     height: 70%;
 }
 
 .contact {
-    margin-left: 3.5rem;
-    margin-top: 17rem;
+    margin-left: 0rem;
+    margin-top: 14.5rem;
     width: 65%;
     height: 65%;
 }

@@ -16,7 +16,6 @@ import CircleIcons from "./components/CircleIcons";
 function App() {
     return (
             <BrowserRouter>
-                {/*<CircleIcons />*/}
                 <Header />
                 <Cap />
                 <StarProject />
@@ -24,6 +23,7 @@ function App() {
                 <Why />
                 <Jobs/>
                 <FormRequest />
+                <Ten />
                 <Footer />
             </BrowserRouter>
     );
