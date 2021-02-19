@@ -36,9 +36,9 @@ const FormRequest = () => {
                         <div className="btnForm-twoSloy">
                             <div className={ellipse ? "btn-threeSloyAfter" : "btn-threeSloyBefore"}>
                                 <div className={ellipse ? "btn-fourSloyAfter" : "btn-fourSloyBefore"}>
-                                    <h6 className="btn-fourSloyTitle">
+                                    <p className="btn-fourSloyTitle">
                                         Start now
-                                    </h6>
+                                    </p>
                                 </div>
                             </div>
                             <div className={ellipse ? "ellipse-btnFormAfter" : "ellipse-btnFormBefore"} onClick={() => setEllipse(!ellipse)}>

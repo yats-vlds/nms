@@ -25,11 +25,11 @@ const StarProject = ({id}) => {
                         {/*<img src={vectorSmart} className="vectorSmart"/>*/}
                         <div className="btnStar">
                             <div className="btnStar-twoSloy">
-                                <div className={ellipse ? "threeSloyAfter" : "btnStar-threeSloyBefore"}>
+                                <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>
                                     <div className={ellipse? "btnStar-fourSloyAfter" : "btnStar-fourSloyBefore" }>
-                                        <h1 className="btnStar-fourSloyTitle">
-                                            Start now
-                                        </h1>
+                                        <h6 className="btnStar-fourSloyTitle">
+                                            Start project
+                                        </h6>
                                     </div>
                                 </div>
                                 <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"} onClick={() => setEllipse(!ellipse)}>
