@@ -96,7 +96,7 @@
 .bootstrap__tableTwo {
     display: grid;
     grid-template-columns: 0.833333333fr 1.166666667fr;
-    height: 940px;
+    height: 750px;
     width: 100%;
 }
 
@@ -158,26 +158,31 @@
     padding-top: 12rem;
     padding-left: 2.5rem;
     opacity: 0.6;
+    width: 95%;
 }
 
 .iconTableThree {
     position: absolute;
     z-index: 7;
-    padding-top: 9rem;
+    padding-top: 10rem;
+    width: 100%;
 }
 
 .icon3TableThree {
     position: absolute;
     z-index: 9;
-    margin-top: 22rem;
-    margin-left: 7rem;
+    margin-left: 2rem;
+    padding-top: 14rem;
+    width: 53.8rem;
+    height: 90%;
 }
 
 .icon4TableThree {
     position: absolute;
     z-index: 10;
-    margin-top: 22rem;
-    margin-left: 2.5rem;
+    margin-left: 2.4rem;
+    width: 53rem;
+    height: 100%;
 }
 
 .bootstrap__tableRightInfo {

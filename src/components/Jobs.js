@@ -109,7 +109,7 @@ const Jobs = ({id}) => {
                     <div className="bootstrap__tableLineThree"></div>
                     <img src={tableThree1} className="iconTableThree"/>
                     <img src={tableTree2} className="icon2TableThree"/>
-                    <img src={tableThree3} className="icon3TableThree"/>
+                    {/*<img src={tableThree3} className="icon3TableThree"/>*/}
                     <img src={tableThree4} className="icon4TableThree"/>
                 </div>
                 <div className="bootstrap__tableRight">
