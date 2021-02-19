@@ -26,6 +26,14 @@
 
 .expertTitle {
     font-weight: bold;
+    text-align: right;
+}
+
+.expertText {
+    text-align: right;
+}
+.expertTitleRight {
+    font-weight: bold;
 }
 
 .expertLeft {
@@ -38,6 +46,16 @@
 
 .expertLastRow {
     padding-bottom: 12rem;
+}
+
+.img-yog {
+    width: 25rem;
+    height: 25rem;
+}
+
+.expertTitleFirst {
+    font-weight: bold;
+    color: #3f00fd;
 }
 /*@-webkit-keyframes aligning {*/
 /*    0% {*/

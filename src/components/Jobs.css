@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1.166666667fr 0.833333333fr;
     height: 1300px;
+    width: 100%;
 }
 
 .bootstrap__tableLeft {
@@ -209,215 +210,215 @@
     margin-top: 180px;
 }
 
-@media (max-width: 1440px) {
-    .icon3 {
-        margin-left: 2.5rem;
-        width: auto;
-        display: block;
-    }
+/*@media (max-width: 1440px) {*/
+/*    .icon3 {*/
+/*        margin-left: 2.5rem;*/
+/*        width: auto;*/
+/*        display: block;*/
+/*    }*/
 
-    .icon4 {
-        margin-left: 2.8rem;
-        width: auto;
-        display: block;
-    }
+/*    .icon4 {*/
+/*        margin-left: 2.8rem;*/
+/*        width: auto;*/
+/*        display: block;*/
+/*    }*/
 
-    .icon {
-        padding-left: 1rem;
-    }
+/*    .icon {*/
+/*        padding-left: 1rem;*/
+/*    }*/
 
-    .bootstrap__tableTitle {
-        font-size: 38px;
-        line-height: 45px;
-    }
+/*    .bootstrap__tableTitle {*/
+/*        font-size: 38px;*/
+/*        line-height: 45px;*/
+/*    }*/
 
-    .bootstrap__tableText {
-        font-size: 15px;
-        line-height: 20px;
-    }
+/*    .bootstrap__tableText {*/
+/*        font-size: 15px;*/
+/*        line-height: 20px;*/
+/*    }*/
 
-    .bootstrap__tableTwoTitle {
-        font-size: 28px;
-        line-height: 31px;
-    }
-}
+/*    .bootstrap__tableTwoTitle {*/
+/*        font-size: 28px;*/
+/*        line-height: 31px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 1440px) {
-    .icon {
-        width: 750px;
-        margin-left: 5rem;
-    }
+/*@media (max-width: 1440px) {*/
+/*    .icon {*/
+/*        width: 750px;*/
+/*        margin-left: 5rem;*/
+/*    }*/
 
-    .icon2 {
-        width: 750px;
-        margin-left: 5rem;
-    }
+/*    .icon2 {*/
+/*        width: 750px;*/
+/*        margin-left: 5rem;*/
+/*    }*/
 
-    .icon3 {
-        width: 766px;
-        margin-left: 5rem;
-    }
+/*    .icon3 {*/
+/*        width: 766px;*/
+/*        margin-left: 5rem;*/
+/*    }*/
 
-    .icon4 {
-        width: 765px;
-        margin-left: 5rem;
-    }
+/*    .icon4 {*/
+/*        width: 765px;*/
+/*        margin-left: 5rem;*/
+/*    }*/
 
-    .why__me {
-        margin-bottom: -450px;
-    }
+/*    .why__me {*/
+/*        margin-bottom: -450px;*/
+/*    }*/
 
-    .bootstrap__table {
-        height: 1100px;
-    }
+/*    .bootstrap__table {*/
+/*        height: 1100px;*/
+/*    }*/
 
-    .icon3TableTwo {
-        width: 700px;
-    }
+/*    .icon3TableTwo {*/
+/*        width: 700px;*/
+/*    }*/
 
-    .iconTableTwo {
-        height: 60%;
-    }
+/*    .iconTableTwo {*/
+/*        height: 60%;*/
+/*    }*/
 
-    .bootstrap__tableTwo {
-        margin-bottom: -570px;
-    }
-    .iconTableThree {
-        width: 100%;
-    }
-    .icon2TableThree {
-        width: 100%;
-    }
-    .icon3TableThree {
-        margin-top: 22rem;
-        margin-left: 3rem;
-        width: 100%;
-    }
-    .icon4TableThree {
-        width: 100%;
-        margin-left: 2.5rem;
-    }
-}
+/*    .bootstrap__tableTwo {*/
+/*        margin-bottom: -570px;*/
+/*    }*/
+/*    .iconTableThree {*/
+/*        width: 100%;*/
+/*    }*/
+/*    .icon2TableThree {*/
+/*        width: 100%;*/
+/*    }*/
+/*    .icon3TableThree {*/
+/*        margin-top: 22rem;*/
+/*        margin-left: 3rem;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .icon4TableThree {*/
+/*        width: 100%;*/
+/*        margin-left: 2.5rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 1024px) {
-    .icon {
-        width: 550px;
-        padding-top: 10rem;
-        margin-left: 1rem;
-    }
+/*@media (max-width: 1024px) {*/
+/*    .icon {*/
+/*        width: 550px;*/
+/*        padding-top: 10rem;*/
+/*        margin-left: 1rem;*/
+/*    }*/
 
-    .icon2 {
-        width: 500px;
-        margin-left: 1.7rem;
-        margin-bottom: 0rem;
-    }
+/*    .icon2 {*/
+/*        width: 500px;*/
+/*        margin-left: 1.7rem;*/
+/*        margin-bottom: 0rem;*/
+/*    }*/
 
-    .icon3 {
-        width: 500px;
-        margin-left: 3.7rem;
-        margin-top: 4.3rem;
-    }
+/*    .icon3 {*/
+/*        width: 500px;*/
+/*        margin-left: 3.7rem;*/
+/*        margin-top: 4.3rem;*/
+/*    }*/
 
-    .icon4 {
-        width: 500px;
-        margin-left: 3.7rem;
-        margin-top: 4rem;
-    }
+/*    .icon4 {*/
+/*        width: 500px;*/
+/*        margin-left: 3.7rem;*/
+/*        margin-top: 4rem;*/
+/*    }*/
 
-    .bootstrap__tableTitle {
-        margin-left: 60px;
-    }
+/*    .bootstrap__tableTitle {*/
+/*        margin-left: 60px;*/
+/*    }*/
 
-    .bootstrap__tableText {
-        margin-left: 60px;
-    }
+/*    .bootstrap__tableText {*/
+/*        margin-left: 60px;*/
+/*    }*/
 
-    .bootstrap__tableTwoTitle {
-        margin-left: 60px;
-    }
+/*    .bootstrap__tableTwoTitle {*/
+/*        margin-left: 60px;*/
+/*    }*/
 
-    .bootstrap__table {
-        height: 700px;
-    }
+/*    .bootstrap__table {*/
+/*        height: 700px;*/
+/*    }*/
 
-    .icon3TableTwo {
-        width: 100%;
-        margin-left: 0rem;
-    }
+/*    .icon3TableTwo {*/
+/*        width: 100%;*/
+/*        margin-left: 0rem;*/
+/*    }*/
 
-    .icon2TableTwo {
-        padding-left: 0;
-    }
-}
+/*    .icon2TableTwo {*/
+/*        padding-left: 0;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 768px) {
-    .bootstrap__tableTwo {
-        margin-bottom: -624px;
-        height: 1078px;
-    }
-    .icon {
-        width: 350px;
-        margin-left: 3rem;
-    }
+/*@media (max-width: 768px) {*/
+/*    .bootstrap__tableTwo {*/
+/*        margin-bottom: -624px;*/
+/*        height: 1078px;*/
+/*    }*/
+/*    .icon {*/
+/*        width: 350px;*/
+/*        margin-left: 3rem;*/
+/*    }*/
 
-    .icon2 {
-        width: 350px;
-        margin-left: 3rem;
-    }
+/*    .icon2 {*/
+/*        width: 350px;*/
+/*        margin-left: 3rem;*/
+/*    }*/
 
-    .icon3 {
-        width: 350px;
-        margin-left: 3rem;
-    }
+/*    .icon3 {*/
+/*        width: 350px;*/
+/*        margin-left: 3rem;*/
+/*    }*/
 
-    .icon4 {
-        width: 350px;
-        margin-left: 3rem;
-    }
+/*    .icon4 {*/
+/*        width: 350px;*/
+/*        margin-left: 3rem;*/
+/*    }*/
 
-    .bootstrap__tableTitle {
-        margin-left: 34px;
-    }
+/*    .bootstrap__tableTitle {*/
+/*        margin-left: 34px;*/
+/*    }*/
 
-    .bootstrap__tableText {
-        margin-left: 34px;
-    }
+/*    .bootstrap__tableText {*/
+/*        margin-left: 34px;*/
+/*    }*/
 
-    .bootstrap__tableTwoTitle {
-        margin-left: 34px;
-    }
+/*    .bootstrap__tableTwoTitle {*/
+/*        margin-left: 34px;*/
+/*    }*/
 
-    .bootstrap__marginTop {
-        margin-top: 100px;
-    }
+/*    .bootstrap__marginTop {*/
+/*        margin-top: 100px;*/
+/*    }*/
 
-    .why__me {
-        margin-bottom: -700px;
-    }
-    .icon2TableTwo {
-        height: 600px;
-    }
-    .iconTableTwo {
-        height: 41%;
-    }
-    .icon3TableTwo {
-        width: 90%;
-        margin-left: 2rem;
-    }
+/*    .why__me {*/
+/*        margin-bottom: -700px;*/
+/*    }*/
+/*    .icon2TableTwo {*/
+/*        height: 600px;*/
+/*    }*/
+/*    .iconTableTwo {*/
+/*        height: 41%;*/
+/*    }*/
+/*    .icon3TableTwo {*/
+/*        width: 90%;*/
+/*        margin-left: 2rem;*/
+/*    }*/
 
-    .iconTableThree {
-        margin: 15px;
-        width: 100%;
-    }
-    .icon3TableThree {
-        margin-top: 15rem;
-        margin-left: 1.5rem;
-        width: 100%;
-    }
-    .icon4TableThree {
-        margin-top: 15rem;
-        margin-left: 1.5rem;
-        width: 100%;
-    }
-}
+/*    .iconTableThree {*/
+/*        margin: 15px;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .icon3TableThree {*/
+/*        margin-top: 15rem;*/
+/*        margin-left: 1.5rem;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .icon4TableThree {*/
+/*        margin-top: 15rem;*/
+/*        margin-left: 1.5rem;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 

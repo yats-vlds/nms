@@ -8,6 +8,7 @@ import Why from "./components/Why";
 import FormRequest from "./components/FormRequest";
 import Ten from "./components/Ten";
 import Footer from "./components/Footer";
+import Jobs from "./components/Jobs";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <StarProject/>
                 <Expert/>
                 <Why/>
+                <Jobs />
                 <FormRequest />
                 <Ten />
                 <Footer />

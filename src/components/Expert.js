@@ -11,7 +11,7 @@ const Expert = () => {
             <div className="container">
                 <div className="row expert-row">
                     <div className="col-6 expertLeft">
-                        <p>
+                        <p className="expertText">
                             No matter what type of your work you do, NMS
                             customized software development will fulfill your needs.
                         </p>
@@ -26,15 +26,18 @@ const Expert = () => {
                 <div className="row expert-row">
                     <div className="col-6 expertLeft">
                         <h1 className="expertTitle">
-                            Your Project Path
+                            Ideation and evaluation
+                            of your business needs
                         </h1>
-                        <p>
-                            No matter what type of your work you do, NMS
-                            customized software development will fulfill your needs.
+                        <p className="expertText">
+                            No matter what type of your work you do, NMS customized
+                            software development will fulfill your needs. No matter
+                            what type of your work you do, NMS customized software
+                            development will fulfill your needs.
                         </p>
                     </div>
                     <div className="col-6 expertRight">
-                            <img src={yog} alt="yog" className="img-fluid" />
+                            <img src={yog} alt="yog" className="img-fluid img-yog" />
                     </div>
                 </div>
 
@@ -43,9 +46,10 @@ const Expert = () => {
                         <AnimateHorse />
                     </div>
                     <div className="col-6 expertRight">
-                        <h1 className="expertTitle">
-                            Ideation and evaluation
-                                              of your business needs
+                        <h1 className="expertTitleRight">
+                            Optimal cost and resources
+                            estimation vis requirements
+                            analysis
                         </h1>
                         <p>
                             No matter what type of your work you do, NMS customized
@@ -62,7 +66,7 @@ const Expert = () => {
                             Creation of an
                                     Effective Action Plan
                         </h1>
-                        <p>
+                        <p className="expertText">
                             No matter what type of your work you do, NMS customized
                             software development will fulfill your needs. No matter
                             what type of your work you do, NMS customized software
