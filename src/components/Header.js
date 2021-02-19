@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="row header__row">
                     <div className="col-6">
                         <NavLink to="/">
-                            <img src={logo} className="header__logo"/>
+                            <img src={logo} className="header__logo img-fluid"/>
                         </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">

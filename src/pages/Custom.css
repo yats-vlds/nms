@@ -55,3 +55,60 @@
     font-weight: bold;
 }
 
+
+.btnCustom {
+    width: 13.5rem;
+    height: 2.4rem;
+    background: #ffffff;
+    opacity: 2;
+    border-radius: 32px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    margin-top: -14rem;
+    margin-left: 6rem;
+}
+
+.btnCustom-twoSloy {
+    width: 13.5rem;
+    height: 2.4rem;
+    border-radius: 32px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnCustom-threeSloyBefore {
+    width: 8.5rem;
+    height: 2.4rem;
+    border-radius: 27px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    background-color: #5964f4;
+}
+
+.btnCustom-threeSloyAfter {
+    width: 13.5rem;
+    height: 2.4rem;
+    border-radius: 27px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    background-color: #5964f4;
+}
+
+.btnCustom-fourSloyBefore {
+    width: 8.5rem;
+    height: 2.4rem;
+    border-radius: 27px;
+    background-color: #5964f4;
+}
+
+.btnCustom-fourSloyAfter {
+    width: 13.5rem;
+    height: 2.4rem;
+    border-radius: 27px;
+    background-color: #5964f4;
+}
+
+.btnCustom-fourSloyTitle {
+    padding: 0.5rem;
+    color:#ffffff;
+}

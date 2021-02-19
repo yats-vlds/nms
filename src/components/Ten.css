@@ -41,30 +41,30 @@
     width: 570px;
     margin-left: 48rem;
     margin-top: 5rem;
-    /* -webkit-animation: tenyog 1s infinite; */
-    /* animation: tenyog 1s infinite; */
+     -webkit-animation: tenyog 1s infinite;
+     animation: tenyog 1s infinite;
 }
 @-webkit-keyframes tenyog{
     0% {
-        margin-top: -46rem;
+        margin-top: 5rem;
     }
     50% {
-        margin-top: -47rem;
+        margin-top: 6rem;
     }
     100% {
-        margin-top: -46rem;
+        margin-top: 5rem;
     }
 }
 
 @keyframes tenyog{
     0% {
-        margin-top: -46rem;
+        margin-top: 5rem;
     }
     50% {
-        margin-top: -47rem;
+        margin-top: 6rem;
     }
     100% {
-        margin-top: -46rem;
+        margin-top: 5rem;
     }
 }
 
@@ -78,83 +78,30 @@
     border-radius: 110px / 30px;
     margin-top: -16rem;
     margin-left: 62rem;
-    /*-webkit-animation: tenellipse 1s infinite;*/
-    /*animation: tenellipse 1s infinite;*/
+    -webkit-animation: tenellipse 1s infinite;
+    animation: tenellipse 1s infinite;
 }
 
 @-webkit-keyframes tenellipse{
     0% {
-        margin-top: -6rem;
+        margin-top: -16rem;
     }
     50% {
-        margin-top: -6.5rem;
+        margin-top: -15rem;
     }
     100% {
-        margin-top: -6rem;
+        margin-top: -16rem;
     }
 }
 
 @keyframes tenellipse{
     0% {
-        margin-top: -6rem;
+        margin-top: -16rem;
     }
     50% {
-        margin-top: -6.5rem;
+        margin-top: -15rem;
     }
     100% {
-        margin-top: -6rem;
+        margin-top: -16rem;
     }
 }
-
-
-
-/*@media (max-width: 1440px) {*/
-/*    .ten {*/
-/*        margin-bottom: -285px;*/
-/*    }*/
-/*    .ten__yog {*/
-/*        margin-left: 60rem;*/
-/*        margin-top: -37rem;*/
-/*    }*/
-
-/*    .ellipse {*/
-/*        margin-right: 13rem;*/
-/*    }*/
-
-/*    .ten__contentLeftTitle {*/
-/*        font-size: 57px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*    .ten {*/
-/*        margin-bottom: -300px;*/
-/*    }*/
-/*    .ten__yog {*/
-/*        margin-left: 40rem;*/
-/*        margin-top: -48rem;*/
-/*        height: 604px;*/
-/*        width: 242px;*/
-/*        object-fit: contain;*/
-/*    }*/
-
-/*    .ten__contentLeftTitle {*/
-/*        font-size: 40px;*/
-/*    }*/
-
-/*    .tenSloy {*/
-/*        min-height: 652px;*/
-/*    }*/
-
-/*    .ten__contentLeftTitle {*/
-/*        padding-top: 14rem;*/
-/*        padding-left: 6rem;*/
-/*    }*/
-/*    .ellipse {*/
-/*        margin-right: 13rem;*/
-/*        width: 118px;*/
-/*    }*/
-/*    .ten {*/
-/*        min-height: 898px;*/
-/*    }*/
-/*}*/
