@@ -16,11 +16,11 @@ function App() {
                 {/*<Header/>*/}
                 {/*<Cap/>*/}
                 {/*<StarProject/>*/}
-                {/*<Expert/>*/}
+                <Expert/>
                 {/*<Why/>*/}
                 {/*<FormRequest />*/}
                 {/*<Ten />*/}
-                <Footer />
+                {/*<Footer />*/}
             </BrowserRouter>
         </div>
     );

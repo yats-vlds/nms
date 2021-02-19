@@ -34,7 +34,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="col-6 sectionImg">
-                            <img src={yog} alt="yog" className="expert__img expert__animateSVG" />
+                            <img src={yog} alt="yog" className="img-fluid" />
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="col-6 sectionImg">
-                       <AnimateHorse />
+                       {/*<AnimateHorse />*/}
                     </div>
                 </div>
             </div>
