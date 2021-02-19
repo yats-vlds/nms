@@ -11,11 +11,20 @@ import Footer from "./components/Footer";
 import Jobs from "./components/Jobs";
 import AnimateRocket from "./components/AnimateRocket";
 import AnimateHorse from "./components/AnimateHorse";
+import CircleIcons from "./components/СircleIcons";
 
 function App() {
     return (
             <BrowserRouter>
-                <Expert />
+                {/*<CircleIcons />*/}
+                <Header />
+                {/*<Cap />*/}
+                <StarProject />
+                {/*<Expert />*/}
+                {/*<Why />*/}
+                {/*<Jobs />*/}
+                {/*<FormRequest/>*/}
+                {/*<Footer />*/}
             </BrowserRouter>
     );
 }

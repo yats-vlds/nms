@@ -21,8 +21,8 @@
 }
 
 .star__imageBack {
-    position: relative;
-    z-index: 3;
+    position: absolute;
+    z-index: 3333;
     width: 100%;
 }
 
@@ -142,6 +142,7 @@ h1.star__projectLeftTitle {
 .iconDown {
     height: 35px;
     width: 35px;
+    padding-top: 1rem;
 }
 
 
