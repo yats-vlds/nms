@@ -4,6 +4,7 @@ import background from "../assets/back.svg"
 import iconDown from "../assets/iconDown.svg"
 import vectorSmart from "../assets/vectorSmart.png"
 import {Link} from "react-router-dom";
+import CircleIcons from "./CircleIcons";
 
 
 const StarProject = ({id}) => {
@@ -22,20 +23,20 @@ const StarProject = ({id}) => {
                             Design <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
                     </div>
                     <div className="col-6 star__projectRowContentRight">
-                        {/*<img src={vectorSmart} className="vectorSmart"/>*/}
-                        <div className="btnStar">
-                            <div className="btnStar-twoSloy">
-                                <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>
-                                    <div className={ellipse? "btnStar-fourSloyAfter" : "btnStar-fourSloyBefore" }>
-                                        <h6 className="btnStar-fourSloyTitle">
-                                            Start project
-                                        </h6>
-                                    </div>
-                                </div>
-                                <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"} onClick={() => setEllipse(!ellipse)}>
-                                </div>
-                            </div>
-                        </div>
+                        <CircleIcons />
+                        {/*<div className="btnStar">*/}
+                        {/*    <div className="btnStar-twoSloy">*/}
+                        {/*        <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>*/}
+                        {/*            <div className={ellipse? "btnStar-fourSloyAfter" : "btnStar-fourSloyBefore" }>*/}
+                        {/*                <h6 className="btnStar-fourSloyTitle">*/}
+                        {/*                    Start project*/}
+                        {/*                </h6>*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*        <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"} onClick={() => setEllipse(!ellipse)}>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <img src={background} alt="" className="star__imageBack"/>

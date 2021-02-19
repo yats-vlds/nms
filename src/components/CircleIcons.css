@@ -1,0 +1,105 @@
+.circle-icons {
+    position: relative;
+    z-index: -1;
+    height:25rem;
+    width: 25rem;
+    border-radius: 50%;
+    -webkit-animation: circleIcons 5s infinite;
+    animation: circleIcons 5s infinite;
+    /*background: red;*/
+}
+
+@-webkit-keyframes circleIcons {
+    0% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(356deg);
+
+    }
+}
+
+@keyframes circleIcons {
+    0% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(356deg);
+
+    }
+}
+
+.iconVectors {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.message {
+    margin-left: 4.3rem;
+    margin-top: 6rem;
+}
+
+.back {
+    margin-left: 10.2rem;
+    margin-top: 2.8rem;
+    width: 10%;
+    height: 10%;
+}
+
+.wifi {
+    margin-left: 10.5rem;
+    margin-top: -4rem;
+    width: 65%;
+    height: 65%;
+}
+
+.call {
+    margin-left: -9rem;
+    margin-top: 1rem;
+    width: 90%;
+    height: 90%;
+}
+
+.home {
+    margin-left: 14.5rem;
+    margin-top: 0.2rem;
+    width: 65%;
+    height: 65%;
+}
+
+.browser {
+    margin-left: -3rem;
+    margin-top: 12rem;
+    width: 65%;
+    height: 65%;
+}
+
+.message2 {
+    margin-left: 16.5rem;
+    margin-top: 4rem;
+    width: 70%;
+    height: 70%;
+}
+
+.settings {
+    margin-left: 13rem;
+    margin-top: 6.5rem;
+    width: 90%;
+    height: 90%;
+}
+
+.camera {
+    margin-left: 10.5rem;
+    margin-top: 14rem;
+    width: 70%;
+    height: 70%;
+}
+
+.contact {
+    margin-left: 3.5rem;
+    margin-top: 17rem;
+    width: 65%;
+    height: 65%;
+}
+
