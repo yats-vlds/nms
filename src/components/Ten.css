@@ -3,6 +3,7 @@
     z-index: -1;
     min-height: 900px;
     width: 100%;
+    margin-bottom: -235px;
 }
 
 .tenSloy {
@@ -24,31 +25,24 @@
     position: absolute;
     z-index: 3;
     width: 100%;
-    display: flex;
-}
-
-.ten__contentLeft {
-    width: 50%;
-}
-
-.ten__contentRight {
-    width: 50%;
 }
 
 .ten__contentLeftTitle {
     padding-top: 16rem;
     padding-left: 9rem;
-    font-size: 86px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .ten__yog {
-    position: absolute;
+    position: relative;
+    z-index: 99;
     margin-left: 75rem;
     margin-top: -47rem;
     height: 650px;
-    -webkit-animation: tenyog 1s infinite;
-    animation: tenyog 1s infinite;
+    object-fit: contain;
+    /*-webkit-animation: tenyog 1s infinite;*/
+    /*animation: tenyog 1s infinite;*/
 }
 
 @-webkit-keyframes tenyog{

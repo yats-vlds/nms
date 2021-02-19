@@ -9,23 +9,23 @@ const Expert = () => {
     return (
         <div className="expert">
             <div className="container">
-                <div className="row">
-                    <div className="col-6">
+                <div className="row expert-row">
+                    <div className="col-6 expertLeft">
                         <p>
                             No matter what type of your work you do, NMS
                             customized software development will fulfill your needs.
                         </p>
                     </div>
-                    <div className="col-6">
-                        <h1>
+                    <div className="col-6 expertRight">
+                        <h1 className="expertTitleFirst">
                             Your Project Path
                         </h1>
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-6">
-                        <h1>
+                <div className="row expert-row">
+                    <div className="col-6 expertLeft">
+                        <h1 className="expertTitle">
                             Your Project Path
                         </h1>
                         <p>
@@ -33,17 +33,17 @@ const Expert = () => {
                             customized software development will fulfill your needs.
                         </p>
                     </div>
-                    <div className="col-6 sectionImg">
+                    <div className="col-6 expertRight">
                             <img src={yog} alt="yog" className="img-fluid" />
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-6 sectionImg">
-                        <AnimateRocket />
+                <div className="row expert-row">
+                    <div className="col-6 expertLeft">
+                        <AnimateHorse />
                     </div>
-                    <div className="col-6">
-                        <h1>
+                    <div className="col-6 expertRight">
+                        <h1 className="expertTitle">
                             Ideation and evaluation
                                               of your business needs
                         </h1>
@@ -56,9 +56,9 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-6">
-                        <h1>
+                <div className="row expert-row expertLastRow">
+                    <div className="col-6 expertLeft">
+                        <h1 className="expertTitle">
                             Creation of an
                                     Effective Action Plan
                         </h1>
@@ -69,8 +69,8 @@ const Expert = () => {
                             development will fulfill your needs.
                         </p>
                     </div>
-                    <div className="col-6 sectionImg">
-                       {/*<AnimateHorse />*/}
+                    <div className="col-6 expertRight">
+                       <AnimateHorse />
                     </div>
                 </div>
             </div>

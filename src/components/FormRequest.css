@@ -1,15 +1,23 @@
+.formRequest {
+    width: 100%;
+}
 .form-request {
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33rem;
+    height: 30rem;
 }
 
 .form-header-title {
     position: relative;
+    z-index: 2;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: -50px;
-    z-index: 2;
-    margin-top: 15rem;
 }
 
 .from-pryam1 {
@@ -35,7 +43,9 @@
     /*color: #4000ff;*/
     /*font-weight: 700;*/
     /*max-width: 750px;*/
-    margin-top: 4rem;
+    margin-top: 1.5rem;
+    color: blue;
+    font-weight: bold;
 }
 
 .card {
@@ -48,8 +58,8 @@
 .form {
     position: relative;
     z-index: 2;
-    width: 746px;
-    height: 610px;
+    width: 33rem;
+    height: 30rem;
     border-radius: 15px;
     background-color: #efefef;
 }
@@ -58,13 +68,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 90px;
+    padding-top: 2rem;
 }
 
 .input {
     font-size: 16px;
-    width: 625px;
-    height: 59px;
+    width: 27rem;
+    height: 3rem;
     border-radius: 29px;
     background-color: #efefef;
     border: 1px solid #dedede;
@@ -74,8 +84,8 @@
 
 textarea {
     font-size: 16px;
-    width: 625px;
-    height: 248px;
+    width: 27rem;
+    height: 15rem;
     border-radius: 29px;
     background-color: #efefef;
     border: 1px solid #dedede;
@@ -83,28 +93,31 @@ textarea {
 }
 
 .form__skrepka {
-    margin-left: -35rem;
-    margin-top: 1rem;
+   width: 1rem;
+    height: 1.5rem;
+    margin-right: auto;
+    margin-top: 0.35rem;
+    margin-left: 4.5rem;
     color: #000000;
 }
 
 .btnForm {
-    width: 300px;
-    height: 55px;
+    width: 10rem;
+    height: 2.2rem;
     border-radius: 37px;
     filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6.1rem;
-    margin-bottom: 6.1rem;
+    margin-top: 3.1rem;
+    margin-bottom: 3.1rem;
     display: flex;
     justify-content: center;
 }
 
 .btnForm-twoSloy {
-    width: 300px;
-    height: 55px;
+    width: 10rem;
+    height: 2.2rem;
     border-radius: 37px;
     background-color: white;
     border: 1px solid #e8e8e8;
@@ -114,8 +127,8 @@ textarea {
 }
 
 .btn-threeSloyBefore {
-    width: 200px;
-    height: 55px;
+    width: 7rem;
+    height: 2.2rem;
     border-radius: 32px;
     filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
     background-color: #cb6ce6;
@@ -123,8 +136,8 @@ textarea {
 }
 
 .btn-threeSloyAfter {
-    width: 300px;
-    height: 55px;
+    width: 10rem;
+    height: 2.2rem;
     border-radius: 32px;
     filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
     background-color: #cb6ce6;
@@ -132,43 +145,41 @@ textarea {
 }
 
 .btn-fourSloyBefore {
-    width: 200px;
-    height: 55px;
+    width: 7rem;
+    height: 2.2rem;
     border-radius: 32px;
     background-color: #c000ff;
 }
 
 .btn-fourSloyAfter {
-    width: 300px;
-    height: 55px;
+    width: 10rem;
+    height: 2.2rem;
     border-radius: 32px;
     background-color: #c000ff;
 }
 
 .btn-fourSloyTitle {
-    font-size: 28px;
-    line-height: 28px;
-    padding: 14px;
+    padding: 0.5rem;
     color: #ffffff;
     font-weight: 400;
 }
 
 .ellipse-btnFormBefore {
-    width: 22px;
-    height: 22px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 13px;
     background-color: #4f47ff;
-    margin-right: 1.2rem;
+    margin-right: 0.8rem;
     cursor: pointer;
 }
 
 .ellipse-btnFormAfter {
     position: absolute;
-    width: 22px;
-    height: 22px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 13px;
     background-color: #4f47ff;
-    margin-left: 16rem;
+    margin-left: 8rem;
     cursor: pointer;
 }
 

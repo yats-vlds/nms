@@ -6,12 +6,15 @@ const Cap = () => {
     return (
         <div className="cap">
             <div className="container">
-                <div className="row">
+                <div className="row cap__row">
                     <div className="col-7">
-                        <h1 className="display-1 cap__title">THE GUIDE TO DIGITAL TRANSFORMATION</h1>
+                        <h1 className="display-1 cap__leftTitle">THE GUIDE TO DIGITAL</h1>
                     </div>
                     <div className="col-5">
-                        <img src={nms} alt="" className="cap__image"/>
+                        <img src={nms} alt="" className="cap__image img-fluid"/>
+                    </div>
+                    <div className="col">
+                        <h1 className="display-1 cap__leftTitle">TRANSFORMATION</h1>
                     </div>
                 </div>
             </div>
@@ -20,18 +23,3 @@ const Cap = () => {
 }
 
 export default Cap
-// {/*<div className="cap">*/}
-// {/*    <div className="cap__left">*/}
-// {/*        <p className="cap__leftTitle">*/}
-// {/*            THE GUIDE TO DIGITAL*/}
-// {/*        </p>*/}
-// {/*    </div>*/}
-// {/*    <div className="cap__right">*/}
-// {/*        <img src={nms} className="cap__rightImage"/>*/}
-// {/*    </div>*/}
-// {/*</div>*/}
-// {/*<div className="cap_two">*/}
-// {/*    <p className="cap__leftTitle">*/}
-// {/*        TRANSFORMATION*/}
-// {/*    </p>*/}
-// {/*</div>*/}

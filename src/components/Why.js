@@ -12,14 +12,13 @@ const Why = ({id}) => {
     return (
         <div className="why__me" id={id}>
             <div className="why__meSloy">
-                <div className="container">
                     <div className="row why_meContent">
                         <div className="col-6 why__meContentLeft">
-                            <img src={karher} className="why__meImg karcher"/>
-                            <img src={lactel} className="why__meImg lactel"/>
-                            <img src={danfos} className="why__meImg danfos"/>
-                            <img src={goprint} className="why__meImg goprint"/>
-                            <img src={ukrtelecom} className="why__meImg ukrtelecom"/>
+                            {/*<img src={karher} className="why__meImg karcher"/>*/}
+                            {/*<img src={lactel} className="why__meImg lactel"/>*/}
+                            {/*<img src={danfos} className="why__meImg danfos"/>*/}
+                            {/*<img src={goprint} className="why__meImg goprint"/>*/}
+                            {/*<img src={ukrtelecom} className="why__meImg ukrtelecom"/>*/}
                         </div>
                         <div className="col-6 why__meContentRight">
                             <h1 className="whyme__title">Because they trust</h1>
@@ -32,7 +31,7 @@ const Why = ({id}) => {
                                 a wide range of technologies</p>
                         </div>
                     </div>
-                </div>
+                    <img src={background} alt="" className="why__meImageBack"/>
             </div>
         </div>
     )

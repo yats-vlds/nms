@@ -1,7 +1,9 @@
 .expert {
+    position: relative;
     clip-path: polygon(46% 0, 100% 0, 100% 100%, 50% 100%, 0 87%, 0 0);
     height: fit-content;
     background: #ededef;
+    z-index: 10;
 }
 
 .expert__line {
@@ -15,6 +17,27 @@
 .expert__lineFirst {
     display: flex;
     align-items: center;
+}
+
+.expert-row {
+    display: flex;
+    align-items: center;
+}
+
+.expertTitle {
+    font-weight: bold;
+}
+
+.expertLeft {
+    padding-right: 2rem;
+}
+
+.expertRight {
+    padding-left: 3rem;
+}
+
+.expertLastRow {
+    padding-bottom: 12rem;
 }
 /*@-webkit-keyframes aligning {*/
 /*    0% {*/

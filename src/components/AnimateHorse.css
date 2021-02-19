@@ -1,21 +1,21 @@
 .table {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     position: relative;
 }
 
 .kon {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     -webkit-animation: kon 6s infinite;
     animation: kon 6s infinite;
 }
 
 .kind {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     -webkit-animation: kind 6s infinite;
     animation: kind 6s infinite;
 }

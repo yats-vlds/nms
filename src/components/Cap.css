@@ -1,11 +1,24 @@
 .cap {
+    width: 100%;
 }
+
 .cap__title {
     font-weight: bold;
 }
 
 .cap__image {
-    object-fit: contain;
-    width: 100%;
-    margin-top: 2.4rem;
+    margin-top: 1.7rem;
+}
+
+.cap__row {
+    margin-top: 4rem;
+}
+
+.cap__leftTitle {
+    font-size: 7rem;
+    /*font-family: 'Work Sans', sans-serif;*/
+    font-weight: bold;
+    background: linear-gradient(45deg, #ac55ba 33%, #5964f4 66%, #7b5cdc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

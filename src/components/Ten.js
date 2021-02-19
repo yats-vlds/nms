@@ -9,19 +9,20 @@ const Ten = () => {
         <>
             <div className="ten">
                 <div className="tenSloy">
-                    {/*<div className="ten__content">*/}
-                    {/*    <div className="ten__contentLeft">*/}
-                    {/*        <h1 className="ten__contentLeftTitle">*/}
-                    {/*            More than 10 years*/}
-                    {/*            in the game!</h1>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="ten__contentRight">*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div className="row ten__content">
+                        <div className="col-6 ten__contentLeft">
+                            <h1 className="ten__contentLeftTitle display-3">
+                                More than 10 years
+                                in the game!</h1>
+                        </div>
+                        <div className="col-6 ten__contentRight">
+
+                        </div>
+                    </div>
+                    {/*<img src={tenYog} className="ten__yog"/>*/}
                     <img src={background} className="ten__img"/>
                 </div>
             </div>
-            {/*<img src={tenYog} className="ten__yog"/>*/}
             {/*<div className="ellipse">*/}
 
             {/*</div>*/}

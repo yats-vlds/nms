@@ -8,19 +8,21 @@ import fromPryam3 from "../assets/formPryam3.svg"
 const FormRequest = () => {
     const [ellipse, setEllipse] = useState(false)
     return (
+        <div className="formRequest">
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="figure form-header-title">
+                    <div className="form-header-title">
                         <img src={fromPryam1} className="from-pryam1"/>
                         <img src={fromPryam2} className="from-pryam2"/>
                         <img src={fromPryam3} className="from-pryam3"/>
-                        <h1 className="from-pryam4">Start your product development
-                            right now.</h1>
+                        <h2 className="from-pryam4 text-center">Start your product development
+                            <br/>
+                            right now.</h2>
                     </div>
                     <div className="form-request">
-                        <div className="card">
-                            <div className="form">
+                        <div className="card justify-content-center">
+                            <div className="form justify-content-center">
                                 <form className="form-input">
                                     <input type="text" className="input" placeholder="Name"/>
                                     <input type="email" className="input" placeholder="Email"/>
@@ -34,9 +36,9 @@ const FormRequest = () => {
                         <div className="btnForm-twoSloy">
                             <div className={ellipse ? "btn-threeSloyAfter" : "btn-threeSloyBefore"}>
                                 <div className={ellipse ? "btn-fourSloyAfter" : "btn-fourSloyBefore"}>
-                                    <h1 className="btn-fourSloyTitle">
+                                    <h6 className="btn-fourSloyTitle">
                                         Start now
-                                    </h1>
+                                    </h6>
                                 </div>
                             </div>
                             <div className={ellipse ? "ellipse-btnFormAfter" : "ellipse-btnFormBefore"} onClick={() => setEllipse(!ellipse)}>
@@ -44,6 +46,7 @@ const FormRequest = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
