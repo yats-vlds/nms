@@ -18,9 +18,8 @@
 
 .header__link {
     text-decoration: none;
-    font-size: 16px;
+    margin-right: 6rem;
     font-weight: 300;
-    margin-right: 80px;
     color: #000000;
 }
 
@@ -32,3 +31,58 @@
 .header__navLeft {
 }
 
+@media(max-width: 1024px) {
+    .header__link {
+        margin-right: 2rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .header__link {
+        margin-right: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .header__link {
+        font-size: 0.2rem;
+        margin-right: 1rem;
+    }
+
+    .header__logo {
+        width: 115px;
+        height: 51px;
+    }
+
+    .header {
+        margin-top: 10px;
+
+    }
+}
+
+@media(max-width: 376px) {
+    .header__link {
+        font-size: 0.1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .header__logo {
+        width: 80px;
+        height: 38px;
+    }
+    .header__link {
+        font-size: 0.1rem;
+        margin-right: 0.4rem;
+    }
+    .header__navLeft, .header__navRight {
+        margin-top: 2px;
+    }
+
+    .header {
+        margin-top: -6px;
+        height: 38px;
+    }
+}
