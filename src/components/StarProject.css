@@ -145,174 +145,138 @@ h1.star__projectLeftTitle {
     width: 35px;
 }
 
+@media(max-width: 1441px) {
+    .star__projectLeftTitle {
+        font-size: 2rem;
+    }
+}
 
-/*@media (max-width: 1440px) {*/
-/*    .star__project {*/
-/*        margin-bottom: -227px;*/
-/*    }*/
+@media(max-width: 1025px) {
+    .star__projectLeftTitle {
+        font-size: 1.5rem;
+    }
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.5rem;
+    }
+    .star__projectRowContentLeft{
+     width: 37%;
+    }
+    .star__projectRowContentRight {
+        width: 63%;
+        padding-top: 10rem;
+    }
 
-/*    .star__projectLeft {*/
-/*        position: absolute;*/
-/*        margin-left: 70px;*/
-/*        margin-top: 200px;*/
-/*        z-index: 9999 !important;*/
-/*    }*/
+    .star__projectRowContentLeft {
+        padding-top: 16rem;
+        padding-left: 1.5rem;
+    }
+    .star__projectLeftTitle {
+        font-size: 1.3rem;
+    }
+    .iconDown {
+        height: 25px;
+        width: 25px;
+    }
+}
 
-/*    .star__projectRight {*/
-/*        position: absolute;*/
-/*        z-index: 333;*/
-/*        width: 45%;*/
-/*        margin-top: 110px;*/
-/*        margin-left: 47rem;*/
-/*    }*/
+@media(max-width: 769px) {
+    .star__imageBack {
+        min-height: 697px;
+    }
 
-/*    .btnStar {*/
-/*        margin-top: 11.7rem;*/
-/*        width: 250px;*/
-/*        height: 49px;*/
-/*    }*/
+    .star__projectRowContentLeft {
+        padding-top: 17rem;
+        padding-left: 1.5rem;
+        width: 50%;
+    }
+    .star__projectRowContentRight {
+        width: 63%;
+        padding-top: 15rem;
+        width: 50%;
+    }
+    h1.star__projectLeftTitle {
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
 
-/*    .btnStar-twoSloy {*/
-/*        width: 250px;*/
-/*        height: 49px;*/
-/*    }*/
+    .btnStar {
+        width: 9.5rem;
+        height: 2rem;
+        margin-top: 3rem;
+    }
+    .btnStar-twoSloy {
+        width: 9.5rem;
+        height: 2rem;
+    }
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 5.5rem;
+        height: 2rem;
+    }
+    .btnStar-fourSloyTitle {
+        font-size: 0.72rem;
+        padding-top: 0.7rem;
+        padding-left: 0.4rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+}
 
-/*    .btnStar-threeSloy, .btnStar-fourSloy {*/
-/*        height: 47px;*/
-/*    }*/
+@media (max-width: 426px) {
+    .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
+        min-height: 300px;
+    }
+    .star__projectRowContentLeft {
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+        width: 50%;
+    }
+    .star__projectRowContentRight {
+        padding-top: 3rem;
+        margin-left: -5rem;
+    }
+    .iconDown {
+        height: 8px;
+        width: 13px;
+    }
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.2rem;
+        font-size: 0.6rem;
+    }
+    .btnStar, .btnStar-twoSloy {
+        width: 6.5rem;
+        height: 1.3rem;
+    }
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 4.5rem;
+        height: 1.3rem;
+    }
+    .btnStar-fourSloyTitle {
+        font-size: 0.5rem;
+        padding-top: 0.35rem;
+        padding-left: 0.4rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
 
-/*    .ellipse-btnStar {*/
-/*        margin-right: 1rem;*/
-/*    }*/
+@media (max-width: 376px) {
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.2rem;
+        font-size: 0.55rem;
+    }
+}
 
-/*    .ellipse-btnStar {*/
-/*        width: 18px;*/
-/*        height: 18px;*/
-/*    }*/
-
-/*    .btnStar-twoSloy, .btnStar {*/
-/*        width: 177px;*/
-/*        height: 32px;*/
-/*    }*/
-
-/*    .btnStar-threeSloy, .btnStar-fourSloy {*/
-/*        height: 30px;*/
-/*        width: 110px;*/
-/*    }*/
-
-/*    .btnStar-fourSloyTitle {*/
-/*        font-size: 16px;*/
-/*        line-height: 30px;*/
-/*        color: #ffffff;*/
-/*        font-weight: 400;*/
-/*        padding: 0px;*/
-/*        padding-left: 15px;*/
-/*    }*/
-
-/*}*/
-
-
-/*@media (max-width: 1024px) {*/
-/*    .star__project {*/
-/*        margin-bottom: -213px;*/
-/*        min-height: 780px;*/
-/*        z-index: 0;*/
-/*    }*/
-
-/*    .star__projectSloy {*/
-/*        min-height: 765px;*/
-/*    }*/
-
-/*    .star__projectRight {*/
-/*        margin-left: 33rem;*/
-/*        margin-top: 96px;*/
-/*    }*/
-
-/*    .btnStar {*/
-/*        margin-top: 8.6rem;*/
-/*    }*/
-
-/*    .btnStar-twoSloy, .btnStar {*/
-/*        width: 170px;*/
-/*        height: 30px;*/
-/*    }*/
-
-/*    .btnStar-threeSloy, .btnStar-fourSloy {*/
-/*        height: 29px;*/
-/*        width: 115px;*/
-/*    }*/
-
-/*    .star__projectLeftTitle {*/
-/*        padding-bottom: 5rem;*/
-/*    }*/
-
-
-/*    .btnStar-fourSloyTitle {*/
-/*        font-size: 18px;*/
-/*        line-height: 32px;*/
-/*        color: #ffffff;*/
-/*        font-weight: 400;*/
-/*        padding: 0px;*/
-/*        padding-left: 15px;*/
-/*    }*/
-
-/*    .ellipse-btnStar {*/
-/*        width: 14px;*/
-/*        height: 14px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .star__project {*/
-/*        min-height: 617px;*/
-/*        margin-bottom: -149px;*/
-/*    }*/
-
-/*    .star__projectSloy {*/
-/*        min-height: 612px;*/
-/*    }*/
-
-/*    .star__projectLeft {*/
-/*        margin-left: 26px;*/
-/*        margin-top: 136px;*/
-/*    }*/
-
-/*    .star__projectLeftTitle {*/
-/*        font-size: 22px !important;*/
-/*        line-height: 40px !important;*/
-/*    }*/
-
-/*    img {*/
-/*        width: 30px;*/
-/*    }*/
-
-/*    .star__projectRight {*/
-/*        margin-left: 26rem;*/
-/*        margin-top: 77px;*/
-/*    }*/
-
-/*    .btnStar {*/
-/*        margin-top: 6.3rem;*/
-/*    }*/
-
-/*    .btnStar-twoSloy, .btnStar {*/
-/*        width: 127px;*/
-/*        height: 22px;*/
-/*    }*/
-
-/*    .btnStar-threeSloy, .btnStar-fourSloy {*/
-/*        height: 20px;*/
-/*        width: 80px;*/
-/*    }*/
-
-/*    .btnStar-fourSloyTitle {*/
-/*        font-size: 12px;*/
-/*        line-height: 16px;*/
-/*        padding-left: 5px;*/
-/*    }*/
-
-/*    .ellipse-btnStar {*/
-/*        width: 10px;*/
-/*        height: 10px;*/
-/*    }*/
-/*}*/
+@media (max-width: 326px) {
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.2rem;
+        font-size: 0.45rem;
+    }
+    .star__imageBack {
+        min-height: 256px;
+    }
+}

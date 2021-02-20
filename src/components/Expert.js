@@ -43,7 +43,7 @@ const Expert = () => {
 
                 <div className="row expert-row expertRocket">
                     <div className="col-6 expertLeft">
-                        <AnimateRocket />
+                            <AnimateRocket />
                     </div>
                     <div className="col-6 expertRight">
                         <h1 className="expertTitleRight">

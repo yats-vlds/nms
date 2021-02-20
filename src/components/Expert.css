@@ -157,106 +157,28 @@
     }
 }
 
-/*@media (max-width: 1653px) {*/
-/*    .expert__lineRight {*/
-/*        margin-right: 3rem;*/
-/*    }*/
-/*}*/
-
-@media (max-width: 1556px) {
-    .expert__line {
-        padding-left: 2rem;
-        padding-right: 2rem;
+@media(max-width: 1025px) {
+    .table {
+        width: 350px;
+        height: 350px;
+    }
+    .kon {
+        width: 350px;
+        height: 350px;
+    }
+    .kind {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        animation: kind 6s infinite;
     }
 }
 
-@media (max-width: 1440px) {
-    .expert__line {
-        margin-right: 2rem;
-        margin-left: 2rem;
-    }
-
-    .expert__lineFirstTitle {
-        font-size: 47px;
-    }
-
-    .expert__lineTitle {
-        font-size: 44px;
-    }
-
-    .expert__lineLast {
-        padding-bottom: 260px;
+@media(max-width: 769px) {
+    .animateRocket {
+        height: 650px;
+        padding: 11rem;
+        padding-top: 16rem;
+        padding-left: 7rem;
     }
 }
-
-@media(max-width: 1274px) {
-    .expert__lineLast {
-        padding-bottom: 260px;
-        padding-top: 200px;
-    }
-
-    .expert__line {
-        height: 647px;
-    }
-
-    .expert__lineRightHorse {
-        display: flex;
-        height: 800px;
-        width: 595px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .expert__line {
-        margin-right: 2rem;
-    }
-
-    .expert__lineFirstTitle {
-        font-size: 39px!important;
-        line-height: 46px;
-    }
-
-    .expert__lineTitle {
-        font-size: 33px;
-        line-height: 43px;
-    }
-
-    .expert__lineText {
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    .expert__img {
-        width: 100%;
-    }
-
-    .expert__lineLast {
-    /*    padding-bottom: 193px;*/
-    }
-}
-
-@media (max-width: 1024px) {
-    /*.expert__line {*/
-    /*    margin-right: 2rem;*/
-    /*}*/
-
-    .expert__lineFirstTitle {
-        font-size: 33px!important;
-        line-height: 39px;
-    }
-
-    .expert__lineTitle {
-        font-size: 27px;
-        line-height: 33px;
-    }
-
-    .expert__lineText {
-        font-size: 8px;
-        line-height: 14px;
-    }
-
-    .expert__lineLast {
-        padding-bottom: 138px;
-    }
-}
-
