@@ -9,7 +9,7 @@ const Expert = () => {
     return (
         <div className="expert">
             <div className="container">
-                <div className="row expert-row">
+                <div className="row expert-row expertOneRow">
                     <div className="col-6 expertLeft">
                         <p className="expertText">
                             No matter what type of your work you do, NMS
@@ -23,7 +23,7 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="row expert-row">
+                <div className="row expert-row expertTwoRow">
                     <div className="col-6 expertLeft">
                         <h1 className="expertTitle">
                             Ideation and evaluation
@@ -41,7 +41,7 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="row expert-row expertRocket">
+                <div className="row expert-row expertRocket expertThreeRow">
                     <div className="col-6 expertLeft">
                             <AnimateRocket />
                     </div>
@@ -74,7 +74,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="col-6 expertRight">
-                       <AnimateHorse />
+                       {/*<AnimateHorse />*/}
                     </div>
                 </div>
             </div>
