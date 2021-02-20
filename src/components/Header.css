@@ -31,13 +31,13 @@
 .header__navLeft {
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1025px) {
     .header__link {
         margin-right: 2rem;
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
     .header__link {
         margin-right: 2rem;
         font-size: 0.8rem;

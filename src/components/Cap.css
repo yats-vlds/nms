@@ -22,3 +22,49 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media(max-width: 1025px) {
+    .cap__leftTitle {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 769px) {
+    .cap__leftTitle {
+        font-size: 4rem;
+    }
+
+    .cap__image {
+        margin-top: 1rem;
+    }
+
+    .cap__row {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .cap__leftTitle {
+        font-size: 2rem;
+    }
+    .cap__image {
+        margin-top: 0.4rem;
+    }
+    .cap__row {
+        margin-top: 1.5rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .cap__leftTitle {
+        font-size: 1.5rem;
+    }
+
+    .cap__row {
+        margin-top: 1rem;
+    }
+
+    .cap__image {
+        margin-top: 0.3rem;
+    }
+}

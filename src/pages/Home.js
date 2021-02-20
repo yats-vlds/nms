@@ -22,12 +22,12 @@ const Home = ({state, dispatch}) => {
     return (
         <>
             <Cap/>
-            <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
-            <Expert />
-            <Why id="why"/>
-            <Jobs id="works"/>
-            <FormRequest/>
-            <Ten/>
+            {/*<StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>*/}
+            {/*<Expert />*/}
+            {/*<Why id="why"/>*/}
+            {/*<Jobs id="works"/>*/}
+            {/*<FormRequest/>*/}
+            {/*<Ten/>*/}
         </>
     )
 }

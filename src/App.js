@@ -13,20 +13,20 @@ const [state, dispatch] = useReducer(reducer, initialState)
     return (
         <Router>
             <Header />
-            {/*<Switch>*/}
-            {/*    <Route path="/" exact>*/}
-            {/*        <Home state={state} dispatch={dispatch} />*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/custom">*/}
-            {/*        <Custom type="custom" state={state} dispatch={dispatch} />*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/mobile-and-web">*/}
-            {/*        <Custom type="mobile" state={state} dispatch={dispatch} />*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/ui-ux">*/}
-            {/*        <Custom state={state} dispatch={dispatch} />*/}
-            {/*    </Route>*/}
-            {/*</Switch>*/}
+            <Switch>
+                <Route path="/" exact>
+                    <Home state={state} dispatch={dispatch} />
+                </Route>
+                <Route path="/custom">
+                    <Custom type="custom" state={state} dispatch={dispatch} />
+                </Route>
+                <Route path="/mobile-and-web">
+                    <Custom type="mobile" state={state} dispatch={dispatch} />
+                </Route>
+                <Route path="/ui-ux">
+                    <Custom state={state} dispatch={dispatch} />
+                </Route>
+            </Switch>
             {/*<Footer id="contacts"/>*/}
         </Router>
     );
