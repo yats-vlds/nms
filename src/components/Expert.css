@@ -365,7 +365,7 @@
 
 @media(max-width: 426px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     p {
         font-size: 8px !important;

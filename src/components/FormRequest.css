@@ -209,10 +209,13 @@ textarea {
     }
     .input {
         width: 17rem;
+        font-size: 0.7rem;
+        height: 2rem;
     }
     textarea {
         width: 17rem;
-        height: 5rem;
+        height: 7rem;
+        font-size: 0.7rem;
     }
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
         width: 23rem;
@@ -226,24 +229,50 @@ textarea {
         margin-left: auto;
         margin-right: auto;
     }
+    .form__skrepka {
+        width: 0.7rem;
+        height: 1.1rem;
+        margin-left: 3rem;
+    }
     .from-pryam4 {
         font-size: 18px;
     }
     .btnForm, .btnForm-twoSloy {
         width: 6rem!important;
-        height: 1.5rem!important;
+        height: 1rem!important;
     }
     .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 4rem!important;
-        height: 1.5rem!important;
+        width: 3.7rem!important;
+        height: 1rem!important;
     }
+
+    .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 6rem!important;
+        height: 1rem!important;
+    }
+
     .ellipse-btnFormBefore {
         width: 0.5rem;
         height: 0.5rem;
         border-radius: 13px;
         background-color: #4f47ff;
-        margin-right: 0.8rem;
+        margin-right: 0.4rem;
         cursor: pointer;
+    }
+
+    .ellipse-btnFormAfter {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 13px;
+        background-color: #4f47ff;
+        margin-left: 5rem;
+        cursor: pointer;
+    }
+    .btn-fourSloyTitle {
+        padding-top: 0.15rem;
+        padding-left: 0.4rem;
+        color: #ffffff;
+        font-size: 0.3rem;
     }
 }
 

@@ -89,10 +89,10 @@
 
 @media(max-width: 426px) {
     .footer {
-        min-height: 292px;
+        min-height: 248px;
     }
     .footer-image {
-        margin-top: 5rem;
+        margin-top: 3rem;
         width: 150px;
     }
     .footer__location {
@@ -105,6 +105,10 @@
     }
     .iconSize {
         width: 20px;
+    }
+    .btnForm {
+        margin-top: 2.1rem;
+        margin-bottom: 2.1rem;
     }
 }
 
