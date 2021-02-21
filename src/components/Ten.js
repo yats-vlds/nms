@@ -7,8 +7,6 @@ import tenYog from "../assets/tenYog.png"
 const Ten = () => {
     return (
         <>
-            {/*<div className="ellipse">*/}
-            {/*</div>*/}
             <img src={tenYog} className="ten__yog"/>
             <div className="ten">
                 <div className="tenSloy">

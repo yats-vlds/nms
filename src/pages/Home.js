@@ -27,7 +27,7 @@ const Home = ({state, dispatch}) => {
             <Why id="why"/>
             <Jobs id="works"/>
             <FormRequest/>
-            {/*<Ten/>*/}
+            <Ten/>
         </>
     )
 }

@@ -105,3 +105,202 @@
         margin-top: -16rem;
     }
 }
+
+@media (max-width: 1025px) {
+    .ten__contentLeftTitle {
+        padding-top: 12rem;
+        padding-left: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .ten, .tenSloy, .ten__img {
+        min-height: 600px;
+    }
+
+    .ten__yog {
+        position: absolute;
+        height: 362px;
+        object-fit: contain;
+        width: 570px;
+        margin-left: 30rem;
+        animation: tenyog 1s infinite;
+    }
+    .ellipse {
+        margin-top: -10rem;
+        margin-left: 44rem;
+        -webkit-animation: tenellipse1024 1s infinite!important;
+        animation: tenellipse1024 1s infinite!important;
+    }
+    @-webkit-keyframes tenellipse1024{
+        0% {
+            margin-top: -10.5rem;
+        }
+        50% {
+            margin-top: -10rem
+        }
+        100% {
+            margin-top: -10.5rem;
+        }
+    }
+
+    @keyframes tenellipse1024{
+        0% {
+            margin-top: -10.5rem;
+        }
+        50% {
+            margin-top: -10rem
+        }
+        100% {
+            margin-top: -10.5rem;
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .ten, .tenSloy, .ten__img {
+        min-height: 500px;
+    }
+    .ten__yog {
+        position: absolute;
+        height: 295px;
+        object-fit: contain;
+        width: 563px;
+        margin-left: 19rem;
+        animation: tenyog 1s infinite;
+    }
+    .ellipse {
+        margin-left: 33rem;
+        margin-top: -8rem;
+        width: 121px;
+        height: 32px;
+        -webkit-animation: tenellipse768 1s infinite!important;
+        animation: tenellipse768 1s infinite!important;
+    }
+    .ten__contentLeftTitle {
+        padding-top: 10rem;
+        padding-left: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 34px;
+    }
+    @-webkit-keyframes tenellipse768{
+        0% {
+            margin-top: -8rem;
+        }
+        50% {
+            margin-top: -9rem;
+        }
+        100% {
+            margin-top: -8rem;
+        }
+    }
+
+    @keyframes tenellipse768{
+        0% {
+            margin-top: -8rem;
+        }
+        50% {
+            margin-top: -9rem;
+        }
+        100% {
+            margin-top: -8rem;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .ten, .tenSloy, .ten__img {
+        min-height: 300px;
+    }
+    .ten__yog {
+        position: absolute;
+        height: 186px;
+        object-fit: contain;
+        width: 222px;
+        margin-left: 12rem;
+        margin-top: 2.5rem;
+        animation: tenyog425 1s infinite!important;
+    }
+    .ellipse {
+        margin-left: 17.5rem;
+        margin-top: -5rem;
+        width: 51px;
+        height: 17px;
+        animation: tenellipse425 1s infinite!important;
+    }
+    .ten__contentLeftTitle {
+        padding-top: 7rem;
+        padding-left: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    @-webkit-keyframes tenellipse425{
+        0% {
+            margin-top: -5rem;
+        }
+        50% {
+            margin-top: -5.5rem;
+        }
+        100% {
+            margin-top: -5rem;
+        }
+    }
+
+    @keyframes tenellipse425{
+        0% {
+            margin-top: -5rem;
+        }
+        50% {
+            margin-top: -5.5rem;
+        }
+        100% {
+            margin-top: -5rem;
+        }
+    }
+
+    @-webkit-keyframes tenyog425{
+        0% {
+            margin-top: 1.5rem;
+        }
+        50% {
+            margin-top: 2.4rem;
+        }
+        100% {
+            margin-top: 1.5rem;
+        }
+    }
+
+    @keyframes tenyog425{
+        0% {
+            margin-top: 1.5rem;
+        }
+        50% {
+            margin-top: 2.4rem;
+        }
+        100% {
+            margin-top: 1.5rem;
+        }
+    }
+
+}
+
+@media(max-width: 376px) {
+    .ten, .tenSloy, .ten__img {
+        min-height: 300px;
+        width: 404px;
+    }
+    .ten__yog {
+        position: absolute;
+        height: 186px;
+        object-fit: contain;
+        width: 222px;
+        margin-left: 11rem;
+        margin-top: 2.5rem;
+        animation: tenyog425 1s infinite!important;
+    }
+    .ellipse {
+        margin-left: 16.5rem;
+    }
+}
