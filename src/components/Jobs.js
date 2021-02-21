@@ -40,7 +40,7 @@ const Jobs = ({id}) => {
                         <h1 className="bootstrap__tableTitle bootstrap__marginTop" style={{ marginBottom: "23px"}}>
                             Project name
                         </h1>
-                        <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>No matter what type of your
+                        <p className="bootstrap__tableText marginBottom">No matter what type of your
                             work you do, NMS customized
                             software development will fulfill your needs. No matter
                             what type of your work you do, NMS customized software
@@ -68,7 +68,7 @@ const Jobs = ({id}) => {
                         <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
                             Project name
                         </h1>
-                        <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>
+                        <p className="bootstrap__tableText marginBottom">
                             No matter what type of your work you do, NMS customized
                             software development will fulfill your needs. No matter
                             what type of your work you do, NMS customized software
@@ -98,7 +98,7 @@ const Jobs = ({id}) => {
             </div>
 
 
-            <div className="bootstrap__table">
+            <div className="bootstrap__table bootstrap__tableThree">
                 <div className="bootstrap__tableLeft">
                     <div className="bootstrap__tableLineThree"></div>
                     <div className="bootstrap__tableLineThree"></div>

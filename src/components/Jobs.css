@@ -212,6 +212,9 @@
     margin-top: 180px;
     margin-bottom: 23px;
 }
+.marginBottom {
+    margin-bottom: 90px;
+}
 
 @media (max-width: 1025px) {
     .bootstrap__table {
@@ -276,7 +279,7 @@
     .icon2TableTwo {
         width: 37rem;
         height: 100%;
-        padding-left: 1rem;
+        padding-left: 0rem;
         object-fit: contain;
         padding-right: 1rem;
         padding-top: 0rem;
@@ -284,7 +287,11 @@
     }
 
     .bootstrap__tableTwoLeftInfo {
-        padding-left: 6.6rem;
+        padding-left: 4rem;
+    }
+    .bootstrap__tableTwoLeftInfoContent {
+        margin-top: 16px;
+        margin-bottom: 5px;
     }
     .icon4TableThree {
         position: absolute;
@@ -308,41 +315,57 @@
         width: 37rem;
         height: 100%;
     }
+    .marginBottom {
+        margin-bottom: 42px;
+    }
+    .bootstrap__tableRightInfo {
+        padding-left: 3rem;
+    }
+    .bootstrap__tableTwo {
+        height: 500px;
+    }
 }
 
 @media (max-width: 769px) {
+
     .bootstrap__table {
-        height: 682px;
+        height: 609px;
+    }
+    .bootstrap__tableTwo {
+        height: 367px;
+    }
+    .bootstrap__marginTop {
+        margin-top: 85px;
     }
 
     .icon4 {
         position: absolute;
         z-index: 10;
-        margin-top: 10rem;
+        margin-top: 4rem;
         margin-left: 4rem;
         width: 25rem;
     }
 
     .icon3 {
-        margin-top: 10rem;
+        margin-top: 4rem;
         margin-left: 4rem;
         width: 25rem;
     }
 
     .icon {
-        padding-top: 7rem;
+        padding-top: 0rem;
         padding-left: 1.7rem;
         opacity: 0.6;
         width: 25rem;
-        height: 43rem;
+        height: 46rem;
     }
 
     .icon2 {
         position: absolute;
         z-index: 7;
-        padding-top: 14rem;
+        padding-top: 6rem;
         width: 33rem;
-        height: 45rem;
+        height: 37rem;
     }
 
     .bootstrap__tableText {
@@ -384,7 +407,7 @@
     }
 
     .bootstrap__tableTwoLeftInfo {
-        padding-left: 4.6rem;
+        padding-left: 3.6rem;
     }
 
     .bootstrap__tableTitle {
@@ -419,6 +442,10 @@
 @media (max-width: 426px) {
     .bootstrap__table {
         height: 372px;
+    }
+    .bootstrap__tableTwo {
+        height: 302px;
+        margin-bottom: -6rem;
     }
 
     .bootstrap__tableTwoLeftInfo {
@@ -536,6 +563,15 @@
     .bootstrap_tableRightContentTitle {
         margin-top: 78px;
         margin-bottom: 14px;
+    }
+    .ten__yog {
+        position: absolute;
+        height: 157px;
+        object-fit: contain;
+        width: 190px!important;
+        margin-left: 12rem;
+        margin-top: 14.5rem;
+        animation: tenyog425 1s infinite!important;
     }
 }
 

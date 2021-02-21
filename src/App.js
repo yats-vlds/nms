@@ -27,7 +27,7 @@ const [state, dispatch] = useReducer(reducer, initialState)
                     <Custom state={state} dispatch={dispatch} />
                 </Route>
             </Switch>
-            {/*<Footer id="contacts"/>*/}
+            <Footer id="contacts"/>
         </Router>
     );
 }

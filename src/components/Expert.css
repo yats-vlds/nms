@@ -383,8 +383,6 @@
     .expertRocket {
          margin-bottom: 0rem;
     }
-    .expertOneRow {
-    }
     .stone {
         width: 2rem !important;
         height: 2rem !important;
@@ -509,6 +507,9 @@
     }
     .expertLastRow {
         padding-bottom: 5rem;
+    }
+    .expertOneRow {
+        margin-bottom: -3rem;
     }
 }
 

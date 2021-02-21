@@ -63,16 +63,6 @@
     width: 350px;
 }
 
-/*@media (max-width: 1440px) {*/
-/*    .footer {*/
-/*        height: 847px;*/
-/*        margin-bottom: -100px;*/
-/*    }*/
-
-/*    .footer__img {*/
-/*        width: 318px;*/
-/*    }*/
-
     .footer__location {
         margin-bottom: 3rem;
     }
@@ -80,37 +70,81 @@
         width: 30px;
     }
 
-/*    .footer__contactsTitle {*/
-/*        font-size: 40px;*/
-/*        line-height: 40px;*/
-/*        padding-top: 2.5rem;*/
-/*    }*/
+@media(max-width:769px ) {
+    .footer-image {
+        margin-top: 7rem;
+        width: 263px;
+    }
+    .footer__location {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    .footer {
+        min-height: 408px;
+    }
+    .iconSize {
+        width: 24px;
+    }
+}
 
-/*    .strongTitle {*/
-/*        font-size: 23px;*/
-/*        line-height: 32px;*/
-/*    }*/
-/*}*/
+@media(max-width: 426px) {
+    .footer {
+        min-height: 292px;
+    }
+    .footer-image {
+        margin-top: 5rem;
+        width: 150px;
+    }
+    .footer__location {
+        margin-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+    .footer__contactsTitle {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    .iconSize {
+        width: 20px;
+    }
+}
 
-/*@media (max-width: 1024px) {*/
-/*    .footer {*/
-/*        padding-top: 16rem;*/
-/*        padding-left: 5rem;*/
-/*    }*/
+@media(max-width: 376px) {
+    .footer-image {
+        margin-top: 3rem;
+        width: 150px;
+    }
+    .footer {
+        min-height: 232px;
+    }
+    .iconSize {
+        width: 17px;
+    }
+}
 
-/*    .ellipse {*/
-/*        margin-left: 35rem;*/
-/*    }*/
+@media(max-width: 326px) {
+    .ten {
+        margin-bottom: -61px;
+    }
+    .footer-image {
+        margin-top: 3rem;
+        width: 100px;
+    }
+    .footer__location {
+        margin-bottom: 0.5rem;
+        font-size: 0.48rem;
+    }
+    .footer__contactsTitle {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .icons {
+        margin-top: 1rem;
+    }
+    .footer {
+        min-height: 176px;
+    }
+    .iconSize {
+        width: 13px;
+    }
 
-/*    .footer__location {*/
-/*        font-size: 22px;*/
-/*        line-height: 32px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .footer {*/
-/*        padding-top: 6rem;*/
-/*        padding-left: 3rem;*/
-/*    }*/
-/*}*/
+}
