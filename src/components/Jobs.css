@@ -540,6 +540,9 @@
 }
 
 @media (max-width: 376px) {
+    .icon3TableTwo, .icon2TableTwo, .iconTableTwo {
+        width: 13.7rem;
+    }
     .icon3, .icon4 {
         width: 12.6rem;
     }
