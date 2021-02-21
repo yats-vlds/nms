@@ -395,28 +395,178 @@
         height: 9rem !important;
         margin-top: -4.1rem !important;
         margin-left: -5.3rem !important;
-        animation: back 7s infinite!important;
+        animation: line 7s infinite!important;
     }
-    /*@keyframes back {*/
-    /*    0% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*    50% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*    100% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*}*/
-    /*@-webkit-keyframes back {*/
-    /*    0% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*    50% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*    100% {*/
-    /*        background: red;*/
-    /*    }*/
-    /*}*/
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 15rem !important;
+        margin-top: -17.7rem;
+        margin-left: -11rem!important;
+        animation: scalesRocket426 7s infinite!important;
+    }
+    .scalesRocketRight {
+        height: 5.8rem !important;
+        width: 3.5rem !important;
+        margin-left: 0.4rem!important;
+        margin-top: -5.5rem;
+        animation: scalesRocketRight426 7s infinite!important;
+    }
+    .rocket {
+        width: 17rem !important;
+        height: 37rem !important;
+        margin-left: -9.5rem !important;
+        animation: rocket426 7s infinite;
+    }
+    @-webkit-keyframes scalesRocket426 {
+        0% {
+            margin-top: -19.6rem;
+        }
+        50% {
+            margin-top: -21.5rem;
+        }
+        100% {
+            margin-top: -19.6rem;
+        }
+    }
+
+    @keyframes scalesRocket426 {
+        0% {
+            margin-top: -19.6rem;
+        }
+        50% {
+            margin-top: -21.5rem;
+        }
+        100% {
+            margin-top: -19.6rem;
+        }
+    }
+
+    @-webkit-keyframes scalesRocketRight426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+
+    @keyframes scalesRocketRight426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+
+    @-webkit-keyframes rocket426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+
+    @keyframes rocket426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -13rem;
+    }
+
+    .kon, .kind, .table {
+        width: 160px !important;
+        height: 156px !important;
+    }
+    .animateRocket {
+        width: 400px!important;
+        height: 400px!important;
+        padding: 15rem!important;
+        padding-left: 20rem!important;
+        padding-top: 20rem!important;
+    }
+    .expertRocket {
+        margin-bottom: -13rem;
+    }
+    .expertLastRow {
+        padding-bottom: 5rem;
+    }
+}
+
+@media(max-width: 376px) {
+    .expertTitleFirst, .expertTitle, .expertTitleRight {
+        font-size: 0.6rem;
+    }
+    p {
+        font-size: 5px !important;
+    }
+    .stone {
+        width: 1.3rem !important;
+        height: 1.3rem !important;
+    }
+    .line {
+        width: 7rem !important;
+        height: 7rem !important;
+        margin-top: -3.1rem !important;
+        margin-left: -4.3rem !important;
+    }
+    .scalesRocket {
+        height: 35.6rem !important;
+        width: 11rem !important;
+        margin-top: -17.7rem;
+        margin-left: -9.5rem!important;
+        animation: scalesRocket426 7s infinite!important;
+    }
+    .scalesRocketRight {
+        height: 6.6rem !important;
+        width: 2.5rem !important;
+        margin-left: -0.5rem!important;
+        margin-top: -5.5rem;
+    }
+    .rocket {
+        width: 15rem !important;
+        height: 39rem !important;
+        margin-left: -9.5rem !important;
+    }
+    .animateRocket {
+        padding-left: 18.5rem!important;
+    }
+    .kon, .kind, .table {
+        width: 129px !important;
+        height: 120px !important;
+    }
+}
+
+@media(max-width: 321px) {
+    .kon, .kind, .table {
+        width: 119px !important;
+        height: 110px !important;
+    }
+    .animateRocket {
+        width: 400px!important;
+        height: 400px!important;
+        padding: 12rem!important;
+        padding-left: 18.5rem!important;
+        padding-top: 17rem!important;
+        margin-bottom: 2rem;
+    }
 }

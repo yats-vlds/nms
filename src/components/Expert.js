@@ -74,7 +74,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="col-6 expertRight">
-                       {/*<AnimateHorse />*/}
+                       <AnimateHorse />
                     </div>
                 </div>
             </div>
