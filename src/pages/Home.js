@@ -26,7 +26,7 @@ const Home = ({state, dispatch}) => {
             <Expert />
             <Why id="why"/>
             <Jobs id="works"/>
-            {/*<FormRequest/>*/}
+            <FormRequest/>
             {/*<Ten/>*/}
         </>
     )

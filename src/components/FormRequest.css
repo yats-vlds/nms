@@ -184,3 +184,135 @@ textarea {
     margin-left: 11rem;
     cursor: pointer;
 }
+
+@media(max-width: 769px) {
+    .form-request, .card, .form {
+        width: 26rem;
+        height: 23rem;
+    }
+    .input {
+        width: 23rem;
+    }
+    textarea {
+        width: 23rem;
+        height: 8rem;
+    }
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+        width: 30rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .form-request, .card, .form {
+        width: 20rem;
+        height: 20rem;
+    }
+    .input {
+        width: 17rem;
+    }
+    textarea {
+        width: 17rem;
+        height: 5rem;
+    }
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+        width: 23rem;
+    }
+
+    .form-header-title {
+        position: relative;
+        z-index: 2;
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .from-pryam4 {
+        font-size: 18px;
+    }
+    .btnForm, .btnForm-twoSloy {
+        width: 6rem!important;
+        height: 1.5rem!important;
+    }
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 4rem!important;
+        height: 1.5rem!important;
+    }
+    .ellipse-btnFormBefore {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 13px;
+        background-color: #4f47ff;
+        margin-right: 0.8rem;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 376px) {
+    .form-request, .card, .form {
+        width: 15rem;
+        height: 15rem;
+    }
+    .input {
+        width: 13rem;
+        font-size: 12px;
+        height: 2rem;
+    }
+    textarea {
+        width: 13rem;
+        height: 3rem;
+        font-size: 12px;
+    }
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+        width: 16rem;
+    }
+    .from-pryam4 {
+        font-size: 12px;
+    }
+    .form__skrepka {
+        width: 0.5rem;
+        height: 1rem;
+        margin-top: 0.35rem;
+        margin-left: 1.5rem;
+    }
+    .btnForm, .btnForm-twoSloy {
+        width: 5rem!important;
+        height: 1rem!important;
+    }
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 3rem!important;
+        height: 1rem!important;
+    }
+    .btn-fourSloyTitle {
+        padding: 0.3rem;
+        padding-left: 1rem;
+        color: #ffffff;
+        padding-left: 0.6rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .form-request, .card, .form {
+        width: 13rem;
+        height: 13rem;
+    }
+    .input {
+        width: 10rem;
+        font-size: 10px;
+        height: 1.5rem;
+    }
+    textarea {
+        width: 10rem;
+        height: 2rem;
+        font-size: 10px;
+    }
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+        width: 15rem;
+    }
+    .form-header-title {
+        width: 200px;
+    }
+
+    .btnForm {
+        margin-top: 1rem;
+    }
+}

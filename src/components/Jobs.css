@@ -445,7 +445,7 @@
     .iconTableTwo {
         position: absolute;
         z-index: 7;
-        width: 17rem;
+        width: 15rem;
         object-fit: contain;
         /* padding-right: 2rem; */
         padding-top: 1rem;
