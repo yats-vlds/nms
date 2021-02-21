@@ -121,160 +121,86 @@
 /*    color: #ffffff;*/
 /*}*/
 
-/*@media (max-width: 1440px) {*/
-/*    .why__meSloy {*/
-/*        min-height: 923px;*/
-/*    }*/
+@media(max-width: 1024px) {
+    .why__me, .why__meSloy{
+        height: 600px;
+    }
+    .why__meImageBack {
+        height: 678px;
+    }
+    .why__meContentRight {
+        padding: 1rem;
+    }
+    .whyme__title {
+        font-size: 1.8rem;
+    }
+    .why__meContentRight {
+        padding: 3rem;
+        padding-left: 6rem;
+    }
+    .whyme__text {
+        font-size: 0.8rem;
+    }
+}
 
-/*    .why__meContentRight {*/
-/*        margin-top: 6rem;*/
-/*    }*/
+@media(max-width: 769px) {
+    .why__me, .why__meSloy{
+        height: 500px;
+    }
+    .why__meImageBack {
+        height: 510px;
+    }
+    .whyme__title {
+        font-size: 1.3rem;
+    }
+    .whyme__text {
+        font-size: 0.4rem;
+    }
+}
 
-/*    .karcher {*/
-/*        margin-left: 5rem;*/
-/*        width: 200px;*/
-/*        height: 70px;*/
-/*    }*/
+@media(max-width: 426px) {
+    .why__me, .why__meSloy{
+        height: 300px;
+    }
+    .why__meImageBack {
+        height: 280px;
+    }
+    .whyme__title {
+        font-size: 0.6rem;
+        margin-bottom: 0.15rem;
+        font-weight: bold;
+    }
+    .whyme__text {
+        font-size: 0.1rem;
+        line-height: 0.4rem;
+    }
+    .why__meContentRight {
+        padding: 1rem;
+        padding-left: 2rem;
+    }
+}
 
-/*    .lactel {*/
-/*        width: 220px;*/
-/*        height: 100px;*/
-/*        margin-left: 10rem;*/
-/*    }*/
-
-/*    .danfos {*/
-/*        width: 380px;*/
-/*        height: 110px;*/
-/*        margin-left: 11rem;*/
-/*    }*/
-
-/*    .goprint {*/
-/*        width: 200px;*/
-/*        height: 60px;*/
-/*        margin-left: 9rem;*/
-/*    }*/
-
-/*    .ukrtelecom {*/
-/*        width: 220px;*/
-/*        height: 65px;*/
-/*        margin-left: 5rem;*/
-/*    }*/
-
-/*    .whyme__title {*/
-/*        font-size: 44px;*/
-/*        line-height: 55px;*/
-/*    }*/
-
-/*    .whyme__text {*/
-/*        font-size: 16px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*    .why__meContentRight {*/
-/*        margin-left: 8rem;*/
-/*    }*/
-/*    .whyme__title {*/
-/*        font-size: 34px;*/
-/*        line-height: 44px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .why__meSloy {*/
-/*        min-height: 745px;*/
-/*    }*/
-
-/*    .why__meContentRight {*/
-/*        margin-top: 5rem;*/
-/*    }*/
-
-/*    .whyme__title {*/
-/*        font-size: 24px;*/
-/*        line-height: 34px;*/
-/*    }*/
-
-/*    .karcher {*/
-/*        margin-left: 3rem;*/
-/*        width: 130px;*/
-/*        height: 40px;*/
-/*    }*/
-
-/*    .lactel {*/
-/*        width: 140px;*/
-/*        height: 70px;*/
-/*        margin-left: 8rem;*/
-/*    }*/
-
-/*    .danfos {*/
-/*        width: 280px;*/
-/*        height: 70px;*/
-/*        margin-left: 9rem;*/
-/*    }*/
-
-/*    .goprint {*/
-/*        width: 130px;*/
-/*        height: 35px;*/
-/*        margin-left: 7rem;*/
-/*    }*/
-
-/*    .ukrtelecom {*/
-/*        width: 140px;*/
-/*        height: 39px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
-
-/*    .whyme__text {*/
-/*        font-size: 12px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .why__meSloy {*/
-/*        min-height: 626px;*/
-/*    }*/
-
-/*    .why__meContentRight {*/
-/*        margin-left: 5rem;*/
-/*        margin-top: 2rem;*/
-/*    }*/
-
-/*    .whyme__title {*/
-/*        font-size: 24px;*/
-/*        line-height: 34px;*/
-/*    }*/
-
-/*    .karcher {*/
-/*        margin-left: 6rem;*/
-/*        width: 90px;*/
-/*        height: 25px;*/
-/*    }*/
-
-/*    .lactel {*/
-/*        width: 100px;*/
-/*        height: 55px;*/
-/*        margin-left: 8rem;*/
-/*    }*/
-
-/*    .danfos {*/
-/*        width: 240px;*/
-/*        height: 55px;*/
-/*        margin-left: 9rem;*/
-/*    }*/
-
-/*    .goprint {*/
-/*        width: 90px;*/
-/*        height: 20px;*/
-/*        margin-left: 7rem;*/
-/*    }*/
-
-/*    .ukrtelecom {*/
-/*        width: 100px;*/
-/*        height: 24px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
-
-/*    .whyme__text {*/
-/*        font-size: 12px;*/
-/*    }*/
-/*}*/
+@media(max-width: 376px) {
+    .why__me, .why__meSloy{
+        height: 200px;
+    }
+    .why__meImageBack {
+        height: 248px;
+    }
+    .whyme__title {
+        font-size: 0.45rem;
+        margin-bottom: 0.15rem;
+        font-weight: bold;
+    }
+    .whyme__text {
+        font-size: 0.1rem;
+        line-height: 0.4rem;
+        margin-bottom: 0.45rem;
+    }
+    .why__me, .why__meSloy {
+        height: 181px;
+    }
+    .why__meImageBack {
+        height: 211px;
+    }
+}
