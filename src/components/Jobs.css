@@ -203,215 +203,342 @@
     margin-top: 180px;
 }
 
-/*@media (max-width: 1440px) {*/
-/*    .icon3 {*/
-/*        margin-left: 2.5rem;*/
-/*        width: auto;*/
-/*        display: block;*/
-/*    }*/
+.bootstrap__tableTwoLeftInfoContent {
+    margin-top: 180px;
+    margin-bottom: 23px;
+}
 
-/*    .icon4 {*/
-/*        margin-left: 2.8rem;*/
-/*        width: auto;*/
-/*        display: block;*/
-/*    }*/
+@media (max-width: 1025px) {
+    .bootstrap__table {
+        height: 802px;
+    }
 
-/*    .icon {*/
-/*        padding-left: 1rem;*/
-/*    }*/
+    .icon4 {
+        position: absolute;
+        z-index: 10;
+        margin-top: 10rem;
+        margin-left: 4rem;
+        width: 30rem;
+    }
 
-/*    .bootstrap__tableTitle {*/
-/*        font-size: 38px;*/
-/*        line-height: 45px;*/
-/*    }*/
+    .icon3 {
+        margin-top: 10rem;
+        margin-left: 4rem;
+        width: 30rem;
+    }
 
-/*    .bootstrap__tableText {*/
-/*        font-size: 15px;*/
-/*        line-height: 20px;*/
-/*    }*/
+    .icon {
+        padding-top: 15rem;
+        padding-left: 1.7rem;
+        opacity: 0.6;
+        width: 34rem;
+        height: 43rem;
+    }
 
-/*    .bootstrap__tableTwoTitle {*/
-/*        font-size: 28px;*/
-/*        line-height: 31px;*/
-/*    }*/
-/*}*/
+    .icon2 {
+        height: 70%;
+    }
 
-/*@media (max-width: 1440px) {*/
-/*    .icon {*/
-/*        width: 750px;*/
-/*        margin-left: 5rem;*/
-/*    }*/
+    h1.bootstrap__tableTitle.bootstrap__marginTop {
+        font-size: 2.3rem;
+    }
 
-/*    .icon2 {*/
-/*        width: 750px;*/
-/*        margin-left: 5rem;*/
-/*    }*/
+    .bootstrap__tableText {
+        font-size: 0.9rem;
+    }
 
-/*    .icon3 {*/
-/*        width: 766px;*/
-/*        margin-left: 5rem;*/
-/*    }*/
+    .bootstrap__tableTwoTitle {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
 
-/*    .icon4 {*/
-/*        width: 765px;*/
-/*        margin-left: 5rem;*/
-/*    }*/
+    .icon3TableTwo {
+        width: 37rem;
+        padding-right: 3rem;
+        padding-left: 4.1rem;
+    }
 
-/*    .why__me {*/
-/*        margin-bottom: -450px;*/
-/*    }*/
+    .icon2TableTwo {
+        width: 38rem;
+        height: 100%;
+        padding-left: 2rem;
+        object-fit: contain;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        padding-bottom: 6rem;
+    }
 
-/*    .bootstrap__table {*/
-/*        height: 1100px;*/
-/*    }*/
+    .icon2TableTwo {
+        width: 37rem;
+        height: 100%;
+        padding-left: 1rem;
+        object-fit: contain;
+        padding-right: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 6rem;
+    }
 
-/*    .icon3TableTwo {*/
-/*        width: 700px;*/
-/*    }*/
+    .bootstrap__tableTwoLeftInfo {
+        padding-left: 6.6rem;
+    }
+}
 
-/*    .iconTableTwo {*/
-/*        height: 60%;*/
-/*    }*/
+@media (max-width: 769px) {
+    .bootstrap__table {
+        height: 682px;
+    }
 
-/*    .bootstrap__tableTwo {*/
-/*        margin-bottom: -570px;*/
-/*    }*/
-/*    .iconTableThree {*/
-/*        width: 100%;*/
-/*    }*/
-/*    .icon2TableThree {*/
-/*        width: 100%;*/
-/*    }*/
-/*    .icon3TableThree {*/
-/*        margin-top: 22rem;*/
-/*        margin-left: 3rem;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .icon4TableThree {*/
-/*        width: 100%;*/
-/*        margin-left: 2.5rem;*/
-/*    }*/
-/*}*/
+    .icon4 {
+        position: absolute;
+        z-index: 10;
+        margin-top: 10rem;
+        margin-left: 4rem;
+        width: 25rem;
+    }
 
-/*@media (max-width: 1024px) {*/
-/*    .icon {*/
-/*        width: 550px;*/
-/*        padding-top: 10rem;*/
-/*        margin-left: 1rem;*/
-/*    }*/
+    .icon3 {
+        margin-top: 10rem;
+        margin-left: 4rem;
+        width: 25rem;
+    }
 
-/*    .icon2 {*/
-/*        width: 500px;*/
-/*        margin-left: 1.7rem;*/
-/*        margin-bottom: 0rem;*/
-/*    }*/
+    .icon {
+        padding-top: 7rem;
+        padding-left: 1.7rem;
+        opacity: 0.6;
+        width: 25rem;
+        height: 43rem;
+    }
 
-/*    .icon3 {*/
-/*        width: 500px;*/
-/*        margin-left: 3.7rem;*/
-/*        margin-top: 4.3rem;*/
-/*    }*/
+    .icon2 {
+        position: absolute;
+        z-index: 7;
+        padding-top: 14rem;
+        width: 33rem;
+        height: 45rem;
+    }
 
-/*    .icon4 {*/
-/*        width: 500px;*/
-/*        margin-left: 3.7rem;*/
-/*        margin-top: 4rem;*/
-/*    }*/
+    .bootstrap__tableText {
+        font-size: 0.9rem;
+    }
 
-/*    .bootstrap__tableTitle {*/
-/*        margin-left: 60px;*/
-/*    }*/
+    .bootstrap__tableTwoTitle {
+        font-weight: bold;
+        font-size: 1rem;
+    }
 
-/*    .bootstrap__tableText {*/
-/*        margin-left: 60px;*/
-/*    }*/
+    h1.bootstrap__tableTitle.bootstrap__marginTop {
+        font-size: 1.5rem;
+    }
 
-/*    .bootstrap__tableTwoTitle {*/
-/*        margin-left: 60px;*/
-/*    }*/
+    .icon3TableTwo {
+        width: 28rem;
+        padding-right: 3rem;
+        padding-left: 3.1rem;
+    }
 
-/*    .bootstrap__table {*/
-/*        height: 700px;*/
-/*    }*/
+    .icon2TableTwo {
+        width: 27rem;
+        height: 73%;
+        /* padding-left: 1rem; */
+        object-fit: contain;
+        padding-right: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 6rem;
+    }
 
-/*    .icon3TableTwo {*/
-/*        width: 100%;*/
-/*        margin-left: 0rem;*/
-/*    }*/
+    .iconTableTwo {
+        position: absolute;
+        z-index: 7;
+        width: 100%;
+        object-fit: contain;
+        padding-right: 2rem;
+        padding-top: 5rem;
+    }
 
-/*    .icon2TableTwo {*/
-/*        padding-left: 0;*/
-/*    }*/
-/*}*/
+    .bootstrap__tableTwoLeftInfo {
+        padding-left: 4.6rem;
+    }
 
-/*@media (max-width: 768px) {*/
-/*    .bootstrap__tableTwo {*/
-/*        margin-bottom: -624px;*/
-/*        height: 1078px;*/
-/*    }*/
-/*    .icon {*/
-/*        width: 350px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
+    .bootstrap__tableTitle {
+        font-size: 1.6rem;
+    }
+}
 
-/*    .icon2 {*/
-/*        width: 350px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
+@media (max-width: 426px) {
+    .bootstrap__table {
+        height: 372px;
+    }
 
-/*    .icon3 {*/
-/*        width: 350px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
+    .bootstrap__tableTwoLeftInfo {
+        padding-left: 2.6rem;
+    }
 
-/*    .icon4 {*/
-/*        width: 350px;*/
-/*        margin-left: 3rem;*/
-/*    }*/
+    .icon3TableTwo {
+        width: 15.5rem;
+        padding-left: 1.1rem;
+        padding-right: 2rem;
+    }
 
-/*    .bootstrap__tableTitle {*/
-/*        margin-left: 34px;*/
-/*    }*/
+    .icon2TableTwo {
+        width: 15.9rem;
+        height: 49%;
+        /* padding-left: 1rem; */
+        object-fit: contain;
+        /* padding-right: 1rem; */
+        padding-top: 0rem;
+        padding-bottom: 6rem;
+        margin-left: -0.5rem;
+    }
 
-/*    .bootstrap__tableText {*/
-/*        margin-left: 34px;*/
-/*    }*/
+    .iconTableTwo {
+        position: absolute;
+        z-index: 7;
+        width: 17rem;
+        object-fit: contain;
+        /* padding-right: 2rem; */
+        padding-top: 1rem;
+    }
 
-/*    .bootstrap__tableTwoTitle {*/
-/*        margin-left: 34px;*/
-/*    }*/
+    .icon4 {
+        margin-top: 4rem;
+        margin-left: 1rem;
+        width: 14.6rem;
+    }
 
-/*    .bootstrap__marginTop {*/
-/*        margin-top: 100px;*/
-/*    }*/
+    .icon3 {
+        margin-top: 4rem;
+        margin-left: 1rem;
+        width: 14.6rem;
+    }
 
-/*    .why__me {*/
-/*        margin-bottom: -700px;*/
-/*    }*/
-/*    .icon2TableTwo {*/
-/*        height: 600px;*/
-/*    }*/
-/*    .iconTableTwo {*/
-/*        height: 41%;*/
-/*    }*/
-/*    .icon3TableTwo {*/
-/*        width: 90%;*/
-/*        margin-left: 2rem;*/
-/*    }*/
+    .icon {
+        padding-top: 0rem;
+        padding-left: 0.4rem;
+        opacity: 0.6;
+        width: 16.4rem;
+        height: 28rem;
+    }
 
-/*    .iconTableThree {*/
-/*        margin: 15px;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .icon3TableThree {*/
-/*        margin-top: 15rem;*/
-/*        margin-left: 1.5rem;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .icon4TableThree {*/
-/*        margin-top: 15rem;*/
-/*        margin-left: 1.5rem;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+    .icon2 {
+        position: absolute;
+        z-index: 7;
+        padding-top: 6rem;
+        width: 17rem;
+        height: 23rem;
+    }
 
+    .bootstrap__tableTitle {
+        font-size: 0.8rem !important;
+    }
+
+    .bootstrap__tableText {
+        font-size: 0.3rem !important;
+    }
+
+    .bootstrap__tableTwoTitle {
+        font-weight: bold;
+        font-size: 0.6rem !important;
+    }
+
+    h1.bootstrap__tableTitle.bootstrap__marginTop {
+        font-size: 1.5rem;
+    }
+
+    .bootstrap__tableRightInfo {
+        padding-left: 3rem;
+    }
+
+    .bootstrap__marginTop {
+        margin-top: 92px;
+    }
+
+    .bootstrap__tableTwoLeftInfoContent {
+        margin-top: 35px;
+    }
+
+    .bootstrap__tableTwo {
+        height: 302px;
+    }
+}
+
+@media (max-width: 376px) {
+    .bootstrap__tableTitle {
+        font-size: 0.6rem !important;
+        font-weight: bold;
+        margin-bottom: 0.6rem !important;
+    }
+
+    .bootstrap__tableTwoTitle {
+        font-weight: bold;
+        font-size: 0.5rem !important;
+    }
+
+    .bootstrap__tableText {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .bootstrap__table {
+        height: 321px;
+    }
+    .icon4, .icon3 {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        width: 11.6rem;
+    }
+
+    .icon2 {
+        position: absolute;
+        z-index: 7;
+        padding-top: 4rem;
+        width: 14rem;
+        height: 18.5rem;
+    }
+
+    .icon {
+        padding-top: 0rem;
+        padding-left: 0.4rem;
+        opacity: 0.6;
+        width: 13.4rem;
+        height: 21rem;
+    }
+
+    .bootstrap__tableRightInfo {
+        padding-left: 2rem;
+    }
+
+    .bootstrap__tableText {
+        margin-bottom: 20px !important;
+    }
+
+    .bootstrap__marginTop {
+        margin-top: 78px;
+    }
+
+    .bootstrap__tableTwoTitle {
+        font-weight: bold;
+        font-size: 0.4rem !important;
+    }
+
+    .icon3TableTwo {
+        width: 11.5rem;
+        padding-left: 1.1rem;
+    }
+
+    .icon2TableTwo {
+        width: 11.9rem;
+        height: 17.2rem;
+        margin-left: -0.5rem;
+    }
+    .iconTableTwo {
+        position: absolute;
+        z-index: 7;
+        width: 11.5rem;
+        object-fit: contain;
+        /* padding-right: 2rem; */
+        padding-top: 1rem;
+        height: 10rem;
+    }
+}

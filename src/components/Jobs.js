@@ -65,7 +65,7 @@ const Jobs = ({id}) => {
                     <div className="bootstrap__tableLineTwo"></div>
                     <div className="bootstrap__tableLineTwo"></div>
                     <div className="bootstrap__tableTwoLeftInfo">
-                        <h1 className="bootstrap__tableTitle" style={{marginTop: "180px", marginBottom: "23px"}}>
+                        <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
                             Project name
                         </h1>
                         <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>
@@ -98,46 +98,46 @@ const Jobs = ({id}) => {
             </div>
 
 
-            <div className="bootstrap__table">
-                <div className="bootstrap__tableLeft">
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <img src={tableThree1} className="iconTableThree"/>
-                    <img src={tableTree2} className="icon2TableThree"/>
-                    {/*<img src={tableThree3} className="icon3TableThree"/>*/}
-                    <img src={tableThree4} className="icon4TableThree"/>
-                </div>
-                <div className="bootstrap__tableRight">
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableLineThree"></div>
-                    <div className="bootstrap__tableRightInfo">
-                        <h1 className="bootstrap__tableTitle" style={{marginTop: "180px", marginBottom: "23px"}}>
-                            Project name
-                        </h1>
-                        <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>
-                            No matter what type of your work you do, NMS customized
-                            software development will fulfill your needs. No matter
-                            what type of your work you do, NMS customized software
-                            development will fulfill your needstjxfyk uirtftyityerytyt.
-                            software development will fulfill your needs. No matter
-                            what type of your work you do, NMS customized software
-                            development will fulfill your needstjxfyk uirtftyityerytyt.
-                        </p>
-                        <h1 className="bootstrap__tableTwoTitle">
-                            Dev, Design, UX
-                            Java, UI
-                        </h1>
-                    </div>
-                </div>
-            </div>
+            {/*<div className="bootstrap__table">*/}
+            {/*    <div className="bootstrap__tableLeft">*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <img src={tableThree1} className="iconTableThree"/>*/}
+            {/*        <img src={tableTree2} className="icon2TableThree"/>*/}
+            {/*        /!*<img src={tableThree3} className="icon3TableThree"/>*!/*/}
+            {/*        <img src={tableThree4} className="icon4TableThree"/>*/}
+            {/*    </div>*/}
+            {/*    <div className="bootstrap__tableRight">*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableLineThree"></div>*/}
+            {/*        <div className="bootstrap__tableRightInfo">*/}
+            {/*            <h1 className="bootstrap__tableTitle" style={{marginTop: "180px", marginBottom: "23px"}}>*/}
+            {/*                Project name*/}
+            {/*            </h1>*/}
+            {/*            <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>*/}
+            {/*                No matter what type of your work you do, NMS customized*/}
+            {/*                software development will fulfill your needs. No matter*/}
+            {/*                what type of your work you do, NMS customized software*/}
+            {/*                development will fulfill your needstjxfyk uirtftyityerytyt.*/}
+            {/*                software development will fulfill your needs. No matter*/}
+            {/*                what type of your work you do, NMS customized software*/}
+            {/*                development will fulfill your needstjxfyk uirtftyityerytyt.*/}
+            {/*            </p>*/}
+            {/*            <h1 className="bootstrap__tableTwoTitle">*/}
+            {/*                Dev, Design, UX*/}
+            {/*                Java, UI*/}
+            {/*            </h1>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
         </>
     )
