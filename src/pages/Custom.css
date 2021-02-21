@@ -112,3 +112,146 @@
     padding: 0.5rem;
     color:#ffffff;
 }
+
+
+@media (max-width: 1025px) {
+    .custom {
+        width: 100%;
+        display: flex;
+        height: 79vh;
+        padding-top: 5rem;
+        margin-bottom: 21rem;
+    }
+}
+
+@media(max-width: 769px) {
+    li {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .custom {
+        margin-bottom: 27rem!important;
+    }
+    .custom__rightSubtitle {
+        padding-bottom: 4px;
+    }
+
+    .btnCustom {
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+    .btnCustom, .btnCustom-twoSloy {
+        width: 9.5rem;
+        height: 1.8rem;
+    }
+    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
+        width: 6.5rem;
+        height: 1.8rem;
+    }
+    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
+        width: 9.5rem;
+        height: 1.8rem;
+    }
+    .btnCustom-fourSloyTitle {
+        font-size: 0.8rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 7.5rem;
+    }
+    .custom__leftTitle {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .customTitle {
+        font-size: 0.8rem;
+    }
+    li {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+    .custom__rightSubtitle {
+        padding-bottom: 0px;
+    }
+    .btnCustom, .btnCustom-twoSloy {
+        width: 7.5rem;
+        height: 1.5rem;
+    }
+    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
+        width: 5rem;
+        height: 1.5rem;
+    }
+    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
+        width: 7.5rem;
+        height: 1.5rem;
+    }
+    .btnCustom-fourSloyTitle {
+        font-size: 0.6rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 6.5rem;
+    }
+    .btnCustom {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .custom__leftTitle {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 376px) {
+    .custom__leftTitle {
+        font-size: 1.4rem;
+    }
+
+    .btnCustom, .btnCustom-twoSloy {
+        width: 5.5rem;
+        height: 1rem;
+    }
+    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
+        width: 3.5rem;
+        height: 1rem;
+    }
+    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
+        width: 5.5rem;
+        height: 1rem;
+    }
+    .btnCustom-fourSloyTitle {
+        font-size: 0.4rem;
+        padding-top: 0.3rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 4.5rem;
+    }
+    .btnCustom {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .custom {
+        height: 36vh;
+    }
+}
+
+@media (max-width: 321px) {
+    .custom {
+        height: 51vh;
+    }
+}

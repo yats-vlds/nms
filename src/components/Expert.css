@@ -511,6 +511,60 @@
     .expertOneRow {
         margin-bottom: -3rem;
     }
+
+    .kon {
+        animation: kon425 6s infinite!important;
+    }
+
+    .kind {
+        animation: kind425 6s infinite!important;
+    }
+    @-webkit-keyframes kind425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kind425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+    @-webkit-keyframes kon425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kon425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
 }
 
 @media(max-width: 376px) {

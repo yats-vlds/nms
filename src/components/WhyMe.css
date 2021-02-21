@@ -188,9 +188,6 @@
     .why__me, .why__meSloy{
         height: 200px;
     }
-    .why__meImageBack {
-        height: 248px;
-    }
     .whyme__title {
         font-size: 0.45rem;
         margin-bottom: 0.15rem;
@@ -205,6 +202,10 @@
         height: 181px;
     }
     .why__meImageBack {
-        height: 211px;
+        height: 247px;
+    }
+    .why__meContentRight {
+        padding: 0.9rem;
+        padding-left: 1.6rem;
     }
 }

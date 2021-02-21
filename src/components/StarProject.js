@@ -22,7 +22,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                             Design <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
                     </div>
                                 <div className="col-6 star__projectRowContentRight">
-                                    <CircleIcons />
+                                    {/*<CircleIcons />*/}
                                     <div className="btnStar">
                                         <div className="btnStar-twoSloy">
                                             <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>
