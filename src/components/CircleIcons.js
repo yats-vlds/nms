@@ -1,5 +1,4 @@
 import React from "react"
-import "./CircleIcons.css"
 import circleIcons1 from "../assets/vectorImg/vectorSmart1.svg"
 import circleIcons2 from "../assets/vectorImg/vectorSmart2.svg"
 import circleIcons3 from "../assets/vectorImg/vectorSmart3.svg"
@@ -11,6 +10,7 @@ import circleIcons8 from "../assets/vectorImg/vectorSmart8.svg"
 import circleIcons9 from "../assets/vectorImg/vectorSmart9.svg"
 import circleIcons10 from "../assets/vectorImg/vectorSmart10.svg"
 
+import "./CircleIcons.css"
 const CircleIcons = () => {
     return (
         <div className="circle-icons">
