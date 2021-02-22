@@ -20,6 +20,7 @@
     z-index: 2;
     width: 100%;
     height: 1000px;
+    margin-top: -75px;
 }
 
 .why_meContent {
@@ -127,6 +128,7 @@
     }
     .why__meImageBack {
         height: 678px;
+        margin-top: -33px;
     }
     .why__meContentRight {
         padding: 1rem;
@@ -149,6 +151,9 @@
     }
     .why__meImageBack {
         height: 510px;
+    }
+    img.star__imageBack {
+        margin-top: -33px;
     }
     .whyme__title {
         font-size: 1.3rem;
@@ -203,9 +208,17 @@
     }
     .why__meImageBack {
         height: 247px;
+        margin-top: -14px;
     }
     .why__meContentRight {
         padding: 0.9rem;
         padding-left: 1.6rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .why__meImageBack {
+        height: 211px;
+        margin-top: -14px;
     }
 }
