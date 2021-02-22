@@ -25,7 +25,7 @@ const Home = ({state, dispatch}) => {
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert />
             <Why id="why"/>
-            {/*<Jobs id="works"/>*/}
+            <Jobs id="works"/>
             <FormRequest/>
             <Ten/>
         </>
