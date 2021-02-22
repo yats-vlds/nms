@@ -344,9 +344,42 @@ h1.star__projectLeftTitle {
     img.star__imageBack {
         margin-top: -20px;
     }
+    .star__projectRowContentRight {
+        padding-top: 4.3rem;
+        margin-left: 0rem;
+    }
+    .btnStar {
+        margin-top: -3.5rem;
+        margin-left: 1rem;
+    }
+    .btnStar, .btnStar-twoSloy {
+        width: 3.6rem;
+        height: 0.7rem;
+    }
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 2.2rem;
+        height: 0.7rem;
+    }
+    .btnStar-fourSloyTitle {
+        font-size: 3.7px;
+        padding-top: 0.25rem;
+        padding-left: 0.2rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.4rem!important;
+        height: 0.4rem!important;
+        margin-right: 0.4rem;
+    }
 }
 
 @media (max-width: 326px) {
+    .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
+        min-height: 262px;
+    }
+    .btnStar {
+        margin-top: -3.5rem;
+        margin-left: 1.2rem;
+    }
     h1.star__projectLeftTitle {
         padding-bottom: 0.2rem;
         font-size: 0.45rem;
@@ -354,5 +387,27 @@ h1.star__projectLeftTitle {
 
     .star__imageBack {
         min-height: 256px;
+    }
+    .btnStar, .btnStar-twoSloy {
+        width: 3.2rem;
+        height: 0.6rem;
+    }
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 2rem;
+        height: 0.6rem;
+    }
+    .ellipse-btnStarBefore {
+        width: 0.3rem!important;
+        height: 0.3rem!important;
+        margin-right: 0.3rem;
+    }
+    .btnStar-fourSloyTitle {
+        font-size: 3px;
+        padding-top: 0.25rem;
+        padding-left: 0.2rem;
+    }
+    .star__projectRowContentRight {
+        padding-top: 3.3rem;
+        margin-left: 0rem;
     }
 }
