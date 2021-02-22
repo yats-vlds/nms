@@ -27,6 +27,9 @@
     .cap__leftTitle {
         font-size: 5rem;
     }
+    .col-7 {
+        margin-bottom: -3.5rem;
+    }
 }
 
 @media(max-width: 769px) {
@@ -41,6 +44,9 @@
     .cap__row {
         margin-top: 2rem;
     }
+    .col-7 {
+        margin-bottom: -2.8rem;
+    }
 }
 
 @media(max-width: 426px) {
@@ -52,6 +58,9 @@
     }
     .cap__row {
         margin-top: 1.5rem;
+    }
+    .col-7 {
+        margin-bottom: -1.5rem;
     }
 }
 
@@ -66,5 +75,8 @@
 
     .cap__image {
         margin-top: 0.3rem;
+    }
+    .col-7 {
+        margin-bottom: -1.1rem;
     }
 }

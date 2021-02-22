@@ -16,7 +16,7 @@ import tableThree4 from "../assets/tableThree4.svg"
 const Jobs = ({id}) => {
     return (
         <>
-            <div className="bootstrap__table" id={id}>
+            <div className="bootstrap__table bootstrap__tableOne" id={id}>
                 <div className="bootstrap__tableLeft">
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableLineOne"></div>
@@ -122,7 +122,7 @@ const Jobs = ({id}) => {
                         <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
                             Project name
                         </h1>
-                        <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>
+                        <p className="bootstrap__tableText marginBottom">
                             No matter what type of your work you do, NMS customized
                             software development will fulfill your needs. No matter
                             what type of your work you do, NMS customized software

@@ -293,6 +293,10 @@
 }
 
 @media(max-width: 376px) {
+    .formRequest {
+        width: 100%;
+        margin-top: 1rem;
+    }
     .ten__yog {
         position: absolute;
         height: 152px;
@@ -300,11 +304,11 @@
         width: 222px;
         margin-left: 11rem;
         margin-top: 2.5rem;
-        animation: tenyog425 1s infinite!important;
+        animation: tenyog375 1s infinite!important;
     }
 
     .ellipse {
-        margin-left: 15.5rem!important;
+        margin-left: 15.75rem!important;
         margin-top: -5rem;
         animation: tenellipse375 1s infinite!important;
     }
@@ -338,6 +342,29 @@
         font-weight: bold;
         font-size: 14px;
     }
+    @-webkit-keyframes tenyog375{
+        0% {
+            margin-top: 2.5rem;
+        }
+        50% {
+            margin-top: 2.8rem;
+        }
+        100% {
+            margin-top: 2.5rem;
+        }
+    }
+
+    @keyframes tenyog375{
+        0% {
+            margin-top: 2.5rem;
+        }
+        50% {
+            margin-top: 2.8rem;
+        }
+        100% {
+            margin-top: 2.5rem;
+        }
+    }
 }
 
 @media(max-width: 321px) {
@@ -346,15 +373,17 @@
     }
     .ten__yog {
         position: absolute;
-        height: 141px;
+        height: 125px;
         object-fit: contain;
         width: 123px!important;
         margin-left: 11rem;
         margin-top: 2.5rem;
-        animation: tenyog425 1s infinite!important;
+        animation: tenyog425 2s infinite!important;
     }
     .ellipse{
         margin-left: 13.5rem!important;
+        margin-top: -4.2rem;
+        animation: tenellipse320 2s infinite!important;
     }
     .ten__contentLeftTitle {
         padding-top: 5rem;
@@ -364,4 +393,28 @@
         font-size: 11px;
         line-height: 16px;
     }
+    @-webkit-keyframes tenellipse320 {
+        0% {
+            margin-top: -4.2rem;
+        }
+        50% {
+            margin-top: -4.5rem;
+        }
+        100% {
+            margin-top: -4.2rem;
+        }
+    }
+
+    @keyframes tenellipse320 {
+        0% {
+            margin-top: -4.2rem;
+        }
+        50% {
+            margin-top: -4.5rem;
+        }
+        100% {
+            margin-top: -4.2rem;
+        }
+    }
+
 }

@@ -21,12 +21,12 @@ const Why = ({id}) => {
                             {/*<img src={ukrtelecom} className="why__meImg ukrtelecom"/>*/}
                         </div>
                         <div className="col-6 why__meContentRight">
-                            <h1 className="whyme__title">Because they trust</h1>
-                            <h1 className="whyme__title">Cost efficient</h1>
+                            <h1 className="whyme__titleFirst">Because they trust</h1>
+                            <h2 className="whyme__title">Cost efficient</h2>
                             <p className="whyme__text">Talented Team based in Eastern Europe</p>
-                            <h1 className="whyme__title">Solution orriented</h1>
+                            <h2 className="whyme__title">Solution orriented</h2>
                             <p className="whyme__text">Optimal smart to the business needs</p>
-                            <h1 className="whyme__title">Professional</h1>
+                            <h2 className="whyme__title">Professional</h2>
                             <p className="whyme__text"> Height quality developers working with
                                 a wide range of technologies</p>
                         </div>

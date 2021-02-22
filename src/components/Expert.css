@@ -360,6 +360,9 @@
     .expertTwoRow {
         height: 12rem;
     }
+    .expertLastRow {
+        padding-bottom: 7rem;
+    }
 
 }
 
@@ -413,7 +416,7 @@
         width: 17rem !important;
         height: 37rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket426 7s infinite;
+        animation: rocket426 7s infinite!important;
     }
     @-webkit-keyframes scalesRocket426 {
         0% {
@@ -463,29 +466,6 @@
         }
     }
 
-    @-webkit-keyframes rocket426 {
-        0% {
-            margin-top: -4.7rem;
-        }
-        50% {
-            margin-top: -2.6rem;
-        }
-        100% {
-            margin-top: -4.7rem;
-        }
-    }
-
-    @keyframes rocket426 {
-        0% {
-            margin-top: -4.7rem;
-        }
-        50% {
-            margin-top: -2.6rem;
-        }
-        100% {
-            margin-top: -4.7rem;
-        }
-    }
     .expertTwoRow {
         height: 20rem;
         margin-bottom: -13rem;
@@ -509,7 +489,7 @@
         padding-bottom: 5rem;
     }
     .expertOneRow {
-        margin-bottom: -3rem;
+        margin-bottom: -6rem;
     }
 
     .kon {
@@ -518,6 +498,35 @@
 
     .kind {
         animation: kind425 6s infinite!important;
+    }
+    @-webkit-keyframes rocket426 {
+        0% {
+            margin-top: -24.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -24.5rem;
+        }
+        100% {
+            margin-top: -25rem;
+        }
+    }
+
+    @keyframes rocket426 {
+        0% {
+            margin-top: -24.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -24.5rem;
+        }
+        100% {
+            margin-top: -24.5rem;
+        }
     }
     @-webkit-keyframes kind425 {
         0% {
@@ -565,49 +574,170 @@
             margin-left: 0rem;
         }
     }
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -16rem;
+    }
+
+    .img-yog {
+        width: 10rem;
+        height: 7.7rem;
+    }
+    .expertLastRow {
+        padding-bottom: 3rem;
+    }
+    .bootstrap__tableTwo {
+        height: 302px;
+        margin-bottom: -7rem;
+    }
 }
 
 @media(max-width: 376px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.6rem;
     }
+
     p {
         font-size: 5px !important;
     }
+
     .stone {
         width: 1.3rem !important;
         height: 1.3rem !important;
     }
+
     .line {
         width: 7rem !important;
         height: 7rem !important;
         margin-top: -3.1rem !important;
         margin-left: -4.3rem !important;
     }
+
     .scalesRocket {
         height: 35.6rem !important;
         width: 11rem !important;
         margin-top: -17.7rem;
-        margin-left: -9.5rem!important;
-        animation: scalesRocket426 7s infinite!important;
+        margin-left: -9.5rem !important;
+        animation: scalesRocket426 7s infinite !important;
     }
+
     .scalesRocketRight {
         height: 6.6rem !important;
         width: 2.5rem !important;
-        margin-left: -0.5rem!important;
+        margin-left: -0.5rem !important;
         margin-top: -5.5rem;
+        animation: scalesRocketRight376 7s infinite!important;
     }
+
     .rocket {
         width: 15rem !important;
         height: 39rem !important;
         margin-left: -9.5rem !important;
+        animation: rocket376 7s infinite!important;
     }
+
     .animateRocket {
-        padding-left: 18.5rem!important;
+        padding-left: 18.5rem !important;
     }
+
     .kon, .kind, .table {
         width: 129px !important;
         height: 120px !important;
+    }
+
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -20rem;
+    }
+    .expertRocket {
+        margin-bottom: -14rem;
+    }
+    @-webkit-keyframes rocket376 {
+        0% {
+            margin-top: -23.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -23.5rem;
+        }
+        100% {
+            margin-top: -23.5rem;
+        }
+    }
+
+    @keyframes rocket376 {
+        0% {
+            margin-top: -23.5rem;
+        }
+        50% {
+            margin-top: -20.4rem;
+        }
+        65% {
+            margin-top: -23.5rem;
+        }
+        100% {
+            margin-top: -23.5rem;
+        }
+    }
+    @-webkit-keyframes scalesRocketRight376 {
+        0% {
+            margin-top: -4.6rem;
+        }
+        50% {
+            margin-top: -2.9rem;
+        }
+        100% {
+            margin-top: -4.6rem;
+        }
+    }
+
+    @keyframes scalesRocketRight376 {
+        0% {
+            margin-top: -4.6rem;
+        }
+        50% {
+            margin-top: -2.9rem;
+        }
+        100% {
+            margin-top: -4.6rem;
+        }
+    }
+    .img-yog {
+        width: 8rem;
+        height: 8rem;
+        animation: aligning375 3s infinite;
+
+    }
+    @-webkit-keyframes aligning375 {
+        0% {
+            padding-right: 0px;
+        }
+        50% {
+            padding-right: 5px;
+        }
+        100% {
+            padding-right: 0px;
+        }
+    }
+
+    @keyframes aligning375 {
+        0% {
+            padding-right: 0px;
+        }
+        50% {
+            padding-right: 5px;
+        }
+        100% {
+            padding-right: 0px;
+        }
+    }
+    h1.bootstrap__tableTitle.bootstrap__marginTop {
+        font-size: 1.2rem;
+    }
+    .bootstrap__tableText {
+        margin-bottom: 10px !important;
     }
 }
 
@@ -623,5 +753,42 @@
         padding-left: 18.5rem!important;
         padding-top: 17rem!important;
         margin-bottom: 2rem;
+    }
+    .expertOneRow {
+        margin-bottom: -6rem;
+    }
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -16.5rem;
+    }
+    .expertRocket {
+        margin-bottom: -13rem;
+    }
+    .expertLastRow {
+        padding-bottom: 3rem;
+    }
+    h1.bootstrap__tableTitle.bootstrap__marginTop {
+        font-size: 1rem;
+    }
+    .bootstrap__tableText {
+        margin-bottom: 6px !important;
+    }
+    .bootstrap__tableText {
+        margin-bottom: 10px !important;
+    }
+    .bootstrap__table {
+        height: 285px;
+        margin-bottom: 0rem;
+    }
+    .bootstrap__tableTwo {
+        height: 302px;
+        margin-bottom: -8rem;
+    }
+    .form-header-title {
+        width: 200px;
+        margin-bottom: 1rem;
+    }
+    .from-pryam4 {
+        margin-top: 1rem!important;
     }
 }
