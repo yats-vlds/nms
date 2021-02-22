@@ -278,12 +278,13 @@
 
     .icon2TableTwo {
         width: 37rem;
-        height: 100%;
+        height: 101%;
         padding-left: 0rem;
         object-fit: contain;
         padding-right: 1rem;
-        padding-top: 0rem;
-        padding-bottom: 6rem;
+        padding-top: -1rem;
+        padding-bottom: 4rem;
+        margin-top: 7rem;
     }
 
     .bootstrap__tableTwoLeftInfo {
@@ -437,6 +438,9 @@
         position: absolute;
         padding-left: 3rem;
     }
+    .iconTableThree {
+        padding-top: 7rem!important;
+    }
 }
 
 @media (max-width: 426px) {
@@ -554,7 +558,6 @@
     .iconTableThree {
         position: absolute;
         z-index: 7;
-        padding-top: 4rem;
         width: 100%;
     }
     .bootstrap__tableRightInfo {
@@ -572,6 +575,10 @@
         margin-left: 12rem;
         margin-top: 14.5rem;
         animation: tenyog425 1s infinite!important;
+    }
+
+    .iconTableThree {
+        padding-top: 4rem!important;
     }
 }
 
@@ -620,7 +627,7 @@
     .iconTableThree {
         position: absolute;
         z-index: 7;
-        padding-top: 5rem;
+        padding-top: 5.5rem!important;
         width: 100%;
     }
     .bootstrap__tableOne {
@@ -700,5 +707,8 @@
     }
     .bootstrap__tableOne {
         margin-bottom: 0rem;
+    }
+    .iconTableThree {
+        padding-top: 5rem!important;
     }
 }

@@ -195,6 +195,15 @@ textarea {
 }
 
 @media(max-width: 769px) {
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        height: 1.8rem;
+    }
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 10rem;
+    }
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 7rem;
+    }
     .form-request, .card, .form {
         width: 26rem;
         height: 23rem;
@@ -216,6 +225,11 @@ textarea {
     }
     .form__skrepka {
         margin-left: 3rem;
+    }
+
+    .ellipse-btnFormBefore {
+        width: 0.7rem;
+        height: 0.7rem;
     }
 }
 
@@ -346,6 +360,10 @@ textarea {
     }
     .form-header-title {
         margin-bottom: 1rem;
+    }
+    textarea {
+        border-radius: 19px!important;
+        padding: 0.77rem!important;
     }
 }
 
