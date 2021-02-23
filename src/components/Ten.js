@@ -2,6 +2,7 @@ import React from 'react'
 import background from "../assets/back.svg"
 import "./Ten.css"
 import tenYog from "../assets/tenYog.png"
+import LazyLoad from "react-lazy-load"
 
 
 const Ten = () => {
@@ -20,7 +21,7 @@ const Ten = () => {
 
                         </div>
                     </div>
-                    <img src={background} className="ten__img"/>
+                        <img loading="lazy" src={background} className="ten__img"/>
                 </div>
                 <div className="ellipse">
                 </div>

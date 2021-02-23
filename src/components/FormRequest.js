@@ -13,9 +13,9 @@ const FormRequest = () => {
             <div className="row">
                 <div className="col">
                     <div className="form-header-title">
-                        <img src={fromPryam1} className="from-pryam1"/>
-                        <img src={fromPryam2} className="from-pryam2"/>
-                        <img src={fromPryam3} className="from-pryam3"/>
+                        <img src={fromPryam1} className="from-pryam1" loading="lazy"/>
+                        <img src={fromPryam2} className="from-pryam2" loading="lazy"/>
+                        <img src={fromPryam3} className="from-pryam3" loading="lazy"/>
                         <h2 className="from-pryam4 text-center">Start your product development
                             <br/>
                             right now.</h2>
@@ -27,7 +27,7 @@ const FormRequest = () => {
                                     <input type="text" className="input" placeholder="Name"/>
                                     <input type="email" className="input" placeholder="Email"/>
                                     <textarea rows="10" cols="45" name="text" placeholder="Message"/>
-                                    <img src={skrepka} alt="" className="form__skrepka"/>
+                                    <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
                                 </form>
                             </div>
                         </div>

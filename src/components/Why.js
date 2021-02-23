@@ -31,7 +31,7 @@ const Why = ({id}) => {
                                 a wide range of technologies</p>
                         </div>
                     </div>
-                    <img src={background} alt="" className="why__meImageBack"/>
+                    <img src={background} alt="" className="why__meImageBack" loading="lazy" />
             </div>
         </div>
     )

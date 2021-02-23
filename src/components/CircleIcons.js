@@ -14,16 +14,16 @@ import circleIcons10 from "../assets/vectorImg/vectorSmart10.svg"
 const CircleIcons = () => {
     return (
         <div className="circle-icons">
-            <img src={circleIcons1} className="iconVectors message" />
-            <img src={circleIcons2} className="iconVectors back" />
-            <img src={circleIcons3} className="iconVectors wifi" />
-            <img src={circleIcons4} className="iconVectors contact" />
-            <img src={circleIcons5} className="iconVectors camera" />
-            <img src={circleIcons6} className="iconVectors home" />
-            <img src={circleIcons7} className="iconVectors call" />
-            <img src={circleIcons8} className="iconVectors settings" />
-            <img src={circleIcons9} className="iconVectors message2" />
-            <img src={circleIcons10} className="iconVectors browser" />
+            <img src={circleIcons1} className="iconVectors message" loading="lazy" />
+            <img src={circleIcons2} className="iconVectors back" loading="lazy" />
+            <img src={circleIcons3} className="iconVectors wifi" loading="lazy" />
+            <img src={circleIcons4} className="iconVectors contact" loading="lazy" />
+            <img src={circleIcons5} className="iconVectors camera" loading="lazy" />
+            <img src={circleIcons6} className="iconVectors home" loading="lazy" />
+            <img src={circleIcons7} className="iconVectors call" loading="lazy" />
+            <img src={circleIcons8} className="iconVectors settings" loading="lazy" />
+            <img src={circleIcons9} className="iconVectors message2" loading="lazy" />
+            <img src={circleIcons10} className="iconVectors browser" loading="lazy" />
         </div>
     )
 }

@@ -81,7 +81,7 @@ const Custom = ({type, dispatch}) => {
                             data entry.
                         </p>
                         <h2 className="customTitle">
-                            See cases <img src={iconDown} className="iconDown"/>
+                            See cases <img src={iconDown} className="iconDown" loading="lazy"/>
                         </h2>
                     </div>
                 </div>

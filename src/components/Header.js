@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg'
 import {Link, animateScroll as scroll} from "react-scroll";
 import {NavLink} from "react-router-dom";
 import "./Header.css"
+import LazyLoad from "react-lazy-load"
 
 const Header = () => {
     return (
@@ -11,7 +12,9 @@ const Header = () => {
                 <div className="row header__row">
                     <div className="col-6">
                         <NavLink to="/">
-                            <img src={logo} className="header__logo img-fluid"/>
+                            <LazyLoad offsetVertical={300}>
+                                <img src={logo} className="header__logo img-fluid" loading="lazy"/>
+                            </LazyLoad>
                         </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">

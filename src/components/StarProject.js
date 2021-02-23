@@ -16,7 +16,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                         <h1 className="star__projectLeftTitle"><Link to='/custom' className="link__starPorject">
                             Custom SaaS <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
                         <h1 className="star__projectLeftTitle"><Link to='/mobile-and-web' className="link__starPorject">
-                            Mobile and Web Development <img className="iconDown img-fluid"
+                            Web Development <img className="iconDown img-fluid"
                                                      src={iconDown}/> </Link></h1>
                         <h1 className="star__projectLeftTitle"><Link to='/ui-ux' className="link__starPorject">UI/UX
                             Design <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
@@ -38,7 +38,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                                     </div>
                                 </div>
                 </div>
-                    <img src={background} alt="" className="star__imageBack"/>
+                    <img src={background} alt="" className="star__imageBack" loading="lazy"/>
             </div>
         </div>
     )

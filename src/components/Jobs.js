@@ -25,10 +25,10 @@ const Jobs = ({id}) => {
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableLineOne"></div>
-                    <img src={shadow} className="icon2"/>
-                    <img src={table1pryamogolnik} className="icon"/>
-                    <img src={sloygoPrint} className="icon3"/>
-                    <img src={goPrintOriginal} className="icon4"/>
+                    <img src={shadow} className="icon2" loading="lazy"/>
+                    <img src={table1pryamogolnik} className="icon" loading="lazy"/>
+                    <img src={sloygoPrint} className="icon3" loading="lazy"/>
+                    <img src={goPrintOriginal} className="icon4" loading="lazy"/>
                 </div>
                 <div className="bootstrap__tableRight">
                     <div className="bootstrap__tableLineOne"></div>
@@ -91,9 +91,9 @@ const Jobs = ({id}) => {
                     <div className="bootstrap__tableLineTwo"></div>
                     <div className="bootstrap__tableLineTwo"></div>
                     <div className="bootstrap__tableLineTwo"></div>
-                    <img src={shadow2} className="iconTableTwo"/>
-                    <img src={tableTwoTwo} className="icon2TableTwo"/>
-                    <img src={inmore} className="icon3TableTwo"/>
+                    <img src={shadow2} loading="lazy" className="iconTableTwo"/>
+                    <img src={tableTwoTwo} loading="lazy" className="icon2TableTwo"/>
+                    <img src={inmore} loading="lazy" className="icon3TableTwo"/>
                 </div>
             </div>
 
@@ -107,10 +107,10 @@ const Jobs = ({id}) => {
                     <div className="bootstrap__tableLineThree"></div>
                     <div className="bootstrap__tableLineThree"></div>
                     <div className="bootstrap__tableLineThree"></div>
-                    <img src={tableThree1} className="iconTableThree"/>
-                    <img src={tableTree2} className="icon2TableThree"/>
+                    <img src={tableThree1} loading="lazy" className="iconTableThree"/>
+                    <img src={tableTree2} loading="lazy" className="icon2TableThree"/>
                     {/*<img src={tableThree3} className="icon3TableThree"/>*/}
-                    <img src={tableThree4} className="icon4TableThree"/>
+                    <img src={tableThree4} loading="lazy" className="icon4TableThree"/>
                 </div>
                 <div className="bootstrap__tableRight">
                     <div className="bootstrap__tableLineThree"></div>

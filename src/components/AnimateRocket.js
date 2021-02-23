@@ -12,12 +12,12 @@ import scalesRocketRight from "../assets/scalesRocketRight.svg"
 const AnimateRocket = (props) => {
     return <div className="animateRocket justify-content-center">
         <div className="scales">
-            <object type="image/svg+xml" data={scalesRocket} className="scalesRocket" />
-            <object type="image/svg+xml" data={scalesRocketRight} className="scalesRocketRight" />
-            <object type="image/svg+xml" data={rocket} className="rocket" />
+            <object type="image/svg+xml" data={scalesRocket} className="scalesRocket" loading="lazy" />
+            <object type="image/svg+xml" data={scalesRocketRight} className="scalesRocketRight" loading="lazy" />
+            <object type="image/svg+xml" data={rocket} className="rocket" loading="lazy" />
         </div>
-        <object type="image/svg+xml" data={stoneRocket} className="stone" />
-        <object type="image/svg+xml" data={lineRocket} className="line" />
+        <object type="image/svg+xml" data={stoneRocket} className="stone" loading="lazy" />
+        <object type="image/svg+xml" data={lineRocket} className="line" loading="lazy" />
     </div>
 }
 

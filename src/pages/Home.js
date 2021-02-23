@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useReducer} from "react"
+import React, {useState, useEffect} from "react"
 import Cap from "../components/Cap"
 import StarProject from "../components/StarProject"
 import Expert from "../components/Expert"

@@ -37,7 +37,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="col-6 expertRight">
-                            <img src={yog} alt="yog" className="img-fluid img-yog" />
+                        <img src={yog} alt="yog" className="img-fluid img-yog" loading="lazy"/>
                     </div>
                 </div>
 

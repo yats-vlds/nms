@@ -7,9 +7,9 @@ import kind from "../assets/chessKind.svg"
 
 const AnimateHorse = () => {
     return <div className="animateHorse">
-        <object type="image/svg+xml" data={shakhamatyTable} className="table"/>
-        <object type="image/svg+xml" data={kon} className="kon"/>
-        <object type="image/svg+xml" data={kind} className="kind" />
+        <object type="image/svg+xml" data={shakhamatyTable} className="table" loading="lazy"/>
+        <object type="image/svg+xml" data={kon} className="kon" loading="lazy"/>
+        <object type="image/svg+xml" data={kind} className="kind" loading="lazy" />
     </div>
 }
 
