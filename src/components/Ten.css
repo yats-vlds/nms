@@ -127,13 +127,13 @@
         object-fit: contain;
         width: 540px;
         margin-left: 30rem;
-        animation: tenyog 1s infinite;
+        animation: tenyog1024 2s infinite!important;
     }
     .ellipse {
         margin-top: -10rem;
         margin-left: 42.5rem;
-        -webkit-animation: tenellipse1024 1s infinite!important;
-        animation: tenellipse1024 1s infinite!important;
+        -webkit-animation: tenellipse1024 2s infinite!important;
+        animation: tenellipse1024 2s infinite!important;
     }
     @-webkit-keyframes tenellipse1024{
         0% {
@@ -158,6 +158,29 @@
             margin-top: -10.5rem;
         }
     }
+    @-webkit-keyframes tenyog1024{
+        0% {
+            margin-top: 5rem;
+        }
+        50% {
+            margin-top: 5.5rem;
+        }
+        100% {
+            margin-top: 5rem;
+        }
+    }
+
+    @keyframes tenyog1024{
+        0% {
+            margin-top: 5rem;
+        }
+        50% {
+            margin-top: 5.5rem;
+        }
+        100% {
+            margin-top: 5rem;
+        }
+    }
 }
 
 @media (max-width: 769px) {
@@ -173,14 +196,14 @@
         object-fit: contain;
         width: 449px;
         margin-left: 19rem;
-        animation: tenyog 1s infinite;
+        animation: tenyog768 2s infinite!important;
     }
     .ellipse {
         margin-left: 31rem;
         margin-top: -9rem;
         width: 80px;
         height: 16px;
-        animation: tenellipse768 1s infinite!important;
+        animation: tenellipse768 2s infinite!important;
     }
     .ten__contentLeftTitle {
         padding-top: 10rem;
@@ -212,6 +235,29 @@
             margin-top: -8.5rem;
         }
     }
+    @-webkit-keyframes tenyog768{
+        0% {
+            margin-top: 5rem;
+        }
+        50% {
+            margin-top: 5.7rem;
+        }
+        100% {
+            margin-top: 5rem;
+        }
+    }
+
+    @keyframes tenyog768{
+        0% {
+            margin-top: 5rem;
+        }
+        50% {
+            margin-top: 5.7rem;
+        }
+        100% {
+            margin-top: 5rem;
+        }
+    }
 }
 
 @media (max-width: 426px) {
@@ -228,14 +274,14 @@
         width: 190px!important;
         margin-left: 12rem;
         margin-top: 2.5rem;
-        animation: tenyog425 1s infinite!important;
+        animation: tenyog425 2s infinite!important;
     }
     .ellipse {
         margin-left: 16.8rem!important;
         margin-top: -5rem;
         width: 39px;
         height: 11px;
-        animation: tenellipse425 1s infinite!important;
+        animation: tenellipse425 2s infinite!important;
     }
     .ten__contentLeftTitle {
         padding-top: 6rem;
@@ -271,7 +317,7 @@
             margin-top: 1.5rem;
         }
         50% {
-            margin-top: 2.4rem;
+            margin-top: 2.1rem;
         }
         100% {
             margin-top: 1.5rem;
@@ -283,7 +329,7 @@
             margin-top: 1.5rem;
         }
         50% {
-            margin-top: 2.4rem;
+            margin-top: 2.1rem;
         }
         100% {
             margin-top: 1.5rem;
@@ -378,12 +424,12 @@
         width: 123px!important;
         margin-left: 11rem;
         margin-top: 2.5rem;
-        animation: tenyog425 2s infinite!important;
+        animation: tenyog320 3s infinite!important;
     }
     .ellipse{
         margin-left: 13.5rem!important;
         margin-top: -4.2rem;
-        animation: tenellipse320 2s infinite!important;
+        animation: tenellipse320 3s infinite!important;
     }
     .ten__contentLeftTitle {
         padding-top: 5rem;
@@ -414,6 +460,29 @@
         }
         100% {
             margin-top: -4.2rem;
+        }
+    }
+    @-webkit-keyframes tenyog320{
+        0% {
+            margin-top: 2.5rem;
+        }
+        50% {
+            margin-top: 2.8rem;
+        }
+        100% {
+            margin-top: 2.5rem;
+        }
+    }
+
+    @keyframes tenyog320{
+        0% {
+            margin-top: 2.5rem;
+        }
+        50% {
+            margin-top: 2.8rem;
+        }
+        100% {
+            margin-top: 2.5rem;
         }
     }
 
