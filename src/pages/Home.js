@@ -6,17 +6,20 @@ import Why from "../components/Why"
 import Jobs from "../components/Jobs"
 import FormRequest from "../components/FormRequest"
 import Ten from "../components/Ten"
+import SliderComponent from "../components/SliderComponent";
 
 
 const Home = ({state, dispatch}) => {
     console.log(state)
     const [ellipse, setEllipse] = useState(false)
     useEffect(() => {
-        if (ellipse || state.ellipse) {
-            window.scrollTo(7150, 7150)
-            dispatch({type: "setEllipse", payload: false})
-            setEllipse(false)
-        }
+        setTimeout(() => {
+            if (ellipse || state.ellipse) {
+                window.scrollTo(7150, 7150)
+                dispatch({type: "setEllipse", payload: false})
+                setEllipse(false)
+            }
+        }, 3000)
     }, [ellipse, state.ellipse])
 
     return (
@@ -25,7 +28,7 @@ const Home = ({state, dispatch}) => {
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert />
             <Why id="why"/>
-            <Jobs id="works"/>
+            <SliderComponent />
             <FormRequest/>
             <Ten/>
         </>

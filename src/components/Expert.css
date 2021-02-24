@@ -53,8 +53,8 @@
 .img-yog {
     width: 25rem;
     height: 25rem;
-    -webkit-animation: aligning 3s infinite;
-    animation: aligning 3s infinite;
+    -webkit-animation: aligning 1s infinite;
+    animation: aligning 1s infinite;
 }
 
 .expertTitleFirst {
@@ -68,25 +68,25 @@
 
 @-webkit-keyframes aligning {
     0% {
-        padding-right: 0px;
+        padding-top: 5px;
     }
     50% {
-        padding-right: 20px;
+        padding-bottom: 10px;
     }
     100% {
-        padding-right: 0px;
+        padding-top: 5px;
     }
 }
 
 @keyframes aligning {
     0% {
-        padding-right: 0px;
+        padding-top: 5px;
     }
     50% {
-        padding-right: 20px;
+        padding-bottom: 10px;
     }
     100% {
-        padding-right: 0px;
+        padding-top: 5px;
     }
 }
 

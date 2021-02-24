@@ -23,7 +23,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                     </div>
                                 <div className="col-6 star__projectRowContentRight">
                                     <CircleIcons />
-                                    <div className="btnStar">
+                                    <div className={!ellipse ? "btnStar" : "btnStarMovement"}>
                                         <div className="btnStar-twoSloy">
                                             <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>
                                                 <div className={ellipse? "btnStar-fourSloyAfter" : "btnStar-fourSloyBefore" }>

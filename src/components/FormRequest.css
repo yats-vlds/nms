@@ -95,8 +95,8 @@ textarea {
 }
 
 .form__skrepka {
-   width: 1rem;
-    height: 1.5rem;
+    width: 0.9rem;
+    height: 1.2rem;
     margin-right: auto;
     margin-top: 0.35rem;
     margin-left: 4.5rem;
@@ -107,7 +107,7 @@ textarea {
     width: 13rem;
     height: 2.2rem;
     border-radius: 37px;
-    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));
+    /*filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));*/
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -183,6 +183,13 @@ textarea {
     background-color: #4f47ff;
     margin-left: 11rem;
     cursor: pointer;
+}
+
+.input-file {
+    position: relative;
+    z-index: 2222;
+    opacity: 0;
+    margin-top: -2rem;
 }
 
 @media(max-width: 1025px) {

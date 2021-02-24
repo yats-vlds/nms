@@ -28,6 +28,7 @@ const FormRequest = () => {
                                     <input type="email" className="input" placeholder="Email"/>
                                     <textarea rows="10" cols="45" name="text" placeholder="Message"/>
                                     <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
+                                    <input name="myFile" type="file" className="input-file"/>
                                 </form>
                             </div>
                         </div>

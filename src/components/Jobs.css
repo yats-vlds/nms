@@ -1,7 +1,33 @@
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: black;
+}
+.carousel-indicators li {
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+}
+
+.carousel-control-next-icon {
+    margin-left: auto;
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    margin-right: 1rem;
+}
+
+.carousel-control-prev-icon {
+    margin-right: auto;
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    margin-left: 1rem;
+}
+
 .bootstrap__table {
     display: grid;
     grid-template-columns: 1.166666667fr 0.833333333fr;
-    height: 1150px;
+    height: 1150px!important;
     width: 100%;
 }
 
@@ -15,14 +41,18 @@
 .bootstrap__tableLineOne {
     border-right: 1px solid #ededef;
     border-top: 1px solid #ededef;
+    border-bottom: 1px solid #ededef;
 }
 
 .bootstrap__tableLineTwo {
     border-right: 1px solid #ededef;
+    border-top: 1px solid #ededef;
+    border-bottom: 1px solid #ededef;
 }
 
 .bootstrap__tableLineThree {
     border-right: 1px solid #ededef;
+    border-top: 1px solid #ededef;
     border-bottom: 1px solid #ededef;
 }
 
@@ -96,7 +126,7 @@
 .bootstrap__tableTwo {
     display: grid;
     grid-template-columns: 0.833333333fr 1.166666667fr;
-    height: 750px;
+    height: 1150px!important;
     width: 100%;
 }
 
@@ -122,7 +152,7 @@
     width: 100%;
     object-fit: contain;
     padding-right: 2rem;
-    padding-top: 5rem;
+    padding-top: 11rem;
 }
 
 .icon2TableTwo {
@@ -132,7 +162,7 @@
     padding-left: 4rem;
     object-fit: contain;
     padding-right: 2rem;
-    padding-top: 7.7rem;
+    padding-top: 13.7rem;
 }
 
 .icon3TableTwo {
@@ -141,6 +171,7 @@
     object-fit: contain;
     width: 49rem;
     padding-left: 6.5rem;
+    padding-top: 6rem;
 }
 
 .bootstrap__tableTwoLeftInfo {

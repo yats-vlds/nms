@@ -4,6 +4,7 @@ import {Link, animateScroll as scroll} from "react-scroll";
 import {NavLink} from "react-router-dom";
 import "./Header.css"
 import LazyLoad from "react-lazy-load"
+import {HashLink} from "react-router-hash-link";
 
 const Header = () => {
     return (
@@ -18,50 +19,32 @@ const Header = () => {
                         </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">
-                        <Link
-                            activeClass="active"
-                            to="expertise"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                            className="header__link">
+                        <HashLink
+                            to="/#expertise"
+                            className="header__link"
+                            smooth
+                        >
                             Expertise
-                        </Link>
-                        <Link
-                            activeClass="active"
-                            to="why"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
+                        </HashLink>
+                        <HashLink
+                            to="/#why"
                             className="header__link"
                         >
                             Why are we
-                        </Link>
-                        <Link
-                            activeClass="active"
-                            to="works"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
+                        </HashLink>
+                        <HashLink
+                            to="/#works"
                             className="header__link"
                         >
                             Works
-                        </Link>
+                        </HashLink>
                     </div>
                     <div className="col-1 header__navRight">
-                        <Link
-                            activeClass="active"
-                            to="contacts"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
+                        <HashLink
+                            to="/#contacts"
                             className="header__link">
                             Contacts
-                        </Link>
+                        </HashLink>
                     </div>
                 </div>
             </div>

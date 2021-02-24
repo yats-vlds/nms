@@ -9,25 +9,25 @@
     /*background: red;*/
 }
 
-@-webkit-keyframes circleIcons {
-    0% {
-        transform: rotate(1deg);
-    }
-    100% {
-        transform: rotate(356deg);
+/*@-webkit-keyframes circleIcons {*/
+/*    0% {*/
+/*        transform: rotate(1deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(356deg);*/
 
-    }
-}
+/*    }*/
+/*}*/
 
-@keyframes circleIcons {
-    0% {
-        transform: rotate(1deg);
-    }
-    100% {
-        transform: rotate(356deg);
+/*@keyframes circleIcons {*/
+/*    0% {*/
+/*        transform: rotate(1deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(356deg);*/
 
-    }
-}
+/*    }*/
+/*}*/
 
 .iconVectors {
     height: 50px;

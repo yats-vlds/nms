@@ -11,7 +11,8 @@
     z-index: 1;
     min-height: 900px;
     clip-path: polygon(50% 13%, 100% 0, 100% 61%, 50% 74%, 0 74%, 0 13%);
-    background: #2d66fc;
+    background: #4200ff;
+
     width: 100%;
 }
 
@@ -29,7 +30,7 @@
 
 .ten__contentLeftTitle {
     padding-top: 16rem;
-    padding-left: 9rem;
+    padding-left: 6rem;
     color: #ffffff;
     font-weight: bold;
 }

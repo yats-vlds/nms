@@ -10,10 +10,9 @@ const Expert = () => {
         <div className="expert">
             <div className="container">
                 <div className="row expert-row expertOneRow">
-                    <div className="col-6 expertLeft">
+                    <div className="col-6 expertLeft expertContent">
                         <p className="expertText">
-                            No matter what type of your work you do, NMS
-                            customized software development will fulfill your needs.
+                            How to drive your future Product to success with NMS SaaS Development Company?
                         </p>
                     </div>
                     <div className="col-6 expertRight">
@@ -24,16 +23,14 @@ const Expert = () => {
                 </div>
 
                 <div className="row expert-row expertTwoRow">
-                    <div className="col-6 expertLeft">
+                    <div className="col-6 expertLeft expertContent">
                         <h1 className="expertTitle">
-                            Ideation and evaluation
-                            of your business needs
+                            Ideation and evaluation of your business needs
                         </h1>
                         <p className="expertText">
-                            No matter what type of your work you do, NMS customized
-                            software development will fulfill your needs. No matter
-                            what type of your work you do, NMS customized software
-                            development will fulfill your needs.
+                            Share your idea or tell us your needs, desired functionality, business model or strategy -
+                            NMS Team will evaluate it and provide you “the best match” tech picture using the latest
+                            technologies and that is flexible enough for you to easily adapt down the road map.
                         </p>
                     </div>
                     <div className="col-6 expertRight">
@@ -43,38 +40,38 @@ const Expert = () => {
 
                 <div className="row expert-row expertRocket expertThreeRow">
                     <div className="col-6 expertLeft">
-                            <AnimateRocket />
+                        <AnimateRocket/>
                     </div>
-                    <div className="col-6 expertRight">
+                    <div className="col-6 expertRight expertContent">
                         <h1 className="expertTitleRight">
                             Optimal cost and resources
                             estimation vis requirements
                             analysis
                         </h1>
                         <p>
-                            No matter what type of your work you do, NMS customized
-                                             software development will fulfill your needs. No matter
-                                            what type of your work you do, NMS customized software
-                                      development will fulfill your needs.
+                            Once we are on the same page regarding the software it is important to make proper Time and
+                            Material Estimates which assures you cost and time optimization. We are a team based on
+                            Eastern Europe that makes us very loyal and efficient in the pricing policy keeping the
+                            highest standards of deliverables quality.
                         </p>
                     </div>
                 </div>
 
                 <div className="row expert-row expertLastRow">
-                    <div className="col-6 expertLeft">
+                    <div className="col-6 expertLeft expertContent">
                         <h1 className="expertTitle">
                             Creation of an
-                                    Effective Action Plan
+                            Effective Action Plan
                         </h1>
                         <p className="expertText">
-                            No matter what type of your work you do, NMS customized
-                            software development will fulfill your needs. No matter
-                            what type of your work you do, NMS customized software
-                            development will fulfill your needs.
+                            A management plan is what is established at the beginning of your project which goes through
+                            several well-established stages: initiation, planning, execution and delivery. For each and
+                            every project we assign a dedicated team who goes with you to your goals keeping timelines
+                            and operating budget regardless you are a startup or an enterprise.
                         </p>
                     </div>
                     <div className="col-6 expertRight">
-                       <AnimateHorse />
+                        <AnimateHorse/>
                     </div>
                 </div>
             </div>
