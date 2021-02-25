@@ -2,6 +2,7 @@
 .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
     background-color: black;
 }
+
 .carousel-indicators li {
     width: 40px;
     height: 5px;
@@ -27,7 +28,7 @@
 .bootstrap__table {
     display: grid;
     grid-template-columns: 1.166666667fr 0.833333333fr;
-    height: 1150px!important;
+    height: 1150px !important;
     width: 100%;
 }
 
@@ -126,7 +127,7 @@
 .bootstrap__tableTwo {
     display: grid;
     grid-template-columns: 0.833333333fr 1.166666667fr;
-    height: 1150px!important;
+    height: 1150px !important;
     width: 100%;
 }
 
@@ -234,6 +235,10 @@
     margin-top: 180px;
 }
 
+.bootstrap__marginTop40 {
+    margin-top: 30px;
+}
+
 .bootstrap__tableTwoLeftInfoContent {
     margin-top: 180px;
     margin-bottom: 23px;
@@ -243,6 +248,7 @@
     margin-top: 180px;
     margin-bottom: 23px;
 }
+
 .marginBottom {
     margin-bottom: 90px;
 }
@@ -321,10 +327,12 @@
     .bootstrap__tableTwoLeftInfo {
         padding-left: 4rem;
     }
+
     .bootstrap__tableTwoLeftInfoContent {
         margin-top: 16px;
         margin-bottom: 5px;
     }
+
     .icon4TableThree {
         position: absolute;
         z-index: 10;
@@ -332,6 +340,7 @@
         width: 37rem;
         height: 100%;
     }
+
     .icon2TableThree {
         position: absolute;
         z-index: 8;
@@ -340,6 +349,7 @@
         opacity: 0.6;
         width: 100%;
     }
+
     .icon4TableThree {
         position: absolute;
         z-index: 10;
@@ -347,12 +357,15 @@
         width: 37rem;
         height: 100%;
     }
+
     .marginBottom {
         margin-bottom: 42px;
     }
+
     .bootstrap__tableRightInfo {
         padding-left: 3rem;
     }
+
     .bootstrap__tableTwo {
         height: 500px;
     }
@@ -363,9 +376,11 @@
     .bootstrap__table {
         height: 609px;
     }
+
     .bootstrap__tableTwo {
         height: 367px;
     }
+
     .bootstrap__marginTop {
         margin-top: 85px;
     }
@@ -388,8 +403,9 @@
         padding-top: 0rem;
         padding-left: 1.7rem;
         opacity: 0.6;
-        width: 25rem;
-        height: 46rem;
+        width: 33rem;
+        height: 37rem;
+        border: 1px solid red !important;
     }
 
     .icon2 {
@@ -445,6 +461,7 @@
     .bootstrap__tableTitle {
         font-size: 1.6rem;
     }
+
     .icon2TableThree {
         position: absolute;
         z-index: 8;
@@ -453,9 +470,11 @@
         opacity: 0.6;
         width: 100%;
     }
+
     .icon4TableThree {
         width: 26rem;
     }
+
     .icon2TableThree {
         position: absolute;
         z-index: 8;
@@ -465,12 +484,14 @@
         width: 100%;
         height: 90%;
     }
+
     .bootstrap__tableRightInfo {
         position: absolute;
         padding-left: 3rem;
     }
+
     .iconTableThree {
-        padding-top: 7rem!important;
+        padding-top: 7rem !important;
     }
 }
 
@@ -478,6 +499,7 @@
     .bootstrap__table {
         height: 372px;
     }
+
     .bootstrap__tableTwo {
         height: 302px;
         margin-bottom: -6rem;
@@ -573,10 +595,12 @@
     .bootstrap__tableTwo {
         height: 302px;
     }
+
     .icon4TableThree {
         width: 15rem;
         margin-left: 0.5rem;
     }
+
     .icon2TableThree {
         position: absolute;
         z-index: 8;
@@ -586,30 +610,34 @@
         width: 100%;
         height: 90%;
     }
+
     .iconTableThree {
         position: absolute;
         z-index: 7;
         width: 100%;
     }
+
     .bootstrap__tableRightInfo {
         padding-left: 1rem;
     }
+
     .bootstrap_tableRightContentTitle {
         margin-top: 78px;
         margin-bottom: 14px;
     }
+
     .ten__yog {
         position: absolute;
         height: 157px;
         object-fit: contain;
-        width: 190px!important;
+        width: 190px !important;
         margin-left: 12rem;
         margin-top: 14.5rem;
-        animation: tenyog425 1s infinite!important;
+        animation: tenyog425 1s infinite !important;
     }
 
     .iconTableThree {
-        padding-top: 4rem!important;
+        padding-top: 4rem !important;
     }
 }
 
@@ -617,23 +645,28 @@
     .icon3TableTwo, .icon2TableTwo, .iconTableTwo {
         width: 13.7rem;
     }
+
     .icon3, .icon4 {
         width: 12.6rem;
     }
+
     .icon2 {
         position: absolute;
         z-index: 7;
         padding-top: 6rem;
-        width: 15rem;
-        height: 21rem;
+        width: 10rem;
+        height: 25rem;
     }
+
     .icon {
-         padding-top: 0rem;
-         padding-left: 0.4rem;
-         opacity: 0.6;
-         width: 15.4rem;
-         height: 25rem;
-     }
+        position: absolute;
+        z-index: 8;
+        padding-top: 15rem;
+        opacity: 0.6;
+        width: 42rem;
+        height: 45.5rem;
+    }
+
     .bootstrap__tableTitle {
         font-size: 0.6rem !important;
         font-weight: bold;
@@ -648,22 +681,27 @@
     .bootstrap__tableText {
         margin-bottom: 30px !important;
     }
+
     .icon2TableThree {
         width: 96%;
     }
+
     .icon4TableThree {
         width: 13rem;
         margin-left: 0.5rem;
     }
+
     .iconTableThree {
         position: absolute;
         z-index: 7;
-        padding-top: 5.5rem!important;
+        padding-top: 5.5rem !important;
         width: 100%;
     }
+
     .bootstrap__tableOne {
         margin-bottom: -2rem;
     }
+
     .bootstrap__tableTwo {
         margin-bottom: -7rem;
     }
@@ -673,6 +711,7 @@
     .bootstrap__table {
         height: 321px;
     }
+
     .icon4, .icon3 {
         margin-top: 3rem;
         margin-left: 1rem;
@@ -717,12 +756,14 @@
         padding-left: 1.1rem;
         padding-right: 1.1rem;
     }
+
     .icon2TableTwo {
         width: 11rem;
         padding-top: -5rem;
         margin-top: -1.2rem;
         margin-left: 7px;
     }
+
     .iconTableTwo {
         position: absolute;
         z-index: 7;
@@ -732,14 +773,17 @@
         /* padding-top: 1rem; */
         height: 10rem;
     }
+
     .icon4TableThree {
         width: 11rem;
         margin-left: 0.5rem;
     }
+
     .bootstrap__tableOne {
         margin-bottom: 0rem;
     }
+
     .iconTableThree {
-        padding-top: 5rem!important;
+        padding-top: 5rem !important;
     }
 }

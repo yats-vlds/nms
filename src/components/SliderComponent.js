@@ -30,7 +30,6 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
-
                             <img src={shadow} className="icon2" loading="lazy"/>
                             <img src={table1pryamogolnik} className="icon" loading="lazy"/>
                             <img src={sloygoPrint} className="icon3" loading="lazy"/>
@@ -43,10 +42,10 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop" style={{ marginBottom: "23px"}}>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">No matter what type of your
@@ -74,10 +73,10 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableTwoLeftInfo">
-                                <h1 className="bootstrap__tableTitle">
+                                <h1 className="bootstrap__tableTitle  bootstrap__tableTwoLeftInfoContent">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
+                                <h1 className="bootstrap__tableTitle">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">
@@ -131,7 +130,10 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
+                                <h1 className="bootstrap__tableTitle  bootstrap__tableTwoLeftInfoContent">
+                                    UI/UX Design Service
+                                </h1>
+                                <h1 className="bootstrap__tableTitle">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">
