@@ -41,7 +41,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                                 flexWrap: 'wrap',
                             }}
                         >
-                           <Tween to={{scale: "1",x: '210px', y: '170px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                           <Tween to={{scale: "1",x: '210px', y: '170px', rotation: 360}} from={{x: '0px', y: '0px', rotation: 360}} duration={30} ease="back.out(1.7)">
                                <img src={circleIcons1} className="iconVectors iconMessage" loading="lazy"/>
                            </Tween>
                            <Tween to={{x: '150px', y: '100px', rotation: 360}} duration={30} ease="back.out(1.7)">

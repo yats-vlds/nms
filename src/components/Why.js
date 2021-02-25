@@ -23,21 +23,19 @@ const Why = ({id}) => {
             <div className="why__meSloy">
                 <div className="row why_meContent">
                     <div className="col-6 why__meContentLeft">
-                        {/*<div className="clip-path">*/}
+                        <div className="clip-path">
                             <div className="logo__container">
-                                <img src={karcher} className="logo__style karcher"/>
-                                <img src={lactel} className="logo__style lactel"/>
                                 <img src={danfoss} className="logo__style danfoss"/>
                                 <img src={ct} className="logo__style ct"/>
-                                {/*<img src={goPrint} className="logo__style goprint"/>*/}
-                                {/*<img src={inMore} className="logo__style inmore" />*/}
-                                {/*<img src={listery} className="logo__style listery" />*/}
-                                {/*<img src={ukt} className="logo__style ukt"/>*/}
-                                {/*<img src={total} className="logo__style total"/>*/}
-                                {/*<img src={lactalis} className="logo__style lactalis"/>*/}
+                                <img src={ukt} className="logo__style ukt"/>
+                                <img src={lactalis} className="logo__style lactalis"/>
+                                <img src={goPrint} className="logo__style goprint"/>
+                                <img src={inMore} className="logo__style inmore"/>
+                                <img src={listery} className="logo__style listery"/>
+                                <img src={total} className="logo__style total"/>
                             </div>
                         </div>
-                    {/*</div>*/}
+                    </div>
                     <div className="col-6 why__meContentRight">
                         <h1 className="whyme__titleFirst">Because they trust</h1>
                         <h2 className="whyme__title">Cost efficient</h2>
