@@ -1,396 +1,448 @@
-.circle-icons {
+.iconVectors {
+    position: absolute;
+}
+.iconMessage {
+    width: 4rem;
+    margin-top: 6rem;
+}
+.iconBack {
+    width: 3rem;
+    margin-left: 10rem;
+}
+.iconWifi {
+    width: 23rem;
+}
+.iconCamera {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 10rem;
+}
+
+.iconContacts {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.iconHome {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+
+.iconCall {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.iconSetting {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.iconBrowser {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.iconMessage2 {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 3rem;
+    margin-right: 10rem;
+}
+.logo-icons {
     position: relative;
     z-index: -1;
     height:25rem;
     width: 25rem;
     border-radius: 50%;
-    -webkit-animation: circleIcons 5s infinite;
-    animation: circleIcons 5s infinite;
+    /*-webkit-animation: circleIcons 5s infinite;*/
+    /*animation: circleIcons 5s infinite;*/
     /*background: red;*/
 }
 
-/*@-webkit-keyframes circleIcons {*/
-/*    0% {*/
-/*        transform: rotate(1deg);*/
-/*    }*/
-/*    100% {*/
-/*        transform: rotate(356deg);*/
+/*!*@-webkit-keyframes circleIcons {*!*/
+/*!*    0% {*!*/
+/*!*        transform: rotate(1deg);*!*/
+/*!*    }*!*/
+/*!*    100% {*!*/
+/*!*        transform: rotate(356deg);*!*/
 
+/*!*    }*!*/
+/*!*}*!*/
+
+/*!*@keyframes circleIcons {*!*/
+/*!*    0% {*!*/
+/*!*        transform: rotate(1deg);*!*/
+/*!*    }*!*/
+/*!*    100% {*!*/
+/*!*        transform: rotate(356deg);*!*/
+
+/*!*    }*!*/
+/*!*}*!*/
+
+/*.iconVectors {*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.message {*/
+/*    margin-top: 4rem;*/
+/*}*/
+
+/*.back {*/
+/*    width: 10%;*/
+/*    height: 10%;*/
+/*}*/
+
+/*.wifi {*/
+/*    margin-top: -4.7rem;*/
+/*    width: 65%;*/
+/*    height: 65%;*/
+/*}*/
+
+/*.call {*/
+/*    margin-top: 1rem;*/
+/*    width: 90%;*/
+/*    height: 90%;*/
+/*}*/
+
+/*.home {*/
+/*    margin-top: 1.2rem;*/
+/*    width: 65%;*/
+/*    height: 65%;*/
+/*}*/
+
+/*.browser {*/
+/*    margin-top: 10rem;*/
+/*    width: 65%;*/
+/*    height: 65%;*/
+/*}*/
+
+/*.message2 {*/
+/*    margin-top: 7rem;*/
+/*    width: 70%;*/
+/*    height: 70%;*/
+/*}*/
+
+/*.settings {*/
+/*    margin-top: 8.5rem;*/
+/*    width: 90%;*/
+/*    height: 90%;*/
+/*}*/
+
+/*.camera {*/
+/*    margin-top: 14rem;*/
+/*    width: 70%;*/
+/*    height: 70%;*/
+/*}*/
+
+/*.contact {*/
+/*    margin-top: 14.5rem;*/
+/*    width: 65%;*/
+/*    height: 65%;*/
+/*}*/
+
+/*@media(max-width: 1024px) {*/
+/*    .circle-icons {*/
+/*        height:18rem;*/
+/*        width: 18rem;*/
+/*    }*/
+/*    .back {*/
+/*        width: 7%;*/
+/*        height: 7%;*/
+/*    }*/
+/*    .contact , .browser, .home, .wifi {*/
+/*        width: 50%;*/
+/*    }*/
+/*    .camera, .message2 {*/
+/*        width: 55%;*/
+/*    }*/
+/*    .settings, .call {*/
+/*        width: 75%;*/
+/*    }*/
+
+
+
+/*    .message {*/
+/*        margin-left: 3rem;*/
+/*        margin-top: 2rem;*/
+/*        width: 2rem;*/
+/*        height: 2rem;*/
+/*    }*/
+
+/*    .back {*/
+/*        margin-left: 8.2rem;*/
+/*        margin-top: 0.5rem;*/
+/*    }*/
+
+/*    .wifi {*/
+/*        margin-left: 8.5rem;*/
+/*        margin-top: -3.7rem;*/
+/*    }*/
+
+/*    .call {*/
+/*        margin-left: -5.5rem;*/
+/*        margin-top: 0rem;*/
+/*    }*/
+
+/*    .home {*/
+/*        margin-left: 12rem;*/
+/*        margin-top: 1.2rem;*/
+/*    }*/
+
+/*    .browser {*/
+/*        margin-left: -2rem;*/
+/*        margin-top: 7rem;*/
+/*    }*/
+
+/*    .message2 {*/
+/*        margin-left: 11.3rem;*/
+/*        margin-top: 5.5rem;*/
+/*    }*/
+
+/*    .settings {*/
+/*        margin-left: 7rem;*/
+/*        margin-top: 7rem;*/
+/*    }*/
+
+/*    .camera {*/
+/*        margin-left: 5.5rem;*/
+/*        margin-top: 10rem;*/
+/*    }*/
+
+/*    .contact {*/
+/*        margin-left: 2rem;*/
+/*        margin-top: 10.5rem;*/
 /*    }*/
 /*}*/
 
-/*@keyframes circleIcons {*/
-/*    0% {*/
-/*        transform: rotate(1deg);*/
-/*    }*/
-/*    100% {*/
-/*        transform: rotate(356deg);*/
 
+/*@media(max-width: 769px) {*/
+/*    .circle-icons {*/
+/*        height:14rem;*/
+/*        width: 14rem;*/
+/*    }*/
+/*    .back {*/
+/*        width: 10%;*/
+/*        height: 10%;*/
+/*    }*/
+/*    .contact , .browser, .home, .wifi {*/
+/*        width: 50%;*/
+/*    }*/
+/*    .camera, .message2 {*/
+/*        width: 55%;*/
+/*    }*/
+/*    .settings, .call {*/
+/*        width: 75%;*/
+/*    }*/
+
+
+
+/*    .message {*/
+/*        margin-left: 2rem;*/
+/*        margin-top: 2rem;*/
+/*        width: 1.7rem;*/
+/*        height: 1.7rem;*/
+/*    }*/
+
+/*    .back {*/
+/*        margin-left: 6.2rem;*/
+/*        margin-top: 0.07rem;*/
+/*    }*/
+
+/*    .wifi {*/
+/*        margin-left: 7.8rem;*/
+/*        margin-top: -2rem;*/
+/*    }*/
+
+/*    .call {*/
+/*        margin-left: -4.4rem;*/
+/*        margin-top: 0rem;*/
+/*    }*/
+
+/*    .home {*/
+/*        margin-left: 9.4rem;*/
+/*        margin-top: 1.2rem;*/
+/*    }*/
+
+/*    .browser {*/
+/*        margin-left: -2rem;*/
+/*        margin-top: 5rem;*/
+/*    }*/
+
+/*    .message2 {*/
+/*        margin-left: 9.1rem;*/
+/*        margin-top: 3.5rem;*/
+/*    }*/
+
+/*    .settings {*/
+/*        margin-left: 6.3rem;*/
+/*        margin-top: 4.5rem;*/
+/*    }*/
+
+/*    .camera {*/
+/*        margin-left: 4rem;*/
+/*        margin-top: 8.2rem;*/
+/*    }*/
+
+/*    .contact {*/
+/*        margin-left: 1rem;*/
+/*        margin-top: 8rem;*/
 /*    }*/
 /*}*/
 
-.iconVectors {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-}
 
-.message {
-    margin-left: 2.9rem;
-    margin-top: 4rem;
-}
+/*@media(max-width: 426px) {*/
+/*    .circle-icons {*/
+/*        height:9rem;*/
+/*        width: 9rem;*/
+/*    }*/
+/*    .back {*/
+/*        width: 10%;*/
+/*        height: 10%;*/
+/*    }*/
+/*    .contact , .browser, .home, .wifi {*/
+/*        width: 50%;*/
+/*    }*/
+/*    .camera, .message2 {*/
+/*        width: 55%;*/
+/*    }*/
+/*    .settings, .call {*/
+/*        width: 75%;*/
+/*    }*/
+/*    .message {*/
+/*        margin-left: 0.8rem;*/
+/*        margin-top: 1.5rem;*/
+/*        width: 1rem;*/
+/*        width: 1rem;*/
+/*    }*/
 
-.back {
-    margin-left: 10.2rem;
-    width: 10%;
-    height: 10%;
-}
+/*    .back {*/
+/*        margin-left: 3.1rem;*/
+/*        margin-top: 0.2rem;*/
+/*    }*/
 
-.wifi {
-    margin-left: 10.5rem;
-    margin-top: -4.7rem;
-    width: 65%;
-    height: 65%;
-}
+/*    .wifi {*/
+/*        margin-left: -10rem;*/
+/*        margin-top: -2rem;*/
+/*        width: 20%;*/
+/*        height: 23%;*/
+/*    }*/
 
-.call {
-    margin-left: -9.5rem;
-    margin-top: 1rem;
-    width: 90%;
-    height: 90%;
-}
+/*    .call {*/
+/*        margin-left: -2.8rem;*/
+/*        margin-top: 0.3rem;*/
+/*    }*/
 
-.home {
-    margin-left: 14.2rem;
-    margin-top: 1.2rem;
-    width: 65%;
-    height: 65%;
-}
+/*    .home {*/
+/*        margin-left: 5.8rem;*/
+/*        margin-top: -0.2rem;*/
+/*    }*/
 
-.browser {
-    margin-left: -4.4rem;
-    margin-top: 10rem;
-    width: 65%;
-    height: 65%;
-}
+/*    .browser {*/
+/*        margin-left: -0.8rem;*/
+/*        margin-top: 3.9rem;*/
+/*    }*/
 
-.message2 {
-    margin-left: 14rem;
-    margin-top: 7rem;
-    width: 70%;
-    height: 70%;
-}
+/*    .message2 {*/
+/*        margin-left: 6rem;*/
+/*        margin-top: 1.5rem;*/
+/*    }*/
 
-.settings {
-    margin-left: 9rem;
-    margin-top: 8.5rem;
-    width: 90%;
-    height: 90%;
-}
+/*    .settings {*/
+/*        margin-left: 4.5rem;*/
+/*        margin-top: 2rem;*/
+/*    }*/
 
-.camera {
-    margin-left: 6.5rem;
-    margin-top: 14rem;
-    width: 70%;
-    height: 70%;
-}
+/*    .camera {*/
+/*        margin-left: 3.8rem;*/
+/*        margin-top: 4.7rem;*/
+/*    }*/
 
-.contact {
-    margin-left: 0rem;
-    margin-top: 14.5rem;
-    width: 65%;
-    height: 65%;
-}
-
-@media(max-width: 1024px) {
-    .circle-icons {
-        height:18rem;
-        width: 18rem;
-    }
-    .back {
-        width: 7%;
-        height: 7%;
-    }
-    .contact , .browser, .home, .wifi {
-        width: 50%;
-    }
-    .camera, .message2 {
-        width: 55%;
-    }
-    .settings, .call {
-        width: 75%;
-    }
+/*    .contact {*/
+/*        margin-left: 1.5rem;*/
+/*        margin-top: 5.3rem;*/
+/*    }*/
+/*}*/
 
 
+/*@media(max-width: 376px) {*/
+/*    .circle-icons {*/
+/*        height:6rem;*/
+/*        width: 6rem;*/
+/*    }*/
+/*    .back {*/
+/*        width: 10%;*/
+/*        height: 10%;*/
+/*    }*/
+/*    .contact , .browser, .home, .wifi {*/
+/*        width: 50%;*/
+/*    }*/
+/*    .camera, .message2 {*/
+/*        width: 55%;*/
+/*    }*/
+/*    .settings, .call {*/
+/*        width: 75%;*/
+/*    }*/
+/*    .message {*/
+/*        margin-left: 0.7rem;*/
+/*        margin-top: 1rem;*/
+/*        width: 0.8rem;*/
+/*        height: 0.8rem;*/
+/*    }*/
 
-    .message {
-        margin-left: 3rem;
-        margin-top: 2rem;
-        width: 2rem;
-        height: 2rem;
-    }
+/*    .back {*/
+/*        margin-left: 2.5rem;*/
+/*        margin-top: 0.1rem;*/
+/*    }*/
 
-    .back {
-        margin-left: 8.2rem;
-        margin-top: 0.5rem;
-    }
+/*    .wifi {*/
+/*        margin-left: 3.3rem;*/
+/*        margin-top: -1rem;*/
+/*    }*/
 
-    .wifi {
-        margin-left: 8.5rem;
-        margin-top: -3.7rem;
-    }
+/*    .call {*/
+/*        margin-left: -1.8rem;*/
+/*        margin-top: 0.3rem;*/
+/*    }*/
 
-    .call {
-        margin-left: -5.5rem;
-        margin-top: 0rem;
-    }
+/*    .home {*/
+/*        margin-left: 4.1rem;*/
+/*        margin-top: 0.5rem;*/
+/*    }*/
 
-    .home {
-        margin-left: 12rem;
-        margin-top: 1.2rem;
-    }
+/*    .browser {*/
+/*        margin-left: -0.9rem;*/
+/*        margin-top: 2.4rem;*/
+/*    }*/
 
-    .browser {
-        margin-left: -2rem;
-        margin-top: 7rem;
-    }
+/*    .message2 {*/
+/*        margin-left: 4rem;*/
+/*        margin-top: 1.5rem;*/
+/*    }*/
 
-    .message2 {
-        margin-left: 11.3rem;
-        margin-top: 5.5rem;
-    }
+/*    .settings {*/
+/*        margin-left: 2.6rem;*/
+/*        margin-top: 2.1rem;*/
+/*    }*/
 
-    .settings {
-        margin-left: 7rem;
-        margin-top: 7rem;
-    }
+/*    .camera {*/
+/*        margin-left: 1.8rem;*/
+/*        margin-top: 3.5rem;*/
+/*    }*/
 
-    .camera {
-        margin-left: 5.5rem;
-        margin-top: 10rem;
-    }
-
-    .contact {
-        margin-left: 2rem;
-        margin-top: 10.5rem;
-    }
-}
-
-
-@media(max-width: 769px) {
-    .circle-icons {
-        height:14rem;
-        width: 14rem;
-    }
-    .back {
-        width: 10%;
-        height: 10%;
-    }
-    .contact , .browser, .home, .wifi {
-        width: 50%;
-    }
-    .camera, .message2 {
-        width: 55%;
-    }
-    .settings, .call {
-        width: 75%;
-    }
-
-
-
-    .message {
-        margin-left: 2rem;
-        margin-top: 2rem;
-        width: 1.7rem;
-        height: 1.7rem;
-    }
-
-    .back {
-        margin-left: 6.2rem;
-        margin-top: 0.07rem;
-    }
-
-    .wifi {
-        margin-left: 7.8rem;
-        margin-top: -2rem;
-    }
-
-    .call {
-        margin-left: -4.4rem;
-        margin-top: 0rem;
-    }
-
-    .home {
-        margin-left: 9.4rem;
-        margin-top: 1.2rem;
-    }
-
-    .browser {
-        margin-left: -2rem;
-        margin-top: 5rem;
-    }
-
-    .message2 {
-        margin-left: 9.1rem;
-        margin-top: 3.5rem;
-    }
-
-    .settings {
-        margin-left: 6.3rem;
-        margin-top: 4.5rem;
-    }
-
-    .camera {
-        margin-left: 4rem;
-        margin-top: 8.2rem;
-    }
-
-    .contact {
-        margin-left: 1rem;
-        margin-top: 8rem;
-    }
-}
-
-
-@media(max-width: 426px) {
-    .circle-icons {
-        height:9rem;
-        width: 9rem;
-    }
-    .back {
-        width: 10%;
-        height: 10%;
-    }
-    .contact , .browser, .home, .wifi {
-        width: 50%;
-    }
-    .camera, .message2 {
-        width: 55%;
-    }
-    .settings, .call {
-        width: 75%;
-    }
-    .message {
-        margin-left: 0.8rem;
-        margin-top: 1.5rem;
-        width: 1rem;
-        width: 1rem;
-    }
-
-    .back {
-        margin-left: 3.1rem;
-        margin-top: 0.2rem;
-    }
-
-    .wifi {
-        margin-left: 4rem;
-        margin-top: -2rem;
-    }
-
-    .call {
-        margin-left: -2.8rem;
-        margin-top: 0.3rem;
-    }
-
-    .home {
-        margin-left: 5.8rem;
-        margin-top: -0.2rem;
-    }
-
-    .browser {
-        margin-left: -0.8rem;
-        margin-top: 3.9rem;
-    }
-
-    .message2 {
-        margin-left: 6rem;
-        margin-top: 1.5rem;
-    }
-
-    .settings {
-        margin-left: 4.5rem;
-        margin-top: 2rem;
-    }
-
-    .camera {
-        margin-left: 3.8rem;
-        margin-top: 4.7rem;
-    }
-
-    .contact {
-        margin-left: 1.5rem;
-        margin-top: 5.3rem;
-    }
-}
-
-
-@media(max-width: 376px) {
-    .circle-icons {
-        height:6rem;
-        width: 6rem;
-    }
-    .back {
-        width: 10%;
-        height: 10%;
-    }
-    .contact , .browser, .home, .wifi {
-        width: 50%;
-    }
-    .camera, .message2 {
-        width: 55%;
-    }
-    .settings, .call {
-        width: 75%;
-    }
-    .message {
-        margin-left: 0.7rem;
-        margin-top: 1rem;
-        width: 0.8rem;
-        height: 0.8rem;
-    }
-
-    .back {
-        margin-left: 2.5rem;
-        margin-top: 0.1rem;
-    }
-
-    .wifi {
-        margin-left: 3.3rem;
-        margin-top: -1rem;
-    }
-
-    .call {
-        margin-left: -1.8rem;
-        margin-top: 0.3rem;
-    }
-
-    .home {
-        margin-left: 4.1rem;
-        margin-top: 0.5rem;
-    }
-
-    .browser {
-        margin-left: -0.9rem;
-        margin-top: 2.4rem;
-    }
-
-    .message2 {
-        margin-left: 4rem;
-        margin-top: 1.5rem;
-    }
-
-    .settings {
-        margin-left: 2.6rem;
-        margin-top: 2.1rem;
-    }
-
-    .camera {
-        margin-left: 1.8rem;
-        margin-top: 3.5rem;
-    }
-
-    .contact {
-        margin-left: 0.3rem;
-        margin-top: 3.3rem;
-    }
-}
+/*    .contact {*/
+/*        margin-left: 0.3rem;*/
+/*        margin-top: 3.3rem;*/
+/*    }*/
+/*}*/

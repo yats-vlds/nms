@@ -9,6 +9,8 @@ import Ten from "../components/Ten"
 import SliderComponent from "../components/SliderComponent";
 import SliderComponent2 from "../components/SliderComponent2";
 import SliderComponent3 from "../components/SliderComponent3";
+import CircleIconsTest from "../components/CircleIconsTest";
+import AnimateLogo from "../components/AnimateLogo";
 
 
 const Home = ({state, dispatch}) => {

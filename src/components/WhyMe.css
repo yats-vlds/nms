@@ -1,3 +1,69 @@
+.clip-path {
+    -webkit-clip-path: polygon(49% 0, 100% 0, 100% 100%, 50% 100%);
+    clip-path: polygon(49% 0, 100% 0, 100% 100%, 50% 100%);
+    /*background: yellow;*/
+    width: 52rem;
+    height: 66rem;
+    padding-top: 2rem;
+}
+.logo__container {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    /*background: red;*/
+    animation: circleIcons 10s infinite;
+
+}
+
+@-webkit-keyframes circleIcons {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+@keyframes circleIcons {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.karcher {
+    position: absolute;
+    z-index: 22;
+    width: 150px;
+    height: 100px;
+    margin-left: 26rem;
+    margin-top: -1rem;
+    animation: iconRotate 10s infinite;
+}
+
+@-webkit-keyframes iconRotate {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes iconRotate {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .why__me {
     position: relative;
     z-index: -1;
@@ -38,16 +104,21 @@
 
 .whyme__title {
     font-weight: bold;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .whyme__titleFirst {
     font-weight: bold;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .whyme__text {
     color: #ffffff;
+}
+
+.why__meImg {
+    width: 200px;
+    height: 100px;
 }
 
 /*.why__meLeft {*/
@@ -69,18 +140,21 @@
 /*}*/
 
 
-.karcher {
-    width: 215px;
-    height: 75px;
-    margin-left: 10rem;
-    margin-top: 5.5rem;
-}
+/*.karcher {*/
+/*    position: relative;*/
+/*    z-index: 22;*/
+/*    width: 150px;*/
+/*    height: 75px;*/
+/*    margin-left: 27rem;*/
+/*    margin-top: 2.5rem;*/
+/*}*/
 
 .lactel {
-    margin-top: 2rem;
-    width: 250px;
-    height: 160px;
-    margin-left: 19rem;
+    margin-top: 6rem;
+    width: 200px;
+    height: 130px;
+    margin-left: 32.5rem;
+    animation: iconRotate 10s infinite;
 }
 
 /*.why__meContentRight {*/
@@ -101,11 +175,18 @@
     margin-left: 8rem;
 }
 
-.danfos {
-    margin-top: 2rem;
-    width: 450px;
-    height: 150px;
-    margin-left: 22rem;
+.danfoss {
+    margin-top: -5rem;
+    height: 25rem;
+    margin-left: 30rem;
+    animation: iconRotate 10s infinite;
+}
+
+.ct {
+    margin-top: -4rem;
+    margin-left: 27rem;
+    width: 17rem;
+    animation: iconRotate 10s infinite;
 }
 
 /*.why__meContentRight {*/
@@ -127,14 +208,16 @@
 /*    color: #ffffff;*/
 /*}*/
 
-@media(max-width: 1024px) {
-    .why__me, .why__meSloy{
+@media (max-width: 1024px) {
+    .why__me, .why__meSloy {
         height: 600px;
     }
+
     .why__meImageBack {
         height: 678px;
         margin-top: -33px;
     }
+
     .why__meContentRight {
         padding: 1rem;
         padding-left: 7rem;
@@ -144,98 +227,118 @@
     .whyme__titleFirst {
         font-size: 2.2rem;
     }
+
     .whyme__title {
         font-size: 1.8rem;
     }
+
     .why__meContentRight {
         padding: 3rem;
         padding-left: 6rem;
     }
+
     .whyme__text {
         font-size: 0.8rem;
     }
 }
 
-@media(max-width: 769px) {
-    .why__me, .why__meSloy{
+@media (max-width: 769px) {
+    .why__me, .why__meSloy {
         height: 500px;
     }
+
     .why__meImageBack {
         height: 510px;
     }
+
     img.star__imageBack {
         margin-top: -33px;
     }
+
     .whyme__titleFirst {
         font-size: 1.4rem;
     }
+
     .whyme__title {
         font-size: 1.1rem;
     }
+
     .whyme__text {
-        font-size: 12px!important;
+        font-size: 12px !important;
     }
+
     .why__meContentRight {
         padding: 2rem;
         padding-left: 5rem;
     }
 }
 
-@media(max-width: 426px) {
-    .why__me, .why__meSloy{
+@media (max-width: 426px) {
+    .why__me, .why__meSloy {
         height: 300px;
     }
+
     .why__meImageBack {
         height: 280px;
     }
+
     .whyme__titleFirst {
-        font-size: 0.9rem!important;
+        font-size: 0.9rem !important;
     }
+
     .whyme__title {
         font-size: 0.7rem;
         margin-bottom: 0.15rem;
         font-weight: bold;
     }
+
     .whyme__text {
-        font-size: 5px!important;
-        margin-bottom: 0.3rem!important;
+        font-size: 5px !important;
+        margin-bottom: 0.3rem !important;
     }
+
     .why__meContentRight {
         padding: 1.7rem;
         padding-left: 2.2rem;
     }
 }
 
-@media(max-width: 376px) {
-    .why__me, .why__meSloy{
+@media (max-width: 376px) {
+    .why__me, .why__meSloy {
         height: 200px;
     }
+
     .whyme__titleFirst {
-        font-size: 0.6rem!important;
+        font-size: 0.6rem !important;
     }
+
     .whyme__title {
-        font-size: 0.45rem!important;
+        font-size: 0.45rem !important;
         font-weight: bold;
     }
+
     .whyme__text {
         font-size: 5px;
         line-height: 0.4rem;
         margin-bottom: 0.45rem;
     }
+
     .why__me, .why__meSloy {
         height: 181px;
     }
+
     .why__meImageBack {
         height: 247px;
         margin-top: -14px;
     }
+
     .why__meContentRight {
         padding: 0.9rem;
         padding-left: 2.6rem;
     }
 }
 
-@media(max-width: 321px) {
+@media (max-width: 321px) {
     .why__meImageBack {
         height: 211px;
         margin-top: -14px;
