@@ -1,7 +1,84 @@
+/*.slick-prev {*/
+/*    left: 310px;*/
+/*}*/
+/*.slick-next {*/
+/*    right: 6px;*/
+/*}*/
 
-.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-    background-color: black;
+.tableOneIcon1 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 10;
+    width: 844px;
+    height: 892px;
+    padding-top: 9rem;
 }
+.tableOneIcon2 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 892px;
+    margin-top: -52rem;
+}
+.tableOneIcon3 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 892px;
+    margin-top: -57rem;
+}
+.tableOneIcon4 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 892px;
+    margin-top: -56rem;
+}
+
+.tableTwoIcon1 {
+    position: relative;
+    z-index: 10;
+    width: 844px;
+    height: 892px;
+    padding-top: 9rem;
+}
+
+.tableTwoIcon2 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 892px;
+    margin-top: -52rem;
+}
+
+.tableTwoIcon3 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 754px;
+    height: 741px;
+    margin-top: -52rem;
+}
+.slick-dots {
+    bottom: -81px!important;
+}
+
+.slider-subslider {
+    position: absolute;
+    z-index: 4;
+    height: 900px;
+    width: 900px;
+}
+/* width: 20px;
+/*.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {*/
+/*    position: relative;*/
+/*    z-index: 9999;*/
+/*    background-color: black;*/
+/*}*/
 
 .carousel-indicators li {
     width: 40px;
@@ -15,6 +92,7 @@
     height: 3rem;
     background-color: gray;
     margin-right: 1rem;
+    z-index: 60;
 }
 
 .carousel-control-prev-icon {
@@ -23,6 +101,10 @@
     height: 3rem;
     background-color: gray;
     margin-left: 1rem;
+    z-index: 60;
+}
+.carousel-control-next, .carousel-control-prev {
+    z-index: 9999;
 }
 
 .bootstrap__table {
@@ -36,7 +118,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     position: relative;
-    z-index: -1;
+    z-index: 5;
 }
 
 .bootstrap__tableLineOne {
@@ -651,7 +733,7 @@
     }
 
     .icon2 {
-        position: absolute;
+        position: relative;
         z-index: 7;
         padding-top: 6rem;
         width: 10rem;
