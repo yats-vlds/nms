@@ -21,7 +21,7 @@ const SliderComponent = () => {
         slidesToScroll: 1
     };
     return (
-        <div id="carouselExampleIndicators_2" className="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators_3" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -29,15 +29,34 @@ const SliderComponent = () => {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <div className="bootstrap__tableTwo">
-                        <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableTwoLeftInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
+                    <div className="bootstrap__table bootstrap__tableThree">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={tableThree1} loading="lazy" className="tableThreeIcon1"/>
+                                    <img src={tableTree2} loading="lazy" className="tableThreeIcon2"/>
+                                    {/*<img src={tableThree3} className="icon3TableThree"/>*/}
+                                    <img src={tableThree4} loading="lazy" className="tableThreeIcon3"/>
+                                </div>
+                                <div>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">
@@ -49,38 +68,20 @@ const SliderComponent = () => {
                                     what type of your work you do, NMS customized software
                                     development will fulfill your needstjxfyk uirtftyityerytyt.
                                 </p>
-                                <h4 className="bootstrap__tableTwoTitle">
-                                    Dev, Design, UX <br/>
+                                <h1 className="bootstrap__tableTwoTitle">
+                                    Dev, Design, UX
                                     Java, UI
-                                </h4>
+                                </h1>
                             </div>
-                        </div>
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
-                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
-                                    <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
-                                </div>
-                                <div>
-                                </div>
-                            </Slider>
                         </div>
                     </div>
                 </div>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleIndicators_3" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="sr-only"></span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators_2" role="button" data-slide="next">
+            <a className="carousel-control-next" href="#carouselExampleIndicators_3" role="button" data-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only"></span>
             </a>

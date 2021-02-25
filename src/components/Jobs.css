@@ -63,6 +63,32 @@
     height: 741px;
     margin-top: -52rem;
 }
+
+.tableThreeIcon1 {
+    position: relative;
+    z-index: 10;
+    width: 915px;
+    height: 892px;
+    padding-top: 9rem;
+}
+
+.tableThreeIcon2 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 787px;
+    margin-top: -52rem;
+}
+
+.tableThreeIcon3 {
+    margin-left: 2rem;
+    position: relative;
+    z-index: 11;
+    width: 853px;
+    height: 741px;
+    margin-top: -47rem;
+}
 .slick-dots {
     bottom: -81px!important;
 }
@@ -80,11 +106,11 @@
 /*    background-color: black;*/
 /*}*/
 
-.carousel-indicators li {
-    width: 40px;
-    height: 5px;
-    background-color: gray;
-}
+/*.carousel-indicators li {*/
+/*    width: 40px;*/
+/*    height: 5px;*/
+/*    background-color: gray;*/
+/*}*/
 
 .carousel-control-next-icon {
     margin-left: auto;
@@ -124,18 +150,14 @@
 .bootstrap__tableLineOne {
     border-right: 1px solid #ededef;
     border-top: 1px solid #ededef;
-    border-bottom: 1px solid #ededef;
 }
 
 .bootstrap__tableLineTwo {
     border-right: 1px solid #ededef;
-    border-top: 1px solid #ededef;
-    border-bottom: 1px solid #ededef;
 }
 
 .bootstrap__tableLineThree {
     border-right: 1px solid #ededef;
-    border-top: 1px solid #ededef;
     border-bottom: 1px solid #ededef;
 }
 

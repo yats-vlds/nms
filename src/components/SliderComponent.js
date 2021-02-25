@@ -21,7 +21,7 @@ const SliderComponent = () => {
         slidesToScroll: 1
     };
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators_1" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -78,16 +78,12 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="carousel-item">
-                </div>
-                <div className="carousel-item">
-                </div>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleIndicators_1" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="sr-only"></span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a className="carousel-control-next" href="#carouselExampleIndicators_1" role="button" data-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only"></span>
             </a>
