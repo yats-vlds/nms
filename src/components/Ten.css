@@ -42,15 +42,15 @@
     width: 570px;
     margin-left: 48rem;
     margin-top: 5rem;
-     -webkit-animation: tenyog 1s infinite;
-     animation: tenyog 1s infinite;
+     -webkit-animation: tenyog 1.2s infinite;
+     animation: tenyog 1.2s infinite;
 }
 @-webkit-keyframes tenyog{
     0% {
         margin-top: 5rem;
     }
     50% {
-        margin-top: 6rem;
+        margin-top: 5.7rem;
     }
     100% {
         margin-top: 5rem;
@@ -62,7 +62,7 @@
         margin-top: 5rem;
     }
     50% {
-        margin-top: 6rem;
+        margin-top: 5.7rem;
     }
     100% {
         margin-top: 5rem;
@@ -79,8 +79,8 @@
     border-radius: 110px / 30px;
     margin-top: -16rem;
     margin-left: 62rem;
-    -webkit-animation: tenellipse 1s infinite;
-    animation: tenellipse 1s infinite;
+    -webkit-animation: tenellipse 1.2s infinite;
+    animation: tenellipse 1.2s infinite;
 }
 
 @-webkit-keyframes tenellipse{
@@ -88,7 +88,7 @@
         margin-top: -16rem;
     }
     50% {
-        margin-top: -15rem;
+        margin-top: -15.5rem;
     }
     100% {
         margin-top: -16rem;
@@ -100,7 +100,7 @@
         margin-top: -16rem;
     }
     50% {
-        margin-top: -15rem;
+        margin-top: -15.5rem;
     }
     100% {
         margin-top: -16rem;
