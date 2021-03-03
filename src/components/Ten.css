@@ -73,39 +73,39 @@
     position: absolute;
     z-index: 9999;
     background-color: #3f00fd;
-    width: 153px;
-    height: 36px;
+    width: 123px;
+    height: 30px;
     opacity: 0.3;
     border-radius: 110px / 30px;
-    margin-top: -16rem;
+    margin-top: -15rem;
     margin-left: 62rem;
-    -webkit-animation: tenellipse 1.2s infinite;
-    animation: tenellipse 1.2s infinite;
+    /*-webkit-animation: tenellipse 1.2s infinite;*/
+    /*animation: tenellipse 1.2s infinite;*/
 }
 
-@-webkit-keyframes tenellipse{
-    0% {
-        margin-top: -16rem;
-    }
-    50% {
-        margin-top: -15.5rem;
-    }
-    100% {
-        margin-top: -16rem;
-    }
-}
+/*@-webkit-keyframes tenellipse{*/
+/*    0% {*/
+/*        margin-top: -16rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: -15.5rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top: -16rem;*/
+/*    }*/
+/*}*/
 
-@keyframes tenellipse{
-    0% {
-        margin-top: -16rem;
-    }
-    50% {
-        margin-top: -15.5rem;
-    }
-    100% {
-        margin-top: -16rem;
-    }
-}
+/*@keyframes tenellipse{*/
+/*    0% {*/
+/*        margin-top: -16rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: -15.5rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top: -16rem;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 1025px) {
     .ten {

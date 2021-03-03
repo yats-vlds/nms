@@ -38,13 +38,12 @@ const Why = ({id}) => {
                     </div>
                     <div className="col-6 why__meContentRight">
                         <h1 className="whyme__titleFirst">Because they trust</h1>
-                        <h2 className="whyme__title">Cost efficient</h2>
-                        <p className="whyme__text">Talented Team based in Eastern Europe</p>
+                        <h2 className="whyme__title">Cost-efficient</h2>
+                        <p className="whyme__text">Talented Team based in the Eastern Europe</p>
                         <h2 className="whyme__title">Solution orriented</h2>
-                        <p className="whyme__text">Optimal smart to the business needs</p>
+                        <p className="whyme__text">Mathing your  business needs</p>
                         <h2 className="whyme__title">Professional</h2>
-                        <p className="whyme__text"> Height quality developers working with
-                            a wide range of technologies</p>
+                        <p className="whyme__text"> Skilful developers working with a wide range of technologies</p>
                     </div>
                 </div>
                 <img src={background} alt="" className="why__meImageBack" loading="lazy"/>

@@ -5,6 +5,7 @@ import iconWhatsApp from "../assets/iconWhatsApp.png"
 import iconViber from "../assets/iconViber.png"
 import iconTelegram from "../assets/iconTelegram.png"
 import LazyLoad from "react-lazy-load"
+import {NavLink} from "react-router-dom";
 
 const Footer = ({id}) => {
     return (
@@ -13,6 +14,7 @@ const Footer = ({id}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
+
                             <img src={nmsDev} class="footer-image" loading="lazy"/>
                             <h4 className="footer__location">Team based in Kyiv, Ukraine</h4>
                             <div className="footer__contacts">
@@ -21,9 +23,15 @@ const Footer = ({id}) => {
                                 <p className="footer__contactsText"><strong>Mail.:</strong>dev.nms@gmail.com</p>
                             </div>
                             <div className="icons">
+                                <a href="https://chat.whatsapp.com/DZp4Mlt9ZVN1doXbL3pHGz">
                                     <img src={iconWhatsApp} className="iconSize" loading="lazy"/>
+                                </a>
+                                <NavLink to="/">
                                     <img src={iconViber} className="iconSize" loading="lazy"/>
+                                </NavLink>
+                                <a href="https://t.me/joinchat/qnJ1QvS4VUNiZDFi" className="iconSize">
                                     <img src={iconTelegram} className="iconSize" loading="lazy"/>
+                                </a>
                             </div>
                         </div>
                     </div>

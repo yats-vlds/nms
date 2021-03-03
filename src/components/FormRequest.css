@@ -83,6 +83,7 @@
     border: 1px solid #dedede;
     margin-bottom: 30px;
     padding-left: 1rem;
+    outline: none;
 }
 
 textarea {
@@ -93,6 +94,7 @@ textarea {
     background-color: #efefef;
     border: 1px solid #dedede;
     padding: 1rem;
+    outline: none;
 }
 
 .form__skrepka {

@@ -44,7 +44,8 @@ const Custom = ({type, dispatch}) => {
                             : type === 'mobile' ?
                                 <h1 className="display-1 custom__leftTitle">Web <br/> Development</h1>
                                 : <h1 className="display-1 custom__leftTitle">UI/UX <br/> Design</h1>}
-                        <Tween to={{x: '210px', y: '170px', rotation: 360}} duration={30} ease="back.out(1.7)" stagger={0.2}>
+                        <Tween to={{x: '210px', y: '170px', rotation: 360}} duration={30} ease="back.out(1.7)"
+                               stagger={0.2}>
                             <img src={circleIcons1} className="iconVectors iconMessage" loading="lazy"/>
                         </Tween>
                         <Tween to={{x: '150px', y: '100px', rotation: 360}} duration={30} ease="back.out(1.7)">
@@ -145,10 +146,16 @@ const Custom = ({type, dispatch}) => {
                             Technologies
                         </h1>
                         <p>
-                            <strong>Front End:</strong> React.js, React Native, Next.js, TypeScript
-                            <strong>Back End:</strong> Node.js, Express, PHP, Python
-                            <strong>Databases:</strong>  Postgres, Mongo, SQL DBs
-
+                            <strong>Front End:</strong> <br/>
+                         React.js, React Native, Next.js, TypeScript
+                        </p>
+                        <p>
+                            <strong>Back End:</strong> <br/>
+                            Node.js, Express, PHP, Python
+                        </p>
+                        <p>
+                            <strong>Databases:</strong> <br/>
+                            Postgres, Mongo, SQL DBs
                         </p>
                         <h2 className="customTitle">
                             <HashLink

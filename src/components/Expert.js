@@ -45,7 +45,7 @@ const Expert = () => {
                     <div className="col-6 expertRight expertContent">
                         <h1 className="expertTitleRight">
                             Optimal cost and resources
-                            estimation vis requirements
+                            estimation via requirements
                             analysis
                         </h1>
                         <p>
@@ -64,9 +64,9 @@ const Expert = () => {
                             Effective Action Plan
                         </h1>
                         <p className="expertText">
-                            A management plan is what is established at the beginning of your project which goes through
+                            A management plan is what is essential at the beginning of your project which goes through
                             several well-established stages: initiation, planning, execution and delivery. For each and
-                            every project we assign a dedicated team who goes with you to your goals keeping timelines
+                            every project we assign a dedicated team which goes with you to your goals keeping timelines
                             and operating budget regardless you are a startup or an enterprise.
                         </p>
                     </div>
