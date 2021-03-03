@@ -1,12 +1,6 @@
 import React from 'react'
 import "./WhyMe.css"
 import background from "../assets/back.svg"
-import karher from "../assets/karher.svg"
-import lactel from "../assets/lactel.png"
-import danfos from "../assets/danfos.svg"
-import goprint from "../assets/goprint.png"
-import ukrtelecom from "../assets/ukrtelecom.png"
-import karcher from "../assets/karher.svg";
 import danfoss from "../assets/logo/danfoss.svg";
 import ct from "../assets/logo/CT.svg";
 import goPrint from "../assets/logo/go_print.svg";

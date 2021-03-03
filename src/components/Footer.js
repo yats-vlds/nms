@@ -15,7 +15,7 @@ const Footer = ({id}) => {
                     <div className="row">
                         <div className="col">
 
-                            <img src={nmsDev} class="footer-image" loading="lazy"/>
+                            <img src={nmsDev} className="footer-image" loading="lazy"/>
                             <h4 className="footer__location">Team based in Kyiv, Ukraine</h4>
                             <div className="footer__contacts">
                                 <h1 className="footer__contactsTitle">Contact us now</h1>
