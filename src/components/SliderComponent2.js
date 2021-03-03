@@ -37,54 +37,10 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableTwoLeftInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
-                                    Project name
-                                </h1>
-                                <p className="bootstrap__tableText marginBottom">
-                                    No matter what type of your work you do, NMS customized
-                                    software development will fulfill your needs. No matter
-                                    what type of your work you do, NMS customized software
-                                    development will fulfill your needstjxfyk uirtftyityerytyt.
-                                    software development will fulfill your needs. No matter
-                                    what type of your work you do, NMS customized software
-                                    development will fulfill your needstjxfyk uirtftyityerytyt.
-                                </p>
-                                <h4 className="bootstrap__tableTwoTitle">
-                                    Dev, Design, UX <br/>
-                                    Java, UI
-                                </h4>
-                            </div>
-                        </div>
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
-                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
-                                    <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
-                                </div>
-                                <div>
-                                </div>
-                            </Slider>
-                        </div>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="bootstrap__tableTwo">
-                        <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableLineTwo"></div>
-                            <div className="bootstrap__tableTwoLeftInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">
+                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
+                                    Web Development
+                                    Services</h1>
+                                <h1 className="bootstrap__tableTitle">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">

@@ -26,9 +26,9 @@ const Footer = ({id}) => {
                                 <a href="https://chat.whatsapp.com/DZp4Mlt9ZVN1doXbL3pHGz">
                                     <img src={iconWhatsApp} className="iconSize" loading="lazy"/>
                                 </a>
-                                <NavLink to="/">
+                                <a href="https://invite.viber.com/?g2=AQAw7NVotbLxjUz%2BOeJBKHc%2BvFU521M9HRcizAWe8%2BCcln5iUoxQPEgT0O7sTwkL">
                                     <img src={iconViber} className="iconSize" loading="lazy"/>
-                                </NavLink>
+                                </a>
                                 <a href="https://t.me/joinchat/qnJ1QvS4VUNiZDFi" className="iconSize">
                                     <img src={iconTelegram} className="iconSize" loading="lazy"/>
                                 </a>

@@ -57,54 +57,9 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableRightInfo">
                                 <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
-                                    Project name
+                                    UI/UX Design Services
                                 </h1>
-                                <p className="bootstrap__tableText marginBottom">
-                                    No matter what type of your work you do, NMS customized
-                                    software development will fulfill your needs. No matter
-                                    what type of your work you do, NMS customized software
-                                    development will fulfill your needstjxfyk uirtftyityerytyt.
-                                    software development will fulfill your needs. No matter
-                                    what type of your work you do, NMS customized software
-                                    development will fulfill your needstjxfyk uirtftyityerytyt.
-                                </p>
-                                <h1 className="bootstrap__tableTwoTitle">
-                                    Dev, Design, UX
-                                    Java, UI
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="bootstrap__table bootstrap__tableThree">
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={tableThree1} loading="lazy" className="tableThreeIcon1"/>
-                                    <img src={tableTree2} loading="lazy" className="tableThreeIcon2"/>
-                                    {/*<img src={tableThree3} className="icon3TableThree"/>*/}
-                                    <img src={tableThree4} loading="lazy" className="tableThreeIcon3"/>
-                                </div>
-                                <div>
-                                </div>
-                            </Slider>
-                        </div>
-                        <div className="bootstrap__tableRight">
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableLineThree"></div>
-                            <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
+                                <h1 className="bootstrap__tableTitle">
                                     Project name
                                 </h1>
                                 <p className="bootstrap__tableText marginBottom">
