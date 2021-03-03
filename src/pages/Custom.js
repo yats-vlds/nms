@@ -84,6 +84,7 @@ const Custom = ({type, dispatch}) => {
                                     </div>
                                 </div>
                                 <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"}
+                                     style={{background: "#c401ff"}}
                                      onClick={() => setEllipse(!ellipse)}>
                                 </div>
                             </div>
@@ -151,7 +152,7 @@ const Custom = ({type, dispatch}) => {
                         </p>
                         <h2 className="customTitle">
                             <HashLink
-                                to="/#works"
+                                to="/#carouselExampleIndicators_1"
                                 className="see-cases"
                             >
                                 See cases <img src={iconDown} className="iconDown" loading="lazy"/>

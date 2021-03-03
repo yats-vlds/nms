@@ -25,14 +25,14 @@ const Why = ({id}) => {
                     <div className="col-6 why__meContentLeft">
                         <div className="clip-path">
                             <div className="logo__container">
-                                <img src={danfoss} className="logo__style danfoss"/>
-                                <img src={ct} className="logo__style ct"/>
-                                <img src={ukt} className="logo__style ukt"/>
-                                <img src={lactalis} className="logo__style lactalis"/>
-                                <img src={goPrint} className="logo__style goprint"/>
-                                <img src={inMore} className="logo__style inmore"/>
-                                <img src={listery} className="logo__style listery"/>
-                                <img src={total} className="logo__style total"/>
+                                <img src={danfoss} className="logo__style danfoss" loading="lazy"/>
+                                <img src={ct} className="logo__style ct" loading="lazy" />
+                                <img src={ukt} className="logo__style ukt" loading="lazy" />
+                                <img src={lactalis} className="logo__style lactalis" loading="lazy" />
+                                <img src={goPrint} className="logo__style goprint" loading="lazy" />
+                                <img src={inMore} className="logo__style inmore" loading="lazy" />
+                                <img src={listery} className="logo__style listery" loading="lazy" />
+                                <img src={total} className="logo__style total" loading="lazy" />
                             </div>
                         </div>
                     </div>

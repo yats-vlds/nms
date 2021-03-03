@@ -33,7 +33,7 @@ const Header = () => {
                             Why are we
                         </HashLink>
                         <HashLink
-                            to="/#works"
+                            to="/#carouselExampleIndicators_1"
                             className="header__link"
                         >
                             Works

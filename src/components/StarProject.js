@@ -4,7 +4,7 @@ import background from "../assets/back.svg"
 import iconDown from "../assets/iconDown.svg"
 
 import {Link} from "react-router-dom";
-import CircleIcons from "./CircleIcons";
+import backStar from "../assets/backStarProject.svg";
 import {Tween} from "react-gsap";
 import circleIcons1 from "../assets/vectorImg/vectorSmart1.svg";
 import circleIcons2 from "../assets/vectorImg/vectorSmart2.svg";
@@ -56,7 +56,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                            <Tween to={{x: '-250px', y: '180px', rotation: 360}} duration={30} ease="back.out(1.7)">
                                <img src={circleIcons5} className="iconVectors iconContacts" loading="lazy"/>
                            </Tween>
-                           <Tween to={{x: '70px', y: '-150px', rotation: 360}} scale={0.5} duration={30} ease="back.out(1.7)">
+                           <Tween to={{x: '-370px', y: '-150px', rotation: 360}} scale={0.5} duration={30} ease="back.out(1.7)">
                                <img src={circleIcons6} className="iconVectors iconHome" loading="lazy"/>
                            </Tween>
                            <Tween to={{x: '-50px', y: '-200px', rotation: 360}} duration={30} ease="back.out(1.7)">
@@ -65,7 +65,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                            <Tween to={{x: '-270px', y: '-30px', rotation: 360}} duration={30} ease="back.out(1.7)">
                                <img src={circleIcons8} className="iconVectors iconSetting" loading="lazy"/>
                            </Tween>
-                           <Tween to={{x: '-250px', y: '30px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                           <Tween to={{x: '180px', y: '30px', rotation: 360}} duration={30} ease="back.out(1.7)">
                                <img src={circleIcons9} className="iconVectors iconMessage2" loading="lazy"/>
                            </Tween>
                            <Tween to={{x: '-360px', y: '130px', rotation: 360}} duration={30} ease="back.out(1.7)">
