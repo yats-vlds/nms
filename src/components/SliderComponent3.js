@@ -34,14 +34,14 @@ const SliderComponent = () => {
                             <Slider {...settings} className="slider-subslider">
                                 <div>
                                     <LazyLoad height={892} width={915}>
-                                        <img src={tableThree1} className="tableThreeIcon1"/>
+                                        <img src={tableThree1} loading="lazy" className="tableThreeIcon1"/>
                                     </LazyLoad>
                                     <LazyLoad height={787} width={768}>
-                                        <img src={tableTree2} className="tableThreeIcon2"/>
+                                        <img src={tableTree2} loading="lazy" className="tableThreeIcon2"/>
                                     </LazyLoad>
                                     {/*<img src={tableThree3} className="icon3TableThree"/>*/}
                                     <LazyLoad height={741} width={853}>
-                                        <img src={tableThree4} className="tableThreeIcon3"/>
+                                        <img src={tableThree4} loading="lazy" className="tableThreeIcon3"/>
                                     </LazyLoad>
                                 </div>
                                 <div>
