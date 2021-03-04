@@ -11,6 +11,7 @@ import tableThree1 from "../assets/tableThree1.png";
 import tableTree2 from "../assets/tableThree2.svg";
 import tableThree4 from "../assets/tableThree4.svg";
 import Slider from "react-slick";
+import LazyLoad from "react-lazy-load"
 
 const SliderComponent = () => {
     const settings = {
@@ -68,9 +69,15 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
-                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
-                                    <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
+                                    <LazyLoad height={892} width={844}>
+                                        <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    </LazyLoad>
+                                    <LazyLoad height={892} width={768}>
+                                        <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    </LazyLoad>
+                                    <LazyLoad height={741} width={754}>
+                                        <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
+                                    </LazyLoad>
                                 </div>
                                 <div>
                                 </div>

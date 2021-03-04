@@ -1,16 +1,9 @@
 import React from "react";
-import yog from "../assets/yog.svg"
-import shadow from "../assets/shadow.png";
-import table1pryamogolnik from "../assets/table1Pryamogolnik.svg";
-import sloygoPrint from "../assets/sloygoPrint.svg";
-import goPrintOriginal from "../assets/goPrintOriginal.svg";
-import shadow2 from "../assets/shadowTwo.png";
-import tableTwoTwo from "../assets/tableTwoTwo.svg";
-import inmore from "../assets/inmore.svg";
 import tableThree1 from "../assets/tableThree1.png";
 import tableTree2 from "../assets/tableThree2.svg";
 import tableThree4 from "../assets/tableThree4.svg";
 import Slider from "react-slick";
+import LazyLoad from "react-lazy-load"
 
 const SliderComponent = () => {
     const settings = {
@@ -40,10 +33,16 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineThree"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <img src={tableThree1} loading="lazy" className="tableThreeIcon1"/>
-                                    <img src={tableTree2} loading="lazy" className="tableThreeIcon2"/>
+                                    <LazyLoad height={892} width={915}>
+                                        <img src={tableThree1} className="tableThreeIcon1"/>
+                                    </LazyLoad>
+                                    <LazyLoad height={787} width={768}>
+                                        <img src={tableTree2} className="tableThreeIcon2"/>
+                                    </LazyLoad>
                                     {/*<img src={tableThree3} className="icon3TableThree"/>*/}
-                                    <img src={tableThree4} loading="lazy" className="tableThreeIcon3"/>
+                                    <LazyLoad height={741} width={853}>
+                                        <img src={tableThree4} className="tableThreeIcon3"/>
+                                    </LazyLoad>
                                 </div>
                                 <div>
                                 </div>

@@ -4,6 +4,7 @@ import table1pryamogolnik from "../assets/table1Pryamogolnik.svg";
 import sloygoPrint from "../assets/sloygoPrint.svg";
 import goPrintOriginal from "../assets/goPrintOriginal.svg";
 import Slider from "react-slick";
+import LazyLoad from "react-lazy-load"
 
 const SliderComponent = () => {
     const settings = {
@@ -33,10 +34,18 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
-                                    <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
+                                    <LazyLoad width={844} height={892}>
+                                        <img src={shadow} className="tableOneIcon1"/>
+                                    </LazyLoad>
+                                    <LazyLoad width={768} height={892}>
+                                        <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    </LazyLoad>
+                                    <LazyLoad width={768} height={892}>
+                                        <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
+                                    </LazyLoad>
+                                    <LazyLoad width={768} height={892}>
+                                        <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
+                                    </LazyLoad>
                                 </div>
                                 <div>
                                 </div>
@@ -78,64 +87,64 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="carousel-item">
-                    <div className="bootstrap__table bootstrap__tableOne">
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    {/*<img src={shadow} className="tableOneIcon1"/>*/}
-                                    {/*<img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
-                                    {/*<img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>*/}
-                                </div>
-                                <div>
-                                </div>
-                            </Slider>
-                        </div>
-                        <div className="bootstrap__tableRight">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
-                                    SaaS Development Services
-                                </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Listery
-                                </h1>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Idea
-                                </h3>
-                                <p className="bootstrap__tableText marginBottom">If you take care about your friends and
-                                    want to make a gift search process easier for them, share your desires with Listery.
-                                    This MVP app allows you to search for desired items via databases of the biggest
-                                    web-shops and to share your lists. Our dev team had a pleasure to arrange the app’s
-                                    back end part.<br/>
-                                    Who knows, maybe with this Flutter SDK based product your innermost desires will
-                                    finally come true!
-                                </p>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Tech Picture
-                                </h3>
-                                <p>
-                                    Flutter<br/>
-                                    Node.js (Express)<br/>
-                                    Mongo<br/>
-                                    Docker
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="carousel-item">*/}
+                {/*    <div className="bootstrap__table bootstrap__tableOne">*/}
+                {/*        <div className="bootstrap__tableLeft">*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <Slider {...settings} className="slider-subslider">*/}
+                {/*                <div>*/}
+                {/*                    /!*<img src={shadow} className="tableOneIcon1"/>*!/*/}
+                {/*                    /!*<img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*!/*/}
+                {/*                    /!*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*!/*/}
+                {/*                    /!*<img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>*!/*/}
+                {/*                </div>*/}
+                {/*                <div>*/}
+                {/*                </div>*/}
+                {/*            </Slider>*/}
+                {/*        </div>*/}
+                {/*        <div className="bootstrap__tableRight">*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableLineOne"></div>*/}
+                {/*            <div className="bootstrap__tableRightInfo">*/}
+                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop">*/}
+                {/*                    SaaS Development Services*/}
+                {/*                </h1>*/}
+                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">*/}
+                {/*                    Listery*/}
+                {/*                </h1>*/}
+                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
+                {/*                    Idea*/}
+                {/*                </h3>*/}
+                {/*                <p className="bootstrap__tableText marginBottom">If you take care about your friends and*/}
+                {/*                    want to make a gift search process easier for them, share your desires with Listery.*/}
+                {/*                    This MVP app allows you to search for desired items via databases of the biggest*/}
+                {/*                    web-shops and to share your lists. Our dev team had a pleasure to arrange the app’s*/}
+                {/*                    back end part.<br/>*/}
+                {/*                    Who knows, maybe with this Flutter SDK based product your innermost desires will*/}
+                {/*                    finally come true!*/}
+                {/*                </p>*/}
+                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
+                {/*                    Tech Picture*/}
+                {/*                </h3>*/}
+                {/*                <p>*/}
+                {/*                    Flutter<br/>*/}
+                {/*                    Node.js (Express)<br/>*/}
+                {/*                    Mongo<br/>*/}
+                {/*                    Docker*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators_1" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
