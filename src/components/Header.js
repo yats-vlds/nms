@@ -42,7 +42,7 @@ const Header = () => {
                     <div className="col-1 header__navRight">
                         <HashLink
                             to="/#contacts"
-                            className="header__link">
+                            className="header__link header__linkContacts">
                             Contacts
                         </HashLink>
                     </div>

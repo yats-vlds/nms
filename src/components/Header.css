@@ -1,8 +1,9 @@
 .header {
     margin-top: 45px;
     height: 50px;
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
 }
+
 .header__logo {
     width: 180px;
     height: 50px;
@@ -31,68 +32,110 @@
 .header__navLeft {
 }
 
-@media(max-width: 1025px) {
-    .header__link {
-        margin-right: 2rem;
-        padding-top: 0.5rem!important;
+@media (max-width: 1441px) {
+    .header__logo {
+        height: 51px;
     }
 }
 
-@media(max-width: 769px) {
+@media (max-width: 1025px) {
+    .header__link {
+        margin-right: 2rem;
+        padding-top: 0.5rem !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .header {
+        margin-top: 30px;
+    }
+
     .header__link {
         margin-right: 2rem;
         font-size: 0.8rem;
-        padding-top: 0.4rem!important;
+        padding-top: 0.4rem !important;
     }
 }
 
-@media(max-width: 426px) {
+@media (max-width: 426px) {
+    .header__row {
+        margin-right: 0rem !important;
+    }
+
     .header__link {
         font-size: 0.2rem;
         margin-right: 1rem;
-        padding-top: 0.3rem!important;
+        padding-top: 0.3rem !important;
     }
+
+    .header__linkContacts {
+        margin-right: 0rem !important;
+    }
+
     .header__navLeft, .header__navRight {
         margin-top: 18px;
     }
+
     .header__logo {
         width: 85px;
         height: 30px;
         margin-top: 20px;
     }
+
     .header {
         margin-top: -8px;
     }
 }
 
-@media(max-width: 376px) {
+@media (max-width: 412px) {
+    .header__logo {
+        margin-top: 26px;
+        border-bottom: 13px solid white;
+    }
+}
+
+@media (max-width: 376px) {
     .header {
         margin-top: -8px;
     }
+
     .header__link {
         font-size: 0.1rem;
         margin-right: 0.5rem;
-        padding-top: 0.2rem!important;
+        padding-top: 0.2rem !important;
     }
 }
 
-@media(max-width: 320px) {
+@media (max-width: 361px) {
+    .header__logo {
+        height: 31px;
+    }
+}
+
+@media (max-width: 320px) {
     .header__logo {
         width: 60px;
         height: 24px;
-        margin-top: 8px;
+        margin-top: 13px;
     }
+
     .header__link {
         font-size: 0.1rem;
         margin-right: 0.4rem;
-        padding-top: 0.1rem!important;
+        padding-top: 0.1rem !important;
     }
+
     .header__navLeft, .header__navRight {
         margin-top: 2px;
+        margin-left: -0.1rem;
     }
 
     .header {
         margin-top: -6px;
         height: 31px;
+    }
+
+    .header__linkContacts {
+
     }
 }
