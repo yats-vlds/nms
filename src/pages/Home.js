@@ -30,14 +30,14 @@ const Home = ({state, dispatch}) => {
     return (
         <>
             <Cap/>
-            <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
+                <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert />
-            <Why id="why"/>
-            <SliderComponent />
-            <SliderComponent2 />
-            <SliderComponent3 />
-            <FormRequest/>
-            <Ten/>
+            {/*<Why id="why"/>*/}
+            {/*<SliderComponent />*/}
+            {/*<SliderComponent2 />*/}
+            {/*<SliderComponent3 />*/}
+            {/*<FormRequest/>*/}
+            {/*<Ten/>*/}
         </>
     )
 }

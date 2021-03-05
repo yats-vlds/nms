@@ -36,6 +36,9 @@
     .header__logo {
         height: 51px;
     }
+    .header__link {
+        margin-right: 5.5rem;
+    }
 }
 
 @media (max-width: 1025px) {
@@ -54,6 +57,10 @@
         margin-right: 2rem;
         font-size: 0.8rem;
         padding-top: 0.4rem !important;
+    }
+
+    .header__linkContacts {
+        margin-right: 0.5rem!important;
     }
 }
 
