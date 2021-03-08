@@ -25,8 +25,8 @@ const Why = ({id}) => {
                                 <img src={lactalis} className="logo__style lactalis" loading="lazy" />
                                 <img src={goPrint} className="logo__style goprint" loading="lazy" />
                                 <img src={inMore} className="logo__style inmore" loading="lazy" />
-                                {/*<img src={listery} className="logo__style listery" loading="lazy" />*/}
-                                {/*<img src={total} className="logo__style total" loading="lazy" />*/}
+                                <img src={listery} className="logo__style listery" loading="lazy" />
+                                <img src={total} className="logo__style total" loading="lazy" />
                             </div>
                         </div>
                     </div>

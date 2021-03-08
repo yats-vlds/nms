@@ -109,91 +109,90 @@
 
 @media (max-width: 1025px) {
     .ten {
-        margin-bottom: -157px;
+        margin-bottom: -131px;
     }
     .ten__contentLeftTitle {
-        padding-top: 12rem;
+        padding-top: 10.5rem;
         padding-left: 2rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 45px;
     }
     .ten, .tenSloy, .ten__img {
-        min-height: 600px;
+        min-height: 505px;
     }
 
     .ten__yog {
         position: absolute;
-        height: 362px;
+        height: 329px;
         object-fit: contain;
         width: 540px;
         margin-left: 30rem;
         animation: tenyog1024 2s infinite!important;
     }
     .ellipse {
-        margin-top: -10rem;
-        margin-left: 42.5rem;
-        -webkit-animation: tenellipse1024 2s infinite!important;
+        margin-top: -9rem;
+        margin-left: 43.5rem;
         animation: tenellipse1024 2s infinite!important;
     }
-    @-webkit-keyframes tenellipse1024{
-        0% {
-            margin-top: -10.5rem;
-        }
-        50% {
-            margin-top: -10rem
-        }
-        100% {
-            margin-top: -10.5rem;
-        }
-    }
+    /*@-webkit-keyframes tenellipse1024{*/
+    /*    0% {*/
+    /*        margin-top: -10.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -10rem*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -10.5rem;*/
+    /*    }*/
+    /*}*/
 
-    @keyframes tenellipse1024{
-        0% {
-            margin-top: -10.5rem;
-        }
-        50% {
-            margin-top: -10rem
-        }
-        100% {
-            margin-top: -10.5rem;
-        }
-    }
+    /*@keyframes tenellipse1024{*/
+    /*    0% {*/
+    /*        margin-top: -10.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -10rem*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -10.5rem;*/
+    /*    }*/
+    /*}*/
     @-webkit-keyframes tenyog1024{
         0% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
         50% {
-            margin-top: 5.5rem;
+            margin-top: 2.5rem;
         }
         100% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
     }
 
     @keyframes tenyog1024{
         0% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
         50% {
-            margin-top: 5.5rem;
+            margin-top: 2.5rem;
         }
         100% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
     }
 }
 
 @media (max-width: 769px) {
     .ten {
-        margin-bottom: -128px;
+        margin-bottom: -96px;
     }
     .ten, .tenSloy, .ten__img {
-        min-height: 500px;
+        min-height: 372px;
     }
     .ten__yog {
         position: absolute;
-        height: 253px;
+        height: 220px;
         object-fit: contain;
         width: 449px;
         margin-left: 19rem;
@@ -201,76 +200,78 @@
     }
     .ellipse {
         margin-left: 31rem;
-        margin-top: -9rem;
+        margin-top: -6.5rem;
         width: 80px;
         height: 16px;
         animation: tenellipse768 2s infinite!important;
     }
     .ten__contentLeftTitle {
-        padding-top: 10rem;
+        padding-top: 8rem;
         padding-left: 2rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 32px;
     }
-    @-webkit-keyframes tenellipse768{
-        0% {
-            margin-top: -8.5rem;
-        }
-        50% {
-            margin-top: -9rem;
-        }
-        100% {
-            margin-top: -8.5rem;
-        }
-    }
+    /*@-webkit-keyframes tenellipse768{*/
+    /*    0% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -9rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*}*/
 
-    @keyframes tenellipse768{
-        0% {
-            margin-top: -8.5rem;
-        }
-        50% {
-            margin-top: -9rem;
-        }
-        100% {
-            margin-top: -8.5rem;
-        }
-    }
+    /*@keyframes tenellipse768{*/
+    /*    0% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -9rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*}*/
     @-webkit-keyframes tenyog768{
         0% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
         50% {
-            margin-top: 5.7rem;
+            margin-top: 2.7rem;
         }
         100% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
     }
 
     @keyframes tenyog768{
         0% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
         50% {
-            margin-top: 5.7rem;
+            margin-top: 2.7rem;
         }
         100% {
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
     }
 }
 
 @media (max-width: 426px) {
     .ten {
-        margin-bottom: -72px;
+        margin-bottom: -57px;
     }
+
     .ten, .tenSloy, .ten__img {
-        min-height: 275px;
+        min-height: 217px;
     }
+
     .ten__yog {
         position: absolute;
-        height: 151px;
+        height: 125px;
         object-fit: contain;
         width: 190px!important;
         margin-left: 12rem;
@@ -279,39 +280,39 @@
     }
     .ellipse {
         margin-left: 16.8rem!important;
-        margin-top: -5rem;
+        margin-top: -3.8rem;
         width: 39px;
         height: 11px;
-        animation: tenellipse425 2s infinite!important;
+        /* animation: tenellipse425 2s infinite!important; */
     }
     .ten__contentLeftTitle {
-        padding-top: 6rem;
+        padding-top: 4.5rem;
         padding-left: 1rem;
         font-size: 17px;
     }
-    @-webkit-keyframes tenellipse425{
-        0% {
-            margin-top: -5rem;
-        }
-        50% {
-            margin-top: -5.1rem;
-        }
-        100% {
-            margin-top: -5rem;
-        }
-    }
+    /*@-webkit-keyframes tenellipse425{*/
+    /*    0% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -5.1rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*}*/
 
-    @keyframes tenellipse425{
-        0% {
-            margin-top: -5rem;
-        }
-        50% {
-            margin-top: -5.1rem;
-        }
-        100% {
-            margin-top: -5rem;
-        }
-    }
+    /*@keyframes tenellipse425{*/
+    /*    0% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -5.1rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*}*/
 
     @-webkit-keyframes tenyog425{
         0% {
@@ -340,13 +341,19 @@
 }
 
 @media(max-width: 376px) {
+    .ten {
+        margin-bottom: -49px;
+    }
+    .ten, .tenSloy, .ten__img {
+        min-height: 192px;
+    }
     .formRequest {
         width: 100%;
         margin-top: 1rem;
     }
     .ten__yog {
         position: absolute;
-        height: 152px;
+        height: 121px;
         object-fit: contain;
         width: 222px;
         margin-left: 11rem;
@@ -356,34 +363,34 @@
 
     .ellipse {
         margin-left: 15.75rem!important;
-        margin-top: -5rem;
-        animation: tenellipse375 1s infinite!important;
+        margin-top: -3rem;
+        /*animation: tenellipse375 1s infinite!important;*/
     }
-    @-webkit-keyframes tenellipse375{
-        0% {
-            margin-top: -5rem;
-        }
-        50% {
-            margin-top: -4.5rem;
-        }
-        100% {
-            margin-top: -5rem;
-        }
-    }
+    /*@-webkit-keyframes tenellipse375{*/
+    /*    0% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -4.5rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*}*/
 
-    @keyframes tenellipse375{
-        0% {
-            margin-top: -5rem;
-        }
-        50% {
-            margin-top: -4.5rem;
-        }
-        100% {
-            margin-top: -5rem;
-        }
-    }
+    /*@keyframes tenellipse375{*/
+    /*    0% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -4.5rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -5rem;*/
+    /*    }*/
+    /*}*/
     .ten__contentLeftTitle {
-        padding-top: 6rem;
+        padding-top: 4.3rem;
         padding-left: 1.6rem;
         color: #ffffff;
         font-weight: bold;
@@ -391,36 +398,42 @@
     }
     @-webkit-keyframes tenyog375{
         0% {
-            margin-top: 2.5rem;
+            margin-top: 1.5rem;
         }
         50% {
-            margin-top: 2.8rem;
+            margin-top: 1.8rem;
         }
         100% {
-            margin-top: 2.5rem;
+            margin-top: 1.5rem;
         }
     }
 
     @keyframes tenyog375{
         0% {
-            margin-top: 2.5rem;
+            margin-top: 1.5rem;
         }
         50% {
-            margin-top: 2.8rem;
+            margin-top: 1.8rem;
         }
         100% {
-            margin-top: 2.5rem;
+            margin-top: 1.5rem;
         }
     }
 }
 
 @media(max-width: 321px) {
+    .bootstrap__tableThree {
+        margin-top: -3rem;
+    }
+    .ten {
+        margin-bottom: -40px!important;
+    }
     .ten, .tenSloy, .ten__img {
-        min-height: 230px;
+        min-height: 155px;
     }
     .ten__yog {
         position: absolute;
-        height: 125px;
+        height: 99px;
         object-fit: contain;
         width: 123px!important;
         margin-left: 11rem;
@@ -429,61 +442,61 @@
     }
     .ellipse{
         margin-left: 13.5rem!important;
-        margin-top: -4.2rem;
-        animation: tenellipse320 3s infinite!important;
+        margin-top: -2.8rem;
+        /*animation: tenellipse320 3s infinite!important;*/
     }
     .ten__contentLeftTitle {
-        padding-top: 5rem;
+        padding-top: 3.5rem;
         padding-left: 1.6rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 11px;
         line-height: 16px;
     }
-    @-webkit-keyframes tenellipse320 {
-        0% {
-            margin-top: -4.2rem;
-        }
-        50% {
-            margin-top: -4.5rem;
-        }
-        100% {
-            margin-top: -4.2rem;
-        }
-    }
+    /*@-webkit-keyframes tenellipse320 {*/
+    /*    0% {*/
+    /*        margin-top: -4.2rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -4.5rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -4.2rem;*/
+    /*    }*/
+    /*}*/
 
-    @keyframes tenellipse320 {
-        0% {
-            margin-top: -4.2rem;
-        }
-        50% {
-            margin-top: -4.5rem;
-        }
-        100% {
-            margin-top: -4.2rem;
-        }
-    }
+    /*@keyframes tenellipse320 {*/
+    /*    0% {*/
+    /*        margin-top: -4.2rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -4.5rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -4.2rem;*/
+    /*    }*/
+    /*}*/
     @-webkit-keyframes tenyog320{
         0% {
-            margin-top: 2.5rem;
+            margin-top: 0.5rem;
         }
         50% {
-            margin-top: 2.8rem;
+            margin-top: 0.8rem;
         }
         100% {
-            margin-top: 2.5rem;
+            margin-top: 0.5rem;
         }
     }
 
     @keyframes tenyog320{
         0% {
-            margin-top: 2.5rem;
+            margin-top: 0.5rem;
         }
         50% {
-            margin-top: 2.8rem;
+            margin-top: 0.8rem;
         }
         100% {
-            margin-top: 2.5rem;
+            margin-top: 0.5rem;
         }
     }
 

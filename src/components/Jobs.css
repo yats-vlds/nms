@@ -613,7 +613,7 @@
 @media (max-width: 769px) {
 
     .bootstrap__table {
-        height: 554px !important;
+        height: 609px !important;
     }
 
     .bootstrap__tableTwo {
@@ -855,6 +855,9 @@
         height: 846px;
         margin-top: -47rem;
     }
+    .bootstrap__tableThree {
+        margin-top: -4rem;
+    }
 }
 
 @media (max-width: 426px) {
@@ -863,7 +866,7 @@
     }
 
     .bootstrap__tableTwo {
-        height: 423px !important;
+        height: 461px !important;
     }
 
     .bootstrap__tableTwoLeftInfo {
@@ -1125,7 +1128,7 @@
 
 @media (max-width: 376px) {
     .bootstrap__table {
-        height: 359px !important;
+        height: 347px !important;
     }
 
     .icon3TableTwo, .icon2TableTwo, .iconTableTwo {
@@ -1293,7 +1296,10 @@
 
 @media (max-width: 321px) {
     .bootstrap__table {
-        height: 321px;
+        height: 321px!important;
+    }
+    .bootstrap__tableTwo {
+        height: 414px !important;
     }
 
     .icon4, .icon3 {
@@ -1451,8 +1457,8 @@
         position: relative;
         z-index: 11;
         width: 341px;
-        height: 167px;
-        margin-top: -20rem;
+        height: 175px;
+        margin-top: -18rem;
     }
     .tableThreeIcon1 {
         position: relative;
@@ -1476,5 +1482,9 @@
         width: 186px;
         height: 832px;
         margin-top: -50.5rem;
+    }
+    .slick-dots {
+        top: 31%;
+        right: 348px;
     }
 }

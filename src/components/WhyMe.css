@@ -356,6 +356,84 @@
         padding: 2rem;
         padding-left: 5rem;
     }
+    .goprint {
+        margin-top: 1rem;
+        width: 340px;
+        height: 80px;
+        margin-left: 27rem;
+        animation: iconRotate 10s infinite;
+
+    }
+
+    .ukrtelecom {
+        margin-top: 3rem;
+        width: 240px;
+        height: 78px;
+        margin-left: 10rem;
+        animation: iconRotate 10s infinite;
+
+    }
+
+    .danfoss {
+        margin-top: -14rem;
+        height: 19rem;
+        margin-left: 8rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ct {
+        margin-top: -10rem;
+        margin-left: 14rem;
+        width: 11rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .goprint {
+        width: 240px;
+        height: 240px;
+        margin-top: -3rem;
+        margin-left: -3rem;
+        margin-right: 5rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .inmore {
+        height: 10rem;
+        width: 29rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .listery {
+        margin-top: -20rem;
+        margin-left: -15rem;
+        height: 140px;
+        width: 123px;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ukt {
+        height: 170px;
+        margin-top: -6rem;
+        margin-left: 15rem;
+        animation: iconRotate 10s infinite;
+    }
+    .lactalis {
+        margin-top: -5.5rem;
+        width: 14rem;
+        margin-left: 13rem;
+        animation: iconRotate 10s infinite;
+    }
+    .total {
+        margin-bottom: -13rem;
+        margin-top: -9rem;
+        margin-left: -1rem;
+        width: 10rem;
+        height: 10rem;
+        animation: iconRotate 10s infinite;
+    }
+    .clip-path {
+        width: 28rem;
+    }
 }
 
 @media (max-width: 426px) {
@@ -385,6 +463,67 @@
     .why__meContentRight {
         padding: 1.7rem;
         padding-left: 2.2rem;
+    }
+    .clip-path {
+        width: 15rem;
+    }
+
+    .danfoss {
+        margin-top: -14rem;
+        height: 0rem;
+        margin-left: 0rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ct {
+        margin-top: -10rem;
+        margin-left: 14rem;
+        width: 0rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .goprint {
+        width: 0px;
+        height: 0px;
+        margin-top: -3rem;
+        margin-left: -3rem;
+        margin-right: 5rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .inmore {
+        height: 0rem;
+        width: 0rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .listery {
+        margin-top: -20rem;
+        margin-left: -15rem;
+        height: 0px;
+        width: 0px;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ukt {
+        height: 0px;
+        margin-top: -6rem;
+        margin-left: 15rem;
+        animation: iconRotate 10s infinite;
+    }
+    .lactalis {
+        margin-top: -5.5rem;
+        width: 0rem;
+        margin-left: 13rem;
+        animation: iconRotate 10s infinite;
+    }
+    .total {
+        margin-bottom: -13rem;
+        margin-top: -9rem;
+        margin-left: -1rem;
+        width: 0rem;
+        height: 0rem;
+        animation: iconRotate 10s infinite;
     }
 }
 
@@ -421,11 +560,17 @@
         padding: 0.9rem;
         padding-left: 2.6rem;
     }
+    .whyme__titleFirst {
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media (max-width: 321px) {
     .why__meImageBack {
         height: 211px;
         margin-top: -14px;
+    }
+    .whyme__titleFirst {
+        margin-bottom: 0.5rem;
     }
 }
