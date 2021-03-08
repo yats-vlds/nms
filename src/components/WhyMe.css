@@ -142,39 +142,6 @@
     height: 100px;
 }
 
-/*.why__meLeft {*/
-/*    position: relative;*/
-/*    z-index: 3;*/
-/*}*/
-
-/*.why__meContent {*/
-/*    position: absolute;*/
-/*    z-index: 4;*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*}*/
-
-/*.why__meContentLeft {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: 50%;*/
-/*}*/
-
-
-/*.karcher {*/
-/*    position: relative;*/
-/*    z-index: 22;*/
-/*    width: 150px;*/
-/*    height: 75px;*/
-/*    margin-left: 27rem;*/
-/*    margin-top: 2.5rem;*/
-/*}*/
-
-
-/*.why__meContentRight {*/
-/*    width: 50%;*/
-/*}*/
-
 .goprint {
     margin-top: 1rem;
     width: 340px;
@@ -233,29 +200,9 @@
     margin-top: -1rem;
     margin-left: 28rem;
     animation: iconRotate 10s infinite;
-
 }
 
-/*.why__meContentRight {*/
-/*    margin-top: 11rem;*/
-/*    margin-left: 16rem;*/
-/*}*/
-
-/*.whyme__title {*/
-/*    font-size: 51px;*/
-/*    line-height: 70px;*/
-/*    color: #ffffff;*/
-/*    font-weight: bold;*/
-/*    margin-top: 1.5rem;*/
-/*}*/
-
-/*.whyme__text {*/
-/*    font-size: 20px;*/
-/*    font-weight: 300;*/
-/*    color: #ffffff;*/
-/*}*/
-
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .why__me, .why__meSloy {
         height: 600px;
     }
@@ -286,6 +233,97 @@
 
     .whyme__text {
         font-size: 0.8rem;
+    }
+
+    .clip-path {
+        width: 38rem;
+    }
+
+    .logo__container {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 5rem;
+        /* background: red; */
+        margin-left: 1rem;
+        animation: circleIcons 10s infinite;
+    }
+
+    .goprint {
+        margin-top: 1rem;
+        width: 340px;
+        height: 80px;
+        margin-left: 27rem;
+        animation: iconRotate 10s infinite;
+
+    }
+
+    .ukrtelecom {
+        margin-top: 3rem;
+        width: 240px;
+        height: 78px;
+        margin-left: 10rem;
+        animation: iconRotate 10s infinite;
+
+    }
+
+    .danfoss {
+        margin-top: -12rem;
+        height: 19rem;
+        margin-left: 14rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ct {
+        margin-top: -8rem;
+        margin-left: 22rem;
+        width: 12rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .goprint {
+        margin-top: -3rem;
+        width: 400px;
+        height: 400px;
+        margin-left: -4rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .inmore {
+        margin-right: 5rem;
+        /* margin-left: -10rem; */
+        height: 20rem;
+        width: 20rem;
+        animation: iconRotate 10s infinite;
+        padding-left: -14rem;
+    }
+
+
+    .listery {
+        margin-top: -20rem;
+        margin-left: -21rem;
+        height: 157px;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ukt {
+        height: 170px;
+        margin-top: -4rem;
+        margin-left: 23rem;
+        animation: iconRotate 10s infinite;
+    }
+    .lactalis {
+        margin-top: -5.5rem;
+        width: 14rem;
+        margin-left: 20rem;
+        animation: iconRotate 10s infinite;
+    }
+    .total {
+        margin-top: -4rem;
+        margin-left: -15rem;
+        width: 25rem;
+        animation: iconRotate 10s infinite;
+
     }
 }
 

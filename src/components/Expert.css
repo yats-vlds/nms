@@ -241,7 +241,9 @@
         width: 650px;
         height: 650px;
     }
-
+    .expertRight {
+        padding-left: 1rem;
+    }
     .kon, .kind, .table {
         width: 300px !important;
         height: 300px !important;
@@ -480,10 +482,10 @@
         height: 400px!important;
         padding: 15rem!important;
         padding-left: 20rem!important;
-        padding-top: 20rem!important;
+        padding-top: 21rem!important
     }
     .expertRocket {
-        margin-bottom: -13rem;
+        margin-bottom: -12rem;
     }
     .expertLastRow {
         padding-bottom: 5rem;
@@ -582,6 +584,30 @@
     .img-yog {
         width: 10rem;
         height: 7.7rem;
+        animation: yog425 3s infinite!important;
+    }
+    @-webkit-keyframes yog425 {
+        /*0% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+        /*50% {*/
+        /*    margin-top: -0.5rem;*/
+        /*}*/
+        /*100% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+    }
+
+    @keyframes yog425 {
+        /*0% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+        /*50% {*/
+        /*    margin-top: 0.5rem;*/
+        /*}*/
+        /*100% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
     }
     .expertLastRow {
         padding-bottom: 3rem;
@@ -618,7 +644,7 @@
         width: 11rem !important;
         margin-top: -17.7rem;
         margin-left: -9.5rem !important;
-        animation: scalesRocket426 7s infinite !important;
+        animation: scalesRocket376 7s infinite !important;
     }
 
     .scalesRocketRight {
@@ -651,6 +677,29 @@
     }
     .expertRocket {
         margin-bottom: -14rem;
+    }
+    @-webkit-keyframes scalesRocket376 {
+        0% {
+            margin-top: -19.5rem;
+        }
+        50% {
+            margin-top: -21rem;
+        }
+        100% {
+            margin-top: -19.5rem;
+        }
+    }
+
+    @keyframes scalesRocket376 {
+        0% {
+            margin-top: -19.5rem;
+        }
+        50% {
+            margin-top: -21rem;
+        }
+        100% {
+            margin-top: -19.5rem;
+        }
     }
     @-webkit-keyframes rocket376 {
         0% {
@@ -759,7 +808,7 @@
     }
     .expertTwoRow {
         height: 20rem;
-        margin-bottom: -16.5rem;
+        margin-bottom: -15.5rem;
     }
     .expertRocket {
         margin-bottom: -13rem;

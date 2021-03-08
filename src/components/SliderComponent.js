@@ -34,18 +34,10 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <LazyLoad width={844} height={892}>
-                                        <img src={shadow} className="tableOneIcon1"/>
-                                    </LazyLoad>
-                                    <LazyLoad width={768} height={892}>
-                                        <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    </LazyLoad>
-                                    <LazyLoad width={768} height={892}>
-                                        <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
-                                    </LazyLoad>
-                                    <LazyLoad width={768} height={892}>
-                                        <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
-                                    </LazyLoad>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
+                                    <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                 </div>
@@ -76,7 +68,7 @@ const SliderComponent = () => {
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
                                 </h3>
-                                <p>
+                                <p className="bootstrap__tableText marginBottom">
                                     React/React Native<br/>
                                     Next.js<br/>
                                     Node.js (Express)<br/>

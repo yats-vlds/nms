@@ -69,15 +69,9 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <LazyLoad height={892} width={844}>
                                         <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
-                                    </LazyLoad>
-                                    <LazyLoad height={892} width={768}>
                                         <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
-                                    </LazyLoad>
-                                    <LazyLoad height={741} width={754}>
                                         <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
-                                    </LazyLoad>
                                 </div>
                                 <div>
                                 </div>
