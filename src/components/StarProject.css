@@ -194,6 +194,11 @@ h1.star__projectLeftTitle {
         margin-top: -1rem;
         margin-left: 5rem;
     }
+
+    .btnStarMovement {
+        margin-top: -1rem;
+        margin-left: 5rem;
+    }
 }
 
 @media (max-width: 1025px) {
@@ -234,6 +239,13 @@ h1.star__projectLeftTitle {
         margin-left: 4rem;
     }
 
+    .btnStarMovement {
+        width: 9.5rem;
+        height: 1.7rem;
+        margin-top: -2rem;
+        margin-left: 4rem;
+    }
+
     .btnStar-twoSloy {
         width: 9.5rem;
         height: 1.7rem;
@@ -241,6 +253,11 @@ h1.star__projectLeftTitle {
 
     .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
         width: 6.5rem;
+        height: 1.7rem;
+    }
+
+    .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
+        width: 9.5rem;
         height: 1.7rem;
     }
 
@@ -253,6 +270,12 @@ h1.star__projectLeftTitle {
     .ellipse-btnStarBefore {
         width: 0.7rem;
         height: 0.7rem;
+    }
+
+    .ellipse-btnStarAfter {
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-left: 8rem;
     }
 
     .star__project {
