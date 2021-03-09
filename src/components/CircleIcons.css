@@ -74,14 +74,18 @@
         width: 3rem;
         margin-top: 5rem;
     }
+
     .iconBack {
         width: 2.5rem;
         margin-left: 5rem;
     }
+
     .iconWifi {
-        width: 20rem;
-        margin-top: -1rem;
+        width: 17rem;
+        margin-top: 1rem;
+        margin-left: -7.5rem;
     }
+
     .iconCamera {
         width: 13rem;
         height: 8rem;
@@ -89,10 +93,10 @@
     }
 
     .iconContacts {
-        width: 13rem;
-        height: 8rem;
-        margin-left: 17rem;
-        margin-top: 2rem;
+        width: 10rem;
+        height: 17rem;
+        margin-left: 18rem;
+        margin-top: -3rem;
     }
 
     .iconHome {
@@ -106,7 +110,7 @@
         width: 17rem;
         height: 17rem;
         margin-left: 3rem;
-        margin-top: 10rem;
+        margin-top: 11rem;
     }
 
     .iconSetting {
@@ -114,7 +118,9 @@
         height: 17rem;
         margin-left: 10rem;
         margin-right: 10rem;
+        margin-top: 2rem;
     }
+
     .iconBrowser {
         width: 17rem;
         height: 17rem;
@@ -125,8 +131,16 @@
     .iconMessage2 {
         width: 17rem;
         height: 17rem;
-        margin-left: 0rem;
-        margin-right: 10rem;
+        margin-left: -3rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+
+    .container-for-iconVector {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -138,12 +152,12 @@
     }
     .iconBack {
         width: 2rem;
-        margin-left: -1rem;
+        margin-left: -2rem;
     }
     .iconWifi {
         width: 13rem;
         margin-top: -1.5rem;
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
     .iconCamera {
         width: 10rem;
@@ -168,14 +182,14 @@
         width: 13rem;
         height: 14rem;
         margin-left: 2rem;
-        margin-top: 11rem;
+        margin-top: 14rem;
     }
 
     .iconSetting {
         width: 13rem;
         height: 13rem;
         margin-left: 12rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .iconBrowser {
         width: 13rem;
@@ -187,7 +201,8 @@
     .iconMessage2 {
         width: 14rem;
         height: 14rem;
-        margin-left: -5rem;
+        margin-left: -7rem;
+        margin-top: 0rem;
     }
 }
 
@@ -205,7 +220,7 @@
     .iconWifi {
         width: 7rem;
         margin-top: -1.5rem;
-        margin-left: -8rem;
+        margin-left: -9rem;
     }
     .iconCamera {
         position: absolute;
@@ -217,7 +232,7 @@
     .iconContacts {
         width: 6rem;
         height: 6rem;
-        margin-left: 21rem;
+        margin-left: 19rem;
         margin-top: -5rem;
     }
 
@@ -229,9 +244,9 @@
     }
 
     .iconCall {
-        width: 7rem;
+        width: 8rem;
         height: 14rem;
-        margin-left: 9.5rem;
+        margin-left: 8rem;
         margin-top: 15rem;
     }
 
@@ -257,37 +272,36 @@
 
 @media(max-width: 376px) {
     .iconMessage {
-        width: 1rem;
-        margin-top: -2rem;
-        margin-left: -11rem;
+        width: 0.7rem;
+        margin-top: -3rem;
+        margin-left: -10rem;
     }
     .iconBack {
-        width: 1rem;
+        width: 0.7rem;
         margin-left: -2.5rem;
         margin-top: -1rem;
     }
     .iconWifi {
-        width: 7rem;
-        margin-top: -1.5rem;
+        width: 5rem;
+        margin-top: -2.1rem;
         margin-left: -8rem;
     }
     .iconCamera {
         position: absolute;
-        width: 6rem;
-        height: 4rem;
-        margin-top: -6rem;
-        margin-left: 17rem;
+        width: 5rem;
+        height: 3rem;
+        margin-top: -7rem;
+        margin-left: 17.5rem;
     }
     .iconContacts {
-        width: 6rem;
-        height: 6rem;
-        margin-left: 21rem;
-        margin-top: -5rem;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 19rem;
     }
 
     .iconHome {
-        width: 8rem;
-        height: 6rem;
+        width: 7rem;
+        height: 5rem;
         margin-left: 28rem;
         margin-top: 12.5rem;
     }
@@ -295,90 +309,91 @@
     .iconCall {
         width: 7rem;
         height: 14rem;
-        margin-left: 9.5rem;
-        margin-top: 15rem;
+        margin-left: 7.5rem;
+        margin-top: 14rem;
     }
 
     .iconSetting {
-        width: 12rem;
-        height: 7rem;
+        width: 10rem;
+        height: 5rem;
         margin-left: 20.2rem;
         margin-top: 6rem;
     }
     .iconBrowser {
-        width: 7rem;
-        height: 10rem;
-        margin-left: 21rem;
+        width: 6rem;
+        height: 9rem;
+        margin-left: 22rem;
         margin-top: -6rem;
     }
 
     .iconMessage2 {
-        width: 8rem;
-        height: 8rem;
+        width: 7rem;
+        height: 7rem;
         margin-left: -11rem;
     }
 }
 
 @media(max-width: 321px) {
     .iconMessage {
-        width: 1rem;
+        width: 0.7rem;
         margin-top: -2rem;
         margin-left: -10rem;
     }
     .iconBack {
-        width: 1rem;
-        margin-left: -2.5rem;
-        margin-top: -1rem;
+        width: 0.7rem;
+        margin-left: -3rem;
+        margin-top: -0.5rem;
     }
     .iconWifi {
-        width: 7rem;
+        width: 5rem;
         margin-top: -1.5rem;
         margin-left: -8rem;
     }
     .iconCamera {
         position: absolute;
-        width: 6rem;
-        height: 4rem;
-        margin-top: -6.5rem;
+        width: 5rem;
+        height: 3rem;
+        margin-top: -6rem;
         margin-left: 17.5rem;
     }
     .iconContacts {
-        width: 6rem;
-        height: 6rem;
-        margin-left: 21rem;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 19rem;
         margin-top: -5rem;
     }
 
     .iconHome {
-        width: 8rem;
-        height: 6rem;
-        margin-left: 28rem;
-        margin-top: 12.5rem;
+        width: 7rem;
+        height: 5rem;
+        margin-left: 27.5rem;
+        margin-top: 13.5rem;
     }
 
     .iconCall {
-        width: 7rem;
-        height: 14rem;
-        margin-left: 9.5rem;
+        width: 6rem;
+        height: 12rem;
+        margin-left: 7.5rem;
         margin-top: 15rem;
     }
 
     .iconSetting {
-        width: 12rem;
-        height: 7rem;
+        width: 10rem;
+        height: 5.5rem;
         margin-left: 20.2rem;
-        margin-top: 6rem;
+        margin-top: 7rem;
     }
     .iconBrowser {
-        width: 7rem;
-        height: 10rem;
+        width: 6rem;
+        height: 8rem;
         margin-left: 23rem;
-        margin-top: -6rem;
+        margin-top: -4.5rem;
     }
 
     .iconMessage2 {
-        width: 8rem;
-        height: 8rem;
-        margin-left: -11rem;
+        width: 7rem;
+        height: 7rem;
+        margin-left: -10.5rem;
+        margin-top: 1rem;
     }
 }

@@ -2,9 +2,9 @@ import React from 'react'
 import logo from '../assets/logo.svg'
 import {Link, animateScroll as scroll} from "react-scroll";
 import {NavLink} from "react-router-dom";
-import "./Header.css"
 import LazyLoad from "react-lazy-load"
 import {HashLink} from "react-router-hash-link";
+import "./Header.css"
 
 const Header = () => {
     return (

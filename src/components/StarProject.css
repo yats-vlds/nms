@@ -320,8 +320,8 @@ h1.star__projectLeftTitle {
     .btnStar {
         width: 8rem;
         height: 1.4rem;
-        margin-top: 4rem;
-        margin-left: 1.5rem;
+        margin-top: -1rem;
+        margin-left: 0.5rem;
     }
 
     .btnStar-twoSloy {
@@ -347,6 +347,12 @@ h1.star__projectLeftTitle {
 }
 
 @media (max-width: 426px) {
+    .container-for-iconVector {
+        width: 60px!important;
+        height: 60px!important;
+        margin-left: -1.5rem;
+    }
+
     .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
         min-height: 300px;
     }
@@ -381,8 +387,8 @@ h1.star__projectLeftTitle {
         height: 0.9rem;
     }
     .btnStar {
-        margin-top: 1rem;
-        margin-left: 3.7rem;
+        margin-top: 3.4rem;
+        margin-left: 2rem;
     }
 
     .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
@@ -408,9 +414,21 @@ h1.star__projectLeftTitle {
         width: 0.4rem!important;
         height: 0.4rem!important;
     }
+    .container-for-iconVector {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 376px) {
+    .container-for-iconVector {
+        width: 40px!important;
+        height: 40px!important;
+        margin-left: -0.5rem;
+    }
+
     h1.star__projectLeftTitle {
         padding-bottom: 0.2rem;
         font-size: 0.55rem;
@@ -423,8 +441,8 @@ h1.star__projectLeftTitle {
         margin-left: -3.6rem;
     }
     .btnStar {
-        margin-top: 1rem;
-        margin-left: 4rem;
+        margin-top: 2.8rem;
+        margin-left: 3rem;
     }
     .btnStar, .btnStar-twoSloy {
         width: 3.6rem;
@@ -451,8 +469,8 @@ h1.star__projectLeftTitle {
         min-height: 262px;
     }
     .btnStar {
-        margin-top: 1rem;
-        margin-left: 5rem;
+        margin-top: 4.5rem;
+        margin-left: 3.9rem;
     }
     h1.star__projectLeftTitle {
         padding-bottom: 0.2rem;

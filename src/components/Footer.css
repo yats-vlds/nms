@@ -70,9 +70,25 @@
     z-index: 9999;
     width: 30px;
 }
-@media (max-width: 769px ) {
+
+@media (max-width: 1024px) {
+    .hr {
+        width: 100%;
+        height: 50px;
+        border-top: 1px solid gray;
+        background: #ededef;
+    }
+    .footer {
+        min-height: 426px;
+    }
     .footer-image {
         margin-top: 7rem;
+        width: 350px;
+    }
+}
+@media (max-width: 769px ) {
+    .footer-image {
+        margin-top: 6rem;
         width: 263px;
     }
 
@@ -82,7 +98,7 @@
     }
 
     .footer {
-        min-height: 408px;
+        min-height: 345px;
     }
 
     .iconSize {
@@ -92,9 +108,8 @@
 
 @media (max-width: 426px) {
     .footer {
-        min-height: 248px;
+        min-height: 207px;
     }
-
     .footer-image {
         margin-top: 3rem;
         width: 150px;
@@ -117,6 +132,11 @@
     .btnForm {
         margin-top: 2.1rem;
         margin-bottom: 2.1rem;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
     }
 }
 
