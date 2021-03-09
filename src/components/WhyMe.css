@@ -578,6 +578,81 @@
     .whyme__titleFirst {
         margin-bottom: 0.5rem;
     }
+
+    .clip-path {
+        width: 13.5rem;
+    }
+
+    .danfoss {
+        margin-top: -13rem;
+        height: 7rem;
+        width: 7rem;
+        margin-left: 6rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ct {
+        margin-top: -13rem;
+        margin-left: 8rem;
+        width: 3rem;
+        height: 3rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .goprint {
+        width: 6rem!important;
+        height: 5rem!important;
+        margin-top: -3rem;
+        margin-left: 7rem;
+        margin-right: 5rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .inmore {
+        margin-top: -3rem;
+        margin-left: -9rem;
+        height: 6rem;
+        width: 6rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .listery {
+        margin-top: -20rem;
+        margin-left: -12rem;
+        height: 5rem;
+        width: 5rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .ukt {
+        height: 6rem;
+        width: 6rem;
+        margin-top: -13rem;
+        margin-left: 8rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .lactalis {
+        margin-top: -11.5rem;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 8rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .total {
+        margin-top: -9rem;
+        margin-left: 5rem;
+        width: 7rem;
+        height: 7rem;
+        animation: iconRotate 10s infinite;
+    }
+
+    .logo__container {
+        width: 50px;
+        height: 50px;
+        margin-left: 0rem;
+    }
 }
 
 @media (max-width: 321px) {
