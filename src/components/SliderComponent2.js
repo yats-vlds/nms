@@ -7,6 +7,9 @@ import goPrintOriginal from "../assets/goPrintOriginal.svg";
 import shadow2 from "../assets/shadowTwo.png";
 import tableTwoTwo from "../assets/tableTwoTwo.svg";
 import inmore from "../assets/inmore.svg";
+import inmore2 from "../assets/InMore_900x1025.png"
+import inmore3 from "../assets/InMore_900x1025-2.png"
+import inmore4 from "../assets/InMore_900x1025-3.png"
 import tableThree1 from "../assets/tableThree1.png";
 import tableTree2 from "../assets/tableThree2.svg";
 import tableThree4 from "../assets/tableThree4.svg";
@@ -69,11 +72,24 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                        <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
-                                        <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
-                                        <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={inmore} loading="lazy" className="tableTwoIcon3"/>
                                 </div>
                                 <div>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={inmore2} loading="lazy" className="tableTwoIcon3Slider2"/>
+                                </div>
+                                <div>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={inmore3} loading="lazy" className="tableTwoIcon3Slider2"/>
+                                </div>
+                                <div>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={inmore4} loading="lazy" className="tableTwoIcon3Slider2"/>
                                 </div>
                             </Slider>
                         </div>

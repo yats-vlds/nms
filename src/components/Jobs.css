@@ -40,6 +40,14 @@
     height: 892px;
     margin-top: -56rem;
 }
+.tableOneIcon4Slider4 {
+    margin-left: 4rem;
+    position: relative;
+    z-index: 11;
+    width: 768px;
+    height: 892px;
+    margin-top: -56rem;
+}
 
 .tableTwoIcon1 {
     position: relative;
@@ -66,7 +74,14 @@
     height: 741px;
     margin-top: -52rem;
 }
-
+.tableTwoIcon3Slider2 {
+    margin-left: 4rem;
+    position: relative;
+    z-index: 11;
+    width: 754px;
+    height: 741px;
+    margin-top: -52rem;
+}
 .tableThreeIcon1 {
     position: relative;
     z-index: 10;
@@ -1100,6 +1115,8 @@
         height: 224px;
         margin-top: -25rem;
     }
+
+
 
     .tableThreeIcon1 {
         position: relative;
