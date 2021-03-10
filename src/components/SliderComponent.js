@@ -64,7 +64,7 @@ const SliderComponent = () => {
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
-                                    <img src={goPrintFour} className="tableOneIcon4Slider4" loading="lazy"/>
+                                    <img src={goPrintFour} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>

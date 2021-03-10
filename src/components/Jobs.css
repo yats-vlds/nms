@@ -527,14 +527,28 @@
     }
 
     .tableOneIcon4 {
-        margin-left: -5.2rem;
         position: relative;
         z-index: 11;
         width: 766px;
         height: 721px;
         padding-top: 11rem;
+        padding-right: 18.8rem;
         margin-top: -56rem;
+        padding-left: -4.1rem;
     }
+
+    .tableOneIcon4Slider2 {
+        position: relative;
+        z-index: 11;
+        width: 766px;
+        height: 721px;
+        padding-top: 11rem;
+        padding-right: 18.8rem;
+        margin-top: -48rem;
+        padding-left: -4.1rem;
+        margin-left: 4rem;
+    }
+
 
     .carousel-control-prev-icon {
         margin-right: auto;
@@ -595,6 +609,15 @@
         width: 500px;
         height: 700px;
         margin-top: -46rem;
+    }
+
+    .tableTwoIcon3Slider2 {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 511px;
+        height: 784px;
+        margin-top: -53rem;
     }
 
     .tableThreeIcon1 {

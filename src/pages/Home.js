@@ -29,6 +29,11 @@ const Home = ({state, dispatch}) => {
 
     return (
         <>
+            <div className="scroll">
+                <p className="scroll__text"><small>Scroll Down</small></p>
+                <div className="scroll__border"></div>
+                <p className="scroll__text"><small>Scroll Up</small></p>
+            </div>
             <Cap/>
                 <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert />

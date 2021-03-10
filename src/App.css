@@ -1,3 +1,32 @@
 .app {
-  width: 100%;
+    width: 100%;
+}
+
+.scroll {
+    position: fixed;
+    height: 12rem;
+    width: 1px;
+    z-index: 9999;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.scroll__border {
+  width: 1px;
+  height: 12rem;
+  border-left: 1px solid gray;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.scroll__text {
+    font-size: .825rem;
+    font-weight: 500;
+    width: 5rem;
+    transform: rotate(
+            270deg
+    );
 }
