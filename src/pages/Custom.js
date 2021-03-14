@@ -97,7 +97,7 @@ const Custom = ({type, dispatch}) => {
                         </div>
                     </div>
                     <div className="col-5 customRight">
-                        {type === 'custom' ? <CustomSASS /> : type === "mobile-and-web" ? <WebDevelopment /> : <UI_UX />}
+                        {type === 'custom' ? <CustomSASS /> : type === "mobile" ? <WebDevelopment /> : <UI_UX />}
                     </div>
                 </div>
             </div>

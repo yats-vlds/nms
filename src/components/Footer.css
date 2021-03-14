@@ -71,6 +71,11 @@
     width: 30px;
 }
 
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 1024px) {
     .hr {
         width: 100%;

@@ -4,8 +4,6 @@ import nmsDev from "../assets/nmsdev.svg"
 import iconWhatsApp from "../assets/iconWhatsApp.png"
 import iconViber from "../assets/iconViber.png"
 import iconTelegram from "../assets/iconTelegram.png"
-import LazyLoad from "react-lazy-load"
-import {NavLink} from "react-router-dom";
 
 const Footer = ({id}) => {
     return (
@@ -19,8 +17,19 @@ const Footer = ({id}) => {
                             <h4 className="footer__location">Team based in Kyiv, Ukraine</h4>
                             <div className="footer__contacts">
                                 <h1 className="footer__contactsTitle">Contact us now</h1>
-                                <p className="footer__contactsText"><strong>Tel.:</strong>+38 090 000 00 00</p>
-                                <p className="footer__contactsText"><strong>Mail.:</strong>dev.nms@gmail.com</p>
+                                <p className="footer__contactsText"><strong>Tel.:</strong>
+                                    <a className="footer__link"
+                                       href="tel:+380672179194">
+                                        +38 067 217 91 94
+                                    </a>
+                                </p>
+                                <p className="footer__contactsText">
+                                    <strong>Mail.:</strong>
+                                    <a className="footer__link"
+                                       href="mailto:dev.nms@gmail.com">
+                                        dev.nms@gmail.com
+                                    </a>
+                                </p>
                             </div>
                             <div className="icons">
                                 <a href="https://chat.whatsapp.com/DZp4Mlt9ZVN1doXbL3pHGz">

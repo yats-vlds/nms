@@ -118,6 +118,343 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
+                                    <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintTwo} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintThree} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintFour} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Listery
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    If you take care about your friends and want to make a gift search process easier
+                                    for them, share your desires with Listery. This MVP app allows you to search for
+                                    desired items via databases of the biggest web-shops and to share your lists. Our
+                                    dev team had a pleasure to arrange the app’s back end part.
+                                    Who knows, maybe with this Flutter SDK based product your innermost desires will
+                                    finally come true!
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    Flutter<br/>
+                                    Node.js (Express)<br/>
+                                    Mongo<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>
+                                    <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintTwo} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintThree} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
+                                    <img src={goPrintFour} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Chary Time
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    A lot of people in the world want to support charity organizations, however, not all
+                                    of them have money for that. What if to convert CTP into money that could be donated
+                                    to a selected charity organization? What if to create a digital solution to make
+                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    React/React Native<br/>
+                                    Next.js<br/>
+                                    Node.js (Express)<br/>
+                                    Postgres<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko2} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko3} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    FAVVEL
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">Who’s on top of the world? Best film,
+                                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service
+                                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,
+                                    this app serves a great example of how an idea of individual entrepreneur can
+                                    transform into a custom software product in a couple of months.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    React<br/>
+                                    Node.js<br/>
+                                    Mongo DB<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko2} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko3} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Danfoss Heat Selector
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    ECtemp Touch – is a smart thermostat created by Danfoss. To give users a possibility
+                                    to use the functionality of this Smart Home solution for 100%, we have created a
+                                    virtual instrument which allows to create special HEXA code according to specific
+                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to
+                                    setup them by distance.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    C#<br/>
+                                    .NET MVC<br/>
+                                    ReactJS<br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko2} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko3} className="tableOneIcon3" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Danfoss Veria EasyPlan
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">The Flash epoch is over and it’s a
+                                    right time to switch your application to an up-to-date framework. Danfoss Veria
+                                    EasyPlan is a convenient web app allowing house builders and end customers to plan
+                                    usage of heating mats from one of the world leaders in the field of smart home
+                                    solutions. Our product is fully responsive, in addition all needed calculations are
+                                    provided on the front end side, making EasyPlan quite a refined product.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    React<br/>
+                                    Node.js<br/>
+                                    Mongo DB<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     <img src={total} className="tableOneIcon3" loading="lazy"/>
                                 </div>
                                 <div>
@@ -232,6 +569,7 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators_1" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
