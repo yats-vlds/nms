@@ -31,3 +31,50 @@
     );
     cursor: pointer;
 }
+
+@media (max-width: 1025px) {
+    .scroll {
+        height: 10rem;
+    }
+    .scroll__text {
+        font-size: .775rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .scroll {
+        height: 9rem;
+    }
+    .scroll__text {
+        font-size: .725rem!important;
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .scroll {
+        height: 7.5rem;
+    }
+    .scroll__text {
+        font-size: .625rem !important;
+    }
+}
+@media(max-width: 376px) {
+    .scroll {
+        margin-top: 0.5rem;
+    }
+    .scroll__text {
+        font-size: .510rem !important;
+        padding-bottom: 0;
+    }
+    .scroll__border {
+        margin-top: 2.3rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .scroll__text {
+        font-size: .410rem !important;
+        padding-bottom: 0;
+    }
+}

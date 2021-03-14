@@ -12,10 +12,8 @@ import SliderComponent3 from "../components/SliderComponent3";
 import {HashRouter, Redirect} from "react-router-dom"
 
 
-const Home = ({state, dispatch}) => {
+const Home = ({state, dispatch, y, border}) => {
     const [ellipse, setEllipse] = useState(false)
-    const [y, setY] = useState(window.scrollY);
-    const [border, setBorder] = useState(false)
     useEffect(() => {
         setTimeout(() => {
             if (ellipse || state.ellipse) {
@@ -27,34 +25,6 @@ const Home = ({state, dispatch}) => {
             }
         }, 3000)
     }, [ellipse, state.ellipse])
-
-    const handleNavigation = useCallback(
-        (e) => {
-            setBorder(false)
-            const window = e.currentTarget;
-            if (y > window.scrollY) {
-                console.log("scrolling up");
-            } else if (y < window.scrollY) {
-                console.log("scrolling down");
-            }
-            setY(window.scrollY);
-            if (y > 1800 && y < 8016) {
-                setTimeout(() => {setBorder(true)}, 3000)
-            } else {
-                setTimeout(() => {setBorder(false)}, 3000)
-            }
-        },
-        [y]
-    )
-
-    useEffect(() => {
-        setY(window.scrollY);
-        window.addEventListener("scroll", handleNavigation);
-
-        return () => {
-            window.removeEventListener("scroll", handleNavigation);
-        };
-    }, [handleNavigation]);
 
     return (
         <>
