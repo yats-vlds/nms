@@ -9,22 +9,23 @@ import Ten from "../components/Ten"
 import SliderComponent from "../components/SliderComponent";
 import SliderComponent2 from "../components/SliderComponent2";
 import SliderComponent3 from "../components/SliderComponent3";
-import {HashRouter, Redirect} from "react-router-dom"
+import {Redirect} from "react-router-dom"
 
 
 const Home = ({state, dispatch, y, border}) => {
     const [ellipse, setEllipse] = useState(false)
+    // 1440px === 7350, 1025px === 5450, 769 === 4210, 425px === 2300, 375 === 1900
     useEffect(() => {
-        setTimeout(() => {
             if (ellipse || state.ellipse) {
-                window.scrollTo(7550, 7550)
-                console.log('true')
-                dispatch({type: "setEllipse", payload: false})
-                setEllipse(false)
-                return <Redirect push to='/#expertise'/>
+                setTimeout(() => {
+                    window.scrollTo(1800, 1800)
+                    console.log('true')
+                    dispatch({type: "setEllipse", payload: false})
+                    setEllipse(false)
+                }, 3000)
             }
-        }, 3000)
     }, [ellipse, state.ellipse])
+    console.log(window.outerWidth, 'width')
 
     return (
         <>
@@ -39,7 +40,7 @@ const Home = ({state, dispatch, y, border}) => {
             <Why id="why"/>
             <SliderComponent/>
             <SliderComponent2/>
-            {/*<SliderComponent3/>*/}
+            <SliderComponent3/>
             <FormRequest/>
             <Ten/>
         </>

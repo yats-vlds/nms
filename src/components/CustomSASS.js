@@ -74,6 +74,7 @@ const CustomSASS = () => {
                 <HashLink
                     to="/#carouselExampleIndicators_1"
                     className="see-cases"
+                    onClick={() => setTimeout(() => {console.log('alert')}, 10000)}
                 >
                     See cases <img src={iconDown} className="iconDown" loading="lazy"/>
                 </HashLink>

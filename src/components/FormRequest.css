@@ -229,7 +229,7 @@ textarea {
         font-size: 0.8rem;
     }
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
-        width: 30rem;
+        width: 36rem;
     }
     .input {
         margin-bottom: 11px;
@@ -248,7 +248,7 @@ textarea {
         padding-top: 3rem;
     }
     .from-pryam4 {
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 }
 
@@ -286,6 +286,7 @@ textarea {
     }
     .from-pryam4 {
         font-size: 18px;
+        margin-top: 1.3rem;
     }
     .btnForm, .btnForm-twoSloy {
         width: 6rem!important;

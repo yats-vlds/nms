@@ -645,10 +645,10 @@
         font-size: 3px;
     }
 
-    .ellipse-btnStarBefore {
-        width: 0.35rem !important;
-        height: 0.35rem !important;
-    }
+    /*.ellipse-btnStarBefore {*/
+    /*    width: 0.35rem !important;*/
+    /*    height: 0.35rem !important;*/
+    /*}*/
 
     .ellipse-btnStarAfter {
         margin-left: 4.5rem;
