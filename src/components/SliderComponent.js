@@ -256,74 +256,64 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
-                {/*<div className="carousel-item">*/}
-                {/*    <div className="bootstrap__table bootstrap__tableOne">*/}
-                {/*        <div className="bootstrap__tableLeft">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <Slider {...settings} className="slider-subslider">*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={favvel} className="tableOneIconFavvel" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={favvel2} className="tableOneIconFavvel" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow} className="tableOneIcon1"/>*!/*/}
-                {/*                /!*    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*!/*/}
-                {/*                /!*    <img src={loko2} className="tableOneIcon3" loading="lazy"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow} className="tableOneIcon1"/>*!/*/}
-                {/*                /!*    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*!/*/}
-                {/*                /!*    <img src={loko3} className="tableOneIcon3" loading="lazy"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*            </Slider>*/}
-                {/*        </div>*/}
-                {/*        <div className="bootstrap__tableRight">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableRightInfo">*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop">*/}
-                {/*                    SaaS Development Services*/}
-                {/*                </h1>*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">*/}
-                {/*                    FAVVEL*/}
-                {/*                </h1>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Idea*/}
-                {/*                </h3>*/}
-                {/*                <p className="bootstrap__tableText marginBottom">Who’s on top of the world? Best film,*/}
-                {/*                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service*/}
-                {/*                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,*/}
-                {/*                    this app serves a great example of how an idea of individual entrepreneur can*/}
-                {/*                    transform into a custom software product in a couple of months.*/}
-                {/*                </p>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Tech Picture*/}
-                {/*                </h3>*/}
-                {/*                <p>*/}
-                {/*                    React<br/>*/}
-                {/*                    Node.js<br/>*/}
-                {/*                    Mongo DB<br/>*/}
-                {/*                    Docker*/}
-                {/*                </p>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={favvel} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={favvel2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    FAVVEL
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">Who’s on top of the world? Best film,
+                                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service
+                                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,
+                                    this app serves a great example of how an idea of individual entrepreneur can
+                                    transform into a custom software product in a couple of months.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    React<br/>
+                                    Node.js<br/>
+                                    Mongo DB<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/*<div className="carousel-item">*/}
                 {/*    <div className="bootstrap__table bootstrap__tableOne">*/}
                 {/*        <div className="bootstrap__tableLeft">*/}
@@ -451,134 +441,134 @@ const SliderComponent = () => {
                 {/*        </div>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
-                {/*<div className="carousel-item">*/}
-                {/*    <div className="bootstrap__table bootstrap__tableOne">*/}
-                {/*        <div className="bootstrap__tableLeft">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <Slider {...settings} className="slider-subslider">*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={total} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={total2} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={total3} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*            </Slider>*/}
-                {/*        </div>*/}
-                {/*        <div className="bootstrap__tableRight">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableRightInfo">*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop">*/}
-                {/*                    SaaS Development Services*/}
-                {/*                </h1>*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">*/}
-                {/*                    TOTAL Safety Circle*/}
-                {/*                </h1>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Idea*/}
-                {/*                </h3>*/}
-                {/*                <p className="bootstrap__tableText marginBottom">Total Safety Circle is a custom web*/}
-                {/*                    product developed for Total Energy’s promotional campaign. Being created within the*/}
-                {/*                    React / NodeJS framework, the product possessed gamified mechanics which allowed*/}
-                {/*                    users to create so called “safety circles” for people they care, distribute*/}
-                {/*                    invitations and win some incentives.*/}
-                {/*                </p>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Tech Picture*/}
-                {/*                </h3>*/}
-                {/*                <p>*/}
-                {/*                    React<br/>*/}
-                {/*                    Node.js<br/>*/}
-                {/*                    Postgres<br/>*/}
-                {/*                    Docker*/}
-                {/*                </p>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className="carousel-item">*/}
-                {/*    <div className="bootstrap__table bootstrap__tableOne">*/}
-                {/*        <div className="bootstrap__tableLeft">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <Slider {...settings} className="slider-subslider">*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={loko} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={loko2} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*                <div>*/}
-                {/*                    <img src={shadow} className="tableOneIcon1"/>*/}
-                {/*                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                {/*                    <img src={loko3} className="tableOneIcon3" loading="lazy"/>*/}
-                {/*                </div>*/}
-                {/*            </Slider>*/}
-                {/*        </div>*/}
-                {/*        <div className="bootstrap__tableRight">*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableLineOne"></div>*/}
-                {/*            <div className="bootstrap__tableRightInfo">*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop">*/}
-                {/*                    SaaS Development Services*/}
-                {/*                </h1>*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">*/}
-                {/*                    The Loko-Moko Game*/}
-                {/*                </h1>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Idea*/}
-                {/*                </h3>*/}
-                {/*                <p className="bootstrap__tableText marginBottom">This web application has been developed*/}
-                {/*                    to promote products under the Loko-Moko Brand for Lactalis, the Global producer of*/}
-                {/*                    whey and milk products.*/}
-                {/*                    Using a popular Rio cartoon theme we’ve developed a custom UI design and back end*/}
-                {/*                    for a promotional game app which allowed users to spend some nice time and learn*/}
-                {/*                    more about Loko-Moko line. Opening new game levels needed usage of a special promo*/}
-                {/*                    code, thus online activity was unified with BTL events.*/}
-                {/*                </p>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Tech Picture*/}
-                {/*                </h3>*/}
-                {/*                <p>*/}
-                {/*                    React<br/>*/}
-                {/*                    Node.js<br/>*/}
-                {/*                    Mongo DB<br/>*/}
-                {/*                    Docker*/}
-                {/*                </p>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={total} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={total2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={total3} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    TOTAL Safety Circle
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">Total Safety Circle is a custom web
+                                    product developed for Total Energy’s promotional campaign. Being created within the
+                                    React / NodeJS framework, the product possessed gamified mechanics which allowed
+                                    users to create so called “safety circles” for people they care, distribute
+                                    invitations and win some incentives.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    React<br/>
+                                    Node.js<br/>
+                                    Postgres<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={loko3} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    The Loko-Moko Game
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">This web application has been developed
+                                    to promote products under the Loko-Moko Brand for Lactalis, the Global producer of
+                                    whey and milk products.
+                                    Using a popular Rio cartoon theme we’ve developed a custom UI design and back end
+                                    for a promotional game app which allowed users to spend some nice time and learn
+                                    more about Loko-Moko line. Opening new game levels needed usage of a special promo
+                                    code, thus online activity was unified with BTL events.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    React<br/>
+                                    Node.js<br/>
+                                    Mongo DB<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators_1" role="button" data-slide="prev">

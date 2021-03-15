@@ -39,7 +39,7 @@ const Home = ({state, dispatch, y, border}) => {
             <Why id="why"/>
             <SliderComponent/>
             <SliderComponent2/>
-            <SliderComponent3/>
+            {/*<SliderComponent3/>*/}
             <FormRequest/>
             <Ten/>
         </>
