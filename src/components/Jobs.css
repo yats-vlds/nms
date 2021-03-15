@@ -93,6 +93,7 @@
     height: 741px;
     margin-top: -52rem;
 }
+
 .tableTwoIcon3Slider2 {
     margin-left: 4rem;
     position: relative;
@@ -101,6 +102,7 @@
     height: 741px;
     margin-top: -52rem;
 }
+
 .tableThreeIcon1 {
     position: relative;
     z-index: 10;
@@ -472,6 +474,7 @@
         margin-top: 7rem;
     }
 
+
     .bootstrap__tableTwoLeftInfo {
         padding-left: 4rem;
     }
@@ -523,8 +526,8 @@
         position: relative;
         z-index: 10;
         width: 593px;
-        height: 731px;
-        padding-top: 9rem;
+        height: 658px;
+        padding-top: 6rem;
     }
 
     .tableOneIcon2 {
@@ -532,8 +535,19 @@
         position: relative;
         z-index: 10;
         width: 593px;
-        height: 747px;
-        padding-top: 9rem;
+        height: 816px;
+        padding-top: 17rem;
+    }
+
+    .tableOneIcon4 {
+        position: relative;
+        z-index: 11;
+        width: 766px;
+        height: 721px;
+        padding-top: 10rem;
+        padding-right: 18.8rem;
+        margin-top: -47rem;
+        padding-left: -4.1rem;
     }
 
     .tableOneIcon3 {
@@ -545,16 +559,6 @@
         margin-top: -49rem;
     }
 
-    .tableOneIcon4 {
-        position: relative;
-        z-index: 11;
-        width: 766px;
-        height: 721px;
-        padding-top: 11rem;
-        padding-right: 18.8rem;
-        margin-top: -56rem;
-        padding-left: -4.1rem;
-    }
 
     .tableOneIcon4Slider2 {
         position: relative;
@@ -816,8 +820,8 @@
         margin-left: 2rem;
         position: relative;
         z-index: 10;
-        width: 438px;
-        height: 525px;
+        width: 420px;
+        height: 467px;
         padding-top: 6rem;
     }
 
@@ -825,9 +829,9 @@
         margin-left: 1.5rem;
         position: relative;
         z-index: 10;
-        width: 419px;
-        height: 737px;
-        padding-top: 23rem;
+        width: 400px;
+        height: 830px;
+        padding-top: 27rem;
     }
 
     .tableOneIcon3 {
@@ -840,12 +844,12 @@
     }
 
     .tableOneIcon4 {
-        margin-left: 2rem;
+        margin-left: 2.3rem;
         position: relative;
         z-index: 11;
-        width: 376px;
+        width: 691px;
         height: 616px;
-        margin-top: -52.5rem;
+        margin-top: -38.5rem;
     }
 
     .marginBottom {
@@ -912,6 +916,7 @@
         height: 846px;
         margin-top: -47rem;
     }
+
     .bootstrap__tableThree {
         margin-top: -4rem;
     }
@@ -1062,21 +1067,21 @@
     }
 
     .tableOneIcon1 {
-        margin-left: 2rem;
+        margin-left: 1rem;
         position: relative;
         z-index: 10;
         width: 228px;
-        height: 359px;
+        height: 346px;
         padding-top: 3rem;
     }
 
     .tableOneIcon2 {
-        margin-left: 1.5rem;
+        margin-left: 1rem;
         position: relative;
         z-index: 10;
         width: 227px;
-        height: 757px;
-        padding-top: 32rem;
+        height: 731px;
+        padding-top: 34rem;
         padding-bottom: -1rem;
     }
 
@@ -1091,13 +1096,15 @@
     }
 
     .tableOneIcon4 {
-        margin-left: -3rem;
+        margin-left: 1rem;
         position: relative;
         z-index: 11;
-        width: 376px;
-        height: 300px;
-        margin-top: -19rem;
+        width: 525px;
+        height: 278px;
+        margin-top: -16rem;
         padding-top: 3.2rem;
+        /* background-size: 100%; */
+        object-fit: contain;
     }
 
     .bootstrap__marginTop {
@@ -1159,7 +1166,6 @@
     }
 
 
-
     .tableThreeIcon1 {
         position: relative;
         z-index: 10;
@@ -1167,6 +1173,7 @@
         height: 283px;
         padding-top: 4rem;
     }
+
     .tableThreeIcon2 {
         margin-left: 1rem;
         position: relative;
@@ -1175,6 +1182,7 @@
         height: 817px;
         margin-top: -34rem;
     }
+
     .tableThreeIcon3 {
         margin-left: 1rem;
         position: relative;
@@ -1263,18 +1271,19 @@
         position: relative;
         z-index: 10;
         width: 225px;
-        height: 359px;
-        padding-top: 3rem;
+        height: 288px;
+        padding-top: 4rem;
     }
 
     .tableOneIcon2 {
-        margin-left: 1rem;
+        margin-left: 0.7rem;
         position: relative;
         z-index: 10;
         width: 190px;
-        height: 757px;
-        padding-top: 30rem;
+        height: 765px;
+        padding-top: 28rem;
         padding-bottom: -1rem;
+        margin-top: -46rem;
     }
 
     .tableOneIcon3 {
@@ -1288,12 +1297,12 @@
     }
 
     .tableOneIcon4 {
-        margin-left: 1rem;
+        margin-left: 1.2rem;
         position: relative;
-        z-index: 11;
-        width: 213px;
-        height: 300px;
-        margin-top: -18.8rem;
+        z-index: 9999;
+        width: 482px;
+        height: 302px;
+        margin-top: -20.8rem;
         padding-top: 3rem;
     }
 
@@ -1328,6 +1337,7 @@
         height: 374px;
         margin-top: -5rem;
     }
+
     .tableThreeIcon1 {
         position: relative;
         z-index: 10;
@@ -1335,6 +1345,7 @@
         height: 282px;
         padding-top: 5rem;
     }
+
     .tableThreeIcon2 {
         margin-left: 1rem;
         position: relative;
@@ -1343,6 +1354,7 @@
         height: 838px;
         margin-top: -34rem;
     }
+
     .tableThreeIcon3 {
         margin-left: 1rem;
         position: relative;
@@ -1355,8 +1367,9 @@
 
 @media (max-width: 321px) {
     .bootstrap__table {
-        height: 321px!important;
+        height: 321px !important;
     }
+
     .bootstrap__tableTwo {
         height: 414px !important;
     }
@@ -1451,8 +1464,9 @@
         z-index: 10;
         width: 170px;
         height: 773px;
-        padding-top: 38rem;
+        padding-top: 21rem;
         padding-bottom: -1rem;
+        margin-top: -43rem;
     }
 
     .tableOneIcon3 {
@@ -1469,20 +1483,10 @@
         margin-left: 1rem;
         position: relative;
         z-index: 11;
-        width: 177px;
-        height: 436px;
-        margin-top: -20rem;
-        padding-top: 3rem;
-    }
-
-    .tableOneIcon4 {
-        margin-left: 1rem;
-        position: relative;
-        z-index: 11;
-        width: 177px;
-        height: 436px;
-        margin-top: -26.7rem;
-        padding-top: 2rem;
+        width: 459px;
+        height: 456px;
+        margin-top: -27.7rem;
+        padding-top: 0rem;
     }
 
     .bootstrap__tableRightInfo {
@@ -1519,6 +1523,7 @@
         height: 175px;
         margin-top: -18rem;
     }
+
     .tableThreeIcon1 {
         position: relative;
         z-index: 10;
@@ -1526,6 +1531,7 @@
         height: 301px;
         padding-top: 8rem;
     }
+
     .tableThreeIcon2 {
         margin-left: 0.5rem;
         position: relative;
@@ -1534,6 +1540,7 @@
         height: 823px;
         margin-top: -33rem;
     }
+
     .tableThreeIcon3 {
         margin-left: 0.5rem;
         position: relative;
@@ -1542,6 +1549,7 @@
         height: 832px;
         margin-top: -50.5rem;
     }
+
     .slick-dots {
         top: 31%;
         right: 348px;
