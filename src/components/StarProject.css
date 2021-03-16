@@ -323,13 +323,13 @@ h1.star__projectLeftTitle {
     }
 
     .ellipse-btnStarBefore {
-        width: 0.7rem;
-        height: 0.7rem;
+        width: 0.6rem;
+        height: 0.6rem;
     }
 
     .ellipse-btnStarAfter {
-        width: 0.7rem;
-        height: 0.7rem;
+        width: 0.6rem;
+        height: 0.6rem;
         margin-left: 8rem;
     }
 
@@ -437,11 +437,10 @@ h1.star__projectLeftTitle {
         width: 0.6rem;
         height: 0.6rem;
     }
-
     .ellipse-btnStarAfter {
-        margin-left: 6.5rem !important;
-        width: 0.6rem;
-        height: 0.6rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-left: 6.8rem!important;
     }
 }
 
@@ -581,7 +580,7 @@ h1.star__projectLeftTitle {
         margin-left: -3.6rem;
     }
 
-    .btnStar {
+    .btnStar, .btnStarMovement {
         margin-top: 3.8rem;
         margin-left: 3rem;
     }

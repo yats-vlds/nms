@@ -89,9 +89,33 @@
     /*filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1)) drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.09)) drop-shadow(0px 15px 3.5px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 4px rgba(0, 0, 0, 0.07)) drop-shadow(0px 25px 4.5px rgba(0, 0, 0, 0.06)) drop-shadow(0px 30px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 35px 5.5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 40px 6px rgba(0, 0, 0, 0.03)) drop-shadow(0px 45px 6.5px rgba(0, 0, 0, 0.02)) drop-shadow(0px 50px 7px rgba(0, 0, 0, 0.01));*/
     margin-top: 12rem;
     margin-left: 6rem;
-    animation: btnStar 3s infinite;
+    animation: btnCustom 3s infinite;
     position: absolute;
     z-index: 9999;
+}
+
+@-webkit-keyframes btnCustom {
+    0% {
+        margin-left: 6rem;
+    }
+    50% {
+        margin-left: 4.5rem;
+    }
+    100% {
+        margin-left: 6rem;
+    }
+}
+
+@keyframes btnCustom {
+    0% {
+        margin-left: 6rem;
+    }
+    50% {
+        margin-left: 4.5rem;
+    }
+    100% {
+        margin-left: 6rem;
+    }
 }
 
 .btnCustom-twoSloy {
@@ -139,6 +163,26 @@
 .btnCustom-fourSloyTitle {
     padding: 0.5rem;
     color: #ffffff;
+}
+
+.ellipse-btnCustomBefore {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 11px;
+    background-color: #c000ff;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.ellipse-btnCustomAfter {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 11px;
+    background-color: blue;
+    margin-right: 2rem;
+    margin-left: 11.5rem;
+    cursor: pointer;
 }
 
 .see-cases {
@@ -248,10 +292,39 @@
         margin-left: 7rem;
     }
 
-    .btnCustom, .btnCustom-twoSloy {
+    .btnCustomMovement {
+        margin-top: 13rem;
+        margin-left: 7rem;
+        animation: btnCustom1025 3s infinite;
+    }
+
+    @-webkit-keyframes btnCustom1025 {
+        0% {
+            margin-left: 7rem;
+        }
+        50% {
+            margin-left: 5.5rem;
+        }
+        100% {
+            margin-left: 7rem;
+        }
+    }
+
+    @keyframes btnCustom1025 {
+        0% {
+            margin-left: 7rem;
+        }
+        50% {
+            margin-left: 5.5rem;
+        }
+        100% {
+            margin-left: 7rem;
+        }
+    }
+
+    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
         width: 10.5rem;
         height: 2rem;
-        border: 1px solid #ededef;
     }
 
     .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
@@ -268,6 +341,16 @@
         font-size: 14px;
     }
 
+    .ellipse-btnCustomBefore {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .ellipse-btnCustomAfter {
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-left: 9rem;
+    }
     .custom__icon {
         margin-left: 2rem;
     }
@@ -352,29 +435,57 @@
         padding-bottom: 4px;
     }
 
-    .btnCustom {
+    .btnCustom, .btnCustomMovement {
         margin-top: 12rem;
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
 
     .btnCustom, .btnCustom-twoSloy {
-        width: 7.5rem;
-        height: 1.4rem;
+        width: 8.5rem;
+        height: 1.6rem;
+    }
+
+    .btnCustomMovement {
+        animation: btnCustom769 3s infinite;
+    }
+
+    @-webkit-keyframes btnCustom769 {
+        0% {
+            margin-left: 5rem;
+        }
+        50% {
+            margin-left: 4rem;
+        }
+        100% {
+            margin-left: 5rem;
+        }
+    }
+
+    @keyframes btnCustom769 {
+        0% {
+            margin-left: 5rem;
+        }
+        50% {
+            margin-left: 4rem;
+        }
+        100% {
+            margin-left: 5rem;
+        }
     }
 
     .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
-        width: 5rem;
-        height: 1.4rem;
+        width: 5.5rem;
+        height: 1.6rem;
     }
 
     .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
-        width: 7.5rem;
-        height: 1.4rem;
+        width: 8.5rem;
+        height: 1.6rem;
     }
 
     .btnCustom-fourSloyTitle {
         font-size: 0.63rem;
-        padding-top: 5px;
+        padding-top: 7px;
     }
 
     .ellipse-btnStarBefore {
@@ -383,14 +494,19 @@
         margin-right: 0.7rem;
     }
 
-    .ellipse-btnStarAfter {
-        margin-left: 5.5rem;
-    }
 
     .custom__leftTitle {
         font-size: 3rem;
     }
-
+    .ellipse-btnCustomBefore {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .ellipse-btnCustomAfter {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-left: 6.8rem!important;
+    }
 
     /* ICONS LOGIC */
     .custom__icon {
@@ -460,6 +576,7 @@
         margin-left: 3rem;
         margin-right: 10rem;
     }
+
     .custom__rightSubtitle {
         line-height: 0px;
     }
@@ -485,7 +602,7 @@
         padding-left: 0.7rem;
     }
 
-    .btnCustom, .btnCustom-twoSloy {
+    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
         width: 5.5rem;
         height: 1.1rem;
     }
@@ -510,18 +627,55 @@
         margin-right: 0.5rem;
     }
 
+    .ellipse-btnCustomBefore {
+        width: 0.35rem;
+        height: 0.35rem;
+        margin-right: 0.5rem;
+    }
+
+    .ellipse-btnCustomAfter {
+        margin-left: 4.5rem !important;
+        width: 0.35rem;
+        height: 0.35rem;
+    }
+
     .btnCustom-fourSloyTitle {
         font-size: 0.38rem;
         padding-top: 5px;
     }
 
-    .ellipse-btnStarAfter {
-        margin-left: 6.5rem;
-    }
 
-    .btnCustom {
+
+    .btnCustom, .btnCustomMovement {
         margin-top: 7rem;
         margin-left: 3rem;
+    }
+    .btnCustomMovement {
+        animation: btnCustom426 3s infinite;
+    }
+
+    @-webkit-keyframes btnCustom426 {
+        0% {
+            margin-left: 3rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 3rem;
+        }
+    }
+
+    @keyframes btnCustom426 {
+        0% {
+            margin-left: 3rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 3rem;
+        }
     }
 
     .custom__leftTitle {
@@ -608,25 +762,55 @@
         margin-right: 10rem;
         margin-top: -1.5rem;
     }
+
     p {
         margin-top: 0;
         margin-bottom: 0.7rem;
     }
+
     .custom__rightSubtitle {
         line-height: 10px;
     }
 }
 
 @media (max-width: 376px) {
-    .btnCustom {
+    .btnCustom, .btnCustomMovement {
         margin-top: 5.5rem;
         margin-left: 4rem;
     }
+    .btnCustomMovement {
+        animation: btnCustom376 3s infinite;
+    }
+
+    @-webkit-keyframes btnCustom376 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+    @keyframes btnCustom376 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
     .custom__leftTitle {
         font-size: 1.4rem;
     }
 
-    .btnCustom, .btnCustom-twoSloy {
+    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
         width: 4rem;
         height: 0.8rem;
     }
@@ -649,9 +833,18 @@
     /*    width: 0.35rem !important;*/
     /*    height: 0.35rem !important;*/
     /*}*/
-
+    .ellipse-btnCustomBefore {
+        width: 0.3rem !important;
+        height: 0.3rem !important;
+        margin-right: 0.4rem;
+    }
     .ellipse-btnStarAfter {
         margin-left: 4.5rem;
+    }
+    .ellipse-btnCustomAfter {
+        width: 0.3rem !important;
+        height: 0.3rem !important;
+        margin-left: 3.2rem!important;
     }
 
     .custom {
@@ -752,19 +945,48 @@
         margin-right: 10rem;
         margin-top: -4rem;
     }
+
     p {
         margin-top: 0;
         margin-bottom: 0.4rem;
     }
+
     .custom__rightSubtitle {
         line-height: 0;
     }
 }
 
 @media (max-width: 321px) {
-    .btnCustom {
+    .btnCustom, .btnCustomMovement {
         margin-top: 4.7rem;
         margin-left: 2rem;
+    }
+    .btnCustomMovement {
+        animation: btnCustom321 3s infinite;
+    }
+
+    @-webkit-keyframes btnCustom321 {
+        0% {
+            margin-left: 2rem;
+        }
+        50% {
+            margin-left: 1rem;
+        }
+        100% {
+            margin-left: 2rem;
+        }
+    }
+
+    @keyframes btnCustom321 {
+        0% {
+            margin-left: 2rem;
+        }
+        50% {
+            margin-left: 1rem;
+        }
+        100% {
+            margin-left: 2rem;
+        }
     }
 
     .custom {

@@ -48,35 +48,35 @@ const Custom = ({type, dispatch}) => {
                                 <h1 className="display-1 custom__leftTitle">Web <br/> Development</h1>
                                 : <h1 className="display-1 custom__leftTitle">UI/UX <br/> Design</h1>}
                                 <div className="custom__icon">
-                                    <Tween to={{x: '210px', y: '170px', rotation: 360}} duration={30} ease="back.out(1.7)"
+                                    <Tween to={{x: '210px', y: '170px', rotation: 360}} duration={5} ease="back.out(1.7)"
                                            stagger={0.2}>
                                         <img src={circleIcons1} className="iconVectors iconCustomMessage" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '150px', y: '100px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '150px', y: '100px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons2} className="iconVectors iconCustomBack" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '160px', y: '140px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '160px', y: '140px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons3} className="iconVectors iconCustomWifi" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-230px', y: '170px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-230px', y: '170px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons4} className="iconVectors iconCustomCamera" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-250px', y: '180px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-250px', y: '180px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons5} className="iconVectors iconCustomContacts" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '70px', y: '-150px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '70px', y: '-150px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons6} className="iconVectors iconCustomHome" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-50px', y: '-200px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-50px', y: '-200px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons7} className="iconVectors iconCustomCall" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-270px', y: '-30px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-270px', y: '-30px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons8} className="iconVectors iconCustomSetting" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-250px', y: '30px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-250px', y: '30px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons9} className="iconVectors iconCustomMessage2" loading="lazy"/>
                                     </Tween>
-                                    <Tween to={{x: '-360px', y: '130px', rotation: 360}} duration={30} ease="back.out(1.7)">
+                                    <Tween to={{x: '-360px', y: '130px', rotation: 360}} duration={5} ease="back.out(1.7)">
                                         <img src={circleIcons10} className="iconVectors iconCustomBrowser" loading="lazy"/>
                                     </Tween>
                                 </div>
@@ -89,7 +89,7 @@ const Custom = ({type, dispatch}) => {
                                         </h6>
                                     </div>
                                 </div>
-                                <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"}
+                                <div className={ellipse ? "ellipse-btnCustomAfter" : "ellipse-btnCustomBefore"}
                                      style={{background: "#c401ff"}}
                                      onClick={() => setEllipse(!ellipse)}>
                                 </div>
