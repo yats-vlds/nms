@@ -14,8 +14,10 @@ import total3 from "../assets/total-900x1025-03.png"
 import loko from "../assets/LocoMoco-900x1025-01.png"
 import loko2 from "../assets/LocoMoco-900x1025-02.png"
 import loko3 from "../assets/LocoMoco-900x1025-03.png"
-import ct from "../assets/CT-900x1025.png"
-import ct2 from "../assets/CT-900x1025(2).png"
+import ct from "../assets/CT-web-900x1025-1.png"
+import ct2 from "../assets/CT-web-900x1025-2.png"
+import ct3 from "../assets/CT-web-900x1025-3.png"
+import ct4 from "../assets/CT-web-900x1025-4.png"
 import favvel from "../assets/FA-900x1025.png"
 import favvel2 from "../assets/FA-900x1025-2.png"
 import danfosEasyPlan1 from "../assets/2-DanVEP-900x1025.png"
@@ -196,24 +198,16 @@ const SliderComponent = () => {
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     <img src={ct2} className="tableOneIcon4" loading="lazy"/>
                                 </div>
-                                {/*<div>*/}
-                                {/*   <img src={shadow} className="tableOneIcon1"/>*/}
-                                {/*   <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-
-                                {/*   <img src={goPrintTwo} className="tableOneIcon4" loading="lazy"/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*   <img src={shadow} className="tableOneIcon1"/>*/}
-                                {/*   <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-
-                                {/*   <img src={goPrintThree} className="tableOneIcon4" loading="lazy"/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*   <img src={shadow} className="tableOneIcon1"/>*/}
-                                {/*   <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-
-                                {/*    <img src={goPrintFour} className="tableOneIcon4" loading="lazy"/>*/}
-                                {/*</div>*/}
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={ct3} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={ct4} className="tableOneIcon4" loading="lazy"/>
+                                </div>
                             </Slider>
                         </div>
                         <div className="bootstrap__tableRight">
@@ -263,6 +257,16 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={favvel} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={favvel2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
