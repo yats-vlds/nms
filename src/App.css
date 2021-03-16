@@ -15,11 +15,11 @@
 }
 
 .scroll__border {
-  width: 1px;
-  height: 12rem;
-  border-left: 1px solid gray;
-  margin-top: 1.6rem;
-  margin-bottom: 1rem;
+    width: 1px;
+    height: 12rem;
+    border-left: 1px solid gray;
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 .scroll__text {
@@ -36,6 +36,7 @@
     .scroll {
         height: 10rem;
     }
+
     .scroll__text {
         font-size: .775rem;
     }
@@ -44,35 +45,60 @@
 @media (max-width: 769px) {
     .scroll {
         height: 9rem;
+        margin-top: 0.7rem;
     }
+
     .scroll__text {
-        font-size: .725rem!important;
+        font-size: .525rem !important;
         padding-bottom: 0.2rem;
+    }
+
+    .scroll__border {
+        width: 1px;
+        height: 3.5rem;
+        border-left: 1px solid gray;
+        margin-top: 1.3rem;
+        margin-bottom: 0rem;
     }
 }
 
-@media(max-width: 426px) {
+@media (max-width: 426px) {
     .scroll {
         height: 7.5rem;
+        margin-top: 0.2rem;
     }
+
     .scroll__text {
-        font-size: .625rem !important;
+        font-size: .325rem !important;
+        padding-bottom: 0.1rem;
+    }
+
+    .scroll__border {
+        width: 1px;
+        height: 2.4rem;
+        border-left: 0.1px solid gray;
+        margin-top: 1.8rem;
+        margin-bottom: -0.5rem;
     }
 }
-@media(max-width: 376px) {
+
+@media (max-width: 376px) {
     .scroll {
         margin-top: 0.5rem;
     }
+
+
     .scroll__text {
-        font-size: .510rem !important;
+        font-size: 0.31rem !important;
         padding-bottom: 0;
     }
+
     .scroll__border {
         margin-top: 2.3rem;
     }
 }
 
-@media(max-width: 321px) {
+@media (max-width: 321px) {
     .scroll__text {
         font-size: .410rem !important;
         padding-bottom: 0;

@@ -1,17 +1,33 @@
-import React, {useCallback, useReducer, useState} from "react"
+import React, {useCallback, useMemo, useReducer, useState} from "react"
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Custom from "./pages/Custom";
 import Footer from "./components/Footer";
 import {initialState, reducer} from "./hook/reducer";
-import { useEffect } from "react";
+import {useEffect} from "react";
 import Header from "./components/Header";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
     const [y, setY] = useState(window.scrollY);
     const [border, setBorder] = useState(false)
+    const [scrollDown, setScrollDown] = useState(1880)
+    const [scrollUp, setScrollUp] = useState(8016)
+    let outerWidth = window.outerWidth
+    let setParamsHeight = (down, up) => {
+        setScrollDown(down)
+        setScrollUp(up)
+    }
+    useMemo(() => {
+        outerWidth > 1500
+            ? setParamsHeight(1880, 8016) : outerWidth > 1030 ?
+            setParamsHeight(1750, 7900) : outerWidth > 780 ?
+                setParamsHeight(1400, 5800) : outerWidth > 430 ?
+                    setParamsHeight(1200, 4500) : outerWidth > 380 ?
+                        setParamsHeight(600, 2500) : outerWidth > 329 ?
+                            setParamsHeight(500, 2200) : setParamsHeight(400, 1800)
+    }, [window.outerWidth])
     const handleNavigation = useCallback(
         (e) => {
             setBorder(false)
@@ -22,10 +38,14 @@ function App() {
                 console.log("scrolling down");
             }
             setY(window.scrollY);
-            if (y > 1800 && y < 8016) {
-                setTimeout(() => {setBorder(true)}, 1000)
+            if (y > scrollDown && y < scrollUp) {
+                setTimeout(() => {
+                    setBorder(true)
+                }, 1000)
             } else {
-                setTimeout(() => {setBorder(false)}, 1000)
+                setTimeout(() => {
+                    setBorder(false)
+                }, 1000)
             }
         },
         [y]
@@ -44,7 +64,14 @@ function App() {
             <Header/>
             <Switch>
                 <Route path="/" exact>
-                    <Home state={state} dispatch={dispatch} y={y} border={border}/>
+                    <Home
+                        state={state}
+                        dispatch={dispatch}
+                        y={y}
+                        border={border}
+                        scrollDown={scrollDown}
+                        scrollUp={scrollUp}
+                    />
                 </Route>
                 <Route path="/custom">
                     <Custom type="custom" state={state} dispatch={dispatch}/>

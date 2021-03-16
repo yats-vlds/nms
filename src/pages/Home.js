@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useCallback} from "react"
+import React, {useState, useEffect, useCallback, useMemo} from "react"
 import Cap from "../components/Cap"
 import StarProject from "../components/StarProject"
 import Expert from "../components/Expert"
@@ -12,27 +12,37 @@ import SliderComponent3 from "../components/SliderComponent3";
 import {Redirect} from "react-router-dom"
 
 
-const Home = ({state, dispatch, y, border}) => {
+const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
     const [ellipse, setEllipse] = useState(false)
-    // 1440px === 7350, 1025px === 5450, 769 === 4210, 425px === 2300, 375 === 1900
+    const [height, setHeight] = useState(7550)
+    let outerWidth = window.outerWidth
+    useMemo(() => {
+        outerWidth > 1500
+            ? setHeight(7550) : outerWidth > 1030 ?
+            setHeight(7350) : outerWidth > 780 ?
+                setHeight(5450) : outerWidth > 430 ?
+                    setHeight(4210) : outerWidth > 380 ?
+                        setHeight(2300) : outerWidth > 329 ?
+                            setHeight(1900) : setHeight(1800)
+    }, [window.outerWidth])
+
     useEffect(() => {
-            if (ellipse || state.ellipse) {
-                setTimeout(() => {
-                    window.scrollTo(1800, 1800)
-                    console.log('true')
-                    dispatch({type: "setEllipse", payload: false})
-                    setEllipse(false)
-                }, 3000)
-            }
+        if (ellipse || state.ellipse) {
+            setTimeout(() => {
+                window.scrollTo(height, height)
+                console.log('true')
+                dispatch({type: "setEllipse", payload: false})
+                setEllipse(false)
+            }, 3000)
+        }
     }, [ellipse, state.ellipse])
-    console.log(window.outerWidth, 'width')
 
     return (
         <>
             <div className="scroll">
-                {y < 1800 && <p className="scroll__text"><small>Scroll Down</small></p>}
+                {y < scrollDown && <p className="scroll__text"><small>Scroll Down</small></p>}
                 {!border && <div className="scroll__border"></div>}
-                {y > 8016 && <p className="scroll__text"><small>Scroll Up</small></p>}
+                {y > scrollUp && <p className="scroll__text"><small>Scroll Up</small></p>}
             </div>
             <Cap/>
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
