@@ -133,14 +133,6 @@
     height: 100px;
 }
 
-.goprint {
-    margin-top: 1rem;
-    width: 340px;
-    height: 80px;
-    margin-left: 27rem;
-    animation: iconRotate 10s infinite;
-
-}
 
 .ukrtelecom {
     margin-top: 3rem;
@@ -173,31 +165,31 @@
 }
 
 .goprint {
-    margin-top: -22rem;
+    margin-top: -19rem;
     width: 500px;
     height: 500px;
-    margin-left: -10rem;
+    margin-left: -6rem;
     animation: iconRotate 10s infinite;
 }
 
-.inmore { /* margin-right: 3rem; */
-    margin-top: -37rem;
+.inmore {
+    /* margin-right: 3rem; */
+    margin-top: -32rem;
     height: 20rem;
     width: 22rem;
     animation: iconRotate 10s infinite;
-    margin-left: -30rem;
+    margin-left: -32.3rem;
 }
-
 .listery {
-    margin-top: -59rem;
-    margin-left: -18.5rem;
+    margin-top: -57rem;
+    margin-left: -21.3rem;
     height: 157px;
     animation: iconRotate 10s infinite;
 }
 
 .total {
-    margin-top: -72rem;
-    margin-left: -15rem;
+    margin-top: -78rem;
+    margin-left: -12rem;
     width: 24rem;
     animation: iconRotate 10s infinite;
 }

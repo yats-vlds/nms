@@ -48,22 +48,22 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={GoPrintDesign1} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={GoPrintDesign1} className="tableOneIcon4" id="tableOneIcon425" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={GoPrintDesign2} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={GoPrintDesign2} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={GoPrintDesign3} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={GoPrintDesign3} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={GoPrintDesign4} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={GoPrintDesign4} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>
@@ -115,17 +115,17 @@ const SliderComponent = () => {
                                <div>
                                    <img src={shadow} className="tableOneIcon1"/>
                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                   <img src={InMoreDesign1} className="tableOneIcon4" loading="lazy"/>
+                                   <img src={InMoreDesign1} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                </div>
                                <div>
                                    <img src={shadow} className="tableOneIcon1"/>
                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                   <img src={InMoreDesign2} className="tableOneIcon4" loading="lazy"/>
+                                   <img src={InMoreDesign2} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                </div>
                                <div>
                                    <img src={shadow} className="tableOneIcon1"/>
                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                   <img src={InMoreDesign3} className="tableOneIcon4" loading="lazy"/>
+                                   <img src={InMoreDesign3} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                </div>
                            </Slider>
                        </div>
@@ -176,17 +176,17 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={UkrTelecom1} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={UkrTelecom1} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={UkrTelecom2} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={UkrTelecom2} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={UkrTelecom3} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={UkrTelecom3} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>

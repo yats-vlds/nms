@@ -533,7 +533,7 @@
         margin-left: 1.5rem;
         position: relative;
         z-index: 10;
-        width: 593px;
+        width: 545px;
         height: 816px;
         padding-top: 17rem;
     }
@@ -826,7 +826,7 @@
     }
 
     .tableOneIcon2 {
-        margin-left: 1.5rem;
+        margin-left: 1rem;
         position: relative;
         z-index: 10;
         width: 400px;
@@ -947,7 +947,9 @@
     .bootstrap__tableTwo {
         height: 461px !important;
     }
-
+    .bootstrap__tableThree {
+        margin-top: 0rem;
+    }
     .bootstrap__tableTwoLeftInfo {
         padding-left: 2.6rem;
     }
@@ -1118,12 +1120,22 @@
         z-index: 11;
         width: 525px;
         height: 278px;
-        margin-top: -16rem;
+        margin-top: -16.5rem;
         padding-top: 3.2rem;
         /* background-size: 100%; */
         object-fit: contain;
     }
-
+    img#tableOneIcon425 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 11;
+        width: 497px;
+        height: 279px;
+        margin-top: -17.5rem;
+        padding-top: 7.2rem;
+        /* background-size: 100%; */
+        object-fit: contain;
+    }
     .bootstrap__marginTop {
         margin-top: 47px;
     }
@@ -1335,6 +1347,18 @@
         padding-top: 3rem;
     }
 
+    img#tableOneIcon425 {
+        margin-left: 1rem;
+        position: relative;
+        z-index: 11;
+        width: 497px;
+        height: 279px;
+        margin-top: -21.5rem;
+        padding-top: 7.2rem;
+        /* background-size: 100%; */
+        object-fit: contain;
+    }
+
     .slick-dots {
         top: 273px;
         right: 333px;
@@ -1526,6 +1550,17 @@
         height: 456px;
         margin-top: -27.7rem;
         padding-top: 0rem;
+    }
+    img#tableOneIcon425 {
+        margin-left: 0.2rem;
+        position: relative;
+        z-index: 11;
+        width: 497px;
+        height: 279px;
+        margin-top: -25.5rem;
+        padding-top: 8.2rem;
+        /* background-size: 100%; */
+        object-fit: contain;
     }
 
     .bootstrap__tableRightInfo {

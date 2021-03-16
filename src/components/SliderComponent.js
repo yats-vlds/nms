@@ -328,22 +328,22 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosHeatSelector1} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector1} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosHeatSelector2} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector2} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosHeatSelector3} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector3} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosHeatSelector4} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector4} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>
@@ -396,22 +396,22 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosEasyPlan1} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan1} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosEasyPlan2} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan2} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosEasyPlan3} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan3} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={danfosEasyPlan4} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan4} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>

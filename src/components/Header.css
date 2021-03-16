@@ -36,6 +36,7 @@
     .header__logo {
         height: 51px;
     }
+
     .header__link {
         margin-right: 5.5rem;
     }
@@ -45,6 +46,12 @@
     .header__link {
         margin-right: 2rem;
         padding-top: 0.5rem !important;
+    }
+
+    .header__logo {
+        height: 45px;
+        margin-top: 0.3rem;
+        width: 152px;
     }
 }
 
@@ -60,7 +67,7 @@
     }
 
     .header__linkContacts {
-        margin-right: 0.5rem!important;
+        margin-right: 0.5rem !important;
     }
 }
 
@@ -86,7 +93,11 @@
     .header__logo {
         width: 85px;
         height: 30px;
-        margin-top: 20px;
+        margin-top: 28px;
+        margin-bottom: -3px;
+        border-bottom: 10px solid white;
+        border-left: 14px solid white;
+        border-right: 14px solid white;
     }
 
     .header {
