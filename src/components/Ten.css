@@ -106,7 +106,15 @@
 /*        margin-top: -16rem;*/
 /*    }*/
 /*}*/
-
+@media(max-width: 1371px) {
+    .ten__contentLeftTitle {
+        padding-top: 20rem;
+        padding-left: 6rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 3.7rem;
+    }
+}
 @media (max-width: 1025px) {
     .ten {
         margin-bottom: -131px;

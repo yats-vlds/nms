@@ -42,6 +42,12 @@
     }
 }
 
+@media(max-width: 1371px) {
+    .header__link {
+        margin-right: 4.5rem;
+    }
+}
+
 @media (max-width: 1025px) {
     .header__link {
         margin-right: 2rem;
@@ -72,7 +78,7 @@
     }
     .header__logo {
         height: 45px;
-        margin-top: 0.86rem;
+        margin-top: 0.76rem;
         width: 134px;
         border-bottom: 10px solid white;
     }

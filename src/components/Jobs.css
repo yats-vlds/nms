@@ -38,6 +38,7 @@
     width: 768px;
     height: 892px;
     margin-top: -56rem;
+    object-fit: contain;
 }
 
 .tableOneIconCT {
@@ -100,6 +101,7 @@
     width: 754px;
     height: 741px;
     margin-top: -52rem;
+    object-fit: contain;
 }
 
 .tableThreeIcon1 {
@@ -1439,6 +1441,9 @@
 
     .bootstrap__tableTwo {
         height: 414px !important;
+    }
+    .bootstrap__tableThree {
+        margin-top: 0rem;
     }
 
     .icon4, .icon3 {

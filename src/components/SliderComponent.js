@@ -14,10 +14,9 @@ import total3 from "../assets/total-900x1025-03.png"
 import loko from "../assets/LocoMoco-900x1025-01.png"
 import loko2 from "../assets/LocoMoco-900x1025-02.png"
 import loko3 from "../assets/LocoMoco-900x1025-03.png"
-import ct from "../assets/CT-web-900x1025-1.png"
-import ct2 from "../assets/CT-web-900x1025-2.png"
-import ct3 from "../assets/CT-web-900x1025-3.png"
-import ct4 from "../assets/CT-web-900x1025-4.png"
+import ct from "../assets/CT-900x1025.png"
+import ct2 from "../assets/CT-900x1025(2).png"
+import ct3 from "../assets/CT-900x1025-3.png"
 import favvel from "../assets/FA-900x1025.png"
 import favvel2 from "../assets/FA-900x1025-2.png"
 import danfosEasyPlan1 from "../assets/2-DanVEP-900x1025.png"
@@ -57,28 +56,83 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
-                                {/*<div>*/}
-                                {/*    <img src={shadow} className="tableOneIcon1"/>*/}
-                                {/*    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>*/}
-                                {/*    <img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
-                                {/*    <img src={goPrintOriginal} className="tableOneIcon4" loading="lazy"/>*/}
-                                {/*</div>*/}
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    {/*//*/}
+                                    <img src={ct} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={ct2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={ct3} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Chary Time
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    A lot of people in the world want to support charity organizations, however, not all
+                                    of them have money for that. What if to convert CTP into money that could be donated
+                                    to a selected charity organization? What if to create a digital solution to make
+                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    React/React Native<br/>
+                                    Next.js<br/>
+                                    Node.js (Express)<br/>
+                                    Postgres<br/>
+                                    Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     <img src={goPrintTwo} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
                                     <img src={goPrintThree} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    {/*<img src={sloygoPrint} className="tableOneIcon3" loading="lazy"/>*/}
                                     <img src={goPrintFour} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                             </Slider>
@@ -114,6 +168,74 @@ const SliderComponent = () => {
                                     Node.js (Express)<br/>
                                     Postgres<br/>
                                     Docker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableOne">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector1} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector2} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector3} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector4} className="tableOneIcon4" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight">
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableLineOne"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                    SaaS Development Services
+                                </h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    Danfoss Heat Selector
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    ECtemp Touch – is a smart thermostat created by Danfoss. To give users a possibility
+                                    to use the functionality of this Smart Home solution for 100%, we have created a
+                                    virtual instrument which allows to create special HEXA code according to specific
+                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to
+                                    setup them by distance.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    C#<br/>
+                                    .NET MVC<br/>
+                                    ReactJS<br/>
                                 </p>
                             </div>
                         </div>
@@ -191,75 +313,6 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct2} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct3} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct4} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                            </Slider>
-                        </div>
-                        <div className="bootstrap__tableRight">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
-                                    SaaS Development Services
-                                </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Chary Time
-                                </h1>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Idea
-                                </h3>
-                                <p className="bootstrap__tableText marginBottom">
-                                    A lot of people in the world want to support charity organizations, however, not all
-                                    of them have money for that. What if to convert CTP into money that could be donated
-                                    to a selected charity organization? What if to create a digital solution to make
-                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.
-                                </p>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Tech Picture
-                                </h3>
-                                <p className="bootstrap__tableText marginBottom">
-                                    React/React Native<br/>
-                                    Next.js<br/>
-                                    Node.js (Express)<br/>
-                                    Postgres<br/>
-                                    Docker
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="bootstrap__table bootstrap__tableOne">
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     <img src={favvel} className="tableOneIcon4" loading="lazy"/>
                                 </div>
                                 <div>
@@ -309,74 +362,6 @@ const SliderComponent = () => {
                                     Node.js<br/>
                                     Mongo DB<br/>
                                     Docker
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="bootstrap__table bootstrap__tableOne">
-                        <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector1} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector2} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector3} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector4} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                            </Slider>
-                        </div>
-                        <div className="bootstrap__tableRight">
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableLineOne"></div>
-                            <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
-                                    SaaS Development Services
-                                </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Danfoss Heat Selector
-                                </h1>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Idea
-                                </h3>
-                                <p className="bootstrap__tableText marginBottom">
-                                    ECtemp Touch – is a smart thermostat created by Danfoss. To give users a possibility
-                                    to use the functionality of this Smart Home solution for 100%, we have created a
-                                    virtual instrument which allows to create special HEXA code according to specific
-                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to
-                                    setup them by distance.
-                                </p>
-                                <h3 className="bootstrap__tableTwoTitle">
-                                    Tech Picture
-                                </h3>
-                                <p>
-                                    C#<br/>
-                                    .NET MVC<br/>
-                                    ReactJS<br/>
                                 </p>
                             </div>
                         </div>
