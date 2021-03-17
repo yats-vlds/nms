@@ -400,7 +400,7 @@
     margin-bottom: 90px;
 }
 
-@media(max-width: 1367px) {
+@media (max-width: 1367px) {
     .tableOneIcon4 {
         margin-left: 4rem;
         position: relative;
@@ -685,7 +685,7 @@
 
 }
 
-@media(max-width: 813px) {
+@media (max-width: 813px) {
     .tableOneIcon4 {
         position: relative;
         z-index: 11;
@@ -696,6 +696,7 @@
         margin-top: -47rem;
         padding-left: -4.1rem;
     }
+
     .tableOneIcon2 {
         margin-left: 1.5rem;
         position: relative;
@@ -704,6 +705,7 @@
         height: 816px;
         padding-top: 17rem;
     }
+
     .tableOneIcon1 {
         margin-left: 2rem;
         position: relative;
@@ -712,6 +714,7 @@
         height: 535px;
         padding-top: 0rem;
     }
+
     .tableTwoIcon1 {
         position: relative;
         z-index: 10;
@@ -719,6 +722,7 @@
         height: 642px;
         padding-top: 8rem;
     }
+
     .tableTwoIcon3Slider2 {
         margin-left: 4rem;
         position: relative;
@@ -728,6 +732,7 @@
         margin-top: -50rem;
         object-fit: contain;
     }
+
     img#iconLEAMUM {
         margin-left: 4rem;
         position: relative;
@@ -933,6 +938,7 @@
         bottom: 43% !important;
         right: 24%;
     }
+
     .slick-dots li {
         width: 15px;
         height: 15px;
@@ -1008,19 +1014,23 @@
     }
 }
 
-@media(max-width: 668px) {
+@media (max-width: 668px) {
     .bootstrap__tableTwo {
         height: 594px !important;
     }
+
     .bootstrap__tableThree {
         margin-top: 0rem;
     }
+
     .tableTwoIcon3Slider2 {
         width: 325px;
     }
+
     .tableOneIcon4 {
         width: 630px;
     }
+
     .tableTwoIcon3Slider2 {
         margin-left: 3rem;
         position: relative;
@@ -1030,6 +1040,7 @@
         margin-top: -37rem;
         object-fit: contain;
     }
+
     img#iconLEAMUM {
         margin-left: 4rem;
         position: relative;
@@ -1041,6 +1052,26 @@
     }
 }
 
+@media (max-width: 641px) {
+    .tableOneIcon2 {
+        margin-left: 1rem;
+        position: relative;
+        z-index: 10;
+        width: 375px;
+        height: 830px;
+        padding-top: 27rem;
+    }
+
+    .tableOneIcon1 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 10;
+        width: 392px;
+        height: 467px;
+        padding-top: 6rem;
+    }
+}
+
 @media (max-width: 569px) {
     .bootstrap__table {
         height: 326px !important;
@@ -1049,9 +1080,11 @@
     .bootstrap__tableTwo {
         height: 461px !important;
     }
+
     .bootstrap__tableThree {
         margin-top: 0rem;
     }
+
     .bootstrap__tableTwoLeftInfo {
         padding-left: 2.6rem;
     }
@@ -1227,6 +1260,7 @@
         /* background-size: 100%; */
         object-fit: contain;
     }
+
     img#tableOneIcon425 {
         margin-left: 2rem;
         position: relative;
@@ -1238,6 +1272,7 @@
         /* background-size: 100%; */
         object-fit: contain;
     }
+
     .bootstrap__marginTop {
         margin-top: 47px;
     }
@@ -1251,9 +1286,11 @@
         width: 10px;
         height: 10px;
     }
+
     .slick-dots li button:before {
         font-size: 5px;
     }
+
     .carousel-control-prev-icon {
         margin-right: auto;
         width: 1rem;
@@ -1336,7 +1373,7 @@
     }
 }
 
-@media(max-width: 416px) {
+@media (max-width: 416px) {
     img#iconLEAMUM {
         margin-left: 3rem;
         position: relative;
@@ -1476,6 +1513,7 @@
         /* background-size: 100%; */
         object-fit: contain;
     }
+
     img#iconLEAMUM {
         margin-left: 2rem;
         position: relative;
@@ -1563,6 +1601,7 @@
     .bootstrap__tableTwo {
         height: 414px !important;
     }
+
     .bootstrap__tableThree {
         margin-top: 0rem;
     }
@@ -1681,6 +1720,7 @@
         margin-top: -27.7rem;
         padding-top: 0rem;
     }
+
     img#tableOneIcon425 {
         margin-left: 0.2rem;
         position: relative;
@@ -1727,6 +1767,7 @@
         height: 175px;
         margin-top: -18rem;
     }
+
     .tableTwoIcon3Slider2 {
         margin-left: 1rem;
         position: relative;
@@ -1736,6 +1777,7 @@
         margin-top: -37rem;
         object-fit: contain;
     }
+
     .tableThreeIcon1 {
         position: relative;
         z-index: 10;
@@ -1761,6 +1803,7 @@
         height: 832px;
         margin-top: -50.5rem;
     }
+
     .slick-dots {
         top: 28%;
         right: 348px;

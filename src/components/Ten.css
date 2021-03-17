@@ -332,6 +332,24 @@
     }
 }
 
+@media (max-width: 641px) {
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 418px;
+        margin-left: 13rem;
+        animation: tenyog768 2s infinite !important;
+    }
+    .ten__contentLeftTitle {
+        padding-top: 8rem;
+        padding-left: 4rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+
 @media(max-width: 569px) {
     .ten, .tenSloy, .ten__img {
         min-height: 321px;
@@ -526,6 +544,21 @@
         100% {
             margin-top: 1.5rem;
         }
+    }
+}
+@media (max-width: 361px) {
+    .ten__yog {
+        position: absolute;
+        height: 108px;
+        object-fit: contain;
+        width: 222px;
+        margin-left: 10rem;
+        margin-top: 2.5rem;
+        animation: tenyog375 1s infinite !important;
+    }
+    .ellipse {
+        margin-left: 14.75rem !important;
+        margin-top: -3.2rem;
     }
 }
 

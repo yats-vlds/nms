@@ -407,6 +407,15 @@
     }
 }
 
+@media(max-width: 641px) {
+    .animateHorse {
+        margin-left: -4rem;
+    }
+    .animateRocket {
+        margin-left: -14.5rem;
+    }
+}
+
 @media (max-width: 568px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
@@ -1134,6 +1143,11 @@
 
     .bootstrap__tableText {
         margin-bottom: 10px !important;
+    }
+}
+@media (max-width: 361px) {
+    .animateRocket {
+        padding-left: 21rem !important;
     }
 }
 
