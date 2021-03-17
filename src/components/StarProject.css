@@ -470,8 +470,9 @@ h1.star__projectLeftTitle {
     }
 
     .star__projectRowContentRight {
-        padding-top: 5rem;
+        padding-top: 0rem;
         width: 50%;
+        padding-left: 1rem;
     }
 
     h1.star__projectLeftTitle {
@@ -559,6 +560,77 @@ h1.star__projectLeftTitle {
     h1.star__projectLeftTitle {
         padding-bottom: 0.5rem;
         font-size: 1.1rem;
+    }
+    .btnStar, .btnStar-twoSloy, .btnStarMovement {
+        width: 4.5rem;
+        height: 0.9rem;
+    }
+
+    .btnStar, .btnStarMovement {
+        margin-top: -4.7rem;
+        margin-left: 4rem;
+    }
+
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 2.8rem;
+        height: 0.9rem;
+    }
+
+    .btnStarMovement {
+        animation: btnStar568 3s infinite;
+    }
+
+    @-webkit-keyframes btnStar568 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+    @keyframes btnStar568 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+
+    .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
+        width: 4.5rem;
+        height: 0.9rem;
+    }
+
+    .btnStar-fourSloyTitle {
+        font-size: 4.8px;
+        padding-top: 0.17rem;
+        padding-left: 0.4rem;
+    }
+
+    .star__project {
+        margin-bottom: -64px;
+    }
+
+    .ellipse-btnStarBefore {
+        width: 0.35rem !important;
+        height: 0.35rem !important;
+        margin-right: 0.4rem;
+        margin-left: 0.3rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 3.5rem !important;
+        width: 0.35rem;
+        height: 0.35rem;
     }
 }
 

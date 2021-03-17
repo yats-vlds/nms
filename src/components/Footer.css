@@ -119,6 +119,15 @@
     }
 }
 
+@media(max-width: 678px) {
+    .col.footer__col {
+        margin-left: -2.5rem;
+    }
+    .footer_afterHr {
+        margin-left: -2.5rem;
+    }
+}
+
 @media(max-width: 645px) {
     .col.footer__col {
         margin-left: 0rem;
