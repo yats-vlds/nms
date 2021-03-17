@@ -585,7 +585,7 @@
 @media (max-width: 426px) {
     .custom {
         padding-top: 2rem;
-        margin-bottom: 0rem !important;
+        margin-bottom: 2rem !important;
     }
 
     .customTitle {
@@ -648,7 +648,7 @@
 
     .btnCustom, .btnCustomMovement {
         margin-top: 7rem;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     .btnCustomMovement {
         animation: btnCustom426 3s infinite;
@@ -656,25 +656,25 @@
 
     @-webkit-keyframes btnCustom426 {
         0% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
         50% {
-            margin-left: 2rem;
+            margin-left: 0.5rem;
         }
         100% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
     }
 
     @keyframes btnCustom426 {
         0% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
         50% {
-            margin-left: 2rem;
+            margin-left: 0.5rem;
         }
         100% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
     }
 
@@ -688,77 +688,70 @@
     }
 
     .iconCustomMessage {
-        width: 1.5rem;
+        width: 1.2rem;
         margin-top: -1rem;
-        margin-left: -10rem;
+        margin-left: -13rem;
     }
 
     .iconCustomBack {
-        width: 1.5rem;
-        margin-left: -5rem;
+        width: 1.2rem;
+        margin-left: -9rem;
+        margin-top: -1rem;
     }
 
     .iconCustomWifi {
-        width: 8rem;
-        margin-left: -8rem;
-        margin-top: -2rem;
+        width: 7rem;
+        margin-left: -12rem;
+        margin-top: -3rem;
     }
 
     .iconCustomCamera {
         width: 7rem;
         height: 6rem;
-        margin-left: 9rem;
-        margin-top: -2rem;
+        margin-left: 8.5rem;
+        margin-top: -4rem;
     }
-
-    .iconCustomContacts {
-        width: 7rem;
-        height: 6rem;
-        margin-left: 15rem;
-        margin-top: 5rem;
-    }
-
 
     .iconCustomCall {
-        width: 10rem;
-        height: 10rem;
-        margin-left: -2rem;
-        margin-top: 11rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: -3.4rem;
+        margin-top: 13.5rem;
     }
 
     .iconCustomSetting {
-        width: 10rem;
-        height: 10rem;
-        margin-left: 9rem;
-        margin-right: 10rem;
-        margin-top: 2rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 8.5rem;
+        margin-top: 3.3rem;
     }
 
     .iconCustomMessage2 {
-        width: 10rem;
-        height: 10rem;
-        margin-left: 5rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 5.5rem;
         margin-right: 10rem;
+        margin-top: 1rem;
     }
 
     .iconCustomContacts {
         width: 7rem;
         height: 6rem;
-        margin-left: 13rem;
-        margin-top: -3rem;
+        margin-left: 11.3rem;
+        margin-top: -3.5rem;
     }
 
     .iconCustomHome {
-        width: 7rem;
-        height: 5rem;
-        margin-left: -5rem;
-        margin-top: 11rem;
+        width: 5rem;
+        height: 4rem;
+        margin-left: -7.5rem;
+        margin-top: 12rem;
     }
 
     .iconCustomBrowser {
-        width: 13rem;
-        height: 6rem;
-        margin-left: 11rem;
+        width: 11rem;
+        height: 5rem;
+        margin-left: 12rem;
         margin-right: 10rem;
         margin-top: -1.5rem;
     }
@@ -774,9 +767,13 @@
 }
 
 @media (max-width: 376px) {
+    .custom {
+        padding-top: 2rem;
+        margin-bottom: 1.5rem !important;
+    }
     .btnCustom, .btnCustomMovement {
         margin-top: 5.5rem;
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
     .btnCustomMovement {
         animation: btnCustom376 3s infinite;
@@ -784,25 +781,25 @@
 
     @-webkit-keyframes btnCustom376 {
         0% {
-            margin-left: 4rem;
+            margin-left: 2rem;
         }
         50% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
         100% {
-            margin-left: 4rem;
+            margin-left: 2rem;
         }
     }
 
     @keyframes btnCustom376 {
         0% {
-            margin-left: 4rem;
+            margin-left: 2rem;
         }
         50% {
-            margin-left: 3rem;
+            margin-left: 1rem;
         }
         100% {
-            margin-left: 4rem;
+            margin-left: 2rem;
         }
     }
 
@@ -866,46 +863,39 @@
 
     /* ICON */
     .custom__icon {
-        margin-left: 6.5rem;
+        margin-left: 5.5rem;
     }
 
     .iconCustomMessage {
         width: 1rem;
         margin-top: -3rem;
-        margin-left: -11rem;
+        margin-left: -14.5rem;
     }
 
     .iconCustomBack {
         width: 1rem;
-        margin-left: -6rem;
-        margin-top: -1rem;
+        margin-left: -9rem;
+        margin-top: -2rem;
     }
 
     .iconCustomWifi {
         width: 5rem;
-        margin-left: -8rem;
-        margin-top: -3rem;
+        margin-left: -11.3rem;
+        margin-top: -4.5rem;
     }
 
     .iconCustomCamera {
         width: 5rem;
         height: 4rem;
-        margin-left: 9rem;
-        margin-top: -4rem;
-    }
-
-    .iconCustomContacts {
-        width: 5rem;
-        height: 4rem;
-        margin-left: 15rem;
-        margin-top: 4rem;
+        margin-left: 9.5rem;
+        margin-top: -5rem;
     }
 
 
     .iconCustomCall {
         width: 7rem;
         height: 7rem;
-        margin-left: -2rem;
+        margin-left: -3.5rem;
         margin-top: 13rem;
     }
 
@@ -914,36 +904,36 @@
         height: 7rem;
         margin-left: 9rem;
         margin-right: 10rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .iconCustomMessage2 {
         width: 7rem;
         height: 7rem;
-        margin-left: 6.5rem;
+        margin-left: 7.5rem;
         margin-right: 10rem;
     }
 
     .iconCustomContacts {
         width: 5rem;
         height: 4rem;
-        margin-left: 13rem;
-        margin-top: -4rem;
+        margin-left: 13.5rem;
+        margin-top: -6rem;
     }
 
     .iconCustomHome {
-        width: 6rem;
-        height: 4rem;
-        margin-left: -6rem;
-        margin-top: 11rem;
+        width: 5rem;
+        height: 3rem;
+        margin-left: -8rem;
+        margin-top: 12rem;
     }
 
     .iconCustomBrowser {
-        width: 7rem;
-        height: 6rem;
-        margin-left: 14rem;
-        margin-right: 10rem;
-        margin-top: -4rem;
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin-right: 0rem;
     }
 
     p {
@@ -957,6 +947,10 @@
 }
 
 @media (max-width: 321px) {
+    .custom {
+        padding-top: 2rem;
+        margin-bottom: 1rem !important;
+    }
     .btnCustom, .btnCustomMovement {
         margin-top: 4.7rem;
         margin-left: 2rem;
@@ -998,83 +992,138 @@
     .custom__icon {
         margin-left: 5.5rem;
     }
-
     .iconCustomMessage {
-        width: 0.8rem;
-        margin-top: -3rem;
-        margin-left: -12rem;
-    }
-
-    .iconCustomBack {
-        width: 0.8rem;
-        margin-left: -7.5rem;
-        margin-top: -2rem;
-    }
-
-    .iconCustomWifi {
-        width: 4.3rem;
-        margin-left: -9rem;
+        width: 1rem;
         margin-top: -4rem;
+        margin-left: -14rem;
     }
-
-    .iconCustomCamera {
-        width: 4.5rem;
-        height: 3.4rem;
-        margin-left: 9rem;
-        margin-top: -5rem;
-    }
-
-    .iconCustomContacts {
-        width: 4.5rem;
-        height: 3.4rem;
-        margin-left: 15rem;
-        margin-top: -5rem;
-    }
-
-
-    .iconCustomCall {
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-left: -1.5rem;
-        margin-top: 13rem;
-    }
-
-    .iconCustomSetting {
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-left: 11rem;
-        margin-right: 10rem;
-        margin-top: 3rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-left: 8.5rem;
-        margin-right: 10rem;
-    }
-
-    .iconCustomContacts {
-        width: 4.5rem;
-        height: 3.4rem;
-        margin-left: 13rem;
-        margin-top: -4rem;
-    }
-
     .iconCustomHome {
-        width: 4.6rem;
-        height: 3.4rem;
-        margin-left: -7rem;
-        margin-top: 11rem;
+        width: 5rem;
+        height: 3rem;
+        margin-left: -8rem;
+        margin-top: 11.5rem;
     }
+    .iconCustomSetting {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 12.5rem;
+        margin-right: 0rem;
+        margin-top: 5rem;
+    }
+    .iconCustomMessage2 {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 12.5rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+    .iconCustomContacts {
+        width: 5rem;
+        height: 4rem;
+        margin-left: 9.5rem;
+        margin-top: -6.8rem;
+    }
+    .iconCustomCamera {
+        width: 5rem;
+        height: 4rem;
+        margin-left: 10rem;
+        margin-top: -6rem;
+    }
+    .iconCustomBack {
+        width: 1rem;
+        margin-left: -9rem;
+        margin-top: -2.5rem;
+    }
+    .iconCustomMessage2 {
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .iconCustomSetting {
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    /*.iconCustomMessage {*/
+    /*    width: 0.8rem;*/
+    /*    margin-top: -3rem;*/
+    /*    margin-left: -12rem;*/
+    /*}*/
 
-    .iconCustomBrowser {
-        width: 5.7rem;
-        height: 4.6rem;
-        margin-left: 14rem;
-        margin-right: 10rem;
-        margin-top: -4rem;
-    }
+    /*.iconCustomBack {*/
+    /*    width: 0.8rem;*/
+    /*    margin-left: -7.5rem;*/
+    /*    margin-top: -2rem;*/
+    /*}*/
+
+    /*.iconCustomWifi {*/
+    /*    width: 4.3rem;*/
+    /*    margin-left: -9rem;*/
+    /*    margin-top: -4rem;*/
+    /*}*/
+
+    /*.iconCustomCamera {*/
+    /*    width: 4.5rem;*/
+    /*    height: 3.4rem;*/
+    /*    margin-left: 9rem;*/
+    /*    margin-top: -5rem;*/
+    /*}*/
+
+    /*.iconCustomContacts {*/
+    /*    width: 4.5rem;*/
+    /*    height: 3.4rem;*/
+    /*    margin-left: 15rem;*/
+    /*    margin-top: -5rem;*/
+    /*}*/
+
+
+    /*.iconCustomCall {*/
+    /*    width: 4.5rem;*/
+    /*    height: 4.5rem;*/
+    /*    margin-left: -1.5rem;*/
+    /*    margin-top: 13rem;*/
+    /*}*/
+
+    /*.iconCustomSetting {*/
+    /*    width: 4.5rem;*/
+    /*    height: 4.5rem;*/
+    /*    margin-left: 11rem;*/
+    /*    margin-right: 10rem;*/
+    /*    margin-top: 3rem;*/
+    /*}*/
+
+    /*.iconCustomMessage2 {*/
+    /*    width: 4.5rem;*/
+    /*    height: 4.5rem;*/
+    /*    margin-left: 8.5rem;*/
+    /*    margin-right: 10rem;*/
+    /*}*/
+
+    /*.iconCustomContacts {*/
+    /*    width: 4.5rem;*/
+    /*    height: 3.4rem;*/
+    /*    margin-left: 13rem;*/
+    /*    margin-top: -4rem;*/
+    /*}*/
+
+    /*.iconCustomHome {*/
+    /*    width: 4.6rem;*/
+    /*    height: 3.4rem;*/
+    /*    margin-left: -7rem;*/
+    /*    margin-top: 11rem;*/
+    /*}*/
+
+    /*.iconCustomBrowser {*/
+    /*    width: 5.7rem;*/
+    /*    height: 4.6rem;*/
+    /*    margin-left: 14rem;*/
+    /*    margin-right: 10rem;*/
+    /*    margin-top: -4rem;*/
+    /*}*/
 
     p {
         margin-top: 0;

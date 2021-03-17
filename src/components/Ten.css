@@ -391,10 +391,10 @@
     /*}*/
     .ten__contentLeftTitle {
         padding-top: 4.3rem;
-        padding-left: 1.6rem;
+        padding-left: 1rem;
         color: #ffffff;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
     }
     @-webkit-keyframes tenyog375{
         0% {
@@ -447,10 +447,10 @@
     }
     .ten__contentLeftTitle {
         padding-top: 3.5rem;
-        padding-left: 1.6rem;
+        padding-left: 0.8rem;
         color: #ffffff;
         font-weight: bold;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 16px;
     }
     /*@-webkit-keyframes tenellipse320 {*/

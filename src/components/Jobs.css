@@ -1239,6 +1239,10 @@
         height: 347px !important;
     }
 
+    .bootstrap__tableThree {
+        margin-top: -4rem;
+    }
+
     .icon3TableTwo, .icon2TableTwo, .iconTableTwo {
         width: 13.7rem;
     }

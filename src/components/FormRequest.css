@@ -2,6 +2,7 @@
     width: 100%;
     margin-top: 5rem;
 }
+
 .form-request {
     display: flex;
     justify-content: center;
@@ -197,76 +198,140 @@ textarea {
     margin-left: -9rem;
 }
 
-@media(max-width: 1025px) {
+@media (max-width: 1025px) {
     .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
         height: 2rem;
     }
+
     .input {
         margin-bottom: 15px;
     }
-}
 
-@media(max-width: 769px) {
-    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        height: 1.8rem;
-    }
     .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 10rem;
+        width: 11rem;
     }
+
     .btn-threeSloyBefore, .btn-fourSloyBefore {
         width: 7rem;
+        height: 2rem;
     }
+
+    .btn-fourSloyTitle {
+        padding: 0.3rem;
+        padding-left: 0.6rem;
+    }
+
+    .ellipse-btnFormAfter {
+        position: absolute;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 13px;
+        background-color: #4f47ff;
+        margin-left: 9.4rem;
+        cursor: pointer;
+    }
+
+    .ellipse-btnFormBefore {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        height: 1.5rem;
+    }
+
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 9rem;
+    }
+
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 6rem;
+    }
+
     .form-request, .card, .form {
         width: 26rem;
         height: 23rem;
     }
+
     .input {
         width: 23rem;
     }
+
     textarea {
-        width: 23rem;
-        height: 10rem;
-        font-size: 0.8rem;
+        width: 22rem;
+        height: 11rem;
+        font-size: 0.7rem;
+        border-radius: 16px;
     }
+
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
         width: 36rem;
     }
+
     .input {
+        font-size: 0.7rem;
+        width: 22rem;
+        height: 2.1rem;
+        border-radius: 29px;
+        background-color: #efefef;
+        border: 1px solid #dedede;
         margin-bottom: 11px;
-        font-size: 0.8rem;
+        padding-left: 1rem;
+        outline: none;
     }
+
     .form__skrepka {
+        width: 0.7rem;
+        height: 1rem;
+        margin-right: auto;
+        margin-top: 0.55rem;
         margin-left: 3rem;
+        color: #000000;
     }
 
     .ellipse-btnFormBefore {
-        width: 0.7rem;
-        height: 0.7rem;
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .ellipse-btnFormAfter {
+        width: 0.6rem;
+        height: 0.6rem;
+        margin-left: 7.5rem;
     }
 
     .form-input {
         padding-top: 3rem;
     }
+
     .from-pryam4 {
         margin-top: 2rem;
     }
 }
 
-@media(max-width: 426px) {
+@media (max-width: 426px) {
+    .card {
+        border-radius: 13px;
+    }
+
     .form-request, .card, .form {
         width: 20rem;
         height: 20rem;
     }
+
     .input {
         width: 17rem;
         font-size: 0.7rem;
         height: 2rem;
     }
+
     textarea {
         width: 17rem;
         height: 10rem;
         font-size: 0.7rem;
     }
+
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
         width: 23rem;
     }
@@ -279,27 +344,31 @@ textarea {
         margin-left: auto;
         margin-right: auto;
     }
+
     .form__skrepka {
-        width: 0.5rem;
+        width: 0.3rem;
         height: 1rem;
-        margin-left: 3rem;
+        margin-left: 2.3rem;
     }
+
     .from-pryam4 {
         font-size: 18px;
         margin-top: 1.3rem;
     }
+
     .btnForm, .btnForm-twoSloy {
-        width: 6rem!important;
-        height: 1rem!important;
+        width: 6rem !important;
+        height: 1rem !important;
     }
+
     .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 3.7rem!important;
-        height: 1rem!important;
+        width: 3.7rem !important;
+        height: 1rem !important;
     }
 
     .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 6rem!important;
-        height: 1rem!important;
+        width: 6rem !important;
+        height: 1rem !important;
     }
 
     .ellipse-btnFormBefore {
@@ -319,95 +388,151 @@ textarea {
         margin-left: 5rem;
         cursor: pointer;
     }
+
     .btn-fourSloyTitle {
         padding-top: 0.15rem;
         padding-left: 0.4rem;
         color: #ffffff;
         font-size: 0.3rem;
     }
+
     .input {
         margin-bottom: 8px;
     }
-    .form-input {
-        padding-top: 2rem;
-    }
-}
 
-@media(max-width: 376px) {
-    .formRequest {
-        width: 100%;
-        margin-top: 0rem;
-    }
+
     .form-request, .card, .form {
         width: 15rem;
         height: 15rem;
     }
+
+    .form-input {
+        padding-top: 2rem;
+    }
+
     .input {
-        width: 13rem;
-        font-size: 10px;
-        height: 2rem;
+        width: 12rem;
+        font-size: 0.5rem;
+        height: 1.8rem;
+        padding-left: 0.5rem;
     }
+
     textarea {
-        width: 13rem;
-        height: 6rem;
-        font-size: 10px;
+        border-radius: 17px;
+        padding: 0.8rem;
+        font-size: 0.5rem;
+        width: 12rem;
+        height: 6.5rem;
+        border-radius: 11px;
+        background-color: #efefef;
+        border: 1px solid #dedede;
+        padding: 0.5rem;
+        outline: none;
     }
+}
+
+@media (max-width: 376px) {
+    .formRequest {
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .form-request, .card, .form {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .form-input {
+        padding-top: 1rem;
+    }
+
+    .input {
+        width: 9rem;
+        font-size: 7px;
+        height: 1.3rem;
+    }
+
+    textarea {
+        border-radius: 11px !important;
+        padding: 0.37rem !important;
+        width: 9rem;
+        height: 5rem;
+        font-size: 7px;
+    }
+
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
         width: 16rem;
     }
+
     .from-pryam4 {
         font-size: 12px;
     }
+
     .form__skrepka {
-        width: 0.5rem;
-        height: 0.7rem;
+        width: 0.3rem;
+        height: 0.5rem;
         margin-top: 0.35rem;
-        margin-left: 2rem;
+        margin-left: 1.7rem;
     }
+
     .btnForm, .btnForm-twoSloy {
-        width: 5rem!important;
-        height: 1rem!important;
+        width: 5rem !important;
+        height: 1rem !important;
     }
+
     .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 3rem!important;
-        height: 1rem!important;
+        width: 3rem !important;
+        height: 1rem !important;
     }
+
     .btn-fourSloyTitle {
         padding: 0.3rem;
         padding-left: 1rem;
         color: #ffffff;
         padding-left: 0.6rem;
     }
+
     .input {
         margin-bottom: 7px;
     }
+
     .form-header-title {
         margin-bottom: 1rem;
     }
+
     textarea {
-        border-radius: 19px!important;
-        padding: 0.77rem!important;
+        border-radius: 8px !important;
+        padding: 0.37rem !important;
     }
 }
 
-@media(max-width: 321px) {
+@media (max-width: 321px) {
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        height: 0.8rem!important;
+    }
     .form-request, .card, .form {
-        width: 13rem;
-        height: 13rem;
+        width: 10rem;
+        height: 10rem;
     }
+
     .input {
-        width: 11rem;
-        font-size: 9px;
-        height: 1.5rem;
+        width: 9rem;
+        font-size: 7px;
+        height: 1.3rem;
     }
+
     textarea {
-        width: 11rem;
-        height: 5.5rem;
-        font-size: 9px;
+        border-radius: 8px !important;
+        padding: 0.37rem !important;
+        width: 9rem;
+        height: 4.3rem;
+        font-size: 7px;
     }
+
     .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
         width: 15rem;
     }
+
     .form-header-title {
         width: 200px;
     }
@@ -415,13 +540,44 @@ textarea {
     .btnForm {
         margin-top: 1rem;
     }
+
     .input {
         margin-bottom: 5px;
     }
+
     .form__skrepka {
         width: 0.3rem;
-        height: 0.7rem;
+        height: 0.5rem;
         margin-top: 0.35rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
+    }
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 4rem!important;
+    }
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 2.5rem!important;
+    }
+    .ellipse-btnFormBefore {
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 13px;
+        background-color: #4f47ff;
+        margin-right: 0.4rem;
+        cursor: pointer;
+    }
+
+    .ellipse-btnFormAfter {
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 13px;
+        background-color: #4f47ff;
+        margin-left: 3.2rem;
+        cursor: pointer;
+    }
+    .btn-fourSloyTitle {
+        padding: 0.2rem;
+        padding-left: 1rem;
+        color: #ffffff;
+        padding-left: 0.4rem;
     }
 }

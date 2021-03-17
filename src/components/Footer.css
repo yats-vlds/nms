@@ -143,6 +143,9 @@
         align-items: center;
         margin-top: 0.5rem;
     }
+    .hr {
+        height: 43px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -152,7 +155,7 @@
     }
 
     .footer {
-        min-height: 232px;
+        min-height: 208px;
     }
 
     .iconSize {

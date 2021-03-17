@@ -50,8 +50,9 @@
 
     .header__logo {
         height: 45px;
-        margin-top: 0.3rem;
+        margin-top: 0.4rem;
         width: 152px;
+        border-bottom: 10px solid white;
     }
 }
 
@@ -68,6 +69,12 @@
 
     .header__linkContacts {
         margin-right: 0.5rem !important;
+    }
+    .header__logo {
+        height: 45px;
+        margin-top: 0.86rem;
+        width: 134px;
+        border-bottom: 10px solid white;
     }
 }
 
