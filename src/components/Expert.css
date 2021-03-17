@@ -235,15 +235,31 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 824px) {
+    .animateRocket {
+        width: 700px;
+        height: 700px;
+        padding: 20rem;
+        margin-left: -14rem;
+    }
+
+    .animateHorse {
+        display: flex;
+        margin-left: -5rem;
+    }
+}
+
+@media (max-width: 824px) {
     .animateRocket {
         margin-left: -12rem;
         width: 650px;
         height: 650px;
     }
+
     .expertRight {
         padding-left: 1rem;
     }
+
     .kon, .kind, .table {
         width: 300px !important;
         height: 300px !important;
@@ -329,7 +345,7 @@
         height: 33.6rem !important;
         width: 23rem !important;
         margin-top: -17.7rem;
-        margin-left: -13rem!important;
+        margin-left: -13rem !important;
         -webkit-animation: scalesRocket768 7s infinite;
         animation: scalesRocket768 7s infinite;
     }
@@ -337,7 +353,7 @@
     .scalesRocketRight {
         height: 6.8rem !important;
         width: 5rem !important;
-        margin-left: 6.4rem!important;
+        margin-left: 6.4rem !important;
         margin-top: -5.5rem;
     }
 
@@ -362,22 +378,48 @@
     .expertTwoRow {
         height: 12rem;
     }
+
     .expertLastRow {
         padding-bottom: 7rem;
     }
 
 }
 
-@media(max-width: 426px) {
+@media (max-width: 736px) {
+    .animateRocket {
+        margin-left: -18rem;
+        width: 650px;
+        height: 650px;
+    }
+
+    .expertTwoRow {
+        height: 15rem;
+    }
+
+    .animateRocket {
+        margin-left: -16rem;
+    }
+}
+
+@media(max-width: 668px) {
+    .animateHorse {
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 568px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
     }
+
     p {
         font-size: 8px !important;
     }
+
     .expertTwoRow {
         height: 20rem;
     }
+
     .expertLeft {
         padding-right: 0.5rem;
     }
@@ -385,41 +427,48 @@
     .expertRight {
         padding-left: 0.5rem;
     }
+
     .expertRocket {
-         margin-bottom: 0rem;
+        margin-bottom: 0rem;
     }
+
     .stone {
         width: 2rem !important;
         height: 2rem !important;
         margin-left: -3.2rem;
     }
+
     .line {
         width: 9rem !important;
         height: 9rem !important;
         margin-top: -4.1rem !important;
         margin-left: -5.3rem !important;
-        animation: line 7s infinite!important;
+        animation: line 7s infinite !important;
     }
+
     .scalesRocket {
         height: 33.6rem !important;
         width: 15rem !important;
         margin-top: -17.7rem;
-        margin-left: -11rem!important;
-        animation: scalesRocket426 7s infinite!important;
+        margin-left: -11rem !important;
+        animation: scalesRocket426 7s infinite !important;
     }
+
     .scalesRocketRight {
         height: 5.8rem !important;
         width: 3.5rem !important;
-        margin-left: 0.4rem!important;
+        margin-left: 0.4rem !important;
         margin-top: -5.5rem;
-        animation: scalesRocketRight426 7s infinite!important;
+        animation: scalesRocketRight426 7s infinite !important;
     }
+
     .rocket {
         width: 17rem !important;
         height: 37rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket426 7s infinite!important;
+        animation: rocket426 7s infinite !important;
     }
+
     @-webkit-keyframes scalesRocket426 {
         0% {
             margin-top: -19.6rem;
@@ -477,30 +526,35 @@
         width: 160px !important;
         height: 156px !important;
     }
+
     .animateRocket {
-        width: 400px!important;
-        height: 400px!important;
-        padding: 15rem!important;
-        padding-left: 20rem!important;
-        padding-top: 21rem!important
+        width: 400px !important;
+        height: 400px !important;
+        padding: 15rem !important;
+        padding-left: 26rem !important;
+        padding-top: 21rem !important;
     }
+
     .expertRocket {
         margin-bottom: -12rem;
     }
+
     .expertLastRow {
         padding-bottom: 5rem;
     }
+
     .expertOneRow {
         margin-bottom: -6rem;
     }
 
     .kon {
-        animation: kon425 6s infinite!important;
+        animation: kon425 6s infinite !important;
     }
 
     .kind {
-        animation: kind425 6s infinite!important;
+        animation: kind425 6s infinite !important;
     }
+
     @-webkit-keyframes rocket426 {
         0% {
             margin-top: -24.5rem;
@@ -584,8 +638,9 @@
     .img-yog {
         width: 10rem;
         height: 7.7rem;
-        animation: yog425 3s infinite!important;
+        animation: yog425 3s infinite !important;
     }
+
     @-webkit-keyframes yog425 {
         /*0% {*/
         /*    margin-top: 0rem;*/
@@ -612,13 +667,298 @@
     .expertLastRow {
         padding-bottom: 3rem;
     }
+
+    .bootstrap__tableTwo {
+        height: 302px;
+        margin-bottom: -7rem;
+    }
+    .animateHorse {
+        margin-left: 1rem;
+    }
+}
+
+
+
+@media (max-width: 426px) {
+    .expertTitleFirst, .expertTitle, .expertTitleRight {
+        font-size: 0.7rem;
+    }
+
+    p {
+        font-size: 8px !important;
+    }
+
+    .expertTwoRow {
+        height: 20rem;
+    }
+
+    .expertLeft {
+        padding-right: 0.5rem;
+    }
+
+    .expertRight {
+        padding-left: 0.5rem;
+    }
+
+    .expertRocket {
+        margin-bottom: 0rem;
+    }
+
+    .stone {
+        width: 2rem !important;
+        height: 2rem !important;
+        margin-left: -3.2rem;
+    }
+
+    .line {
+        width: 9rem !important;
+        height: 9rem !important;
+        margin-top: -4.1rem !important;
+        margin-left: -5.3rem !important;
+        animation: line 7s infinite !important;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 15rem !important;
+        margin-top: -17.7rem;
+        margin-left: -11rem !important;
+        animation: scalesRocket426 7s infinite !important;
+    }
+
+    .scalesRocketRight {
+        height: 5.8rem !important;
+        width: 3.5rem !important;
+        margin-left: 0.4rem !important;
+        margin-top: -5.5rem;
+        animation: scalesRocketRight426 7s infinite !important;
+    }
+
+    .rocket {
+        width: 17rem !important;
+        height: 37rem !important;
+        margin-left: -9.5rem !important;
+        animation: rocket426 7s infinite !important;
+    }
+
+    @-webkit-keyframes scalesRocket426 {
+        0% {
+            margin-top: -19.6rem;
+        }
+        50% {
+            margin-top: -21.5rem;
+        }
+        100% {
+            margin-top: -19.6rem;
+        }
+    }
+
+    @keyframes scalesRocket426 {
+        0% {
+            margin-top: -19.6rem;
+        }
+        50% {
+            margin-top: -21.5rem;
+        }
+        100% {
+            margin-top: -19.6rem;
+        }
+    }
+
+    @-webkit-keyframes scalesRocketRight426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+
+    @keyframes scalesRocketRight426 {
+        0% {
+            margin-top: -4.7rem;
+        }
+        50% {
+            margin-top: -2.6rem;
+        }
+        100% {
+            margin-top: -4.7rem;
+        }
+    }
+
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -13rem;
+    }
+
+    .kon, .kind, .table {
+        width: 160px !important;
+        height: 156px !important;
+    }
+
+    .animateRocket {
+        width: 400px !important;
+        height: 400px !important;
+        padding: 15rem !important;
+        padding-left: 26rem !important;
+        padding-top: 21rem !important;
+    }
+
+    .expertRocket {
+        margin-bottom: -12rem;
+    }
+
+    .expertLastRow {
+        padding-bottom: 5rem;
+    }
+
+    .expertOneRow {
+        margin-bottom: -6rem;
+    }
+
+    .kon {
+        animation: kon425 6s infinite !important;
+    }
+
+    .kind {
+        animation: kind425 6s infinite !important;
+    }
+
+    @-webkit-keyframes rocket426 {
+        0% {
+            margin-top: -24.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -24.5rem;
+        }
+        100% {
+            margin-top: -25rem;
+        }
+    }
+
+    @keyframes rocket426 {
+        0% {
+            margin-top: -24.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -24.5rem;
+        }
+        100% {
+            margin-top: -24.5rem;
+        }
+    }
+    @-webkit-keyframes kind425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kind425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+    @-webkit-keyframes kon425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kon425 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -2rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+    .expertTwoRow {
+        height: 20rem;
+        margin-bottom: -16rem;
+    }
+
+    .img-yog {
+        width: 10rem;
+        height: 7.7rem;
+        animation: yog425 3s infinite !important;
+    }
+
+    @-webkit-keyframes yog425 {
+        /*0% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+        /*50% {*/
+        /*    margin-top: -0.5rem;*/
+        /*}*/
+        /*100% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+    }
+
+    @keyframes yog425 {
+        /*0% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+        /*50% {*/
+        /*    margin-top: 0.5rem;*/
+        /*}*/
+        /*100% {*/
+        /*    margin-top: 0rem;*/
+        /*}*/
+    }
+    .expertLastRow {
+        padding-bottom: 3rem;
+    }
+
     .bootstrap__tableTwo {
         height: 302px;
         margin-bottom: -7rem;
     }
 }
+@media(max-width: 415px) {
+    .animateRocket {
+        width: 400px !important;
+        height: 400px !important;
+        padding: 15rem !important;
+        padding-left: 23.3rem !important;
+        padding-top: 21rem !important;
+    }
+    .animateHorse {
+        margin-left: 0rem;
+    }
+}
 
-@media(max-width: 376px) {
+@media (max-width: 376px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.6rem;
     }
@@ -652,18 +992,21 @@
         width: 2.5rem !important;
         margin-left: -0.5rem !important;
         margin-top: -5.5rem;
-        animation: scalesRocketRight376 7s infinite!important;
+        animation: scalesRocketRight376 7s infinite !important;
     }
 
     .rocket {
         width: 15rem !important;
         height: 39rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket376 7s infinite!important;
+        animation: rocket376 7s infinite !important;
     }
 
     .animateRocket {
-        padding-left: 18.5rem !important;
+        padding-left: 23.5rem !important;
+    }
+    .animateHorse {
+        margin-left: 0rem;
     }
 
     .kon, .kind, .table {
@@ -675,9 +1018,11 @@
         height: 20rem;
         margin-bottom: -20rem;
     }
+
     .expertRocket {
         margin-bottom: -14rem;
     }
+
     @-webkit-keyframes scalesRocket376 {
         0% {
             margin-top: -19.5rem;
@@ -759,6 +1104,7 @@
         animation: aligning375 3s infinite;
 
     }
+
     @-webkit-keyframes aligning375 {
         0% {
             padding-right: 0px;
@@ -785,59 +1131,72 @@
     h1.bootstrap__tableTitle.bootstrap__marginTop {
         font-size: 1.2rem;
     }
+
     .bootstrap__tableText {
         margin-bottom: 10px !important;
     }
 }
 
-@media(max-width: 321px) {
+@media (max-width: 321px) {
     .kon, .kind, .table {
         width: 119px !important;
         height: 110px !important;
     }
+
     .animateRocket {
-        width: 400px!important;
-        height: 400px!important;
-        padding: 12rem!important;
-        padding-left: 18.5rem!important;
-        padding-top: 17rem!important;
+        width: 400px !important;
+        height: 400px !important;
+        padding: 12rem !important;
+        padding-left: 23rem !important;
+        padding-top: 17rem !important;
         margin-bottom: 2rem;
     }
+
     .expertOneRow {
         margin-bottom: -6rem;
     }
+
     .expertTwoRow {
         height: 20rem;
         margin-bottom: -15.5rem;
     }
+
     .expertRocket {
         margin-bottom: -13rem;
     }
+
     .expertLastRow {
         padding-bottom: 3rem;
     }
+
     h1.bootstrap__tableTitle.bootstrap__marginTop {
         font-size: 1rem;
     }
+
     .bootstrap__tableText {
         margin-bottom: 6px !important;
     }
+
     .bootstrap__tableText {
         margin-bottom: 10px !important;
     }
+
     .bootstrap__table {
         height: 285px;
         margin-bottom: 0rem;
     }
+
     .bootstrap__tableTwo {
         height: 302px;
         margin-bottom: -8rem;
     }
+
     .form-header-title {
         width: 200px;
         margin-bottom: 1rem;
     }
+
     .from-pryam4 {
-        margin-top: 1rem!important;
+        margin-top: 1rem !important;
     }
 }

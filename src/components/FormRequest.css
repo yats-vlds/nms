@@ -237,19 +237,7 @@ textarea {
     }
 }
 
-@media (max-width: 769px) {
-    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        height: 1.5rem;
-    }
-
-    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 9rem;
-    }
-
-    .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 6rem;
-    }
-
+@media(max-width: 824px) {
     .form-request, .card, .form {
         width: 26rem;
         height: 23rem;
@@ -290,6 +278,28 @@ textarea {
         margin-left: 3rem;
         color: #000000;
     }
+    .form-input {
+        padding-top: 3rem;
+    }
+
+    .from-pryam4 {
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        height: 1.5rem;
+    }
+
+    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 9rem;
+    }
+
+    .btn-threeSloyBefore, .btn-fourSloyBefore {
+        width: 6rem;
+    }
 
     .ellipse-btnFormBefore {
         width: 0.6rem;
@@ -300,17 +310,17 @@ textarea {
         height: 0.6rem;
         margin-left: 7.5rem;
     }
+}
 
-    .form-input {
-        padding-top: 3rem;
-    }
-
-    .from-pryam4 {
-        margin-top: 2rem;
+@media(max-width: 736px) {
+    .form-header-title {
+        position: relative;
+        z-index: 2;
+        width: 533px;
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 569px) {
     .card {
         border-radius: 13px;
     }

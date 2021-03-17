@@ -338,7 +338,7 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 824px) {
     .star__project {
         margin-bottom: -168px;
     }
@@ -442,6 +442,194 @@ h1.star__projectLeftTitle {
         height: 0.5rem;
         margin-left: 6.8rem!important;
     }
+}
+
+@media(max-width: 641px) {
+    .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
+        min-height: 350px;
+    }
+    .star__imageBack {
+        margin-top: -16px;
+    }
+    .star__projectRowContentLeft {
+        padding-top: 5rem;
+        padding-left: 2.22rem;
+        width: 50%;
+    }
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.2rem;
+        font-size: 1rem;
+    }
+    .iconDown {
+        height: 16px;
+        width: 16px;
+    }
+    .star__projectRowContentRight {
+        padding-top: 1rem;
+    }
+    .btnStar, .btnStar-twoSloy, .btnStarMovement {
+        width: 3.5rem;
+        height: 0.7rem;
+    }
+
+    .btnStar, .btnStarMovement {
+        margin-top: -4.9rem;
+        margin-left: 4rem;
+    }
+
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 2.2rem;
+        height: 0.7rem;
+    }
+
+    .btnStarMovement {
+        animation: btnStar569 3s infinite;
+    }
+
+    @-webkit-keyframes btnStar569 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3.5rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+    @keyframes btnStar569 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3.5rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+
+    .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
+        width: 3.5rem;
+        height: 0.7rem;
+    }
+
+    .btnStar-fourSloyTitle {
+        font-size: 3.3px;
+        padding-top: 0.25rem;
+        padding-left: 0.4rem;
+    }
+
+    .ellipse-btnStarBefore {
+        width: 0.3rem !important;
+        height: 0.3rem !important;
+        margin-right: 0.4rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 2.8rem !important;
+        width: 0.3rem;
+        height: 0.3rem;
+    }
+    .star__project {
+        margin-bottom: -75px;
+    }
+}
+@media (max-width: 569px) {
+    .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
+        min-height: 350px;
+    }
+    .star__imageBack {
+        margin-top: -16px;
+    }
+    .star__projectRowContentLeft {
+        padding-top: 5rem;
+        padding-left: 2.22rem;
+        width: 50%;
+    }
+    h1.star__projectLeftTitle {
+        padding-bottom: 0.2rem;
+        font-size: 1rem;
+    }
+    .iconDown {
+        height: 16px;
+        width: 16px;
+    }
+    .star__projectRowContentRight {
+        padding-top: 1rem;
+    }
+    .btnStar, .btnStar-twoSloy, .btnStarMovement {
+        width: 3.5rem;
+        height: 0.7rem;
+    }
+
+    .btnStar, .btnStarMovement {
+        margin-top: -4.9rem;
+        margin-left: 4rem;
+    }
+
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 2.2rem;
+        height: 0.7rem;
+    }
+
+    .btnStarMovement {
+        animation: btnStar569 3s infinite;
+    }
+
+    @-webkit-keyframes btnStar569 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3.5rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+    @keyframes btnStar569 {
+        0% {
+            margin-left: 4rem;
+        }
+        50% {
+            margin-left: 3.5rem;
+        }
+        100% {
+            margin-left: 4rem;
+        }
+    }
+
+
+    .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
+        width: 3.5rem;
+        height: 0.7rem;
+    }
+
+    .btnStar-fourSloyTitle {
+        font-size: 3.3px;
+        padding-top: 0.25rem;
+        padding-left: 0.4rem;
+    }
+
+    .ellipse-btnStarBefore {
+        width: 0.3rem !important;
+        height: 0.3rem !important;
+        margin-right: 0.4rem;
+    }
+
+    .ellipse-btnStarAfter {
+        margin-left: 2.8rem !important;
+        width: 0.3rem;
+        height: 0.3rem;
+    }
+    .star__project {
+        margin-bottom: -75px;
+    }
+
 }
 
 @media (max-width: 426px) {

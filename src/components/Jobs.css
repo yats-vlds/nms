@@ -400,6 +400,18 @@
     margin-bottom: 90px;
 }
 
+@media(max-width: 1367px) {
+    .tableOneIcon4 {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 700px;
+        height: 892px;
+        margin-top: -56rem;
+        object-fit: contain;
+    }
+}
+
 @media (max-width: 1025px) {
     .bootstrap__table {
         height: 830px !important;
@@ -673,7 +685,62 @@
 
 }
 
-@media (max-width: 769px) {
+@media(max-width: 813px) {
+    .tableOneIcon4 {
+        position: relative;
+        z-index: 11;
+        width: 677px;
+        height: 775px;
+        padding-top: 10rem;
+        padding-right: 18.8rem;
+        margin-top: -47rem;
+        padding-left: -4.1rem;
+    }
+    .tableOneIcon2 {
+        margin-left: 1.5rem;
+        position: relative;
+        z-index: 10;
+        width: 446px;
+        height: 816px;
+        padding-top: 17rem;
+    }
+    .tableOneIcon1 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 10;
+        width: 488px;
+        height: 535px;
+        padding-top: 0rem;
+    }
+    .tableTwoIcon1 {
+        position: relative;
+        z-index: 10;
+        width: 552px;
+        height: 642px;
+        padding-top: 8rem;
+    }
+    .tableTwoIcon3Slider2 {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 408px;
+        height: 990px;
+        margin-top: -50rem;
+        object-fit: contain;
+    }
+    img#iconLEAMUM {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 319px;
+        height: 990px;
+        margin-top: -50rem;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 824px) {
 
     .bootstrap__table {
         height: 609px !important;
@@ -905,8 +972,8 @@
         position: relative;
         z-index: 11;
         width: 361px;
-        height: 867px;
-        margin-top: -47rem;
+        height: 472px;
+        margin-top: -34rem;
         object-fit: contain;
     }
 
@@ -937,11 +1004,44 @@
     }
 
     .bootstrap__tableThree {
-        margin-top: -4rem;
+        margin-top: 2rem;
     }
 }
 
-@media (max-width: 426px) {
+@media(max-width: 668px) {
+    .bootstrap__tableTwo {
+        height: 594px !important;
+    }
+    .bootstrap__tableThree {
+        margin-top: 0rem;
+    }
+    .tableTwoIcon3Slider2 {
+        width: 325px;
+    }
+    .tableOneIcon4 {
+        width: 630px;
+    }
+    .tableTwoIcon3Slider2 {
+        margin-left: 3rem;
+        position: relative;
+        z-index: 11;
+        width: 322px;
+        height: 586px;
+        margin-top: -37rem;
+        object-fit: contain;
+    }
+    img#iconLEAMUM {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 209px;
+        height: 500px;
+        margin-top: -35rem;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 569px) {
     .bootstrap__table {
         height: 326px !important;
     }
@@ -1236,6 +1336,18 @@
     }
 }
 
+@media(max-width: 416px) {
+    img#iconLEAMUM {
+        margin-left: 3rem;
+        position: relative;
+        z-index: 11;
+        width: 124px;
+        height: 500px;
+        margin-top: -32rem;
+        object-fit: contain;
+    }
+}
+
 @media (max-width: 376px) {
     .bootstrap__table {
         height: 347px !important;
@@ -1362,6 +1474,15 @@
         margin-top: -21.5rem;
         padding-top: 7.2rem;
         /* background-size: 100%; */
+        object-fit: contain;
+    }
+    img#iconLEAMUM {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 11;
+        width: 120px;
+        height: 494px;
+        margin-top: -28rem;
         object-fit: contain;
     }
 

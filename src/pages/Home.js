@@ -46,13 +46,13 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
             </div>
             <Cap/>
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
-            <Expert/>
-            <Why id="why"/>
-            <SliderComponent/>
-            <SliderComponent2/>
-            <SliderComponent3/>
-            <FormRequest/>
-            <Ten/>
+            {/*<Expert/>*/}
+            {/*/!*<Why id="why"/>*!/*/}
+            {/*<SliderComponent/>*/}
+            {/*<SliderComponent2/>*/}
+            {/*<SliderComponent3/>*/}
+            {/*<FormRequest/>*/}
+            {/*<Ten/>*/}
         </>
     )
 }

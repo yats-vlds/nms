@@ -11,8 +11,7 @@ const Footer = ({id}) => {
             <div className="footer" id={id}>
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-
+                        <div className="col footer__col">
                             <img src={nmsDev} className="footer-image" loading="lazy"/>
                             <h4 className="footer__location">Team based in Kyiv, Ukraine</h4>
                             <div className="footer__contacts">
@@ -26,8 +25,8 @@ const Footer = ({id}) => {
                                 <p className="footer__contactsText">
                                     <strong>Mail.:</strong>
                                     <a className="footer__link"
-                                       href="mailto:dev.nms@gmail.com">
-                                        dev.nms@gmail.com
+                                       href="mailto:dev@nms-group.family">
+                                        dev@nms-group.family
                                     </a>
                                 </p>
                             </div>

@@ -62,6 +62,12 @@
     }
 }
 
+@media(max-width: 824px) {
+    .cap__leftTitle {
+        font-size: 3.6rem;
+    }
+}
+
 @media(max-width: 769px) {
     .cap__leftTitle {
         font-size: 3.7rem;
@@ -76,6 +82,16 @@
     }
     .col-7 {
         margin-bottom: -2.8rem;
+    }
+}
+@media(max-width: 736px) {
+    .cap__leftTitle {
+        font-size: 2.6rem;
+    }
+}
+@media(max-width: 569px) {
+    .cap__leftTitle {
+        font-size: 2.8rem;
     }
 }
 
@@ -96,7 +112,7 @@
 
 @media(max-width: 416px) {
     .cap__leftTitle {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
 @media (max-width: 376px) {

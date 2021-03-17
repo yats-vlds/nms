@@ -10,9 +10,8 @@ import inmore from "../assets/inmore.svg";
 import inmore2 from "../assets/InMore_900x1025.png"
 import inmore3 from "../assets/InMore_900x1025-2.png"
 import inmore4 from "../assets/InMore_900x1025-3.png"
-import tableThree1 from "../assets/tableThree1.png";
-import tableTree2 from "../assets/tableThree2.svg";
-import tableThree4 from "../assets/tableThree4.svg";
+import leamum1 from "../assets/Lean-900x1025-2.png"
+import leamum2 from "../assets/Lean-900x1025-3.png"
 import Slider from "react-slick";
 import goPrintWeb1 from "../assets/web-900x1025.png"
 import goPrintWeb2 from "../assets/web-900x1025-2.png"
@@ -308,74 +307,64 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
-                {/*<div className="carousel-item">*/}
-                {/*    <div className="bootstrap__tableTwo">*/}
-                {/*        <div className="bootstrap__tableTwoLeft">*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableTwoLeftInfo">*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional*/}
-                {/*                    Web Development*/}
-                {/*                    Services</h1>*/}
-                {/*                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">*/}
-                {/*                    LEANU*/}
-                {/*                </h1>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Idea*/}
-                {/*                </h3>*/}
-                {/*                <p className="bootstrap__tableText marginBottom">*/}
-                {/*                    Sometimes when you have no extra time to arrange an advertising company scheduled*/}
-                {/*                    for*/}
-                {/*                    “yesterday”, fast yet effective solutions should be used. With a Tilda solution we*/}
-                {/*                    have*/}
-                {/*                    created a landing page for quite a unique fertilizer called Leanum in just 3 days*/}
-                {/*                    including development of custom design. Informative, nice looking, with simple and*/}
-                {/*                    functional feedback form – that’s how we define it.*/}
-                {/*                </p>*/}
-                {/*                <h3 className="bootstrap__tableTwoTitle">*/}
-                {/*                    Tech Picture*/}
-                {/*                </h3>*/}
-                {/*                <p>*/}
-                {/*                    Tilda Cloud Website Platform*/}
-                {/*                </p>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*        <div className="bootstrap__tableLeft">*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <div className="bootstrap__tableLineTwo"></div>*/}
-                {/*            <Slider {...settings} className="slider-subslider">*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>*!/*/}
-                {/*                /!*    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>*!/*/}
-                {/*                /!*    <img src={inmore} loading="lazy" className="tableTwoIcon3"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>*!/*/}
-                {/*                /!*    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>*!/*/}
-                {/*                /!*    <img src={inmore2} loading="lazy" className="tableTwoIcon3Slider2"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>*!/*/}
-                {/*                /!*    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>*!/*/}
-                {/*                /!*    <img src={inmore3} loading="lazy" className="tableTwoIcon3Slider2"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*                /!*<div>*!/*/}
-                {/*                /!*    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>*!/*/}
-                {/*                /!*    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>*!/*/}
-                {/*                /!*    <img src={inmore4} loading="lazy" className="tableTwoIcon3Slider2"/>*!/*/}
-                {/*                /!*</div>*!/*/}
-                {/*            </Slider>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="carousel-item">
+                    <div className="bootstrap__tableTwo">
+                        <div className="bootstrap__tableTwoLeft">
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableTwoLeftInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
+                                    Web Development
+                                    Services</h1>
+                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                    LEMAUM
+                                </h1>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Idea
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    Sometimes when you have no extra time to arrange an advertising company scheduled
+                                    for
+                                    “yesterday”, fast yet effective solutions should be used. With a Tilda solution we
+                                    have
+                                    created a landing page for quite a unique fertilizer called Leamum in just 3 days
+                                    including development of custom design. Informative, nice looking, with simple and
+                                    functional feedback form – that’s how we define it.
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Tech Picture
+                                </h3>
+                                <p>
+                                    Tilda Cloud Website Platform
+                                </p>
+                            </div>
+                        </div>
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={leamum1} loading="lazy" className="tableTwoIcon3Slider2" id="iconLEAMUM"/>
+                                </div>
+                                <div>
+                                    <img src={shadow2} loading="lazy" className="tableTwoIcon1"/>
+                                    <img src={tableTwoTwo} loading="lazy" className="tableTwoIcon2"/>
+                                    <img src={leamum2} loading="lazy" className="tableTwoIcon3Slider2"/>
+                                </div>
+                            </Slider>
+                        </div>
+                    </div>
+                </div>
 
                 <a className="carousel-control-prev" href="#carouselExampleIndicators_2" role="button"
                    data-slide="prev">

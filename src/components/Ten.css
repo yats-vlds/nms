@@ -22,6 +22,7 @@
     width: 100%;
     min-height: 742px;
 }
+
 .ten__content {
     position: absolute;
     z-index: 3;
@@ -42,10 +43,11 @@
     width: 570px;
     margin-left: 48rem;
     margin-top: 5rem;
-     -webkit-animation: tenyog 1.2s infinite;
-     animation: tenyog 1.2s infinite;
+    -webkit-animation: tenyog 1.2s infinite;
+    animation: tenyog 1.2s infinite;
 }
-@-webkit-keyframes tenyog{
+
+@-webkit-keyframes tenyog {
     0% {
         margin-top: 5rem;
     }
@@ -57,7 +59,7 @@
     }
 }
 
-@keyframes tenyog{
+@keyframes tenyog {
     0% {
         margin-top: 5rem;
     }
@@ -106,7 +108,7 @@
 /*        margin-top: -16rem;*/
 /*    }*/
 /*}*/
-@media(max-width: 1371px) {
+@media (max-width: 1371px) {
     .ten__contentLeftTitle {
         padding-top: 20rem;
         padding-left: 6rem;
@@ -115,10 +117,12 @@
         font-size: 3.7rem;
     }
 }
+
 @media (max-width: 1025px) {
     .ten {
         margin-bottom: -131px;
     }
+
     .ten__contentLeftTitle {
         padding-top: 10.5rem;
         padding-left: 2rem;
@@ -126,6 +130,7 @@
         font-weight: bold;
         font-size: 45px;
     }
+
     .ten, .tenSloy, .ten__img {
         min-height: 505px;
     }
@@ -136,13 +141,15 @@
         object-fit: contain;
         width: 540px;
         margin-left: 30rem;
-        animation: tenyog1024 2s infinite!important;
+        animation: tenyog1024 2s infinite !important;
     }
+
     .ellipse {
         margin-top: -9rem;
         margin-left: 43.5rem;
-        animation: tenellipse1024 2s infinite!important;
+        animation: tenellipse1024 2s infinite !important;
     }
+
     /*@-webkit-keyframes tenellipse1024{*/
     /*    0% {*/
     /*        margin-top: -10.5rem;*/
@@ -154,7 +161,6 @@
     /*        margin-top: -10.5rem;*/
     /*    }*/
     /*}*/
-
     /*@keyframes tenellipse1024{*/
     /*    0% {*/
     /*        margin-top: -10.5rem;*/
@@ -166,7 +172,7 @@
     /*        margin-top: -10.5rem;*/
     /*    }*/
     /*}*/
-    @-webkit-keyframes tenyog1024{
+    @-webkit-keyframes tenyog1024 {
         0% {
             margin-top: 2rem;
         }
@@ -178,7 +184,7 @@
         }
     }
 
-    @keyframes tenyog1024{
+    @keyframes tenyog1024 {
         0% {
             margin-top: 2rem;
         }
@@ -191,35 +197,40 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 824px) {
     .ten {
         margin-bottom: -96px;
     }
+
     .ten, .tenSloy, .ten__img {
         min-height: 372px;
     }
+
     .ten__yog {
         position: absolute;
         height: 220px;
         object-fit: contain;
         width: 449px;
         margin-left: 19rem;
-        animation: tenyog768 2s infinite!important;
+        animation: tenyog768 2s infinite !important;
     }
+
     .ellipse {
         margin-left: 31rem;
         margin-top: -6.5rem;
         width: 80px;
         height: 16px;
-        animation: tenellipse768 2s infinite!important;
+        animation: tenellipse768 2s infinite !important;
     }
+
     .ten__contentLeftTitle {
         padding-top: 8rem;
-        padding-left: 2rem;
+        padding-left: 4rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 32px;
     }
+
     /*@-webkit-keyframes tenellipse768{*/
     /*    0% {*/
     /*        margin-top: -8.5rem;*/
@@ -231,7 +242,6 @@
     /*        margin-top: -8.5rem;*/
     /*    }*/
     /*}*/
-
     /*@keyframes tenellipse768{*/
     /*    0% {*/
     /*        margin-top: -8.5rem;*/
@@ -243,7 +253,7 @@
     /*        margin-top: -8.5rem;*/
     /*    }*/
     /*}*/
-    @-webkit-keyframes tenyog768{
+    @-webkit-keyframes tenyog768 {
         0% {
             margin-top: 2rem;
         }
@@ -255,7 +265,7 @@
         }
     }
 
-    @keyframes tenyog768{
+    @keyframes tenyog768 {
         0% {
             margin-top: 2rem;
         }
@@ -265,6 +275,91 @@
         100% {
             margin-top: 2rem;
         }
+    }
+}
+@media(max-width: 813px) {
+    .ten__contentLeftTitle {
+        padding-top: 8rem;
+        padding-left: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 736px) {
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 17rem;
+        animation: tenyog768 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-left: 28.5rem;
+        margin-top: -6.5rem;
+        width: 80px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
+    }
+}
+
+@media (max-width: 668px) {
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 13rem;
+        animation: tenyog768 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-left: 24.5rem;
+        margin-top: -6.5rem;
+        width: 80px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
+    }
+    .ten__contentLeftTitle {
+        padding-top: 8rem;
+        padding-left: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 29px;
+    }
+}
+
+@media(max-width: 569px) {
+    .ten, .tenSloy, .ten__img {
+        min-height: 321px;
+    }
+    .ten__contentLeftTitle {
+        padding-top: 7rem;
+        padding-left: 3rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .ten__yog {
+        position: absolute;
+        height: 190px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 19rem;
+        animation: tenyog768 2s infinite !important;
+    }
+    .ellipse {
+        margin-left: 22.5rem;
+        margin-top: -5.5rem;
+        width: 80px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
+    }
+    .ten {
+        margin-bottom: -84px;
     }
 }
 
@@ -281,23 +376,26 @@
         position: absolute;
         height: 125px;
         object-fit: contain;
-        width: 190px!important;
+        width: 190px !important;
         margin-left: 12rem;
         margin-top: 2.5rem;
-        animation: tenyog425 2s infinite!important;
+        animation: tenyog425 2s infinite !important;
     }
+
     .ellipse {
-        margin-left: 16.8rem!important;
+        margin-left: 16.8rem !important;
         margin-top: -3.8rem;
         width: 39px;
         height: 11px;
         /* animation: tenellipse425 2s infinite!important; */
     }
+
     .ten__contentLeftTitle {
         padding-top: 4.5rem;
         padding-left: 1rem;
         font-size: 17px;
     }
+
     /*@-webkit-keyframes tenellipse425{*/
     /*    0% {*/
     /*        margin-top: -5rem;*/
@@ -309,7 +407,6 @@
     /*        margin-top: -5rem;*/
     /*    }*/
     /*}*/
-
     /*@keyframes tenellipse425{*/
     /*    0% {*/
     /*        margin-top: -5rem;*/
@@ -321,8 +418,7 @@
     /*        margin-top: -5rem;*/
     /*    }*/
     /*}*/
-
-    @-webkit-keyframes tenyog425{
+    @-webkit-keyframes tenyog425 {
         0% {
             margin-top: 1.5rem;
         }
@@ -334,7 +430,7 @@
         }
     }
 
-    @keyframes tenyog425{
+    @keyframes tenyog425 {
         0% {
             margin-top: 1.5rem;
         }
@@ -348,17 +444,20 @@
 
 }
 
-@media(max-width: 376px) {
+@media (max-width: 376px) {
     .ten {
         margin-bottom: -49px;
     }
+
     .ten, .tenSloy, .ten__img {
         min-height: 192px;
     }
+
     .formRequest {
         width: 100%;
         margin-top: 1rem;
     }
+
     .ten__yog {
         position: absolute;
         height: 121px;
@@ -366,14 +465,15 @@
         width: 222px;
         margin-left: 11rem;
         margin-top: 2.5rem;
-        animation: tenyog375 1s infinite!important;
+        animation: tenyog375 1s infinite !important;
     }
 
     .ellipse {
-        margin-left: 15.75rem!important;
+        margin-left: 15.75rem !important;
         margin-top: -3rem;
         /*animation: tenellipse375 1s infinite!important;*/
     }
+
     /*@-webkit-keyframes tenellipse375{*/
     /*    0% {*/
     /*        margin-top: -5rem;*/
@@ -385,7 +485,6 @@
     /*        margin-top: -5rem;*/
     /*    }*/
     /*}*/
-
     /*@keyframes tenellipse375{*/
     /*    0% {*/
     /*        margin-top: -5rem;*/
@@ -404,7 +503,8 @@
         font-weight: bold;
         font-size: 15px;
     }
-    @-webkit-keyframes tenyog375{
+
+    @-webkit-keyframes tenyog375 {
         0% {
             margin-top: 1.5rem;
         }
@@ -416,7 +516,7 @@
         }
     }
 
-    @keyframes tenyog375{
+    @keyframes tenyog375 {
         0% {
             margin-top: 1.5rem;
         }
@@ -429,30 +529,35 @@
     }
 }
 
-@media(max-width: 321px) {
+@media (max-width: 321px) {
     .bootstrap__tableThree {
         margin-top: -3rem;
     }
+
     .ten {
-        margin-bottom: -40px!important;
+        margin-bottom: -40px !important;
     }
+
     .ten, .tenSloy, .ten__img {
         min-height: 155px;
     }
+
     .ten__yog {
         position: absolute;
         height: 99px;
         object-fit: contain;
-        width: 123px!important;
+        width: 123px !important;
         margin-left: 11rem;
         margin-top: 2.5rem;
-        animation: tenyog320 3s infinite!important;
+        animation: tenyog320 3s infinite !important;
     }
-    .ellipse{
-        margin-left: 13.5rem!important;
+
+    .ellipse {
+        margin-left: 13.5rem !important;
         margin-top: -2.8rem;
         /*animation: tenellipse320 3s infinite!important;*/
     }
+
     .ten__contentLeftTitle {
         padding-top: 3.5rem;
         padding-left: 0.8rem;
@@ -461,6 +566,7 @@
         font-size: 12px;
         line-height: 16px;
     }
+
     /*@-webkit-keyframes tenellipse320 {*/
     /*    0% {*/
     /*        margin-top: -4.2rem;*/
@@ -472,7 +578,6 @@
     /*        margin-top: -4.2rem;*/
     /*    }*/
     /*}*/
-
     /*@keyframes tenellipse320 {*/
     /*    0% {*/
     /*        margin-top: -4.2rem;*/
@@ -484,7 +589,7 @@
     /*        margin-top: -4.2rem;*/
     /*    }*/
     /*}*/
-    @-webkit-keyframes tenyog320{
+    @-webkit-keyframes tenyog320 {
         0% {
             margin-top: 0.5rem;
         }
@@ -496,7 +601,7 @@
         }
     }
 
-    @keyframes tenyog320{
+    @keyframes tenyog320 {
         0% {
             margin-top: 0.5rem;
         }

@@ -1,10 +1,7 @@
 import React from "react";
 import shadow from "../assets/shadow.png";
 import table1pryamogolnik from "../assets/table1Pryamogolnik.svg";
-import sloygoPrint from "../assets/sloygoPrint.svg";
-import goPrintOriginal from "../assets/goPrintOriginal.svg";
 import Slider from "react-slick";
-import LazyLoad from "react-lazy-load"
 import goPrintTwo from "../assets/GoPrint_900x1025.png"
 import goPrintThree from "../assets/GoPrint_900x1025-2.png"
 import goPrintFour from "../assets/GoPrint_900x1025-3.png"
@@ -14,7 +11,6 @@ import total3 from "../assets/total-900x1025-03.png"
 import loko from "../assets/LocoMoco-900x1025-01.png"
 import loko2 from "../assets/LocoMoco-900x1025-02.png"
 import loko3 from "../assets/LocoMoco-900x1025-03.png"
-import ct from "../assets/CT-900x1025.png"
 import ct2 from "../assets/CT-900x1025(2).png"
 import ct3 from "../assets/CT-900x1025-3.png"
 import favvel from "../assets/FA-900x1025.png"
@@ -56,11 +52,6 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct} className="tableOneIcon4" loading="lazy"/>
-                                </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
@@ -257,9 +248,6 @@ const SliderComponent = () => {
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
                                     <img src={listery} className="tableOneIcon4" loading="lazy"/>
                                 </div>
-                                <div>
-
-                                </div>
                             </Slider>
                         </div>
                         <div className="bootstrap__tableRight">
@@ -310,16 +298,6 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <Slider {...settings} className="slider-subslider">
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={favvel} className="tableOneIcon4" loading="lazy"/>
-                                </div>
-                                <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={favvel2} className="tableOneIcon4" loading="lazy"/>
-                                </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
