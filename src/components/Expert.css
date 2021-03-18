@@ -812,8 +812,12 @@
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 26rem !important;
+        padding-left: 22rem !important;
         padding-top: 21rem !important;
+    }
+
+    .animateHorse {
+        margin-left: 0rem;
     }
 
     .expertRocket {

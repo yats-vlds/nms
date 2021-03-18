@@ -258,7 +258,7 @@
         border-radius: 50%;
         margin-top: 0rem;
         margin-left: 2rem;
-        animation: circleIcons 10s infinite;
+        animation: circleIcons 10s linear infinite;
     }
 
     .goprint {
@@ -266,7 +266,7 @@
         width: 400px;
         height: 400px;
         margin-left: -9rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .ukrtelecom {
@@ -274,22 +274,22 @@
         width: 240px;
         height: 78px;
         margin-left: 10rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
 
     }
 
     .danfoss {
-        margin-top: -8rem;
+        margin-top: -6rem;
         height: 19rem;
-        margin-left: 12rem;
-        animation: iconRotate 10s infinite;
+        margin-left: 7rem;
+        animation: iconRotate 10s linear infinite;
     }
 
     .ct {
         margin-top: -9rem;
         margin-left: 18rem;
         width: 12rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .goprint {
@@ -297,7 +297,7 @@
         width: 400px;
         height: 400px;
         margin-left: -11rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .inmore {
@@ -305,7 +305,7 @@
         margin-top: -48rem;
         height: 20rem;
         width: 20rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
         margin-left: -20rem;
     }
 
@@ -314,32 +314,53 @@
         margin-top: -30.5rem;
         margin-left: -20.5rem;
         height: 157px;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .ukt {
         height: 170px;
         margin-top: -4rem;
         margin-left: 17rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .lactalis {
         margin-top: -3.5rem;
         width: 12rem;
         margin-left: 16rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
     }
 
     .total {
         margin-top: -7rem;
         margin-left: -13rem;
         width: 25rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 10s linear infinite;
+    }
+
+    .head {
+        width: 25rem;
+        height: 1.7rem;
+        margin-top: -70rem;
+        animation: iconRotate 10s linear infinite;
+    }
+
+    .agri {
+        width: 9rem;
+        height: 21.6rem;
+        margin-top: -38rem;
+        margin-left: 9rem;
+        transform: rotate(
+                79deg
+        );
+        margin-bottom: -17rem;
+        padding-top: 7rem;
+        background-size: 100%;
+        animation: iconRotate 10s linear infinite;
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 813px) {
 
     .why__me, .why__meSloy {
         height: 500px;
@@ -376,14 +397,14 @@
         border-radius: 50%;
         margin-top: 0.5rem;
         margin-left: 2rem;
-        animation: circleIcons 10s infinite;
+        animation: circleIcons 7s linear infinite;
     }
 
     .goprint {
         margin-top: -18.5rem;
         width: 21rem !important;
         height: 20rem !important;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
         margin-left: -10rem;
     }
 
@@ -392,7 +413,7 @@
         margin-top: -28rem;
         height: 16rem;
         width: 13rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
         margin-left: -16rem;
     }
 
@@ -402,55 +423,82 @@
         width: 240px;
         height: 78px;
         margin-left: 10rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
 
     }
 
     .danfoss {
         margin-top: -6rem;
         height: 14rem;
-        margin-left: 8rem;
-        animation: iconRotate 10s infinite;
+        margin-left: 1rem;
+        animation: iconRotate 7s linear infinite;
     }
 
     .ct {
         margin-top: -7rem;
         margin-left: 14rem;
         width: 8rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .listery {
         margin-top: -36.5rem;
         margin-left: -8.8rem;
         height: 91px;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .ukt {
         height: 155px;
         margin-top: -4rem;
         margin-left: 12rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .total {
         margin-top: -8rem;
         margin-left: -10.5rem;
         width: 15rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .lactalis {
         margin-top: -3.5rem;
         width: 12rem;
         margin-left: 12rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .agri {
+        width: 7rem;
+        height: 21.6rem;
+        margin-top: -38rem;
+        margin-left: 8rem;
+        transform: rotate(
+                79deg
+        );
+        margin-bottom: -24rem;
+        padding-top: 9rem;
+        background-size: 100%;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .head {
+        width: 18rem;
+        height: 1.3rem;
+        margin-top: -47rem;
+        animation: iconRotate 7s linear infinite;
     }
 
 
     .clip-path {
         width: 28rem;
+    }
+}
+
+@media(max-width: 737px) {
+    .logo__container {
+        margin-left: -1rem;
     }
 }
 
@@ -488,10 +536,11 @@
     }
 
     .danfoss {
-        margin-top: -3rem;
+        margin-top: -3.3rem;
         height: 7rem;
-        margin-left: 5.5rem;
-        animation: iconRotate 10s infinite;
+        width: 8rem;
+        margin-left: 2.5rem;
+        animation: iconRotate 7s linear infinite;
     }
 
     .ct {
@@ -499,7 +548,7 @@
         margin-left: 8rem;
         width: 4rem;
         height: 4rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .goprint {
@@ -508,7 +557,7 @@
         margin-top: -7rem;
         margin-left: -4rem;
         margin-right: 5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .inmore {
@@ -516,7 +565,7 @@
         margin-left: -2.3rem;
         height: 6rem;
         width: 6rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .listery {
@@ -524,7 +573,7 @@
         margin-left: -5.7rem;
         height: 5rem;
         width: 5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .total {
@@ -532,7 +581,7 @@
         margin-left: -4.3rem;
         width: 6rem;
         height: 7rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
 
@@ -541,7 +590,7 @@
         width: 6rem;
         margin-top: -2rem;
         margin-left: 7.8rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .lactalis {
@@ -549,7 +598,26 @@
         width: 5rem;
         height: 5rem;
         margin-left: 7.7rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
+    }
+    .head {
+        width: 16rem;
+        height: 0.7rem;
+        margin-top: -29rem;
+        animation: iconRotate 7s linear infinite;
+    }
+    .agri {
+        width: 4rem;
+        height: 14.6rem;
+        margin-top: -35rem;
+        margin-left: 6rem;
+        transform: rotate(
+                79deg
+        );
+        margin-bottom: -24rem;
+        padding-top: 9rem;
+        background-size: 100%;
+        animation: iconRotates 7s linear infinite;
     }
 
 
@@ -559,7 +627,7 @@
         border-radius: 50%;
         margin-top: -1rem;
         margin-left: 1rem;
-        animation: circleIcons 10s infinite;
+        animation: circleIcons 7s linear infinite;
     }
 }
 
@@ -610,7 +678,7 @@
         height: 5rem;
         width: 5rem;
         margin-left: 4rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .ct {
@@ -618,7 +686,7 @@
         margin-left: 6rem;
         width: 2rem;
         height: 2rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .ukt {
@@ -626,7 +694,7 @@
         width: 4rem;
         margin-top: -4rem;
         margin-left: 5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .lactalis {
@@ -634,7 +702,7 @@
         width: 3.4rem;
         height: 3.4rem;
         margin-left: 4.5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .goprint {
@@ -643,7 +711,7 @@
         margin-top: -4.5rem;
         margin-left: -2rem;
         margin-right: 5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .inmore {
@@ -651,7 +719,7 @@
         margin-left: -10.5rem;
         height: 4rem;
         width: 4rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .listery {
@@ -659,7 +727,7 @@
         margin-left: -3.7rem;
         height: 3rem;
         width: 3rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .total {
@@ -667,7 +735,7 @@
         margin-left: -2.7rem;
         width: 5rem;
         height: 5rem;
-        animation: iconRotate 10s infinite;
+        animation: iconRotate 7s linear infinite;
     }
 
     .logo__container {
@@ -675,7 +743,26 @@
         height: 110px;
         margin-left: 2rem;
         /* margin-bottom: -1rem; */
-        margin-top: -1.4rem;
+        margin-top: -1.2rem;
+    }
+    .agri {
+        width: 2rem;
+        height: 14.6rem;
+        margin-top: -35rem;
+        margin-left: 7.5rem;
+        transform: rotate(
+                79deg
+        );
+        margin-bottom: -24rem;
+        padding-top: 12rem;
+        background-size: 100%;
+        animation: iconRotates 7s linear infinite;
+    }
+    .head {
+        width: 7rem;
+        height: 0.4rem;
+        margin-top: -19.2rem;
+        animation: iconRotate 7s linear infinite;
     }
 }
 
