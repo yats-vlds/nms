@@ -360,7 +360,7 @@
     }
 }
 
-@media (max-width: 813px) {
+@media (max-width: 824px) {
 
     .why__me, .why__meSloy {
         height: 500px;
@@ -502,7 +502,16 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 668px) {
+    .clip-path {
+        width: 23rem;
+    }
+    .danfoss {
+        width: 26rem;
+    }
+}
+
+@media (max-width: 640px) {
     .why__me, .why__meSloy {
         height: 300px;
     }
@@ -631,7 +640,7 @@
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 412px) {
     .why__me, .why__meSloy {
         height: 200px;
     }
