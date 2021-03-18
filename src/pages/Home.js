@@ -47,7 +47,7 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
             <Cap/>
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert/>
-            {/*<Why id="why"/>*/}
+            <Why id="why"/>
             <SliderComponent/>
             <SliderComponent2/>
             <SliderComponent3/>

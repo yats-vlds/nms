@@ -9,6 +9,9 @@ import listery from "../assets/logo/Listery.svg";
 import ukt from "../assets/logo/UKT.svg";
 import total from "../assets/logo/Total.svg";
 import lactalis from "../assets/logo/lactalis.svg";
+import head from "../assets/Head.svg"
+import agri from "../assets/logo/AGRII.svg"
+
 
 
 const Why = ({id}) => {
@@ -27,6 +30,8 @@ const Why = ({id}) => {
                                 <img src={inMore} className="logo__style inmore" loading="lazy" />
                                 <img src={listery} className="logo__style listery" loading="lazy" />
                                 <img src={total} className="logo__style total" loading="lazy" />
+                                <img src={head} className="logo__style head" loading="lazy" />
+                                <img src={agri} className="logo__style agri" loading="lazy" />
                             </div>
                         </div>
                     </div>
