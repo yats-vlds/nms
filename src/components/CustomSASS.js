@@ -16,24 +16,24 @@ const CustomSASS = () => {
                 with the latest technologies and modern SaaS product development approaches both customizing
                 and maintaining existing SaaS products as well as developing software from scratch.
             </p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Startups
-            </h1>
+            </h2>
             <p>
                 Whether you need to design a prototype, build a new SaaS Minimum Viable Product (MVP) or
                 improve an existing one, you need to be fast-moving. And we are here to become your trusted
                 partner! Launch your product and test hypothesis right away being within the budget
                 frameworks with our efficient SaaS development services.
             </p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Small and Medium Businesses
-            </h1>
+            </h2>
             <p>Being a SaaS software company we help businesses to be more efficient on a market building
                 secure and scalable SaaS products that save regular hardware spendings. We are also happy to
                 maintain, improve and integrate your current SaaS business intelligence software.</p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Enterprises
-            </h1>
+            </h2>
             <p>
                 Looking for digital transformation and building your SaaS enterprise software? NMS Team is
                 your expert guide to digital world. As an experienced SaaS development company, we deeply
@@ -55,9 +55,9 @@ const CustomSASS = () => {
                 Web App or a Chatbot, we are here to be with you during this journey and optimize your SaaS
                 development costs!
             </p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Technologies
-            </h1>
+            </h2>
             <p>
                 <strong>Front End:</strong> <br/>
                 React.js, React Native, Next.js, TypeScript

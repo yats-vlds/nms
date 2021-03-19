@@ -77,9 +77,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
                                     UI/UX Design Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle">
+                                <h2 className="bootstrap__tableTitle">
                                     GoPrint
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Challenge
                                 </h3>
@@ -139,9 +139,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
                                     UI/UX Design Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle">
+                                <h2 className="bootstrap__tableTitle">
                                     Ukrtelecom Corporate Portal
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Challenge
                                 </h3>
@@ -202,9 +202,9 @@ const SliderComponent = () => {
                             <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
                                 UI/UX Design Services
                             </h1>
-                            <h1 className="bootstrap__tableTitle">
+                            <h2 className="bootstrap__tableTitle">
                                 In&More
-                            </h1>
+                            </h2>
                             <h3 className="bootstrap__tableTwoTitle">
                                 Challenge
                             </h3>

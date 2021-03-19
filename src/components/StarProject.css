@@ -275,6 +275,8 @@ h1.star__projectLeftTitle {
         margin-top: -2rem;
         margin-left: 4rem;
         animation: btnStar1025 3s infinite;
+        -webkit-animation: btnStar1025 3s infinite;
+        transition: 3s;
     }
 
     @-webkit-keyframes btnStar1025 {
@@ -319,9 +321,8 @@ h1.star__projectLeftTitle {
     .btnStar-fourSloyTitle {
         font-size: 0.72rem;
         padding-top: 0.5rem;
-        padding-left: 0.4rem;
+        padding-left: 0.8rem;
     }
-
     .ellipse-btnStarBefore {
         width: 0.6rem;
         height: 0.6rem;

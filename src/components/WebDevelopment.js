@@ -31,18 +31,18 @@ const WebDevelopment = () => {
                 “intuitive navigation” approach supporting you in a full-stack web development journey (frontend web
                 development and backend web development).
             </p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Technologies
-            </h1>
+            </h2>
             <p>
                 JavaScript (ReactJS Web Development)<br/>
                 TypeScript (AngularJS Web Development)<br/>
                 PHP (Laravel Web Development)<br/>
                 CSS /HTML Web Development
             </p>
-            <h1 className="customTitle">
+            <h2 className="customTitle">
                 Platforms
-            </h1>
+            </h2>
             <p>
                 WordPress<br/>
                 Tilda<br/>

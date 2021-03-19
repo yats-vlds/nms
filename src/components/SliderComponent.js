@@ -74,9 +74,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Chary Time
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -138,9 +138,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     GoPrint
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -207,9 +207,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Danfoss Heat Selector
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -260,9 +260,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Listery
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -320,9 +320,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     FAVVEL
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -388,9 +388,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Danfoss Veria EasyPlan
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -452,9 +452,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     TOTAL Safety Circle
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -515,9 +515,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     The Loko-Moko Game
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>

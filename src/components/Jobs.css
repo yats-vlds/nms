@@ -534,13 +534,12 @@
         height: 500px;
     }
 
-    .tableOneIcon1 {
-        margin-left: 2rem;
+    .tableTwoIcon1 {
         position: relative;
         z-index: 10;
-        width: 593px;
-        height: 658px;
-        padding-top: 6rem;
+        width: 552px;
+        height: 643px;
+        padding-top: 1rem;
     }
 
     .tableOneIcon2 {

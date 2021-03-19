@@ -52,9 +52,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
                                     Web Development
                                     Services</h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     In&More
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -116,9 +116,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
                                     Web Development
                                     Services</h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     GoPrint Web
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -187,9 +187,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
                                     Web Development
                                     Services</h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     CharyTime Web
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -263,9 +263,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
                                     Web Development
                                     Services</h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     Head Bikes
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
@@ -319,9 +319,9 @@ const SliderComponent = () => {
                                 <h1 className="bootstrap__tableTitle bootstrap__tableTwoLeftInfoContent">Professional
                                     Web Development
                                     Services</h1>
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop40">
+                                <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
                                     LEMAUM
-                                </h1>
+                                </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
