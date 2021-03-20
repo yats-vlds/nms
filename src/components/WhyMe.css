@@ -224,7 +224,7 @@
         position: relative;
         z-index: 2;
         width: 100%;
-        height: 1308px;
+        height: auto;
         margin-top: -171px;
         filter: blur(35px);
     }
