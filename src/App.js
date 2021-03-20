@@ -59,6 +59,7 @@ function App() {
             window.removeEventListener("scroll", handleNavigation);
         };
     }, [handleNavigation]);
+    console.log(window.outerWidth)
     return (
         <Router>
             <Header/>

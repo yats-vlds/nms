@@ -48,9 +48,17 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
             <StarProject id="expertise" ellipse={ellipse} setEllipse={setEllipse}/>
             <Expert/>
             <Why id="why"/>
-            <SliderComponent/>
-            <SliderComponent2/>
-            <SliderComponent3/>
+            {window.outerWidth > 1600 ?
+                <div className="container">
+                    <SliderComponent/>
+                    <SliderComponent2/>
+                    <SliderComponent3/>
+                </div> : <>
+                    <SliderComponent/>
+                    <SliderComponent2/>
+                    <SliderComponent3/>
+                </>
+            }
             <FormRequest/>
             <Ten/>
         </>

@@ -43,7 +43,7 @@ const SliderComponent = () => {
                 <div className="carousel-item active">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo borderLeft"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
@@ -107,7 +107,7 @@ const SliderComponent = () => {
                 <div className="carousel-item">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo borderLeft"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
@@ -178,7 +178,7 @@ const SliderComponent = () => {
                 <div className="carousel-item">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo borderLeft"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
@@ -228,24 +228,24 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineTwo"></div>
                             <Slider {...settings} className="slider-subslider">
                                 <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={shadow} className="tableTwoIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableTwoIcon2" loading="lazy"/>
+                                    <img src={ct} className="tableTwoIcon3Slider2" loading="lazy"/>
                                 </div>
                                 <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct2} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={shadow} className="tableTwoIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableTwoIcon2" loading="lazy"/>
+                                    <img src={ct2} className="tableTwoIcon3Slider2" loading="lazy"/>
                                 </div>
                                 <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
-                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct3} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={shadow} className="tableTwoIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableTwoIcon2" loading="lazy"/>
+                                    <img src={ct3} className="tableTwoIcon3Slider2" loading="lazy"/>
                                 </div>
                                 <div>
-                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={shadow} className="tableTwoIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img src={ct4} className="tableOneIcon4" loading="lazy"/>
+                                    <img src={ct4} className="tableTwoIcon3Slider2" loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>
@@ -254,7 +254,7 @@ const SliderComponent = () => {
                 <div className="carousel-item">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo borderLeft"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
@@ -310,7 +310,7 @@ const SliderComponent = () => {
                 <div className="carousel-item">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
-                            <div className="bootstrap__tableLineTwo"></div>
+                            <div className="bootstrap__tableLineTwo borderLeft"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>
                             <div className="bootstrap__tableLineTwo"></div>

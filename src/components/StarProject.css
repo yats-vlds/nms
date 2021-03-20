@@ -184,6 +184,29 @@ h1.star__projectLeftTitle {
     width: 30px;
 }
 
+@media (min-width: 1600px) {
+    .star__projectROW {
+        width: 1536px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .star__project, .star__projectSloy, .star__projectRowContent {
+        height: 1000px;
+    }
+
+    .star__projectRowContentLeft {
+        padding-top: 20%;
+        padding-left: 0rem;
+    }
+
+    .star__projectRowContentRight {
+        padding-top: 14%;
+    }
+}
+
 @media (max-width: 1441px) {
     .star__projectLeftTitle {
         font-size: 2rem;
@@ -323,6 +346,7 @@ h1.star__projectLeftTitle {
         padding-top: 0.5rem;
         padding-left: 0.8rem;
     }
+
     .ellipse-btnStarBefore {
         width: 0.6rem;
         height: 0.6rem;
@@ -438,14 +462,15 @@ h1.star__projectLeftTitle {
         width: 0.6rem;
         height: 0.6rem;
     }
+
     .ellipse-btnStarAfter {
         width: 0.5rem;
         height: 0.5rem;
-        margin-left: 6.8rem!important;
+        margin-left: 6.8rem !important;
     }
 }
 
-@media(max-width: 641px) {
+@media (max-width: 641px) {
     .star__project {
         margin-bottom: -120px;
     }
@@ -545,10 +570,11 @@ h1.star__projectLeftTitle {
         width: 0.6rem;
         height: 0.6rem;
     }
+
     .ellipse-btnStarAfter {
         width: 0.5rem;
         height: 0.5rem;
-        margin-left: 6.8rem!important;
+        margin-left: 6.8rem !important;
     }
 
     .iconDown {
@@ -557,11 +583,12 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media(max-width: 569px) {
+@media (max-width: 569px) {
     h1.star__projectLeftTitle {
         padding-bottom: 0.5rem;
         font-size: 1.1rem;
     }
+
     .btnStar, .btnStar-twoSloy, .btnStarMovement {
         width: 4.5rem;
         height: 0.9rem;
@@ -865,6 +892,7 @@ h1.star__projectLeftTitle {
         width: 3.2rem;
         height: 0.6rem;
     }
+
     .btnStarMovement {
         animation: btnStar321 3s infinite;
     }

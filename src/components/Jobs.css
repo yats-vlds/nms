@@ -195,6 +195,14 @@
     border-top: 1px solid #ededef;
 }
 
+.borderLeft {
+    border-left: 1px solid #ededef;
+}
+
+.borderRight {
+    border-right: 1px solid #ededef;
+}
+
 .bootstrap__tableLineTwo {
     border-right: 1px solid #ededef;
 }
@@ -398,6 +406,15 @@
 
 .marginBottom {
     margin-bottom: 90px;
+}
+
+@media (min-width: 1600px) {
+    .tableTwoIcon1, .tableTwoIcon2 {
+        width: 650px;
+    }
+    .tableTwoIcon3Slider2 {
+        width: 670px;
+    }
 }
 
 @media (max-width: 1367px) {

@@ -37,7 +37,7 @@ const SliderComponent = () => {
                 <div className="carousel-item active">
                     <div className="bootstrap__table bootstrap__tableThree">
                         <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree borderLeft"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
@@ -67,7 +67,7 @@ const SliderComponent = () => {
                                 </div>
                             </Slider>
                         </div>
-                        <div className="bootstrap__tableRight">
+                        <div className="bootstrap__tableRight borderRight">
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
@@ -104,7 +104,7 @@ const SliderComponent = () => {
                 <div className="carousel-item">
                     <div className="bootstrap__table bootstrap__tableThree">
                         <div className="bootstrap__tableLeft">
-                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree borderLeft"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
@@ -129,7 +129,7 @@ const SliderComponent = () => {
                                 </div>
                             </Slider>
                         </div>
-                        <div className="bootstrap__tableRight">
+                        <div className="bootstrap__tableRight borderRight">
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
                             <div className="bootstrap__tableLineThree"></div>
@@ -167,7 +167,7 @@ const SliderComponent = () => {
             <div className="carousel-item">
                 <div className="bootstrap__table bootstrap__tableThree">
                     <div className="bootstrap__tableLeft">
-                        <div className="bootstrap__tableLineThree"></div>
+                        <div className="bootstrap__tableLineThree borderLeft"></div>
                         <div className="bootstrap__tableLineThree"></div>
                         <div className="bootstrap__tableLineThree"></div>
                         <div className="bootstrap__tableLineThree"></div>
@@ -192,7 +192,7 @@ const SliderComponent = () => {
                             </div>
                         </Slider>
                     </div>
-                    <div className="bootstrap__tableRight">
+                    <div className="bootstrap__tableRight borderRight">
                         <div className="bootstrap__tableLineThree"></div>
                         <div className="bootstrap__tableLineThree"></div>
                         <div className="bootstrap__tableLineThree"></div>
