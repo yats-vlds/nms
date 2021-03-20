@@ -494,12 +494,23 @@ textarea {
         width: 3rem !important;
         height: 1rem !important;
     }
-
+    .btn-threeSloyAfter, .btn-fourSloyAfter {
+        width: 5rem !important;
+        height: 1rem !important;
+    }
     .btn-fourSloyTitle {
-        padding: 0.3rem;
-        padding-left: 1rem;
-        color: #ffffff;
-        padding-left: 0.6rem;
+        padding: 0.2rem;
+        padding-left: 0.4rem;
+        font-size: 7px!important;
+    }
+    .ellipse-btnFormAfter {
+        margin-left: 4.2rem;
+        width: 0.35rem;
+        height: 0.35rem;
+    }
+    .ellipse-btnFormBefore {
+        width: 0.35rem;
+        height: 0.35rem;
     }
 
     .input {
@@ -514,6 +525,7 @@ textarea {
         border-radius: 8px !important;
         padding: 0.37rem !important;
     }
+
 }
 
 @media (max-width: 321px) {

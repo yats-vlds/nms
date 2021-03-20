@@ -80,6 +80,8 @@ h1.star__projectLeftTitle {
     margin-top: 0rem;
     margin-left: 6rem;
     animation: btnStar 3s infinite;
+    -webkit-animation: btnStar 3s infinite;
+
 }
 
 @-webkit-keyframes btnStar {
@@ -225,6 +227,8 @@ h1.star__projectLeftTitle {
         margin-top: -1rem;
         margin-left: 5rem;
         animation: btnStar1441 3s infinite;
+        -webkit-animation: btnStar1441 3s infinite;
+
     }
 
     @-webkit-keyframes btnStar1441 {
@@ -411,6 +415,8 @@ h1.star__projectLeftTitle {
         margin-top: -1rem;
         margin-left: 0.5rem;
         animation: btnStar769 3s infinite;
+        -webkit-animation: btnStar769 3s infinite;
+
     }
 
     @-webkit-keyframes btnStar769 {
@@ -469,6 +475,11 @@ h1.star__projectLeftTitle {
         margin-left: 6.8rem !important;
     }
 }
+@media(max-width: 737px) {
+    .star__projectRowContentRight {
+        padding-left: 6rem;
+    }
+}
 
 @media (max-width: 641px) {
     .star__project {
@@ -519,6 +530,7 @@ h1.star__projectLeftTitle {
         margin-top: -1rem;
         margin-left: 0.5rem;
         animation: btnStar769 3s infinite;
+        -webkit-animation: btnStar769 3s infinite;
     }
 
     @-webkit-keyframes btnStar769 {
@@ -606,6 +618,7 @@ h1.star__projectLeftTitle {
 
     .btnStarMovement {
         animation: btnStar568 3s infinite;
+        -webkit-animation: btnStar568 3s infinite;
     }
 
     @-webkit-keyframes btnStar568 {
@@ -659,6 +672,9 @@ h1.star__projectLeftTitle {
         margin-left: 3.5rem !important;
         width: 0.35rem;
         height: 0.35rem;
+    }
+    .star__projectRowContentRight {
+        padding-top: 4rem;
     }
 }
 
@@ -715,6 +731,7 @@ h1.star__projectLeftTitle {
 
     .btnStarMovement {
         animation: btnStar426 3s infinite;
+        -webkit-animation: btnStar426 3s infinite;
     }
 
     @-webkit-keyframes btnStar426 {
@@ -820,6 +837,7 @@ h1.star__projectLeftTitle {
 
     .btnStarMovement {
         animation: btnStar376 3s infinite;
+        -webkit-animation: btnStar376 3s infinite;
     }
 
     @-webkit-keyframes btnStar376 {
@@ -895,6 +913,7 @@ h1.star__projectLeftTitle {
 
     .btnStarMovement {
         animation: btnStar321 3s infinite;
+        -webkit-animation: btnStar321 3s infinite;
     }
 
     @-webkit-keyframes btnStar321 {

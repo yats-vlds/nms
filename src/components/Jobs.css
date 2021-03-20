@@ -412,6 +412,7 @@
     .tableTwoIcon1, .tableTwoIcon2 {
         width: 650px;
     }
+
     .tableTwoIcon3Slider2 {
         width: 670px;
     }
@@ -559,15 +560,6 @@
         padding-top: 1rem;
     }
 
-    .tableOneIcon2 {
-        margin-left: 1.5rem;
-        position: relative;
-        z-index: 10;
-        width: 545px;
-        height: 816px;
-        padding-top: 17rem;
-    }
-
     .tableOneIcon4 {
         position: relative;
         z-index: 11;
@@ -601,7 +593,31 @@
         margin-left: 4rem;
     }
 
+    .tableOneIcon2 {
+        margin-left: 1.5rem;
+        position: relative;
+        z-index: 10;
+        width: 545px;
+        height: 816px;
+        padding-top: 17rem;
+    }
 
+    .tableOneIcon1 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 10;
+        width: 593px;
+        height: 658px;
+        padding-top: 6rem;
+    }
+    img#iconLEAMUM {
+        position: relative;
+        z-index: 11;
+        width: 312px;
+        height: 546px;
+        margin-top: -38rem;
+        margin-left: 9rem;
+    }
     .carousel-control-prev-icon {
         margin-right: auto;
         width: 2rem;
@@ -641,8 +657,8 @@
         position: relative;
         z-index: 10;
         width: 552px;
-        height: 700px;
-        padding-top: 9rem;
+        height: 677px;
+        padding-top: 1rem;
     }
 
     .tableTwoIcon2 {
@@ -1046,6 +1062,9 @@
     .tableOneIcon4 {
         width: 630px;
     }
+    .tableTwoIcon2, .tableTwoIcon1 {
+        width: 370px;
+    }
 
     .tableTwoIcon3Slider2 {
         margin-left: 3rem;
@@ -1398,6 +1417,17 @@
         height: 500px;
         margin-top: -32rem;
         object-fit: contain;
+    }
+    .tableTwoIcon1 {
+        position: relative;
+        z-index: 10;
+        width: 240px;
+        height: 374px;
+        margin-top: -5rem;
+    }
+    .slick-dots {
+        top: 291px;
+        right: 327px;
     }
 }
 
