@@ -378,7 +378,7 @@
     }
 }
 
-@media (max-width: 824px) {
+@media (max-width: 845px) {
 
     .why__me, .why__meSloy {
         height: 500px;
@@ -658,7 +658,7 @@
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 429px) {
     .why__me, .why__meSloy {
         height: 200px;
     }

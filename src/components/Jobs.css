@@ -777,7 +777,7 @@
 
 }
 
-@media (max-width: 824px) {
+@media (max-width: 845px) {
 
     .bootstrap__table {
         height: 609px !important;
@@ -1107,7 +1107,7 @@
     }
 }
 
-@media (max-width: 569px) {
+@media (max-width: 601px) {
     .bootstrap__table {
         height: 326px !important;
     }
@@ -1408,7 +1408,7 @@
     }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 429px) {
     img#iconLEAMUM {
         margin-left: 3rem;
         position: relative;

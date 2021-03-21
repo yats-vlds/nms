@@ -234,8 +234,142 @@
         }
     }
 }
+@media(max-width: 927px) {
+    .animateRocket {
+        margin-left: -12rem;
+        width: 650px;
+        height: 650px;
+    }
 
-@media (max-width: 824px) {
+    .expertRight {
+        padding-left: 1rem;
+    }
+
+    .kon, .kind, .table {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .kon {
+        -webkit-animation: kon1024 6s infinite !important;
+        animation: kon1024 6s infinite !important;
+    }
+
+    .kind {
+        -webkit-animation: kind1024 6s infinite !important;
+        animation: kind1024 6s infinite !important;
+    }
+
+    @-webkit-keyframes kon1024 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -4rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kon1024 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: -4rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+    @-webkit-keyframes kind1024 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 4rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    @keyframes kind1024 {
+        0% {
+            margin-left: 0rem;
+        }
+        50% {
+            margin-left: 4rem;
+        }
+        100% {
+            margin-left: 0rem;
+        }
+    }
+
+    .stone {
+        position: relative;
+        z-index: -1;
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .line {
+        position: absolute;
+        z-index: 1;
+        width: 16rem !important;
+        height: 16rem !important;
+        margin-top: -7.5rem !important;
+        margin-left: -9.5rem !important;
+        margin-bottom: 0.8rem !important;
+        -webkit-animation: line 7s infinite;
+        animation: line 7s infinite;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 23rem !important;
+        margin-top: -17.7rem;
+        margin-left: -13rem !important;
+        -webkit-animation: scalesRocket768 7s infinite;
+        animation: scalesRocket768 7s infinite;
+    }
+
+    .scalesRocketRight {
+        height: 6.8rem !important;
+        width: 5rem !important;
+        margin-left: 6.4rem !important;
+        margin-top: -5.5rem;
+    }
+
+    .rocket {
+        width: 22rem !important;
+        height: 35rem !important;
+        margin-left: -6.2rem !important;
+    }
+
+    .animateHorse {
+        margin-left: -1rem;
+    }
+
+    .expertTitleFirst, .expertTitle, .expertTitleRight {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .expertTwoRow {
+        height: 12rem;
+    }
+
+    .expertLastRow {
+        padding-bottom: 7rem;
+    }
+}
+
+@media (max-width: 845px) {
     .animateRocket {
         width: 700px;
         height: 700px;
@@ -416,7 +550,7 @@
     }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 601px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
     }
@@ -686,9 +820,15 @@
     }
 }
 
+@media(max-width: 481px) {
+    .animateRocket {
+        padding-left: 23rem !important;
+    }
+}
 
 
-@media (max-width: 426px) {
+
+@media (max-width: 429px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
     }

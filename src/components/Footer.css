@@ -145,13 +145,13 @@
 
 @media(max-width: 645px) {
     .col.footer__col {
-        margin-left: 0rem;
+        margin-left: -2rem;
     }
     .footer_afterHr {
         margin-left: 0rem;
     }
 }
-@media(max-width: 568px) {
+@media(max-width: 601px) {
     .col.footer__col {
         margin-left: 2rem;
     }
@@ -160,7 +160,7 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 601px) {
     .footer {
         min-height: 218px;
     }

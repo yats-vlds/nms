@@ -62,7 +62,13 @@
     }
 }
 
-@media(max-width: 824px) {
+@media(max-width: 961px) {
+    .cap__leftTitle {
+        font-size: 3.8rem;
+    }
+}
+
+@media(max-width: 845px) {
     .cap__leftTitle {
         font-size: 3.6rem;
     }
@@ -89,9 +95,14 @@
         font-size: 2.6rem;
     }
 }
-@media(max-width: 569px) {
+@media(max-width: 601px) {
     .cap__leftTitle {
         font-size: 2.8rem;
+    }
+}
+@media(max-width: 429px) {
+    .cap__leftTitle {
+        font-size: 2.1rem;
     }
 }
 

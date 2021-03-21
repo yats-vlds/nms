@@ -367,7 +367,7 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 845px) {
     .star__project {
         margin-bottom: -168px;
     }
@@ -481,7 +481,13 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 668px) {
+    .star__projectRowContentRight {
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 610px) {
     .star__project {
         margin-bottom: -120px;
     }
@@ -497,7 +503,7 @@ h1.star__projectLeftTitle {
 
     .star__projectRowContentLeft {
         padding-top: 8rem;
-        padding-left: 5.22rem;
+        padding-left: 3.22rem;
         width: 50%;
     }
 
@@ -595,7 +601,7 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 569px) {
+@media (max-width: 601px) {
     h1.star__projectLeftTitle {
         padding-bottom: 0.5rem;
         font-size: 1.1rem;
@@ -677,8 +683,21 @@ h1.star__projectLeftTitle {
         padding-top: 4rem;
     }
 }
+@media(max-width: 481px) {
+    .star__projectRowContentLeft {
+        padding-top: 8rem;
+        padding-left: 1.22rem;
+        width: 50%;
+    }
+    .star__projectRowContentRight {
+        padding-top: 4rem;
+        width: 50%;
+        padding-left: 0rem;
+        margin-left: -2rem;
+    }
+}
 
-@media (max-width: 426px) {
+@media (max-width: 429px) {
     .container-for-iconVector {
         width: 60px !important;
         height: 60px !important;

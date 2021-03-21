@@ -206,7 +206,7 @@
     }
 }
 
-@media(max-width: 569px) {
+@media(max-width: 601px) {
     .iconMessage {
         width: 1.5rem;
         margin-top: -2rem;
@@ -270,7 +270,7 @@
     }
 }
 
-@media(max-width: 426px) {
+@media(max-width: 429px) {
     .iconMessage {
         width: 1rem;
         margin-top: -2rem;

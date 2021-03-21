@@ -108,7 +108,7 @@
 /*        margin-top: -16rem;*/
 /*    }*/
 /*}*/
-@media(min-width: 1600px) {
+@media (min-width: 1600px) {
     .ten__ROW {
         max-width: 1536px;
         margin-left: auto;
@@ -116,18 +116,22 @@
         display: flex;
         justify-content: center;
     }
+
     .ten__content {
         max-width: 1496px;
     }
+
     .ten__yog {
         height: 554px;
         margin-left: 50%;
         margin-top: 2rem;
     }
+
     .ellipse {
         margin-left: 62%;
     }
 }
+
 @media (max-width: 1371px) {
     .ten__contentLeftTitle {
         padding-top: 20rem;
@@ -217,7 +221,7 @@
     }
 }
 
-@media (max-width: 824px) {
+@media (max-width: 845px) {
     .ten {
         margin-bottom: -96px;
     }
@@ -297,7 +301,8 @@
         }
     }
 }
-@media(max-width: 813px) {
+
+@media (max-width: 813px) {
     .ten__contentLeftTitle {
         padding-top: 8rem;
         padding-left: 2rem;
@@ -343,6 +348,7 @@
         height: 16px;
         animation: tenellipse768 2s infinite !important;
     }
+
     .ten__contentLeftTitle {
         padding-top: 8rem;
         padding-left: 2rem;
@@ -361,6 +367,7 @@
         margin-left: 13rem;
         animation: tenyog768 2s infinite !important;
     }
+
     .ten__contentLeftTitle {
         padding-top: 8rem;
         padding-left: 4rem;
@@ -370,10 +377,11 @@
     }
 }
 
-@media(max-width: 569px) {
+@media (max-width: 601px) {
     .ten, .tenSloy, .ten__img {
         min-height: 321px;
     }
+
     .ten__contentLeftTitle {
         padding-top: 7rem;
         padding-left: 3rem;
@@ -381,6 +389,7 @@
         font-weight: bold;
         font-size: 22px;
     }
+
     .ten__yog {
         position: absolute;
         height: 190px;
@@ -389,6 +398,7 @@
         margin-left: 19rem;
         animation: tenyog768 2s infinite !important;
     }
+
     .ellipse {
         margin-left: 22.5rem;
         margin-top: -5.5rem;
@@ -396,12 +406,23 @@
         height: 16px;
         animation: tenellipse768 2s infinite !important;
     }
+
     .ten {
         margin-bottom: -84px;
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
+    .ellipse {
+        margin-left: 18.5rem;
+    }
+
+    .ten__yog {
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 429px) {
     .ten {
         margin-bottom: -57px;
     }
@@ -566,6 +587,7 @@
         }
     }
 }
+
 @media (max-width: 361px) {
     .ten__yog {
         position: absolute;
@@ -576,6 +598,7 @@
         margin-top: 2.5rem;
         animation: tenyog375 1s infinite !important;
     }
+
     .ellipse {
         margin-left: 14.75rem !important;
         margin-top: -3.2rem;

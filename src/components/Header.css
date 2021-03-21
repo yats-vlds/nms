@@ -73,7 +73,7 @@
     }
 }
 
-@media (max-width: 824px) {
+@media (max-width: 927px) {
     .header__link {
         margin-right: 1.5rem;
         padding-top: 0.5rem !important;
@@ -119,7 +119,7 @@
     }
 }
 
-@media (max-width: 569px) {
+@media (max-width: 601px) {
     .header__navLeft, .header__navRight {
         padding-left: 0;
     }
@@ -128,8 +128,15 @@
         font-size: 0.6rem;
     }
 }
+@media(max-width: 481px) {
+    .header__link {
+        margin-right: 0.4rem;
+        font-size: 0.45rem;
+        padding-top: 0.4rem !important;
+    }
+}
 
-@media (max-width: 426px) {
+@media (max-width: 429px) {
     .header__row {
         margin-right: 0rem !important;
     }
