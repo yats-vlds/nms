@@ -730,8 +730,8 @@ h1.star__projectLeftTitle {
     }
 
     .btnStarMovement {
-        animation: btnStar426 3s infinite;
-        -webkit-animation: btnStar426 3s infinite;
+        animation: btnStar426 3s ease infinite;
+        -webkit-animation: btnStar426 3s ease infinite;
     }
 
     @-webkit-keyframes btnStar426 {
@@ -836,8 +836,8 @@ h1.star__projectLeftTitle {
     }
 
     .btnStarMovement {
-        animation: btnStar376 3s infinite;
-        -webkit-animation: btnStar376 3s infinite;
+        animation: btnStar376 3s ease infinite;
+        -webkit-animation: btnStar376 3s ease infinite;
     }
 
     @-webkit-keyframes btnStar376 {
@@ -912,8 +912,8 @@ h1.star__projectLeftTitle {
     }
 
     .btnStarMovement {
-        animation: btnStar321 3s infinite;
-        -webkit-animation: btnStar321 3s infinite;
+        animation: btnStar321 3s ease infinite;
+        -webkit-animation: btnStar321 3s ease infinite;
     }
 
     @-webkit-keyframes btnStar321 {
