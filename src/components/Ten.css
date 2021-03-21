@@ -221,6 +221,91 @@
     }
 }
 
+
+@media (max-width: 927px) {
+    .ten {
+        margin-bottom: -96px;
+    }
+
+    .ten, .tenSloy, .ten__img {
+        min-height: 372px;
+    }
+
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 21rem;
+        animation: tenyog768 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-left: 33rem;
+        margin-top: -6.5rem;
+        width: 80px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
+    }
+
+    .ten__contentLeftTitle {
+        padding-top: 8rem;
+        padding-left: 4rem;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 38px;
+    }
+
+    /*@-webkit-keyframes tenellipse768{*/
+    /*    0% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -9rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*}*/
+    /*@keyframes tenellipse768{*/
+    /*    0% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*    50% {*/
+    /*        margin-top: -9rem;*/
+    /*    }*/
+    /*    100% {*/
+    /*        margin-top: -8.5rem;*/
+    /*    }*/
+    /*}*/
+    @-webkit-keyframes tenyog768 {
+        0% {
+            margin-top: 2rem;
+        }
+        50% {
+            margin-top: 2.7rem;
+        }
+        100% {
+            margin-top: 2rem;
+        }
+    }
+
+    @keyframes tenyog768 {
+        0% {
+            margin-top: 2rem;
+        }
+        50% {
+            margin-top: 2.7rem;
+        }
+        100% {
+            margin-top: 2rem;
+        }
+    }
+}
+
+
+
+
 @media (max-width: 845px) {
     .ten {
         margin-bottom: -96px;

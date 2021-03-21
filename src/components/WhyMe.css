@@ -378,6 +378,141 @@
     }
 }
 
+@media(max-width: 927px) {
+    .why__me, .why__meSloy {
+        height: 500px;
+    }
+
+    .why__meImageBack {
+        height: 650px;
+    }
+
+    img.star__imageBack {
+        margin-top: -33px;
+    }
+
+    .whyme__titleFirst {
+        font-size: 1.4rem;
+    }
+
+    .whyme__title {
+        font-size: 1.1rem;
+    }
+
+    .whyme__text {
+        font-size: 12px !important;
+    }
+
+    .why__meContentRight {
+        padding: 2rem;
+        padding-left: 5rem;
+    }
+
+    .logo__container {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+        animation: circleIcons 7s linear infinite;
+    }
+
+    .goprint {
+        margin-top: -18.5rem;
+        width: 21rem !important;
+        height: 20rem !important;
+        animation: iconRotate 7s linear infinite;
+        margin-left: -10rem;
+    }
+
+    .inmore {
+        /* margin-right: 3rem; */
+        margin-top: -28rem;
+        height: 16rem;
+        width: 13rem;
+        animation: iconRotate 7s linear infinite;
+        margin-left: -16rem;
+    }
+
+
+    .ukrtelecom {
+        margin-top: 3rem;
+        width: 240px;
+        height: 78px;
+        margin-left: 10rem;
+        animation: iconRotate 7s linear infinite;
+
+    }
+
+    .danfoss {
+        margin-top: -6rem;
+        height: 14rem;
+        margin-left: 1rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .ct {
+        margin-top: -7rem;
+        margin-left: 14rem;
+        width: 8rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .listery {
+        margin-top: -36.5rem;
+        margin-left: -8.8rem;
+        height: 91px;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .ukt {
+        height: 155px;
+        margin-top: -4rem;
+        margin-left: 12rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .total {
+        margin-top: -8rem;
+        margin-left: -10.5rem;
+        width: 15rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .lactalis {
+        margin-top: -3.5rem;
+        width: 12rem;
+        margin-left: 12rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .agri {
+        width: 7rem;
+        height: 21.6rem;
+        margin-top: -38rem;
+        margin-left: 8rem;
+        transform: rotate(
+                79deg
+        );
+        margin-bottom: -24rem;
+        padding-top: 9rem;
+        background-size: 100%;
+        animation: iconRotate 7s linear infinite;
+    }
+
+    .head {
+        width: 18rem;
+        height: 1.3rem;
+        margin-top: -47rem;
+        animation: iconRotate 7s linear infinite;
+    }
+
+
+    .clip-path {
+        width: 28rem;
+    }
+}
+
 @media (max-width: 845px) {
 
     .why__me, .why__meSloy {

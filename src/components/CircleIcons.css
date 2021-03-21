@@ -144,6 +144,68 @@
     }
 }
 
+@media(max-width: 927px) {
+    .iconMessage {
+        width: 2rem;
+        margin-top: 3rem;
+        margin-left: -3rem;
+    }
+    .iconBack {
+        width: 2rem;
+        margin-left: -2rem;
+    }
+    .iconWifi {
+        width: 13rem;
+        margin-top: -1.5rem;
+        margin-left: -4rem;
+    }
+    .iconCamera {
+        width: 10rem;
+        height: 8rem;
+        margin-left: 6.5rem;
+    }
+    .iconContacts {
+        width: 10rem;
+        height: 8rem;
+        margin-left: 17rem;
+        margin-top: 1rem;
+    }
+
+    .iconHome {
+        width: 16rem;
+        height: 12rem;
+        margin-left: 14rem;
+        margin-top: 13.5rem;
+    }
+
+    .iconCall {
+        width: 13rem;
+        height: 14rem;
+        margin-left: 2rem;
+        margin-top: 14rem;
+    }
+
+    .iconSetting {
+        width: 13rem;
+        height: 13rem;
+        margin-left: 12rem;
+        margin-top: 3rem;
+    }
+    .iconBrowser {
+        width: 13rem;
+        height: 17rem;
+        margin-left: 18rem;
+        margin-top: -1rem;
+    }
+
+    .iconMessage2 {
+        width: 14rem;
+        height: 14rem;
+        margin-left: -7rem;
+        margin-top: 0rem;
+    }
+}
+
 @media(max-width: 769px) {
     .iconMessage {
         width: 2rem;

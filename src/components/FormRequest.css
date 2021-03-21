@@ -237,7 +237,7 @@ textarea {
     }
 }
 
-@media(max-width: 845px) {
+@media(max-width: 927px) {
     .form-request, .card, .form {
         width: 26rem;
         height: 23rem;
