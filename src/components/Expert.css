@@ -826,8 +826,6 @@
     }
 }
 
-
-
 @media (max-width: 429px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
@@ -1098,6 +1096,7 @@
         margin-bottom: -7rem;
     }
 }
+
 @media(max-width: 415px) {
     .animateRocket {
         width: 400px !important;
@@ -1108,6 +1107,12 @@
     }
     .animateHorse {
         margin-left: 0rem;
+    }
+}
+
+@media(max-width: 391px) {
+    .animateHorse {
+        margin-left: -1rem;
     }
 }
 
@@ -1159,9 +1164,8 @@
         padding-left: 21.5rem !important;
     }
     .animateHorse {
-        margin-left: 0rem;
+        margin-left: -0.5rem;
     }
-
     .kon, .kind, .table {
         width: 129px !important;
         height: 120px !important;
@@ -1289,6 +1293,7 @@
         margin-bottom: 10px !important;
     }
 }
+
 @media (max-width: 361px) {
     .animateRocket {
         padding-left: 21rem !important;

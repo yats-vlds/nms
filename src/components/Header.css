@@ -128,7 +128,9 @@
         font-size: 0.6rem;
     }
 }
-@media(max-width: 481px) {
+
+
+@media(max-width: 499px) {
     .header__link {
         margin-right: 0.4rem;
         font-size: 0.45rem;

@@ -255,6 +255,16 @@ h1.star__projectLeftTitle {
         }
     }
 }
+@media(max-width: 1367px) {
+    .star__projectRowContentLeft {
+        padding-top: 16rem;
+        padding-left: 8.5rem;
+    }
+    .star__projectRowContentRight {
+        padding-top: 9rem;
+        padding-left: 5rem;
+    }
+}
 
 @media (max-width: 1025px) {
     .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
@@ -275,13 +285,13 @@ h1.star__projectLeftTitle {
     }
 
     .star__projectRowContentLeft {
-        padding-top: 13rem;
-        padding-left: 5.5rem;
+        padding-top: 12rem;
+        padding-left: 3.5rem;
         width: 50%;
     }
 
     .star__projectLeftTitle {
-        font-size: 1.32rem;
+        font-size: 1.82rem;
     }
 
     .iconDown {
@@ -373,6 +383,7 @@ h1.star__projectLeftTitle {
         padding-left: 7.22rem;
         width: 50%;
     }
+
     .star__project {
         margin-bottom: -168px;
     }
@@ -476,15 +487,56 @@ h1.star__projectLeftTitle {
         margin-left: 6.8rem !important;
     }
 }
-@media(max-width: 737px) {
+@media(max-width: 813px) {
+    .star__projectRowContentRight {
+        padding-top: 5rem;
+        width: 50%;
+        padding-left: 8rem;
+    }
+    .star__projectRowContentLeft {
+        padding-top: 11rem;
+        padding-left: 4.22rem;
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .star__projectRowContentRight {
+        padding-left: 5rem;
+    }
+
+    .star__projectRowContentLeft {
+        padding-left: 3.22rem;
+    }
+}
+
+@media (max-width: 737px) {
     .star__projectRowContentRight {
         padding-left: 6rem;
     }
+
+    .star__projectRowContentLeft {
+        padding-top: 11rem;
+        padding-left: 2.22rem;
+        width: 50%;
+    }
 }
+
+/*@media (max-width: 668px) {*/
+/*    .star__projectRowContentRight {*/
+/*        padding-left: 5rem;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 668px) {
     .star__projectRowContentRight {
         padding-left: 5rem;
+    }
+}
+
+@media (max-width: 641px) {
+    .star__projectRowContentRight {
+        padding-left: 4rem;
     }
 }
 
@@ -680,16 +732,19 @@ h1.star__projectLeftTitle {
         width: 0.35rem;
         height: 0.35rem;
     }
+
     .star__projectRowContentRight {
         padding-top: 4rem;
     }
 }
-@media(max-width: 481px) {
+
+@media (max-width: 481px) {
     .star__projectRowContentLeft {
         padding-top: 8rem;
         padding-left: 1.22rem;
         width: 50%;
     }
+
     .star__projectRowContentRight {
         padding-top: 4rem;
         width: 50%;
@@ -981,5 +1036,13 @@ h1.star__projectLeftTitle {
         margin-left: 2.6rem !important;
         width: 0.2rem !important;
         height: 0.2rem !important;
+    }
+}
+
+
+@media (max-width: 321px) {
+    .star__projectRowContentRight {
+        margin-left: -3.5rem;
+        margin-top: -2rem;
     }
 }

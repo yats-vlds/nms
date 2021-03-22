@@ -597,9 +597,9 @@ textarea {
         cursor: pointer;
     }
     .btn-fourSloyTitle {
-        padding: 0.2rem;
+        padding: 0.15rem;
         padding-left: 1rem;
-        color: #ffffff;
-        padding-left: 0.4rem;
+        font-size: 6px!important;
+        padding-left: 0.2rem;
     }
 }
