@@ -569,8 +569,6 @@
         animation: iconRotate 7s linear infinite;
         margin-left: -16rem;
     }
-
-
     .ukrtelecom {
         margin-top: 3rem;
         width: 240px;
@@ -583,7 +581,7 @@
     .danfoss {
         margin-top: -6rem;
         height: 14rem;
-        margin-left: 1rem;
+        margin-left: 0rem;
         animation: iconRotate 7s linear infinite;
     }
 

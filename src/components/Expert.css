@@ -533,11 +533,20 @@
     .animateRocket {
         margin-left: -16rem;
     }
+    .expertTitleFirst, .expertTitle, .expertTitleRight {
+        font-size: 1rem;
+    }
+    .expertText {
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 668px) {
     .animateHorse {
         margin-left: -3rem;
+    }
+    p {
+        font-size: 10px !important;
     }
 }
 

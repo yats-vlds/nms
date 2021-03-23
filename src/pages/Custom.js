@@ -1,10 +1,7 @@
-import React, {useEffect, useState, useReducer} from 'react'
-import iconDown from "../assets/iconDown.svg"
+import React, {useEffect, useState} from 'react'
 import "../pages/Custom.css"
-import CircleIcons from "../components/CircleIcons"
+import "../components/CircleIcons.css"
 import {useHistory} from "react-router-dom"
-import {Link} from "react-router-dom"
-import {HashLink} from 'react-router-hash-link';
 import {PlayState, Tween} from "react-gsap";
 import circleIcons1 from "../assets/vectorImg/vectorSmart1.svg";
 import circleIcons2 from "../assets/vectorImg/vectorSmart2.svg";

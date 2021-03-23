@@ -186,7 +186,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -247,7 +247,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -317,7 +317,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -366,7 +366,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -421,7 +421,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -490,7 +490,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -550,7 +550,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
@@ -611,7 +611,7 @@ const SliderComponent = () => {
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableLineOne"></div>
                             <div className="bootstrap__tableRightInfo">
-                                <h1 className="bootstrap__tableTitle bootstrap__marginTop">
+                                <h1 className="bootstrap__tableTitleFirst bootstrap__marginTop">
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">

@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import {initialState, reducer} from "./hook/reducer";
 import {useEffect} from "react";
 import Header from "./components/Header";
-import {OpengraphReactComponent} from "opengraph-react";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -23,11 +22,14 @@ function App() {
     useMemo(() => {
         outerWidth > 1500
             ? setParamsHeight(1880, 8016) : outerWidth > 1030 ?
-            setParamsHeight(1750, 7900) : outerWidth > 780 ?
-                setParamsHeight(1400, 5800) : outerWidth > 430 ?
-                    setParamsHeight(1200, 4500) : outerWidth > 380 ?
-                        setParamsHeight(600, 2500) : outerWidth > 329 ?
-                            setParamsHeight(500, 2200) : setParamsHeight(400, 1800)
+            setParamsHeight(1800, 7980) : outerWidth > 930 ?
+                setParamsHeight(1750, 7900) : outerWidth > 780 ?
+                    setParamsHeight(1570, 6500) : outerWidth > 600 ?
+                        setParamsHeight(1400, 5800) : outerWidth > 430 ?
+                            setParamsHeight(1300, 5300) : outerWidth > 400 ?
+                                setParamsHeight(1200, 4500) : outerWidth > 380 ?
+                                    setParamsHeight(600, 2500) : outerWidth > 329 ?
+                                        setParamsHeight(500, 2200) : setParamsHeight(400, 1800)
     }, [window.outerWidth])
     const handleNavigation = useCallback(
         (e) => {

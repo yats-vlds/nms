@@ -737,6 +737,11 @@ h1.star__projectLeftTitle {
         padding-top: 4rem;
     }
 }
+@media(max-width: 569px) {
+    .star__projectRowContentRight {
+        padding-left: 0rem;
+    }
+}
 
 @media (max-width: 481px) {
     .star__projectRowContentLeft {

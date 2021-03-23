@@ -261,7 +261,7 @@
     width: 80%;
 }
 
-.bootstrap__tableTitle {
+.bootstrap__tableTitle, .bootstrap__tableTitleFirst {
     font-weight: bold;
 }
 
@@ -376,8 +376,6 @@
     position: absolute;
 }
 
-.bootstrap__tableTitle {
-}
 
 .bootstrap__tableTwoTitle {
     font-weight: bold;
@@ -490,6 +488,10 @@
 
     .icon2 {
         height: 70%;
+    }
+
+    .bootstrap__tableTitleFirst {
+        font-size: 1.8rem !important;
     }
 
     .bootstrap__tableTitle, .bootstrap__marginTop {
@@ -915,8 +917,12 @@
         padding-left: 3.6rem;
     }
 
+    .bootstrap__tableTitleFirst {
+        font-size: 1.3rem !important;
+    }
+
     .bootstrap__tableTitle {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .icon2TableThree {
@@ -1208,8 +1214,12 @@
         height: 23rem;
     }
 
+    .bootstrap__tableTitleFirst {
+        font-size: 0.8rem !important;
+    }
+
     .bootstrap__tableTitle {
-        font-size: 0.7rem !important;
+        font-size: 0.65rem !important;
     }
 
     .bootstrap__tableText {
@@ -1438,6 +1448,18 @@
     }
 }
 
+@media(max-width: 569px) {
+    img#iconLEAMUM {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 113px;
+        height: 454px;
+        margin-top: -31rem;
+        object-fit: contain;
+    }
+}
+
 @media (max-width: 429px) {
     img#iconLEAMUM {
         margin-left: 3rem;
@@ -1495,6 +1517,9 @@
         opacity: 0.6;
         width: 42rem;
         height: 45.5rem;
+    }
+    .bootstrap__tableTitleFirst {
+        font-size: 0.7rem !important;
     }
 
     .bootstrap__tableTitle {

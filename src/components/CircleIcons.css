@@ -396,7 +396,10 @@
     }
 }
 
-@media(max-width: 376px) {
+@media(max-width: 416px) {
+    .customLeft {
+        margin-left: 0.3rem;
+    }
     .iconMessage {
         width: 0.7rem;
         margin-top: -3rem;
