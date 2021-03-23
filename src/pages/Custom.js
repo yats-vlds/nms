@@ -19,6 +19,9 @@ import circleIcons10 from "../assets/vectorImg/vectorSmart10.svg";
 import CustomSASS from "../components/CustomSASS";
 import WebDevelopment from "../components/WebDevelopment";
 import UI_UX from "../components/UI-UX";
+import {OpengraphReactComponent} from "opengraph-react";
+import logo from "../assets/logo.jpg";
+import SEO from "../SEO";
 
 
 const Custom = ({type, dispatch}) => {
@@ -39,6 +42,11 @@ const Custom = ({type, dispatch}) => {
     }, [ellipse])
     return (
         <div className="custom">
+            <SEO
+                title={type === 'custom' ? "Custom SaaS" : type === "mobile" ? "Web Development" : "UI/UX"}
+                thumbnail={logo}
+                url={"https://nms-group.family/"}
+            />
             <div className="container">
                 <div className="row">
                     <div className="col-6 customLeft">

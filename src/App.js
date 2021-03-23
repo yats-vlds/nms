@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import {initialState, reducer} from "./hook/reducer";
 import {useEffect} from "react";
 import Header from "./components/Header";
+import {OpengraphReactComponent} from "opengraph-react";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)

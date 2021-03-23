@@ -4,12 +4,13 @@ import StarProject from "../components/StarProject"
 import Expert from "../components/Expert"
 import Why from "../components/Why"
 import Jobs from "../components/Jobs"
+import logo from "../assets/logo.jpg"
 import FormRequest from "../components/FormRequest"
 import Ten from "../components/Ten"
 import SliderComponent from "../components/SliderComponent";
 import SliderComponent2 from "../components/SliderComponent2";
 import SliderComponent3 from "../components/SliderComponent3";
-import {Redirect} from "react-router-dom"
+import SEO from "../SEO";
 
 
 const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
@@ -39,6 +40,11 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
 
     return (
         <>
+            <SEO
+                title={"NMS {dev}"}
+                thumbnail={logo}
+                url={"https://nms-group.family/"}
+            />
             <div className="scroll">
                 {y < scrollDown && <p className="scroll__text"><small>Scroll Down</small></p>}
                 {!border && <div className="scroll__border"></div>}
