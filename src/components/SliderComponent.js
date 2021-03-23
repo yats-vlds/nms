@@ -44,6 +44,13 @@ const SliderComponent = () => {
                     sliderOne: {
                         sliderTitle: sliderComponentDataText.sliderOne.sliderTitle,
                         sliderText: sliderComponentDataText.sliderOne.sliderText,
+                        instruments: {
+                            instruments1: sliderComponentDataText.sliderOne.instruments1,
+                            instruments2: sliderComponentDataText.sliderOne.instruments2,
+                            instruments3: sliderComponentDataText.sliderOne.instruments3,
+                            instruments4: sliderComponentDataText.sliderOne.instruments4,
+                            instruments5: sliderComponentDataText.sliderOne.instruments5,
+                        }
                     },
                     sliderTwo: {
                         sliderTitle: sliderComponentDataText.sliderTwo.sliderTitle,
@@ -52,14 +59,31 @@ const SliderComponent = () => {
                     sliderThree: {
                         sliderTitle: sliderComponentDataText.sliderThree.sliderTitle,
                         sliderText: sliderComponentDataText.sliderThree.sliderText,
+                        instruments: {
+                            instruments1: sliderComponentDataText.sliderThree.instruments1,
+                            instruments2: sliderComponentDataText.sliderThree.instruments2,
+                            instruments3: sliderComponentDataText.sliderThree.instruments3,
+                        }
                     },
                     sliderFour: {
                         sliderTitle: sliderComponentDataText.sliderFour.sliderTitle,
-                        sliderText: sliderComponentDataText.sliderFour.sliderText
+                        sliderText: sliderComponentDataText.sliderFour.sliderText,
+                        instruments: {
+                            instruments1: sliderComponentDataText.sliderFour.instruments1,
+                            instruments2: sliderComponentDataText.sliderFour.instruments2,
+                            instruments3: sliderComponentDataText.sliderFour.instruments3,
+                            instruments4: sliderComponentDataText.sliderFour.instruments4,
+                        }
                     },
                     sliderFive: {
                         sliderTitle: sliderComponentDataText.sliderFive.sliderTitle,
-                        sliderText: sliderComponentDataText.sliderFive.sliderText
+                        sliderText: sliderComponentDataText.sliderFive.sliderText,
+                        instruments: {
+                            instruments1: sliderComponentDataText.sliderFive.instruments1,
+                            instruments2: sliderComponentDataText.sliderFive.instruments2,
+                            instruments3: sliderComponentDataText.sliderFive.instruments3,
+                            instruments4: sliderComponentDataText.sliderFive.instruments4,
+                        }
                     },
                     sliderSix: {
                         sliderTitle: sliderComponentDataText.sliderSix.sliderTitle,
@@ -67,7 +91,13 @@ const SliderComponent = () => {
                     },
                     sliderSeven: {
                         sliderTitle: sliderComponentDataText.sliderSeven.sliderTitle,
-                        sliderText: sliderComponentDataText.sliderSeven.sliderText
+                        sliderText: sliderComponentDataText.sliderSeven.sliderText,
+                        instruments: {
+                            instruments1: sliderComponentDataText.sliderSeven.instruments1,
+                            instruments2: sliderComponentDataText.sliderSeven.instruments2,
+                            instruments3: sliderComponentDataText.sliderSeven.instruments3,
+                            instruments4: sliderComponentDataText.sliderSeven.instruments4,
+                        }
                     },
                     sliderEight: {
                         sliderTitle: sliderComponentDataText.sliderEight.sliderTitle,
@@ -84,6 +114,13 @@ const SliderComponent = () => {
                 "                                    of them have money for that. What if to convert CTP into money that could be donated\n" +
                 "                                    to a selected charity organization? What if to create a digital solution to make\n" +
                 "                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.",
+            instruments: {
+                instruments1: "React/React-Native",
+                instruments2: "Next.js",
+                instruments3: "Node.js (Express)",
+                instruments4: "Postgres",
+                instruments5: "Docker",
+            }
         },
         sliderTwo: {
             sliderTitle: "GoPrint",
@@ -99,7 +136,12 @@ const SliderComponent = () => {
                 "                                    to use the functionality of this Smart Home solution for 100%, we have created a\n" +
                 "                                    virtual instrument which allows to create special HEXA code according to specific\n" +
                 "                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to\n" +
-                "                                    setup them by distance."
+                "                                    setup them by distance.",
+            instruments: {
+                instruments1: "C#",
+                instruments2: ".NET MVC",
+                instruments3: "ReactJS",
+            }
         },
         sliderFour: {
             sliderTitle: "Listery",
@@ -108,7 +150,13 @@ const SliderComponent = () => {
                 "                                    desired items via databases of the biggest web-shops and to share your lists. Our\n" +
                 "                                    dev team had a pleasure to arrange the app’s back end part.\n" +
                 "                                    Who knows, maybe with this Flutter SDK based product your innermost desires will\n" +
-                "                                    finally come true!"
+                "                                    finally come true!",
+                instruments: {
+                    instruments1: "Flutter",
+                    instruments2: "Node.js (Express)",
+                    instruments3: "MongoDB",
+                    instruments4: "Docker",
+                }
         },
         sliderFive: {
             sliderTitle: "FAVVEL",
@@ -116,7 +164,13 @@ const SliderComponent = () => {
                 "                                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service\n" +
                 "                                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,\n" +
                 "                                    this app serves a great example of how an idea of individual entrepreneur can\n" +
-                "                                    transform into a custom software product in a couple of months."
+                "                                    transform into a custom software product in a couple of months.",
+                instruments: {
+                    instruments1: "React",
+                    instruments2: "Node.js",
+                    instruments3: "MongoDB",
+                    instruments4: "Docker",
+                }
         },
         sliderSix: {
             sliderTitle: "Danfoss Veria EasyPlan",
@@ -133,7 +187,13 @@ const SliderComponent = () => {
                 "                                    product developed for Total Energy’s promotional campaign. Being created within the\n" +
                 "                                    React / NodeJS framework, the product possessed gamified mechanics which allowed\n" +
                 "                                    users to create so called “safety circles” for people they care, distribute\n" +
-                "                                    invitations and win some incentives."
+                "                                    invitations and win some incentives.",
+            instruments: {
+                instruments1: "React",
+                instruments2: "Node.js",
+                instruments3: "Postgres",
+                instruments4: "Docker",
+            }
         },
         sliderEight: {
             sliderTitle: "The Loko-Moko Game",
@@ -202,11 +262,11 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    React/React Native<br/>
-                                    Next.js<br/>
-                                    Node.js (Express)<br/>
-                                    Postgres<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderOne.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments4}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments5}<br/>
                                 </p>
                             </div>
                         </div>
@@ -263,11 +323,11 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    React/React Native<br/>
-                                    Next.js<br/>
-                                    Node.js (Express)<br/>
-                                    Postgres<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderOne.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments4}<br/>
+                                    {sliderComponentDataText.sliderOne.instruments.instruments5}<br/>
                                 </p>
                             </div>
                         </div>
@@ -333,9 +393,9 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    C#<br/>
-                                    .NET MVC<br/>
-                                    ReactJS<br/>
+                                    {sliderComponentDataText.sliderThree.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderThree.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderThree.instruments.instruments3}<br/>
                                 </p>
                             </div>
                         </div>
@@ -382,10 +442,10 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    Flutter<br/>
-                                    Node.js (Express)<br/>
-                                    Mongo<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderFour.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderFour.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderFour.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderFour.instruments.instruments4}<br/>
                                 </p>
                             </div>
                         </div>
@@ -437,10 +497,10 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Node.js<br/>
-                                    Mongo DB<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderFive.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments4}<br/>
                                 </p>
                             </div>
                         </div>
@@ -506,10 +566,10 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Node.js<br/>
-                                    Mongo DB<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderFive.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments4}<br/>
                                 </p>
                             </div>
                         </div>
@@ -567,10 +627,10 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Node.js<br/>
-                                    Postgres<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderSeven.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderSeven.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderSeven.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderSeven.instruments.instruments4}<br/>
                                 </p>
                             </div>
                         </div>
@@ -626,10 +686,10 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Node.js<br/>
-                                    Mongo DB<br/>
-                                    Docker
+                                    {sliderComponentDataText.sliderFive.instruments.instruments1}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments2}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments3}<br/>
+                                    {sliderComponentDataText.sliderFive.instruments.instruments4}<br/>
                                 </p>
                             </div>
                         </div>

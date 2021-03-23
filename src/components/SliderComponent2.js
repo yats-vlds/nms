@@ -38,10 +38,18 @@ const SliderComponent = () => {
                     sliderOne: {
                         sliderTitle: sliderComponent2DataText.sliderOne.sliderTitle,
                         sliderText: sliderComponent2DataText.sliderOne.sliderText,
+                        instruments: sliderComponent2DataText.sliderOne.instruments
                     },
                     sliderTwo: {
                         sliderTitle: sliderComponent2DataText.sliderTwo.sliderTitle,
                         sliderText: sliderComponent2DataText.sliderTwo.sliderText,
+                        instruments: {
+                            instruments1: sliderComponent2DataText.sliderTwo.instruments1,
+                            instruments2: sliderComponent2DataText.sliderTwo.instruments2,
+                            instruments3: sliderComponent2DataText.sliderTwo.instruments3,
+                            instruments4: sliderComponent2DataText.sliderTwo.instruments4,
+                            instruments5: sliderComponent2DataText.sliderTwo.instruments5,
+                        }
                     },
                     sliderThree: {
                         sliderTitle: sliderComponent2DataText.sliderThree.sliderTitle,
@@ -49,7 +57,8 @@ const SliderComponent = () => {
                     },
                     sliderFour: {
                         sliderTitle: sliderComponent2DataText.sliderFour.sliderTitle,
-                        sliderText: sliderComponent2DataText.sliderFour.sliderText
+                        sliderText: sliderComponent2DataText.sliderFour.sliderText,
+                        instruments: sliderComponent2DataText.sliderFour.instruments
                     },
                     sliderFive: {
                         sliderTitle: sliderComponent2DataText.sliderFive.sliderTitle,
@@ -70,6 +79,8 @@ const SliderComponent = () => {
                 "                                    German\n" +
                 "                                    languages basing on data from 9 European countries. Quite a huge job, still\n" +
                 "                                    effective!",
+            instruments: "Word Press"
+
         },
         sliderTwo: {
             sliderTitle: "GoPrint Web",
@@ -78,7 +89,14 @@ const SliderComponent = () => {
                 "                                    is\n" +
                 "                                    mirroring an app`s functionality. We have also integrated a new Delivery service\n" +
                 "                                    that\n" +
-                "                                    aims to become an alternative monetization channel for the product."
+                "                                    aims to become an alternative monetization channel for the product.",
+            instruments: {
+                instruments1: "React",
+                instruments2: "Next.js",
+                instruments3: "Node.js (Express)",
+                instruments4: "Postgres",
+                instruments5: "Docker",
+            }
         },
         sliderThree: {
             sliderTitle: "CharyTime Web",
@@ -92,7 +110,7 @@ const SliderComponent = () => {
                 "                                    made a\n" +
                 "                                    new version of the application with extra features including new web SaaS and\n" +
                 "                                    Landing\n" +
-                "                                    Page."
+                "                                    Page.",
         },
         sliderFour: {
             sliderTitle: "Head Bikes",
@@ -100,7 +118,8 @@ const SliderComponent = () => {
                 "                                    from a scratch seem to be clearly redundant and cloud platforms like WIX or Tilda\n" +
                 "                                    can be a solution. Using the Tilda web shop solution, we have created a functional\n" +
                 "                                    online store for the Official Distributor of HEAD bikes. Looks great, works fine,\n" +
-                "                                    created quickly like a blast!"
+                "                                    created quickly like a blast!",
+            instruments: "Tilda Cloud Website Platform"
         },
         sliderFive: {
             sliderTitle: "LEMAUM",
@@ -147,7 +166,7 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    Word Press
+                                    {sliderComponent2DataText.sliderOne.instruments}
                                 </p>
                             </div>
                         </div>
@@ -204,11 +223,11 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Next.js<br/>
-                                    Node.js (Express)<br/>
-                                    Postgres<br/>
-                                    Docker
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments1}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments2}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments3}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments4}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments5}<br/>
                                 </p>
                             </div>
                         </div>
@@ -270,11 +289,11 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    React<br/>
-                                    Next.js<br/>
-                                    Node.js (Express)<br/>
-                                    Postgres<br/>
-                                    Docker
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments1}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments2}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments3}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments4}<br/>
+                                    {sliderComponent2DataText.sliderTwo.instruments.instruments5}<br/>
                                 </p>
                             </div>
                         </div>
@@ -336,7 +355,7 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    Tilda Cloud Website Platform
+                                    {sliderComponent2DataText.sliderFour.instruments}
                                 </p>
                             </div>
                         </div>
@@ -388,7 +407,7 @@ const SliderComponent = () => {
                                     Tech Picture
                                 </h3>
                                 <p>
-                                    Tilda Cloud Website Platform
+                                    {sliderComponent2DataText.sliderFour.instruments}
                                 </p>
                             </div>
                         </div>
