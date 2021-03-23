@@ -16,6 +16,7 @@ import InMoreDesign2 from "../assets/InMoreDIZ-900x1025-02.png"
 import InMoreDesign3 from "../assets/InMoreDIZ-900x1025-03.png"
 import shadow from "../assets/shadow.png";
 import table1pryamogolnik from "../assets/table1Pryamogolnik.svg";
+import {JsonLd} from "react-schemaorg";
 
 
 const SliderComponent = () => {
@@ -26,6 +27,50 @@ const SliderComponent = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+    const SliderComponent3Schema = ({sliderComponent3DataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'SliderComponent3Schema',
+                    sliderOne: {
+                        sliderTitle: sliderComponent3DataText.sliderOne.sliderTitle,
+                        sliderText: sliderComponent3DataText.sliderOne.sliderText,
+                    },
+                    sliderTwo: {
+                        sliderTitle: sliderComponent3DataText.sliderTwo.sliderTitle,
+                        sliderText: sliderComponent3DataText.sliderTwo.sliderText,
+                    },
+                    sliderThree: {
+                        sliderTitle: sliderComponent3DataText.sliderThree.sliderTitle,
+                        sliderText: sliderComponent3DataText.sliderThree.sliderText,
+                    }
+                }}
+            />
+        )
+    }
+    const sliderComponent3DataText = {
+        sliderOne: {
+            sliderTitle: "GoPrint",
+            sliderText: "Creation of visual identity and UX/UI Product Design for the GoPrint remote printing\n" +
+                "                                    service and GoPrint Delivery, as well as static and animated materials for the\n" +
+                "                                    digital promotion.",
+        },
+        sliderTwo: {
+            sliderTitle: "Ukrtelecom Corporate Portal",
+            sliderText: " Ukrtelecom is of the biggest providers of fixed-line and mobile telephony as well as\n" +
+                "                                    high-speed internet. Having a team of about 15 000 employees. Thus we have\n" +
+                "                                    created a unique interface of the corporate portal, including messengers and all\n" +
+                "                                    other functional components."
+        },
+        sliderThree: {
+            sliderTitle: "In&More",
+            sliderText: "  Creation of the website for the interior design bureau placed in Berlin. The product\n" +
+                "                                is Word Press based so it definitely needed something stylish and fresh to look\n" +
+                "                                great! Simple and easy – that’s what perfectly suits successful businesses!"
+        }
+    }
+
     return (
         <div id="carouselExampleIndicators_3" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -34,6 +79,7 @@ const SliderComponent = () => {
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner ">
+                <SliderComponent3Schema sliderComponent3DataText={sliderComponent3DataText} />
                 <div className="carousel-item active">
                     <div className="bootstrap__table bootstrap__tableThree">
                         <div className="bootstrap__tableLeft">
@@ -78,15 +124,13 @@ const SliderComponent = () => {
                                     UI/UX Design Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle">
-                                    GoPrint
+                                    {sliderComponent3DataText.sliderOne.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Challenge
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    Creation of visual identity and UX/UI Product Design for the GoPrint remote printing
-                                    service and GoPrint Delivery, as well as static and animated materials for the
-                                    digital promotion.
+                                    {sliderComponent3DataText.sliderOne.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Instruments
@@ -140,16 +184,13 @@ const SliderComponent = () => {
                                     UI/UX Design Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle">
-                                    Ukrtelecom Corporate Portal
+                                    {sliderComponent3DataText.sliderTwo.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Challenge
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    Ukrtelecom is of the biggest providers of fixed-line and mobile telephony as well as
-                                    high-speed internet. Having a team of about 15 000 employees. Thus we have
-                                    created a unique interface of the corporate portal, including messengers and all
-                                    other functional components.
+                                    {sliderComponent3DataText.sliderTwo.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Instruments
@@ -163,64 +204,62 @@ const SliderComponent = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="carousel-item">
-                <div className="bootstrap__table bootstrap__tableThree">
-                    <div className="bootstrap__tableLeft">
-                        <div className="bootstrap__tableLineThree borderLeft"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <Slider {...settings} className="slider-subslider">
-                            <div>
-                                <img src={shadow} className="tableOneIcon1"/>
-                                <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                <img src={InMoreDesign1} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
+                <div className="carousel-item">
+                    <div className="bootstrap__table bootstrap__tableThree">
+                        <div className="bootstrap__tableLeft">
+                            <div className="bootstrap__tableLineThree borderLeft"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <Slider {...settings} className="slider-subslider">
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={InMoreDesign1} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={InMoreDesign2} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
+                                </div>
+                                <div>
+                                    <img src={shadow} className="tableOneIcon1"/>
+                                    <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
+                                    <img src={InMoreDesign3} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
+                                </div>
+                            </Slider>
+                        </div>
+                        <div className="bootstrap__tableRight borderRight">
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableLineThree"></div>
+                            <div className="bootstrap__tableRightInfo">
+                                <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
+                                    UI/UX Design Services
+                                </h1>
+                                <h2 className="bootstrap__tableTitle">
+                                    {sliderComponent3DataText.sliderThree.sliderTitle}
+                                </h2>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Challenge
+                                </h3>
+                                <p className="bootstrap__tableText marginBottom">
+                                    {sliderComponent3DataText.sliderThree.sliderText}
+                                </p>
+                                <h3 className="bootstrap__tableTwoTitle">
+                                    Instruments
+                                </h3>
+                                <p>
+                                    Adobe Photoshop<br/>
+                                    Illustrator<br/>
+                                    Webflow
+                                </p>
                             </div>
-                            <div>
-                                <img src={shadow} className="tableOneIcon1"/>
-                                <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                <img src={InMoreDesign2} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
-                            </div>
-                            <div>
-                                <img src={shadow} className="tableOneIcon1"/>
-                                <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                <img src={InMoreDesign3} className="tableOneIcon4" id="tableOneIcon425" loading="lazy"/>
-                            </div>
-                        </Slider>
-                    </div>
-                    <div className="bootstrap__tableRight borderRight">
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableLineThree"></div>
-                        <div className="bootstrap__tableRightInfo">
-                            <h1 className="bootstrap__tableTitle bootstrap_tableRightContentTitle">
-                                UI/UX Design Services
-                            </h1>
-                            <h2 className="bootstrap__tableTitle">
-                                In&More
-                            </h2>
-                            <h3 className="bootstrap__tableTwoTitle">
-                                Challenge
-                            </h3>
-                            <p className="bootstrap__tableText marginBottom">
-                                Creation of the website for the interior design bureau placed in Berlin. The product
-                                is Word Press based so it definitely needed something stylish and fresh to look
-                                great! Simple and easy – that’s what perfectly suits successful businesses!
-                            </p>
-                            <h3 className="bootstrap__tableTwoTitle">
-                                Instruments
-                            </h3>
-                            <p>
-                                Adobe Photoshop<br/>
-                                Illustrator<br/>
-                                Webflow
-                            </p>
                         </div>
                     </div>
                 </div>

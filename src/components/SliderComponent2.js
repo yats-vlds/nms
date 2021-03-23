@@ -1,12 +1,8 @@
 import React from "react";
-import yog from "../assets/yog.svg"
 import shadow from "../assets/shadow.png";
 import table1pryamogolnik from "../assets/table1Pryamogolnik.svg";
-import sloygoPrint from "../assets/sloygoPrint.svg";
-import goPrintOriginal from "../assets/goPrintOriginal.svg";
 import shadow2 from "../assets/shadowTwo.png";
 import tableTwoTwo from "../assets/tableTwoTwo.svg";
-import inmore from "../assets/inmore.svg";
 import inmore2 from "../assets/InMore_900x1025.png"
 import inmore3 from "../assets/InMore_900x1025-2.png"
 import inmore4 from "../assets/InMore_900x1025-3.png"
@@ -23,6 +19,7 @@ import ct from "../assets/CT-web-900x1025-1.png";
 import ct2 from "../assets/CT-web-900x1025-2.png";
 import ct3 from "../assets/CT-web-900x1025-3.png";
 import ct4 from "../assets/CT-web-900x1025-4.png";
+import {JsonLd} from "react-schemaorg";
 
 const SliderComponent = () => {
     const settings = {
@@ -32,6 +29,90 @@ const SliderComponent = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+    const SliderComponent2Schema = ({sliderComponent2DataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'SliderComponent2Schema',
+                    sliderOne: {
+                        sliderTitle: sliderComponent2DataText.sliderOne.sliderTitle,
+                        sliderText: sliderComponent2DataText.sliderOne.sliderText,
+                    },
+                    sliderTwo: {
+                        sliderTitle: sliderComponent2DataText.sliderTwo.sliderTitle,
+                        sliderText: sliderComponent2DataText.sliderTwo.sliderText,
+                    },
+                    sliderThree: {
+                        sliderTitle: sliderComponent2DataText.sliderThree.sliderTitle,
+                        sliderText: sliderComponent2DataText.sliderThree.sliderText,
+                    },
+                    sliderFour: {
+                        sliderTitle: sliderComponent2DataText.sliderFour.sliderTitle,
+                        sliderText: sliderComponent2DataText.sliderFour.sliderText
+                    },
+                    sliderFive: {
+                        sliderTitle: sliderComponent2DataText.sliderFive.sliderTitle,
+                        sliderText: sliderComponent2DataText.sliderFive.sliderText
+                    }
+                }}
+            />
+        )
+    }
+    const sliderComponent2DataText = {
+        sliderOne: {
+            sliderTitle: "In&More",
+            sliderText: "This website was created for the interior design bureau placed in Berlin. The\n" +
+                "                                    product is\n" +
+                "                                    Word Press based and maximum attention was payed to SEO regarding wide geography of\n" +
+                "                                    the\n" +
+                "                                    bureau’s customers. We have created the semantic cores for English, Russian and\n" +
+                "                                    German\n" +
+                "                                    languages basing on data from 9 European countries. Quite a huge job, still\n" +
+                "                                    effective!",
+        },
+        sliderTwo: {
+            sliderTitle: "GoPrint Web",
+            sliderText: "What about automation of printing services? We made it self-service! NMS Team took\n" +
+                "                                    responsibility for the full scale of works including Web Design and Web SaaS which\n" +
+                "                                    is\n" +
+                "                                    mirroring an app`s functionality. We have also integrated a new Delivery service\n" +
+                "                                    that\n" +
+                "                                    aims to become an alternative monetization channel for the product."
+        },
+        sliderThree: {
+            sliderTitle: "CharyTime Web",
+            sliderText: "  A lot of people in the world want to support charity organizations, however, not all\n" +
+                "                                    of\n" +
+                "                                    them have money for that. What if to convert CTP into money that could be donated to\n" +
+                "                                    a\n" +
+                "                                    selected charity organization? What if to create a digital solution to make good\n" +
+                "                                    things\n" +
+                "                                    trendy? CharyTime is a unique app that allows you to “donate your time”. NMS Team\n" +
+                "                                    made a\n" +
+                "                                    new version of the application with extra features including new web SaaS and\n" +
+                "                                    Landing\n" +
+                "                                    Page."
+        },
+        sliderFour: {
+            sliderTitle: "Head Bikes",
+            sliderText: " We really enjoy developing custom web products! Still sometimes projects created\n" +
+                "                                    from a scratch seem to be clearly redundant and cloud platforms like WIX or Tilda\n" +
+                "                                    can be a solution. Using the Tilda web shop solution, we have created a functional\n" +
+                "                                    online store for the Official Distributor of HEAD bikes. Looks great, works fine,\n" +
+                "                                    created quickly like a blast!"
+        },
+        sliderFive: {
+            sliderTitle: "LEMAUM",
+            sliderText: "     Sometimes when you have no extra time to arrange an advertising company scheduled\n" +
+                "                                    for\n" +
+                "                                    “yesterday”, fast yet effective solutions should be used. With a Tilda solution we\n" +
+                "                                    have\n" +
+                "                                    created a landing page for quite a unique fertilizer called Leamum in just 3 days\n" +
+                "                                    including development of custom design. Informative, nice looking, with simple and\n" +
+                "                                    functional feedback form – that’s how we define it."
+        }
+    }
     return (
         <div id="carouselExampleIndicators_2" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -40,6 +121,7 @@ const SliderComponent = () => {
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
+                <SliderComponent2Schema sliderComponent2DataText={sliderComponent2DataText} />
                 <div className="carousel-item active">
                     <div className="bootstrap__tableTwo">
                         <div className="bootstrap__tableTwoLeft">
@@ -53,20 +135,13 @@ const SliderComponent = () => {
                                     Web Development
                                     Services</h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    In&More
+                                    {sliderComponent2DataText.sliderOne.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    This website was created for the interior design bureau placed in Berlin. The
-                                    product is
-                                    Word Press based and maximum attention was payed to SEO regarding wide geography of
-                                    the
-                                    bureau’s customers. We have created the semantic cores for English, Russian and
-                                    German
-                                    languages basing on data from 9 European countries. Quite a huge job, still
-                                    effective!
+                                    {sliderComponent2DataText.sliderOne.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -117,18 +192,13 @@ const SliderComponent = () => {
                                     Web Development
                                     Services</h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    GoPrint Web
+                                    {sliderComponent2DataText.sliderTwo.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    What about automation of printing services? We made it self-service! NMS Team took
-                                    responsibility for the full scale of works including Web Design and Web SaaS which
-                                    is
-                                    mirroring an app`s functionality. We have also integrated a new Delivery service
-                                    that
-                                    aims to become an alternative monetization channel for the product.
+                                    {sliderComponent2DataText.sliderTwo.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -188,23 +258,13 @@ const SliderComponent = () => {
                                     Web Development
                                     Services</h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    CharyTime Web
+                                    {sliderComponent2DataText.sliderThree.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    A lot of people in the world want to support charity organizations, however, not all
-                                    of
-                                    them have money for that. What if to convert CTP into money that could be donated to
-                                    a
-                                    selected charity organization? What if to create a digital solution to make good
-                                    things
-                                    trendy? CharyTime is a unique app that allows you to “donate your time”. NMS Team
-                                    made a
-                                    new version of the application with extra features including new web SaaS and
-                                    Landing
-                                    Page.
+                                    {sliderComponent2DataText.sliderThree.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -264,17 +324,13 @@ const SliderComponent = () => {
                                     Web Development
                                     Services</h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Head Bikes
+                                    {sliderComponent2DataText.sliderFour.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    We really enjoy developing custom web products! Still sometimes projects created
-                                    from a scratch seem to be clearly redundant and cloud platforms like WIX or Tilda
-                                    can be a solution. Using the Tilda web shop solution, we have created a functional
-                                    online store for the Official Distributor of HEAD bikes. Looks great, works fine,
-                                    created quickly like a blast!
+                                    {sliderComponent2DataText.sliderFour.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -320,19 +376,13 @@ const SliderComponent = () => {
                                     Web Development
                                     Services</h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    LEMAUM
+                                    {sliderComponent2DataText.sliderFive.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    Sometimes when you have no extra time to arrange an advertising company scheduled
-                                    for
-                                    “yesterday”, fast yet effective solutions should be used. With a Tilda solution we
-                                    have
-                                    created a landing page for quite a unique fertilizer called Leamum in just 3 days
-                                    including development of custom design. Informative, nice looking, with simple and
-                                    functional feedback form – that’s how we define it.
+                                    {sliderComponent2DataText.sliderFive.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture

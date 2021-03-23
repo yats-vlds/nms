@@ -4,21 +4,39 @@ import skrepka from "../assets/skrepka.svg"
 import fromPryam1 from "../assets/formPryam1.svg"
 import fromPryam2 from "../assets/fromPryam2.png"
 import fromPryam3 from "../assets/formPryam3.svg"
+import {JsonLd} from "react-schemaorg";
 
 const FormRequest = () => {
     const [ellipse, setEllipse] = useState(false)
+    const FormRequestSchema = ({formRequestDataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'FormRequestSchema',
+                    titleStart:  formRequestDataText.titleStart,
+                    titleEnd: formRequestDataText.titleEnd,
+                }}
+            />
+        )
+    }
+    const formRequestDataText = {
+        titleStart: "Start your product development",
+        titleEnd: "right now."
+    }
     return (
         <div className="formRequest">
         <div className="container">
             <div className="row">
                 <div className="col">
                     <div className="form-header-title">
+                        <FormRequestSchema formRequestDataText={formRequestDataText} />
                         <img src={fromPryam1} className="from-pryam1" loading="lazy"/>
                         <img src={fromPryam2} className="from-pryam2" loading="lazy"/>
                         <img src={fromPryam3} className="from-pryam3" loading="lazy"/>
-                        <h2 className="from-pryam4 text-center">Start your product development
+                        <h2 className="from-pryam4 text-center">{formRequestDataText.titleStart}
                             <br/>
-                            right now.</h2>
+                            {formRequestDataText.titleEnd}</h2>
                     </div>
                     <div className="form-request">
                         <div className="card justify-content-center">

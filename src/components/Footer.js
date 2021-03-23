@@ -4,29 +4,49 @@ import nmsDev from "../assets/nmsdev.svg"
 import iconWhatsApp from "../assets/iconWhatsApp.png"
 import iconViber from "../assets/iconViber.png"
 import iconTelegram from "../assets/iconTelegram.png"
+import {JsonLd} from "react-schemaorg";
 
 const Footer = ({id}) => {
+    const FooterSchema = ({footerDataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'FooterSchema',
+                    location: footerDataText.location,
+                    telephone:  footerDataText.telephone,
+                    email: footerDataText.email,
+                }}
+            />
+        )
+    }
+    const footerDataText = {
+        location: "Team based in Kyiv, Ukraine",
+        telephone: "+38 067 217 91 94",
+        email: "dev@nms-group.family",
+    }
     return (
         <>
             <div className="footer" id={id}>
                 <div className="container">
                     <div className="row">
                         <div className="col footer__col">
+                            <FooterSchema footerDataText={footerDataText} />
                             <img src={nmsDev} className="footer-image" loading="lazy"/>
-                            <h4 className="footer__location">Team based in Kyiv, Ukraine</h4>
+                            <h4 className="footer__location">{footerDataText.location}</h4>
                             <div className="footer__contacts">
                                 <h1 className="footer__contactsTitle">Contact us now</h1>
                                 <p className="footer__contactsText"><strong>Tel.:</strong>
                                     <a className="footer__link"
                                        href="tel:+380672179194">
-                                        +38 067 217 91 94
+                                        {footerDataText.telephone}
                                     </a>
                                 </p>
                                 <p className="footer__contactsText">
                                     <strong>Mail.:</strong>
                                     <a className="footer__link"
                                        href="mailto:dev@nms-group.family">
-                                        dev@nms-group.family
+                                        {footerDataText.email}
                                     </a>
                                 </p>
                             </div>
