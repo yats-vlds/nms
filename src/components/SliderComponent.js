@@ -24,6 +24,7 @@ import danfosHeatSelector2 from "../assets/DanHS-900x1025-2.png"
 import danfosHeatSelector3 from "../assets/DanHS-900x1025-3.png"
 import danfosHeatSelector4 from "../assets/DanHS-900x1025-4.png"
 import listery from "../assets/Li-900x1025.png"
+import {JsonLd} from "react-schemaorg";
 
 const SliderComponent = () => {
     const settings = {
@@ -33,6 +34,119 @@ const SliderComponent = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+
+    const SliderComponentSchema = ({sliderComponentDataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'SliderComponentSchema',
+                    sliderOne: {
+                        sliderTitle: sliderComponentDataText.sliderOne.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderOne.sliderText,
+                    },
+                    sliderTwo: {
+                        sliderTitle: sliderComponentDataText.sliderTwo.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderTwo.sliderText,
+                    },
+                    sliderThree: {
+                        sliderTitle: sliderComponentDataText.sliderThree.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderThree.sliderText,
+                    },
+                    sliderFour: {
+                        sliderTitle: sliderComponentDataText.sliderFour.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderFour.sliderText
+                    },
+                    sliderFive: {
+                        sliderTitle: sliderComponentDataText.sliderFive.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderFive.sliderText
+                    },
+                    sliderSix: {
+                        sliderTitle: sliderComponentDataText.sliderSix.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderSix.sliderText
+                    },
+                    sliderSeven: {
+                        sliderTitle: sliderComponentDataText.sliderSeven.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderSeven.sliderText
+                    },
+                    sliderEight: {
+                        sliderTitle: sliderComponentDataText.sliderEight.sliderTitle,
+                        sliderText: sliderComponentDataText.sliderEight.sliderText
+                }
+                }}
+            />
+        )
+    }
+    const sliderComponentDataText = {
+        sliderOne: {
+            sliderTitle: "Chary Time",
+            sliderText: "  A lot of people in the world want to support charity organizations, however, not all\n" +
+                "                                    of them have money for that. What if to convert CTP into money that could be donated\n" +
+                "                                    to a selected charity organization? What if to create a digital solution to make\n" +
+                "                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.",
+        },
+        sliderTwo: {
+            sliderTitle: "GoPrint",
+            sliderText: "What about automation of printing services? We made it self-service. NMS Team took\n" +
+                "                                    responsibility for the full scale of works including UI/UX design, web SaaS,\n" +
+                "                                    cross-platform custom mobile applications development, Backend development, Admin\n" +
+                "                                    Dashboard creation and unique programming solution for the innovative remote\n" +
+                "                                    printing terminals"
+        },
+        sliderThree: {
+            sliderTitle: "Danfoss Heat Selector",
+            sliderText: "ECtemp Touch – is a smart thermostat created by Danfoss. To give users a possibility\n" +
+                "                                    to use the functionality of this Smart Home solution for 100%, we have created a\n" +
+                "                                    virtual instrument which allows to create special HEXA code according to specific\n" +
+                "                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to\n" +
+                "                                    setup them by distance."
+        },
+        sliderFour: {
+            sliderTitle: "Listery",
+            sliderText: "  If you take care about your friends and want to make a gift search process easier\n" +
+                "                                    for them, share your desires with Listery. This MVP app allows you to search for\n" +
+                "                                    desired items via databases of the biggest web-shops and to share your lists. Our\n" +
+                "                                    dev team had a pleasure to arrange the app’s back end part.\n" +
+                "                                    Who knows, maybe with this Flutter SDK based product your innermost desires will\n" +
+                "                                    finally come true!"
+        },
+        sliderFive: {
+            sliderTitle: "FAVVEL",
+            sliderText: "Who’s on top of the world? Best film,\n" +
+                "                                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service\n" +
+                "                                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,\n" +
+                "                                    this app serves a great example of how an idea of individual entrepreneur can\n" +
+                "                                    transform into a custom software product in a couple of months."
+        },
+        sliderSix: {
+            sliderTitle: "Danfoss Veria EasyPlan",
+            sliderText: "The Flash epoch is over and it’s a\n" +
+                "                                    right time to switch your application to an up-to-date framework. Danfoss Veria\n" +
+                "                                    EasyPlan is a convenient web app allowing house builders and end customers to plan\n" +
+                "                                    usage of heating mats from one of the world leaders in the field of smart home\n" +
+                "                                    solutions. Our product is fully responsive, in addition all needed calculations are\n" +
+                "                                    provided on the front end side, making EasyPlan quite a refined product."
+        },
+        sliderSeven: {
+            sliderTitle: "TOTAL Safety Circle",
+            sliderText: "Total Safety Circle is a custom web\n" +
+                "                                    product developed for Total Energy’s promotional campaign. Being created within the\n" +
+                "                                    React / NodeJS framework, the product possessed gamified mechanics which allowed\n" +
+                "                                    users to create so called “safety circles” for people they care, distribute\n" +
+                "                                    invitations and win some incentives."
+        },
+        sliderEight: {
+            sliderTitle: "The Loko-Moko Game",
+            sliderText: "This web application has been developed\n" +
+                "                                    to promote products under the Loko-Moko Brand for Lactalis, the Global producer of\n" +
+                "                                    whey and milk products.\n" +
+                "                                    Using a popular Rio cartoon theme we’ve developed a custom UI design and back end\n" +
+                "                                    for a promotional game app which allowed users to spend some nice time and learn\n" +
+                "                                    more about Loko-Moko line. Opening new game levels needed usage of a special promo\n" +
+                "                                    code, thus online activity was unified with BTL events."
+        }
+    }
+
     return (
         <div id="carouselExampleIndicators_1" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -41,6 +155,7 @@ const SliderComponent = () => {
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
+                <SliderComponentSchema sliderComponentDataText={sliderComponentDataText} />
                 <div className="carousel-item active">
                     <div className="bootstrap__table bootstrap__tableOne">
                         <div className="bootstrap__tableLeft">
@@ -75,16 +190,13 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Chary Time
+                                    {sliderComponentDataText.sliderOne.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    A lot of people in the world want to support charity organizations, however, not all
-                                    of them have money for that. What if to convert CTP into money that could be donated
-                                    to a selected charity organization? What if to create a digital solution to make
-                                    good things trendy? CharyTime is a unique app that allows you to “donate your time”.
+                                    {sliderComponentDataText.sliderOne.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -139,17 +251,14 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    GoPrint
+                                    {sliderComponentDataText.sliderTwo.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    What about automation of printing services? We made it self-service. NMS Team took
-                                    responsibility for the full scale of works including UI/UX design, web SaaS,
-                                    cross-platform custom mobile applications development, Backend development, Admin
-                                    Dashboard creation and unique programming solution for the innovative remote
-                                    printing terminals.</p>
+                                    {sliderComponentDataText.sliderTwo.sliderText}
+                                </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
                                 </h3>
@@ -178,22 +287,26 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector1} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector1} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector2} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector2} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector3} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector3} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosHeatSelector4} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosHeatSelector4} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>
@@ -208,17 +321,13 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Danfoss Heat Selector
+                                    {sliderComponentDataText.sliderThree.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    ECtemp Touch – is a smart thermostat created by Danfoss. To give users a possibility
-                                    to use the functionality of this Smart Home solution for 100%, we have created a
-                                    virtual instrument which allows to create special HEXA code according to specific
-                                    ECtemp Touch thermostat’s settings in order to have two-way communication and to
-                                    setup them by distance.
+                                    {sliderComponentDataText.sliderThree.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -261,18 +370,13 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Listery
+                                    {sliderComponentDataText.sliderFour.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
                                 <p className="bootstrap__tableText marginBottom">
-                                    If you take care about your friends and want to make a gift search process easier
-                                    for them, share your desires with Listery. This MVP app allows you to search for
-                                    desired items via databases of the biggest web-shops and to share your lists. Our
-                                    dev team had a pleasure to arrange the app’s back end part.
-                                    Who knows, maybe with this Flutter SDK based product your innermost desires will
-                                    finally come true!
+                                    {sliderComponentDataText.sliderFour.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -321,16 +425,13 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    FAVVEL
+                                    {sliderComponentDataText.sliderFive.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
-                                <p className="bootstrap__tableText marginBottom">Who’s on top of the world? Best film,
-                                    most appreciated musical album or eminent athlete – with FAVVEL SaaS web service
-                                    creating and sharing personal lists becomes simple as ever. Based on MERN stack,
-                                    this app serves a great example of how an idea of individual entrepreneur can
-                                    transform into a custom software product in a couple of months.
+                                <p className="bootstrap__tableText marginBottom">
+                                    {sliderComponentDataText.sliderFive.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -359,22 +460,26 @@ const SliderComponent = () => {
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosEasyPlan1} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan1} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosEasyPlan2} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan2} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosEasyPlan3} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan3} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                                 <div>
                                     <img src={shadow} className="tableOneIcon1"/>
                                     <img src={table1pryamogolnik} className="tableOneIcon2" loading="lazy"/>
-                                    <img id="tableOneIcon425" src={danfosEasyPlan4} className="tableOneIcon4" loading="lazy"/>
+                                    <img id="tableOneIcon425" src={danfosEasyPlan4} className="tableOneIcon4"
+                                         loading="lazy"/>
                                 </div>
                             </Slider>
                         </div>
@@ -389,17 +494,13 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    Danfoss Veria EasyPlan
+                                    {sliderComponentDataText.sliderSix.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
-                                <p className="bootstrap__tableText marginBottom">The Flash epoch is over and it’s a
-                                    right time to switch your application to an up-to-date framework. Danfoss Veria
-                                    EasyPlan is a convenient web app allowing house builders and end customers to plan
-                                    usage of heating mats from one of the world leaders in the field of smart home
-                                    solutions. Our product is fully responsive, in addition all needed calculations are
-                                    provided on the front end side, making EasyPlan quite a refined product.
+                                <p className="bootstrap__tableText marginBottom">
+                                    {sliderComponentDataText.sliderSix.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -453,16 +554,14 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    TOTAL Safety Circle
+                                    {sliderComponentDataText.sliderSeven.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
-                                <p className="bootstrap__tableText marginBottom">Total Safety Circle is a custom web
-                                    product developed for Total Energy’s promotional campaign. Being created within the
-                                    React / NodeJS framework, the product possessed gamified mechanics which allowed
-                                    users to create so called “safety circles” for people they care, distribute
-                                    invitations and win some incentives.
+                                <p className="bootstrap__tableText marginBottom">
+                                    {sliderComponentDataText.sliderSeven.sliderText}
+
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture
@@ -516,18 +615,12 @@ const SliderComponent = () => {
                                     SaaS Development Services
                                 </h1>
                                 <h2 className="bootstrap__tableTitle bootstrap__marginTop40">
-                                    The Loko-Moko Game
+                                    {sliderComponentDataText.sliderEight.sliderTitle}
                                 </h2>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Idea
                                 </h3>
-                                <p className="bootstrap__tableText marginBottom">This web application has been developed
-                                    to promote products under the Loko-Moko Brand for Lactalis, the Global producer of
-                                    whey and milk products.
-                                    Using a popular Rio cartoon theme we’ve developed a custom UI design and back end
-                                    for a promotional game app which allowed users to spend some nice time and learn
-                                    more about Loko-Moko line. Opening new game levels needed usage of a special promo
-                                    code, thus online activity was unified with BTL events.
+                                <p className="bootstrap__tableText marginBottom">{sliderComponentDataText.sliderEight.sliderText}
                                 </p>
                                 <h3 className="bootstrap__tableTwoTitle">
                                     Tech Picture

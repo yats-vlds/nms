@@ -11,10 +11,37 @@ import total from "../assets/logo/Total.svg";
 import lactalis from "../assets/logo/lactalis.svg";
 import head from "../assets/Head.svg"
 import agri from "../assets/logo/AGRII.svg"
+import {JsonLd} from "react-schemaorg";
 
 
 
 const Why = ({id}) => {
+    const WhySchema = ({whyDataText}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'WhySchema',
+                    titleOne:  whyDataText.titleOne,
+                    titleTwoTitle: whyDataText.titleTwoTitle,
+                    titleTwoText: whyDataText.titleTwoText,
+                    titleThreeTitle: whyDataText.titleThreeTitle,
+                    titleThreeText: whyDataText.titleThreeText,
+                    titleFourTitle: whyDataText.titleFourTitle,
+                    titleFourText: whyDataText.titleFourText
+                }}
+            />
+        )
+    }
+    const whyDataText = {
+        titleOne: "Because they trust",
+        titleTwoTitle: "Cost-efficient",
+        titleTwoText: "Talented Team based in the Eastern Europe",
+        titleThreeTitle: "Solution orriented",
+        titleThreeText: "Mathing your business needs",
+        titleFourTitle: "Professional",
+        titleFourText: "Skilful developers working with a wide range of technologies"
+    }
     return (
         <div className="why__me" id={id}>
             <div className="why__meSloy">
@@ -37,13 +64,14 @@ const Why = ({id}) => {
                             </div>
                         </div>
                         <div className="col-6 why__meContentRight">
-                            <h1 className="whyme__titleFirst">Because they trust</h1>
-                            <h2 className="whyme__title">Cost-efficient</h2>
-                            <p className="whyme__text">Talented Team based in the Eastern Europe</p>
-                            <h2 className="whyme__title">Solution orriented</h2>
-                            <p className="whyme__text">Mathing your  business needs</p>
-                            <h2 className="whyme__title">Professional</h2>
-                            <p className="whyme__text"> Skilful developers working with a wide range of technologies</p>
+                            <WhySchema whyDataText={whyDataText} />
+                            <h1 className="whyme__titleFirst">{whyDataText.titleOne}</h1>
+                            <h2 className="whyme__title">{whyDataText.titleTwoTitle}</h2>
+                            <p className="whyme__text">{whyDataText.titleTwoText}</p>
+                            <h2 className="whyme__title">{whyDataText.titleThreeTitle}</h2>
+                            <p className="whyme__text">{whyDataText.titleThreeText}</p>
+                            <h2 className="whyme__title">{whyDataText.titleFourTitle}</h2>
+                            <p className="whyme__text">{whyDataText.titleFourText}</p>
                         </div>
                     </div>
                 </div>

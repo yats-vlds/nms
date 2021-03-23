@@ -2,9 +2,9 @@ import React from 'react'
 import "./StarProject.css"
 import background from "../assets/back.svg"
 import iconDown from "../assets/iconDown.svg"
-
+import {JsonLd} from "react-schemaorg";
 import {Link} from "react-router-dom";
-import backStar from "../assets/backStarProject.svg";
+
 import {Tween} from "react-gsap";
 import circleIcons1 from "../assets/vectorImg/vectorSmart1.svg";
 import circleIcons2 from "../assets/vectorImg/vectorSmart2.svg";
@@ -19,6 +19,26 @@ import circleIcons10 from "../assets/vectorImg/vectorSmart10.svg";
 
 
 const StarProject = ({id, ellipse, setEllipse}) => {
+    const StarProjectSchema = ({customTitleData}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'StarProjectSchema',
+                    titleOne: customTitleData.titleOne,
+                    titleTwo: customTitleData.titleTwo,
+                    titleThree: customTitleData.titleThree,
+                }}
+            />
+        )
+    }
+
+    const customTitleData = {
+        titleOne: "Custom SaaS",
+        titleTwo: "Web Development",
+        titleThree: "UI/UX Design"
+    }
+
     return (
         <div className="star__project container-fluid">
             <div className="container-fluid star__projectSloy" id={id}>
@@ -26,14 +46,17 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                     <div className="star__projectRowContent container">
                         <div className="row start__projectRowContentInfo">
                             <div className="col-6 star__projectRowContentLeft">
+                                <StarProjectSchema
+                                    customTitleData={customTitleData}
+                                />
                                 <h1 className="star__projectLeftTitle"><Link to='/custom' className="link__starPorject">
-                                    Custom SaaS <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
+                                    {customTitleData.titleOne} <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
                                 <h1 className="star__projectLeftTitle"><Link to='/mobile-and-web'
                                                                              className="link__starPorject">
-                                    Web Development <img className="iconDown img-fluid"
+                                    {customTitleData.titleTwo} <img className="iconDown img-fluid"
                                                          src={iconDown}/> </Link></h1>
-                                <h1 className="star__projectLeftTitle"><Link to='/ui-ux' className="link__starPorject">UI/UX
-                                    Design <img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
+                                <h1 className="star__projectLeftTitle"><Link to='/ui-ux' className="link__starPorject">
+                                    {customTitleData.titleThree}<img className="iconDown img-fluid" src={iconDown}/> </Link></h1>
                             </div>
                             <div className="col-6 star__projectRowContentRight">
                                 <div className="container-for-iconVector"

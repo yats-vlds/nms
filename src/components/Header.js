@@ -5,8 +5,29 @@ import {NavLink} from "react-router-dom";
 import LazyLoad from "react-lazy-load"
 import {HashLink} from "react-router-hash-link";
 import "./Header.css"
+import {JsonLd} from "react-schemaorg";
 
 const Header = () => {
+    const LinkSchema = ({links}) => {
+        return (
+            <JsonLd
+                item={{
+                    "@context": "https://schema.org",
+                    '@type': 'HeaderSchema',
+                    linkOne: links.linkOne,
+                    linkTwo: links.linkTwo,
+                    linkThree: links.linkThree,
+                }}
+            />
+        )
+    }
+
+    const links = {
+        linkOne: "Expertise",
+        linkTwo: "Why are we",
+        linkThree: "Works",
+        linkFour: "Contacts"
+    }
     return (
         <div className="header">
             <div className="container header__container">
@@ -19,31 +40,32 @@ const Header = () => {
                         </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">
+                        <LinkSchema links={links} />
                         <HashLink
                             to="/#expertise"
                             className="header__link"
                             smooth
                         >
-                            Expertise
+                            {links.linkOne}
                         </HashLink>
                         <HashLink
                             to="/#why"
                             className="header__link"
                         >
-                            Why are we
+                            {links.linkTwo}
                         </HashLink>
                         <HashLink
                             to="/#carouselExampleIndicators_1"
                             className="header__link"
                         >
-                            Works
+                            {links.linkThree}
                         </HashLink>
                     </div>
                     <div className="col-1 header__navRight">
                         <HashLink
                             to="/#contacts"
                             className="header__link header__linkContacts">
-                            Contacts
+                            {links.linkFour}
                         </HashLink>
                     </div>
                 </div>
