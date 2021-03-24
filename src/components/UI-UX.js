@@ -5,7 +5,7 @@ import iconDown from "../assets/iconDown.svg";
 const UI_UX = () => {
     return (
         <>
-            <h1 className="customTitle">
+            <h1 className="customTitleFirst">
                 UI/UX Design Services
             </h1>
             <p>

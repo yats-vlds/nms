@@ -874,6 +874,13 @@ h1.star__projectLeftTitle {
     }
 }
 
+@media(max-width: 415px) {
+    .btnStar, .btnStarMovement {
+        margin-top: 2.7rem;
+        margin-left: 2rem;
+    }
+}
+
 @media (max-width: 376px) {
     .container-for-iconVector {
         width: 40px !important;

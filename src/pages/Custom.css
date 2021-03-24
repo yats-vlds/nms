@@ -62,7 +62,7 @@
     margin-top: 3rem;
 }
 
-.customTitle {
+.customTitle, .customTitleFirst {
     font-weight: bold;
 }
 
@@ -363,7 +363,7 @@
 
     .iconCustomBack {
         width: 2.3rem;
-        margin-left: 7rem;
+        margin-left: 0rem;
     }
 
     .iconCustomWifi {
@@ -374,33 +374,34 @@
         width: 13rem;
         height: 7rem;
         margin-left: 16rem;
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 
     .iconCustomContacts {
         width: 13rem;
         height: 9rem;
-        margin-left: 12rem;
-        margin-top: 5rem;
+        margin-left: 14rem;
+        margin-top: 4rem;
     }
 
     .iconCustomHome {
         width: 17rem;
         height: 9rem;
-        margin-left: 9rem;
-        margin-top: 15rem;
+        margin-left: 4rem;
+        margin-top: 16rem;
     }
 
     .iconCustomCall {
         width: 20rem;
         height: 20rem;
         margin-left: 5rem;
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
+
 
     .iconCustomSetting {
         width: 20rem;
-        height: 20rem;
+        height: 23rem;
         margin-left: 14rem;
         margin-right: 10rem;
     }
@@ -418,6 +419,10 @@
         height: 20rem;
         margin-left: 8rem;
         margin-right: 10rem;
+    }
+
+    .custom__leftTitle {
+        font-size: 4rem;
     }
 }
 
@@ -517,65 +522,68 @@
     }
 
     .iconCustomMessage {
-        width: 3rem;
-        margin-top: 6rem;
-        margin-left: -4rem;
+        width: 2rem;
+        margin-top: 4rem;
+        margin-left: -10rem;
     }
 
     .iconCustomBack {
-        width: 2.5rem;
-        margin-left: 2rem;
+        width: 2.2rem;
+        margin-left: -1rem;
+        margin-top: 5rem;
     }
 
     .iconCustomWifi {
         width: 14rem;
-        margin-left: -4rem;
+        margin-left: -9rem;
+        margin-top: 2rem;
     }
 
     .iconCustomCamera {
         width: 13rem;
-        height: 8rem;
-        margin-left: 10rem;
+        height: 7rem;
+        margin-left: 9rem;
+        margin-top: 4rem;
     }
 
     .iconCustomContacts {
         width: 13rem;
         height: 8rem;
         margin-left: 15rem;
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 
     .iconCustomHome {
-        width: 14rem;
+        width: 10rem;
         height: 9rem;
         margin-left: -3rem;
-        margin-top: 11rem;
+        margin-top: 14rem;
     }
 
     .iconCustomCall {
         width: 17rem;
         height: 17rem;
-        margin-left: -2rem;
-        margin-top: 10rem;
+        margin-left: -2.5rem;
+        margin-top: 12rem;
     }
 
     .iconCustomSetting {
         width: 17rem;
-        height: 17rem;
-        margin-left: 7rem;
+        height: 22rem;
+        margin-left: 8rem;
         margin-right: 10rem;
     }
 
     .iconCustomBrowser {
-        width: 17rem;
+        width: 14rem;
         height: 13rem;
-        margin-left: 10rem;
+        margin-left: 13rem;
         margin-right: 10rem;
     }
 
     .iconCustomMessage2 {
-        width: 17rem;
-        height: 17rem;
+        width: 15rem;
+        height: 20rem;
         margin-left: 3rem;
         margin-right: 10rem;
     }
@@ -611,8 +619,12 @@
         margin-bottom: 2rem !important;
     }
 
+    .customTitleFirst {
+        font-size: 0.9rem;
+    }
+
     .customTitle {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     li {
@@ -789,16 +801,11 @@
     }
 }
 
-@media (max-width: 412px) {
-    .customLeft {
-        margin-left: 0.5rem;
-    }
-}
-
-@media (max-width: 376px) {
+@media (max-width: 426px) {
     .customLeft {
         margin-left: 0rem;
     }
+
     .custom {
         padding-top: 2rem;
         margin-bottom: 1.5rem !important;
@@ -857,7 +864,9 @@
     }
 
     .btnCustom-fourSloyTitle {
-        font-size: 3px;
+        font-size: 5px;
+        padding: 0.17rem;
+        padding-top: 0.25rem;
     }
 
     /*.ellipse-btnStarBefore {*/
@@ -884,17 +893,17 @@
         height: fit-content;
     }
 
-    .customTitle {
-        font-size: 0.6rem;
-    }
-
     li {
         font-size: 0.3rem;
         line-height: 0.3rem;
     }
 
+    .customTitleFirst {
+        font-size: 0.9rem;
+    }
+
     .customTitle {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
 
     /* ICON */
@@ -983,6 +992,16 @@
 
     .customLeft {
         margin-left: 0rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .customTitleFirst {
+        font-size: 0.7rem;
+    }
+
+    .customTitle {
+        font-size: 0.6rem;
     }
 }
 
@@ -1100,73 +1119,15 @@
         margin-top: 0rem;
     }
 
-    /*.iconCustomMessage {*/
-    /*    width: 0.8rem;*/
-    /*    margin-top: -3rem;*/
-    /*    margin-left: -12rem;*/
-    /*}*/
-    /*.iconCustomBack {*/
-    /*    width: 0.8rem;*/
-    /*    margin-left: -7.5rem;*/
-    /*    margin-top: -2rem;*/
-    /*}*/
-    /*.iconCustomWifi {*/
-    /*    width: 4.3rem;*/
-    /*    margin-left: -9rem;*/
-    /*    margin-top: -4rem;*/
-    /*}*/
-    /*.iconCustomCamera {*/
-    /*    width: 4.5rem;*/
-    /*    height: 3.4rem;*/
-    /*    margin-left: 9rem;*/
-    /*    margin-top: -5rem;*/
-    /*}*/
-    /*.iconCustomContacts {*/
-    /*    width: 4.5rem;*/
-    /*    height: 3.4rem;*/
-    /*    margin-left: 15rem;*/
-    /*    margin-top: -5rem;*/
-    /*}*/
-    /*.iconCustomCall {*/
-    /*    width: 4.5rem;*/
-    /*    height: 4.5rem;*/
-    /*    margin-left: -1.5rem;*/
-    /*    margin-top: 13rem;*/
-    /*}*/
-    /*.iconCustomSetting {*/
-    /*    width: 4.5rem;*/
-    /*    height: 4.5rem;*/
-    /*    margin-left: 11rem;*/
-    /*    margin-right: 10rem;*/
-    /*    margin-top: 3rem;*/
-    /*}*/
-    /*.iconCustomMessage2 {*/
-    /*    width: 4.5rem;*/
-    /*    height: 4.5rem;*/
-    /*    margin-left: 8.5rem;*/
-    /*    margin-right: 10rem;*/
-    /*}*/
-    /*.iconCustomContacts {*/
-    /*    width: 4.5rem;*/
-    /*    height: 3.4rem;*/
-    /*    margin-left: 13rem;*/
-    /*    margin-top: -4rem;*/
-    /*}*/
-    /*.iconCustomHome {*/
-    /*    width: 4.6rem;*/
-    /*    height: 3.4rem;*/
-    /*    margin-left: -7rem;*/
-    /*    margin-top: 11rem;*/
-    /*}*/
-    /*.iconCustomBrowser {*/
-    /*    width: 5.7rem;*/
-    /*    height: 4.6rem;*/
-    /*    margin-left: 14rem;*/
-    /*    margin-right: 10rem;*/
-    /*    margin-top: -4rem;*/
-    /*}*/
     p {
         margin-top: 0;
         margin-bottom: 0.2rem;
+    }
+
+    .customTitleFirst {
+        font-size: 0.63rem;
+    }
+    .customTitle {
+        font-size: 0.55rem;
     }
 }

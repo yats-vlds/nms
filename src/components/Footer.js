@@ -23,7 +23,7 @@ const Footer = ({id}) => {
     const footerDataText = {
         location: "Team based in Kyiv, Ukraine",
         telephone: "+38 067 217 91 94",
-        email: "dev@nms-group.family",
+        email: "team@nms-group.family",
     }
     return (
         <>

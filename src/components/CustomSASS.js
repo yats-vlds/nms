@@ -5,7 +5,7 @@ import iconDown from "../assets/iconDown.svg";
 const CustomSASS = () => {
     return (
         <>
-            <h1 className="customTitle">
+            <h1 className="customTitleFirst">
                 SaaS Software Development
             </h1>
             <p>

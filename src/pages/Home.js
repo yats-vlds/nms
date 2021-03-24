@@ -41,7 +41,7 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
     return (
         <>
             <SEO
-                title={"NMS {dev}"}
+                title={"Home"}
                 thumbnail={logo}
                 url={"https://nms-group.family/"}
             />

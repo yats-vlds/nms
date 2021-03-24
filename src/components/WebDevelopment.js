@@ -5,7 +5,7 @@ import iconDown from "../assets/iconDown.svg";
 const WebDevelopment = () => {
     return (
         <>
-            <h1 className="customTitle">
+            <h1 className="customTitleFirst">
                 Web Development
             </h1>
             <p>
