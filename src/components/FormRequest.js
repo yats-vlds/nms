@@ -5,6 +5,7 @@ import fromPryam1 from "../assets/formPryam1.svg"
 import fromPryam2 from "../assets/fromPryam2.png"
 import fromPryam3 from "../assets/formPryam3.svg"
 import {JsonLd} from "react-schemaorg";
+import emailjs from 'emailjs-com'
 
 const FormRequest = () => {
     const [ellipse, setEllipse] = useState(false)
@@ -24,6 +25,17 @@ const FormRequest = () => {
         titleStart: "Start your product development",
         titleEnd: "right now."
     }
+
+    let sendEmail = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
     return (
         <div className="formRequest">
         <div className="container">
@@ -41,12 +53,13 @@ const FormRequest = () => {
                     <div className="form-request">
                         <div className="card justify-content-center">
                             <div className="form justify-content-center">
-                                <form className="form-input">
-                                    <input type="text" className="input" placeholder="Name"/>
-                                    <input type="email" className="input" placeholder="Email"/>
-                                    <textarea rows="10" cols="45" name="text" placeholder="Message"/>
+                                <form className="form-input" onSubmit={sendEmail}>
+                                    <input type="text" className="input" placeholder="Name" name="to_name"/>
+                                    <input type="email" className="input" placeholder="Email" name="to_email"/>
+                                    <textarea rows="10" cols="45" name="text" placeholder="Message" name="message" />
                                     <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
                                     <input name="myFile" type="file" className="input-file"/>
+                                    <input type="submit" value="Send" />
                                 </form>
                             </div>
                         </div>
