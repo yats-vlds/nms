@@ -129,6 +129,13 @@
     }
 }
 
+@media(max-width: 569px) {
+    .header__link {
+        margin-right: 0.35rem;
+        font-size: 0.45rem;
+        padding-top: 0.4rem !important;
+    }
+}
 
 @media(max-width: 499px) {
     .header__link {
