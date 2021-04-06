@@ -31,6 +31,7 @@ const FormRequest = () => {
         emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
             .then((result) => {
                 console.log(result.text);
+                setEllipse(!ellipse)
             }, (error) => {
                 console.log(error.text);
             });
@@ -59,7 +60,7 @@ const FormRequest = () => {
                                     <textarea rows="10" cols="45" name="text" placeholder="Message" name="message" />
                                     <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
                                     <input name="myFile" type="file" className="input-file"/>
-                                    <input type="submit" value="Send" />
+                                    <input type="submit" value="Send" className="submit-form" />
                                 </form>
                             </div>
                         </div>
@@ -73,7 +74,7 @@ const FormRequest = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className={ellipse ? "ellipse-btnFormAfter" : "ellipse-btnFormBefore"} onClick={() => setEllipse(!ellipse)}>
+                            <div className={ellipse ? "ellipse-btnFormAfter" : "ellipse-btnFormBefore"}>
                             </div>
                         </div>
                     </div>

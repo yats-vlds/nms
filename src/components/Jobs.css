@@ -748,6 +748,51 @@
 
 }
 
+@media (max-width: 927px) {
+    .tableTwoIcon3Slider2 {
+        margin-left: 4rem;
+        position: relative;
+        z-index: 11;
+        width: 465px;
+        height: 990px;
+        margin-top: -53rem;
+        object-fit: contain;
+    }
+
+    .tableTwoIcon2 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 11;
+        width: 498px;
+        height: 700px;
+        margin-top: -45rem;
+    }
+
+    .tableTwoIcon1 {
+        position: relative;
+        z-index: 10;
+        width: 536px;
+        height: 677px;
+        padding-top: 1rem;
+    }
+    .tableOneIcon2 {
+        margin-left: 1.5rem;
+        position: relative;
+        z-index: 10;
+        width: 518px;
+        height: 816px;
+        padding-top: 17rem;
+    }
+    .tableOneIcon1 {
+        margin-left: 2rem;
+        position: relative;
+        z-index: 10;
+        width: 554px;
+        height: 658px;
+        padding-top: 6rem;
+    }
+}
+
 @media (max-width: 813px) {
     .tableOneIcon4 {
         position: relative;
@@ -1448,7 +1493,7 @@
     }
 }
 
-@media(max-width: 569px) {
+@media (max-width: 569px) {
     img#iconLEAMUM {
         margin-left: 4rem;
         position: relative;
@@ -1485,6 +1530,25 @@
     }
 }
 
+@media (max-width: 391px) {
+    .tableTwoIcon1 {
+        position: relative;
+        z-index: 10;
+        width: 228px;
+        height: 374px;
+        margin-top: -5rem;
+    }
+
+    .tableTwoIcon2 {
+        margin-left: 1rem;
+        position: relative;
+        z-index: 11;
+        width: 202px;
+        height: 532px;
+        margin-top: -24.5rem;
+    }
+}
+
 @media (max-width: 376px) {
     .bootstrap__table {
         height: 347px !important;
@@ -1518,6 +1582,7 @@
         width: 42rem;
         height: 45.5rem;
     }
+
     .bootstrap__tableTitleFirst {
         font-size: 0.7rem !important;
     }

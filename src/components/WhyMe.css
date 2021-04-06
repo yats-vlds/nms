@@ -907,16 +907,16 @@
     }
     .agri {
         width: 2rem;
-        height: 14.6rem;
-        margin-top: -35rem;
-        margin-left: 7.5rem;
+        height: 3.6rem;
+        margin-top: -33rem;
+        margin-left: 0.5rem;
         transform: rotate(
                 79deg
         );
-        margin-bottom: -24rem;
-        padding-top: 12rem;
+        /* margin-bottom: -24rem; */
+        padding-top: 0rem;
         background-size: 100%;
-        animation: iconRotates 7s linear infinite;
+        animation: iconRotate 7s linear infinite;
     }
     .head {
         width: 7rem;

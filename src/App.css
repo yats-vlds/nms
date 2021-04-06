@@ -62,23 +62,29 @@
     }
 }
 
-@media (max-width: 426px) {
-    .scroll {
-        height: 7.5rem;
-        margin-top: 0.2rem;
-    }
-
+@media (max-width: 429px) {
     .scroll__text {
-        font-size: .325rem !important;
-        padding-bottom: 0.1rem;
+        font-size: .525rem !important;
+        padding-bottom: 0rem;
     }
 
     .scroll__border {
         width: 1px;
-        height: 2.4rem;
-        border-left: 0.1px solid gray;
-        margin-top: 1.8rem;
-        margin-bottom: -0.5rem;
+        height: 3.5rem;
+        border-left: 1px solid gray;
+        margin-top: 1.9rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@media(max-width: 415px) {
+    .scroll {
+        height: 9rem;
+        margin-top: 0.7rem;
+    }
+    .scroll__text {
+        font-size: .525rem !important;
+        padding-bottom: 0.1rem;
     }
 }
 

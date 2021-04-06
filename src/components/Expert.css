@@ -1115,13 +1115,126 @@
         padding-top: 21rem !important;
     }
     .animateHorse {
-        margin-left: 0rem;
+        margin-left: -1rem;
     }
 }
 
 @media(max-width: 391px) {
     .animateHorse {
         margin-left: -1rem;
+    }
+    .stone {
+        width: 1.3rem !important;
+        height: 1.3rem !important;
+    }
+
+    .line {
+        width: 7rem !important;
+        height: 7rem !important;
+        margin-top: -3.1rem !important;
+        margin-left: -4.3rem !important;
+    }
+
+    .scalesRocket {
+        height: 35.6rem !important;
+        width: 11rem !important;
+        margin-top: -17.7rem;
+        margin-left: -9.5rem !important;
+        animation: scalesRocket376 7s infinite !important;
+    }
+
+    .scalesRocketRight {
+        height: 6.6rem !important;
+        width: 2.5rem !important;
+        margin-left: -0.5rem !important;
+        margin-top: -5.5rem;
+        animation: scalesRocketRight376 7s infinite !important;
+    }
+
+    .rocket {
+        width: 15rem !important;
+        height: 39rem !important;
+        margin-left: -9.5rem !important;
+        animation: rocket376 7s infinite !important;
+    }
+
+    .animateRocket {
+        padding-left: 21.5rem !important;
+    }
+    @-webkit-keyframes scalesRocket376 {
+        0% {
+            margin-top: -19.5rem;
+        }
+        50% {
+            margin-top: -21rem;
+        }
+        100% {
+            margin-top: -19.5rem;
+        }
+    }
+
+    @keyframes scalesRocket376 {
+        0% {
+            margin-top: -19.5rem;
+        }
+        50% {
+            margin-top: -21rem;
+        }
+        100% {
+            margin-top: -19.5rem;
+        }
+    }
+    @-webkit-keyframes rocket376 {
+        0% {
+            margin-top: -23.5rem;
+        }
+        50% {
+            margin-top: -20.2rem;
+        }
+        65% {
+            margin-top: -23.5rem;
+        }
+        100% {
+            margin-top: -23.5rem;
+        }
+    }
+
+    @keyframes rocket376 {
+        0% {
+            margin-top: -23.5rem;
+        }
+        50% {
+            margin-top: -20.4rem;
+        }
+        65% {
+            margin-top: -23.5rem;
+        }
+        100% {
+            margin-top: -23.5rem;
+        }
+    }
+    @-webkit-keyframes scalesRocketRight376 {
+        0% {
+            margin-top: -4.6rem;
+        }
+        50% {
+            margin-top: -2.9rem;
+        }
+        100% {
+            margin-top: -4.6rem;
+        }
+    }
+
+    @keyframes scalesRocketRight376 {
+        0% {
+            margin-top: -4.6rem;
+        }
+        50% {
+            margin-top: -2.9rem;
+        }
+        100% {
+            margin-top: -4.6rem;
+        }
     }
 }
 

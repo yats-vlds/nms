@@ -197,6 +197,14 @@ textarea {
     margin-top: -2rem;
     margin-left: -9rem;
 }
+.submit-form {
+    position: absolute;
+    margin-top: 88.5%;
+    margin-left: 29%;
+    width: 10%;
+    height: 7%;
+    opacity: 0;
+}
 
 @media (max-width: 1025px) {
     .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
@@ -337,6 +345,13 @@ textarea {
 }
 
 @media (max-width: 601px) {
+    .submit-form {
+        position: absolute;
+        margin-top: 99.5%;
+        margin-left: 29%;
+        width: 10%;
+        height: 7%;
+    }
     .card {
         border-radius: 13px;
     }
@@ -548,6 +563,14 @@ textarea {
     textarea {
         border-radius: 8px !important;
         padding: 0.37rem !important;
+    }
+
+    .submit-form {
+        position: absolute;
+        margin-top: 110.5%;
+        margin-left: 29%;
+        width: 10%;
+        height: 7%;
     }
 
 }
