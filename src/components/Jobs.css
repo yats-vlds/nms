@@ -406,6 +406,7 @@
     margin-bottom: 90px;
 }
 
+
 @media (min-width: 1600px) {
     .tableTwoIcon1, .tableTwoIcon2 {
         width: 650px;
@@ -782,14 +783,6 @@
         width: 518px;
         height: 816px;
         padding-top: 17rem;
-    }
-    .tableOneIcon1 {
-        margin-left: 2rem;
-        position: relative;
-        z-index: 10;
-        width: 554px;
-        height: 658px;
-        padding-top: 6rem;
     }
 }
 

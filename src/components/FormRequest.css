@@ -10,7 +10,7 @@
     margin-right: auto;
     width: 33rem;
     height: 30rem;
-    margin-top: -1.7rem
+    margin-top: -2.7rem
 }
 
 .form-header-title {
@@ -51,6 +51,12 @@
     color: blue;
     font-weight: bold;
     margin-top: 3rem;
+}
+.from-pryam4Safari {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 6rem;
+    text-decoration: underline;
 }
 
 .card {
@@ -262,7 +268,7 @@ textarea {
         border-radius: 16px;
     }
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
         width: 36rem;
     }
 
@@ -291,7 +297,7 @@ textarea {
         padding-top: 3rem;
     }
 
-    .from-pryam4 {
+    .from-pryam4, .from-pryam4Safari {
         margin-top: 2rem;
     }
 
@@ -373,7 +379,7 @@ textarea {
         font-size: 0.7rem;
     }
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
         width: 23rem;
     }
 
@@ -392,7 +398,7 @@ textarea {
         margin-left: 2.3rem;
     }
 
-    .from-pryam4 {
+    .from-pryam4. .from-pryam4Safari {
         font-size: 18px;
         margin-top: 1.3rem;
     }
@@ -476,10 +482,22 @@ textarea {
     }
 }
 
+@media(max-width: 426px) {
+    .from-pryam4Safari {
+        margin-bottom: 5rem;
+    }
+    .from-pryam4Safari, .from-pryam4  {
+        font-size: 16px;
+    }
+    .from-pryam4, .from-pryam4Safari {
+        margin-top: 1.5rem;
+    }
+}
+
 @media (max-width: 376px) {
     .formRequest {
         width: 100%;
-        margin-top: 0rem;
+        margin-top: -1.2rem;
     }
 
     .form-request, .card, .form {
@@ -505,12 +523,16 @@ textarea {
         font-size: 7px;
     }
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
         width: 16rem;
     }
+    .from-pryam4Safari {
+        margin-bottom: 4rem;
+    }
 
-    .from-pryam4 {
+    .from-pryam4, .from-pryam4Safari  {
         font-size: 12px;
+        margin-top: 1rem;
     }
 
     .form__skrepka {
@@ -557,7 +579,12 @@ textarea {
     }
 
     .form-header-title {
-        margin-bottom: 1rem;
+        position: relative;
+        z-index: 2;
+        width: 75%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     textarea {
@@ -599,7 +626,7 @@ textarea {
         font-size: 7px;
     }
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4 {
+    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
         width: 15rem;
     }
 

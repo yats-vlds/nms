@@ -40,8 +40,8 @@ const StarProject = ({id, ellipse, setEllipse}) => {
     }
 
     return (
-        <div className="star__project container-fluid">
-            <div className="container-fluid star__projectSloy" id={id}>
+        <div className="star__project">
+            <div className="star__projectSloy" id={id}>
                 <div className="star__projectROW">
                     <div className="star__projectRowContent container">
                         <div className="row start__projectRowContentInfo">

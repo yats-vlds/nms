@@ -26,24 +26,20 @@
 .ten__content {
     position: absolute;
     z-index: 3;
-    width: 100%;
 }
 
 .ten__contentLeftTitle {
-    padding-top: 16rem;
-    padding-left: 6rem;
+    padding-top: 45%;
     color: #ffffff;
     font-weight: bold;
 }
 
 .ten__yog {
     position: absolute;
-    height: 585px;
+    height: 70%;
     object-fit: contain;
-    width: 570px;
-    margin-left: 48rem;
-    margin-top: 5rem;
-    -webkit-animation: tenyog 1.2s infinite;
+    width: 46%;
+    margin-left: 44%;
     animation: tenyog 1.2s infinite;
 }
 
@@ -75,14 +71,14 @@
     position: absolute;
     z-index: 9999;
     background-color: #3f00fd;
-    width: 123px;
-    height: 30px;
+    width: 8%;
+    height: 4%;
     opacity: 0.3;
     border-radius: 110px / 30px;
-    margin-top: -15rem;
-    margin-left: 62rem;
-    /*-webkit-animation: tenellipse 1.2s infinite;*/
-    /*animation: tenellipse 1.2s infinite;*/
+    margin-top: -17%;
+    margin-left: 63%;
+    /* -webkit-animation: tenellipse 1.2s infinite; */
+    /* animation: tenellipse 1.2s infinite; */
 }
 
 /*@-webkit-keyframes tenellipse{*/
@@ -132,13 +128,12 @@
     }
 }
 
-@media (max-width: 1371px) {
+@media(max-width: 1201px) {
     .ten__contentLeftTitle {
-        padding-top: 20rem;
-        padding-left: 6rem;
+        padding-top: 53%;
         color: #ffffff;
         font-weight: bold;
-        font-size: 3.7rem;
+        font-size: 55px;
     }
 }
 
@@ -148,8 +143,7 @@
     }
 
     .ten__contentLeftTitle {
-        padding-top: 10.5rem;
-        padding-left: 2rem;
+        padding-top: 36%;
         color: #ffffff;
         font-weight: bold;
         font-size: 45px;
@@ -161,16 +155,17 @@
 
     .ten__yog {
         position: absolute;
-        height: 329px;
+        height: 300px;
         object-fit: contain;
         width: 540px;
-        margin-left: 30rem;
+        margin-left: 24rem;
+        margin-top: 3.5rem;
         animation: tenyog1024 2s infinite !important;
     }
 
     .ellipse {
         margin-top: -9rem;
-        margin-left: 43.5rem;
+        margin-left: 38.5rem;
         animation: tenellipse1024 2s infinite !important;
     }
 
@@ -198,31 +193,57 @@
     /*}*/
     @-webkit-keyframes tenyog1024 {
         0% {
-            margin-top: 2rem;
+            margin-top: 3.5rem;
         }
         50% {
-            margin-top: 2.5rem;
+            margin-top: 4rem;
         }
         100% {
-            margin-top: 2rem;
+            margin-top: 3.5rem;
         }
     }
 
     @keyframes tenyog1024 {
         0% {
-            margin-top: 2rem;
+            margin-top: 3.5rem;
         }
         50% {
-            margin-top: 2.5rem;
+            margin-top: 4rem;
         }
         100% {
-            margin-top: 2rem;
+            margin-top: 3.5rem;
         }
     }
 }
 
+@media (max-width: 992px) {
+    .ten__contentLeftTitle {
+        padding-top: 40%;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 230%;
+    }
+}
 
-@media (max-width: 927px) {
+@media (max-width: 926px) {
+    .ten__yog {
+        position: absolute;
+        height: 300px;
+        object-fit: contain;
+        width: 540px;
+        margin-left: 18rem;
+        margin-top: 3.5rem;
+        animation: tenyog1024 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-top: -9rem;
+        margin-left: 33rem;
+        animation: tenellipse1024 2s infinite !important;
+    }
+}
+
+@media (max-width: 867px) {
     .ten {
         margin-bottom: -96px;
     }
@@ -249,11 +270,10 @@
     }
 
     .ten__contentLeftTitle {
-        padding-top: 8rem;
-        padding-left: 4rem;
+        padding-top: 32%;
         color: #ffffff;
         font-weight: bold;
-        font-size: 38px;
+        font-size: 210%;
     }
 
     /*@-webkit-keyframes tenellipse768{*/
@@ -332,7 +352,6 @@
 
     .ten__contentLeftTitle {
         padding-top: 8rem;
-        padding-left: 4rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 32px;
@@ -388,14 +407,17 @@
 @media (max-width: 813px) {
     .ten__contentLeftTitle {
         padding-top: 8rem;
-        padding-left: 3rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 32px;
     }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 767px) {
+    .ten__contentLeftTitle {
+        font-size: 28px;
+    }
+
     .ten__yog {
         position: absolute;
         height: 220px;
@@ -412,9 +434,47 @@
         height: 16px;
         animation: tenellipse768 2s infinite !important;
     }
+}
+
+@media (max-width: 736px) {
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 15rem;
+        animation: tenyog768 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-left: 27rem;
+        margin-top: -6.6rem;
+        width: 70px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
+    }
 
     .ten__contentLeftTitle {
         font-size: 29px;
+    }
+}
+
+@media(max-width: 676px) {
+    .ten__yog {
+        position: absolute;
+        height: 220px;
+        object-fit: contain;
+        width: 449px;
+        margin-left: 13rem;
+        animation: tenyog768 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-left: 25rem;
+        margin-top: -6.5rem;
+        width: 80px;
+        height: 16px;
+        animation: tenellipse768 2s infinite !important;
     }
 }
 
@@ -429,7 +489,7 @@
     }
 
     .ellipse {
-        margin-left: 24.5rem;
+        margin-left: 24rem;
         margin-top: -6.5rem;
         width: 80px;
         height: 16px;
@@ -438,7 +498,6 @@
 
     .ten__contentLeftTitle {
         padding-top: 8rem;
-        padding-left: 2rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 29px;
@@ -457,7 +516,6 @@
 
     .ten__contentLeftTitle {
         padding-top: 8rem;
-        padding-left: 4rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 24px;
@@ -471,7 +529,6 @@
 
     .ten__contentLeftTitle {
         padding-top: 7rem;
-        padding-left: 3rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 22px;
@@ -538,7 +595,6 @@
 
     .ten__contentLeftTitle {
         padding-top: 4.5rem;
-        padding-left: 1rem;
         font-size: 17px;
     }
 
@@ -593,7 +649,6 @@
 @media (max-width: 391px) {
     .ten__contentLeftTitle {
         padding-top: 4.5rem;
-        padding-left: 1rem;
         font-size: 15px;
     }
 
@@ -660,7 +715,6 @@
     /*}*/
     .ten__contentLeftTitle {
         padding-top: 4.3rem;
-        padding-left: 1rem;
         color: #ffffff;
         font-weight: bold;
         font-size: 15px;

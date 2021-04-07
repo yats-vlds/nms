@@ -144,7 +144,15 @@
     }
 }
 
-@media(max-width: 927px) {
+@media(max-width: 1001px) {
+    .star__projectRowContentRight {
+        width: 50%;
+        padding-top: 5.5rem;
+        margin-left: 0%;
+    }
+}
+
+@media(max-width: 992px) {
     .iconMessage {
         width: 2rem;
         margin-top: 3rem;
@@ -206,7 +214,7 @@
     }
 }
 
-@media(max-width: 769px) {
+@media(max-width: 928px) {
     .iconMessage {
         width: 2rem;
         margin-top: 3rem;

@@ -12,7 +12,7 @@ import lactalis from "../assets/logo/lactalis.svg";
 import head from "../assets/Head.svg"
 import agri from "../assets/logo/AGRII.svg"
 import {JsonLd} from "react-schemaorg";
-
+import { isSafari } from 'react-device-detect';
 
 
 const Why = ({id}) => {
@@ -48,18 +48,18 @@ const Why = ({id}) => {
                 <div className="why__Row">
                     <div className="row why_meContent">
                         <div className="col-6 why__meContentLeft">
-                            <div className="clip-path">
-                                <div className="logo__container">
-                                    <img src={danfoss} className="logo__style danfoss" loading="lazy"/>
-                                    <img src={ct} className="logo__style ct" loading="lazy" />
-                                    <img src={ukt} className="logo__style ukt" loading="lazy" />
-                                    <img src={lactalis} className="logo__style lactalis" loading="lazy" />
-                                    <img src={goPrint} className="logo__style goprint" loading="lazy" />
-                                    <img src={inMore} className="logo__style inmore" loading="lazy" />
-                                    <img src={listery} className="logo__style listery" loading="lazy" />
-                                    <img src={total} className="logo__style total" loading="lazy" />
-                                    <img src={head} className="logo__style head" loading="lazy" />
-                                    <img src={agri} className="logo__style agri" loading="lazy" />
+                            <div className={isSafari && 430 > window.outerWidth ? "clip-pathSafari" : "clip-path"}>
+                                <div className={isSafari && 430 > window.outerWidth ? "logo__containerSafari" : "logo__container"}>
+                                    <img src={danfoss} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "danfossSafari" : "danfoss"}`}  loading="lazy"/>
+                                    <img src={ct} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "ctSafari" : "ct"}`}  loading="lazy" />
+                                    <img src={ukt} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "uktSafari" : "ukt"}`}  loading="lazy" />
+                                    <img src={lactalis} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "lactalisSafari" : "lactalis"}`}  loading="lazy" />
+                                    <img src={goPrint} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "goprintSafari" : "goprint"}`}  loading="lazy" />
+                                    <img src={inMore} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "inmoreSafari" : "inmore"}`}  loading="lazy" />
+                                    <img src={listery} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "listerySafari" : "listery"}`}  loading="lazy" />
+                                    <img src={total} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "totalSafari" : "total"}`}  loading="lazy" />
+                                    <img src={head} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "headSafari" : "head"}`}  loading="lazy" />
+                                    <img src={agri} className={`logo__style ${isSafari &&  430 > window.outerWidth ? "agriSafari" : "agri"}`} loading="lazy" />
                                 </div>
                             </div>
                         </div>

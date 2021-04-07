@@ -30,13 +30,11 @@ const Header = () => {
     }
     return (
         <div className="header">
-            <div className="container header__container">
+            <div className="container">
                 <div className="row header__row">
-                    <div className="col-6">
+                    <div className="col-6 header__leftDivLogo">
                         <NavLink to="/">
-                            <LazyLoad offsetVertical={300}>
                                 <img src={logo} className="header__logo img-fluid" loading="lazy"/>
-                            </LazyLoad>
                         </NavLink>
                     </div>
                     <div className="col-5 header__navLeft">

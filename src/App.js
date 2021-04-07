@@ -8,6 +8,7 @@ import {initialState, reducer} from "./hook/reducer";
 import {useEffect} from "react";
 import Header from "./components/Header";
 
+
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
     const [y, setY] = useState(window.scrollY);
@@ -65,7 +66,6 @@ function App() {
             window.removeEventListener("scroll", handleNavigation);
         };
     }, [handleNavigation]);
-    console.log(window.outerWidth)
     return (
         <Router>
             <Header/>

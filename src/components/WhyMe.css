@@ -6,6 +6,14 @@
     padding-top: 2rem;
 }
 
+.clip-pathSafari {
+    -webkit-clip-path: polygon(49% 0, 100% 0, 100% 100%, 50% 100%);
+    clip-path: polygon(49% 0, 100% 0, 100% 100%, 50% 100%);
+    width: 52rem;
+    height: 66rem;
+    padding-top: 2rem;
+}
+
 .logo__container {
     width: 600px;
     height: 600px;
@@ -214,12 +222,14 @@
     margin-top: -104rem;
     animation: iconRotate 7s linear infinite;
 }
-@media(min-width: 1536px) {
+
+@media (min-width: 1536px) {
     .why__Row {
         max-width: 1536px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .why__meImageBack {
         position: relative;
         z-index: 2;
@@ -228,6 +238,7 @@
         margin-top: -171px;
         filter: blur(35px);
     }
+
     .why_meContent {
         width: auto;
     }
@@ -378,7 +389,7 @@
     }
 }
 
-@media(max-width: 927px) {
+@media (max-width: 927px) {
     .why__me, .why__meSloy {
         height: 500px;
     }
@@ -569,6 +580,7 @@
         animation: iconRotate 7s linear infinite;
         margin-left: -16rem;
     }
+
     .ukrtelecom {
         margin-top: 3rem;
         width: 240px;
@@ -647,7 +659,7 @@
     }
 }
 
-@media(max-width: 737px) {
+@media (max-width: 737px) {
     .logo__container {
         margin-left: -1rem;
     }
@@ -657,6 +669,7 @@
     .clip-path {
         width: 23rem;
     }
+
     .danfoss {
         width: 26rem;
     }
@@ -760,12 +773,14 @@
         margin-left: 7.7rem;
         animation: iconRotate 7s linear infinite;
     }
+
     .head {
         width: 16rem;
         height: 0.7rem;
         margin-top: -29rem;
         animation: iconRotate 7s linear infinite;
     }
+
     .agri {
         width: 4rem;
         height: 14.6rem;
@@ -792,6 +807,15 @@
 }
 
 @media (max-width: 429px) {
+    .clip-pathSafari {
+        width: 9.5rem;
+        padding-top: 1.3rem;
+    }
+
+    .logo__containerSafari {
+        animation: circleIconsdasda 7s linear infinite;
+    }
+
     .why__me, .why__meSloy {
         height: 200px;
     }
@@ -902,9 +926,9 @@
         width: 110px;
         height: 110px;
         margin-left: 2rem;
-        /* margin-bottom: -1rem; */
         margin-top: -1.2rem;
     }
+
     .agri {
         width: 2rem;
         height: 3.6rem;
@@ -918,11 +942,122 @@
         background-size: 100%;
         animation: iconRotate 7s linear infinite;
     }
+
     .head {
         width: 7rem;
         height: 0.4rem;
         margin-top: -19.2rem;
         animation: iconRotate 7s linear infinite;
+    }
+
+    .danfossSafari {
+        margin-top: -2rem;
+        height: 5rem;
+        width: 5rem;
+        margin-left: 4rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .ctSafari {
+        margin-top: -4rem;
+        margin-left: 6rem;
+        width: 2rem;
+        height: 2rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .uktSafari {
+        height: 4rem;
+        width: 4rem;
+        margin-top: -4rem;
+        margin-left: 5rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .lactalisSafari {
+        margin-top: -2.5rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        margin-left: 4.5rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .goprintSafari {
+        width: 6rem !important;
+        height: 5rem !important;
+        margin-top: -4.5rem;
+        margin-left: -2rem;
+        margin-right: 5rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .inmoreSafari {
+        margin-top: -7rem;
+        margin-left: -10.5rem;
+        height: 4rem;
+        width: 4rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .listerySafari {
+        margin-top: -11rem;
+        margin-left: -3.7rem;
+        height: 3rem;
+        width: 3rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .totalSafari {
+        margin-top: -14.2rem;
+        margin-left: -2.7rem;
+        width: 5rem;
+        height: 5rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .logo__container {
+        width: 110px;
+        height: 110px;
+        margin-left: 2rem;
+        /* margin-bottom: -1rem; */
+        margin-top: -1.2rem;
+    }
+
+    .agriSafari {
+        display: none;
+        width: 2rem;
+        height: 3.6rem;
+        margin-top: -33rem;
+        margin-left: 0.5rem;
+        transform: rotate(
+                79deg
+        );
+        /* margin-bottom: -24rem; */
+        padding-top: 0rem;
+        background-size: 100%;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+
+    .headSafari {
+        width: 7rem;
+        height: 0.4rem;
+        margin-top: -19.2rem;
+        animation: iconRotateMistake 7s linear infinite;
+    }
+}
+
+@media (max-width: 376px) {
+    .logo__container {
+        animation: circleIcons 7s linear infinite;
+    }
+
+    .danfossSafari, .ctSafari, .uktSafari, .lactalisSafari, .agriSafari, .headSafari, .totalSafari, .listerySafari, .inmoreSafari, .goprintSafari {
+        animation: iconRotateWithoutAnySafari 7s linear infinite;
+
+    }
+
+    .agri375Safari {
+        display: none;
     }
 }
 

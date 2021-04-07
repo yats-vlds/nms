@@ -25,7 +25,7 @@ const Cap = () => {
                     <div className="row cap__row">
                         <div className="col-7">
                             <CapSchema cap={cap}/>
-                            <h1 className="display-1 cap__leftTitle">{cap.title}</h1>
+                            <h1 className="cap__leftTitle display-1">{cap.title}</h1>
                         </div>
                         <div className="col-5">
                             <LazyLoad offsetVertical={300}>

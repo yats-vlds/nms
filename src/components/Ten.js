@@ -26,16 +26,13 @@ const Ten = () => {
             <img src={tenYog} className="ten__yog"/>
             <div className="ten">
                 <div className="tenSloy">
-                    <div className="ten__ROW">
+                    <div className="ten__ROW container">
                         <div className="row ten__content">
-                            <div className="col-6 ten__contentLeft">
+                            <div className="col-8 ten__contentLeft">
                                 <TenSchema tenDataText={tenDataText}/>
                                 <h1 className="ten__contentLeftTitle display-3">
                                     More than 10 years
                                     in the game!</h1>
-                            </div>
-                            <div className="col-6 ten__contentRight">
-
                             </div>
                         </div>
                     </div>
