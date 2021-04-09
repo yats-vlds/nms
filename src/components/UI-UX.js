@@ -1,10 +1,18 @@
 import React from "react";
 import {HashLink} from "react-router-hash-link";
 import iconDown from "../assets/iconDown.svg";
+import SEO from "../SEO";
+import logo from "../assets/logo.jpg";
 
 const UI_UX = () => {
     return (
         <>
+            <SEO
+                title={"UI/UX Design Services | NMS {dev}"}
+                thumbnail={logo}
+                url={"https://nms-group.family/"}
+                content={"We are an expert in customer digital experience creating engaging and unique design solutions. NMS Team crafts high-quality \"packaging\" for web and mobile products!"}
+            />
             <h1 className="customTitleFirst">
                 UI/UX Design Services
             </h1>

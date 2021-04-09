@@ -899,30 +899,30 @@
         height: 9rem !important;
         margin-top: -4.1rem !important;
         margin-left: -5.3rem !important;
-        animation: line 7s infinite !important;
+        animation: lined 7s infinite !important;
     }
 
     .scalesRocket {
         height: 33.6rem !important;
         width: 15rem !important;
-        margin-top: -17.7rem;
+        margin-top: -19.8rem!important;
         margin-left: -11rem !important;
-        animation: scalesRocket426 7s infinite !important;
+        animation: scalesRocket426d 7s infinite !important;
     }
 
     .scalesRocketRight {
         height: 5.8rem !important;
         width: 3.5rem !important;
         margin-left: 0.4rem !important;
-        margin-top: -5.5rem;
-        animation: scalesRocketRight426 7s infinite !important;
+        margin-top: -4.5rem!important;
+        animation: scalesRocketRight426d 7s infinite !important;
     }
 
     .rocket {
         width: 17rem !important;
         height: 37rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket426 7s infinite !important;
+        animation: rocket426d 7s infinite !important;
     }
 
     @-webkit-keyframes scalesRocket426 {
@@ -987,7 +987,7 @@
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 22rem !important;
+        padding-left: 23rem !important;
         padding-top: 21rem !important;
     }
 
@@ -1149,7 +1149,7 @@
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 19.5rem !important;
+        padding-left: 20rem !important;
         padding-top: 21rem !important;
     }
     .animateHorse {
@@ -1189,7 +1189,7 @@
         width: 11rem !important;
         margin-top: -17.7rem;
         margin-left: -9.5rem !important;
-        animation: scalesRocket376 7s infinite !important;
+        animation: scalesRocket376test 7s infinite !important;
     }
 
     .scalesRocketRight {
@@ -1197,14 +1197,14 @@
         width: 2.5rem !important;
         margin-left: -0.5rem !important;
         margin-top: -5.5rem;
-        animation: scalesRocketRight376 7s infinite !important;
+        animation: scalesRocketRight376test 7s infinite !important;
     }
 
     .rocket {
         width: 15rem !important;
         height: 39rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket376 7s infinite !important;
+        animation: rocket376test 7s infinite !important;
     }
 
     .animateRocket {
@@ -1314,7 +1314,7 @@
         width: 11rem !important;
         margin-top: -17.7rem;
         margin-left: -9.5rem !important;
-        animation: scalesRocket376 7s infinite !important;
+        animation: scalesRocket376d 7s infinite !important;
     }
 
     .scalesRocketRight {
@@ -1322,14 +1322,15 @@
         width: 2.5rem !important;
         margin-left: -0.5rem !important;
         margin-top: -5.5rem;
-        animation: scalesRocketRight376 7s infinite !important;
+        animation: scalesRocketRight376d 7s infinite !important;
     }
 
     .rocket {
         width: 15rem !important;
         height: 39rem !important;
         margin-left: -9.5rem !important;
-        animation: rocket376 7s infinite !important;
+        margin-top: -24rem!important;
+        animation: rocket376d 7s infinite !important;
     }
 
     .animateRocket {
@@ -1432,7 +1433,7 @@
     .img-yog {
         width: 8rem;
         height: 8rem;
-        animation: aligning375 3s infinite;
+        animation: aligning375d 3s infinite;
 
     }
 
@@ -1466,6 +1467,9 @@
     .bootstrap__tableText {
         margin-bottom: 10px !important;
     }
+    .form-request {
+        margin-top: -1.2rem!important;
+    }
 }
 
 @media(max-width: 370px) {
@@ -1475,8 +1479,15 @@
 }
 
 @media (max-width: 361px) {
+    .scalesRocketRight {
+        margin-top: -4.3rem!important;
+        animation: scalesRocketRight376d 7s infinite !important;
+    }
+    .form-request {
+        margin-top: -1.4rem!important;
+    }
     .animateRocket {
-        padding-left: 17.3rem !important;
+        padding-left: 17.4rem !important;
     }
 }
 

@@ -41,9 +41,10 @@ const Home = ({state, dispatch, y, border, scrollUp, scrollDown}) => {
     return (
         <>
             <SEO
-                title={"Home"}
+                title={"Custom Software & SaaS Development  | NMS {dev}"}
                 thumbnail={logo}
                 url={"https://nms-group.family/"}
+                content={"Today the digital revolution is a must for every company! NMS Team has the right spark! Find out how we build custom products and software from concept to live solution!"}
             />
             <div className="scroll">
                 {y < scrollDown && <p className="scroll__text"><small>Scroll Down</small></p>}

@@ -6,9 +6,12 @@ import fromPryam2 from "../assets/fromPryam2.png"
 import fromPryam3 from "../assets/formPryam3.svg"
 import {JsonLd} from "react-schemaorg";
 import {isSafari} from "react-device-detect";
-// import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 const FormRequest = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [textarea, setTextarea] = useState('')
     const [ellipse, setEllipse] = useState(false)
     const FormRequestSchema = ({formRequestDataText}) => {
         return (
@@ -26,16 +29,22 @@ const FormRequest = () => {
         titleStart: "Start your product development",
         titleEnd: "right now."
     }
-    //
+
+    const formRequestDataTextAfter = {
+        titleStart: "Thank you mister a good",
+        titleEnd: "request."
+    }
     let sendEmail = (e) => {
-        //     e.preventDefault()
-        //     emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
-        //         .then((result) => {
-        //             console.log(result.text);
-        //             setEllipse(!ellipse)
-        //         }, (error) => {
-        //             console.log(error.text);
-        //         });
+            e.preventDefault()
+            emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
+                .then((result) => {
+                    setEllipse(!ellipse)
+                    setName('')
+                    setEmail('')
+                    setTextarea('')
+                }, (error) => {
+                    console.log(error.text);
+                });
     }
     return (
         <div className="formRequest">
@@ -45,28 +54,26 @@ const FormRequest = () => {
                         {
                             isSafari ?
                                 <div className="form-header-title">
-                                    <h2 className="from-pryam4Safari text-center">{formRequestDataText.titleStart}
+                                    <h2 className="from-pryam4Safari text-center">{!ellipse ? formRequestDataText.titleStart : formRequestDataTextAfter.titleStart}
                                         <br/>
-                                        {formRequestDataText.titleEnd}</h2>
+                                        {!ellipse ? formRequestDataText.titleEnd : formRequestDataTextAfter.titleEnd}</h2>
                                 </div>
                                 :
                             <div className="form-header-title">
-                            <FormRequestSchema formRequestDataText={formRequestDataText}/>
-                        {/*<img src={fromPryam1} className="from-pryam1" loading="lazy"/>*/}
-                        {/*<img src={fromPryam2} className="from-pryam2" loading="lazy"/>*/}
+                            <FormRequestSchema formRequestDataText={!ellipse ? formRequestDataText : formRequestDataTextAfter }/>
                             <img src={fromPryam3} className="from-pryam1" loading="lazy"/>
-                            <h2 className="from-pryam4 text-center">{formRequestDataText.titleStart}
+                            <h2 className="from-pryam4 text-center">{!ellipse ? formRequestDataText.titleStart : formRequestDataTextAfter.titleStart}
                             <br/>
-                        {formRequestDataText.titleEnd}</h2>
+                                {!ellipse ? formRequestDataText.titleEnd : formRequestDataTextAfter.titleEnd}</h2>
                             </div>
                         }
                         <div className="form-request">
                             <div className="card justify-content-center">
                                 <div className="form justify-content-center">
                                     <form className="form-input" onSubmit={sendEmail}>
-                                        <input type="text" className="input" placeholder="Name" name="to_name"/>
-                                        <input type="email" className="input" placeholder="Email" name="to_email"/>
-                                        <textarea rows="10" cols="45" name="text" placeholder="Message" name="message"/>
+                                        <input type="text" className="input" placeholder="Name" name="to_name" onChange={(e) => setName(e.target.value) } value={name} required/>
+                                        <input type="email" className="input" placeholder="Email" name="to_email" onChange={(e) => setEmail(e.target.value) } value={email} required/>
+                                        <textarea rows="10" cols="45" name="text" placeholder="Message" name="message" onChange={(e) => setTextarea(e.target.value) } value={textarea} required/>
                                         <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
                                         <input name="myFile" type="file" className="input-file"/>
                                         <input type="submit" value="Send" className="submit-form"/>

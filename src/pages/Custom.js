@@ -39,11 +39,6 @@ const Custom = ({type, dispatch}) => {
     }, [ellipse])
     return (
         <div className="custom">
-            <SEO
-                title={type === 'custom' ? "Custom SaaS" : type === "mobile" ? "Web Development" : "UI/UX"}
-                thumbnail={logo}
-                url={"https://nms-group.family/"}
-            />
             <div className="container">
                 <div className="row">
                     <div className="col-6 customLeft">

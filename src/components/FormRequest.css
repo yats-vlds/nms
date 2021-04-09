@@ -94,6 +94,19 @@
     outline: none;
 }
 
+.inputValidation {
+    font-size: 16px;
+    width: 27rem;
+    height: 3rem;
+    border-radius: 29px;
+    background-color: #efefef;
+    border: 3px solid red;
+    margin-bottom: 30px;
+    padding-left: 1rem;
+    outline: none;
+    color: red;
+}
+
 textarea {
     font-size: 16px;
     width: 27rem;
@@ -482,7 +495,7 @@ textarea {
     }
 }
 
-@media(max-width: 426px) {
+@media(max-width: 430px) {
     .from-pryam4Safari {
         margin-bottom: 5rem;
     }
@@ -504,7 +517,6 @@ textarea {
         width: 11rem;
         height: 11rem;
     }
-
     .form-input {
         padding-top: 1rem;
     }
@@ -527,7 +539,7 @@ textarea {
         width: 16rem;
     }
     .from-pryam4Safari {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .from-pryam4, .from-pryam4Safari  {

@@ -105,6 +105,12 @@
     .header__linkContacts {
         margin-left: -150%;
     }
+    .header__logo {
+        margin-bottom: 0%;
+        border-bottom: 11px solid white;
+        border-left: 7px solid white;
+        border-right: 7px solid white;
+    }
 }
 
 @media (max-width: 376px) {

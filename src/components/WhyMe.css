@@ -663,6 +663,9 @@
     .logo__container {
         margin-left: -1rem;
     }
+    .clip-path {
+        width: 23rem;
+    }
 }
 
 @media (max-width: 668px) {
@@ -812,7 +815,7 @@
         padding-top: 1.3rem;
     }
 
-    .logo__containerSafari {
+    .logo__containerSafari, .logo__container {
         animation: circleIconsdasda 7s linear infinite;
     }
 
@@ -862,7 +865,7 @@
         height: 5rem;
         width: 5rem;
         margin-left: 4rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .ct {
@@ -870,7 +873,7 @@
         margin-left: 6rem;
         width: 2rem;
         height: 2rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .ukt {
@@ -878,7 +881,7 @@
         width: 4rem;
         margin-top: -4rem;
         margin-left: 5rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .lactalis {
@@ -886,7 +889,7 @@
         width: 3.4rem;
         height: 3.4rem;
         margin-left: 4.5rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .goprint {
@@ -895,7 +898,7 @@
         margin-top: -4.5rem;
         margin-left: -2rem;
         margin-right: 5rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .inmore {
@@ -903,7 +906,7 @@
         margin-left: -10.5rem;
         height: 4rem;
         width: 4rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .listery {
@@ -911,7 +914,7 @@
         margin-left: -3.7rem;
         height: 3rem;
         width: 3rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .total {
@@ -919,7 +922,7 @@
         margin-left: -2.7rem;
         width: 5rem;
         height: 5rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .logo__container {
@@ -940,14 +943,14 @@
         /* margin-bottom: -24rem; */
         padding-top: 0rem;
         background-size: 100%;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .head {
         width: 7rem;
         height: 0.4rem;
         margin-top: -19.2rem;
-        animation: iconRotate 7s linear infinite;
+        animation: iconRotatetest 7s linear infinite;
     }
 
     .danfossSafari {
@@ -955,7 +958,7 @@
         height: 5rem;
         width: 5rem;
         margin-left: 4rem;
-        animation: iconRotateMistake 7s linear infinite;
+        animation: iconRotatetestMistake 7s linear infinite;
     }
 
     .ctSafari {
@@ -963,7 +966,7 @@
         margin-left: 6rem;
         width: 2rem;
         height: 2rem;
-        animation: iconRotateMistake 7s linear infinite;
+        animation: iconRotatetestMistake 7s linear infinite;
     }
 
     .uktSafari {
@@ -971,7 +974,7 @@
         width: 4rem;
         margin-top: -4rem;
         margin-left: 5rem;
-        animation: iconRotateMistake 7s linear infinite;
+        animation: iconRotatetestMistake 7s linear infinite;
     }
 
     .lactalisSafari {
@@ -1048,7 +1051,7 @@
 
 @media (max-width: 376px) {
     .logo__container {
-        animation: circleIcons 7s linear infinite;
+        animation: circleIconstest 7s linear infinite;
     }
 
     .danfossSafari, .ctSafari, .uktSafari, .lactalisSafari, .agriSafari, .headSafari, .totalSafari, .listerySafari, .inmoreSafari, .goprintSafari {

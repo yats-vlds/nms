@@ -410,8 +410,8 @@
     }
     .iconMessage {
         width: 0.7rem;
-        margin-top: -3rem;
-        margin-left: -10rem;
+        margin-top: -2.5rem;
+        margin-left: -11rem;
     }
     .iconBack {
         width: 0.7rem;
@@ -420,8 +420,8 @@
     }
     .iconWifi {
         width: 5rem;
-        margin-top: -2.1rem;
-        margin-left: -8rem;
+        margin-top: -1.1rem;
+        margin-left: -8.5rem;
     }
     .iconCamera {
         position: absolute;
@@ -459,7 +459,7 @@
     .iconBrowser {
         width: 6rem;
         height: 9rem;
-        margin-left: 22rem;
+        margin-left: 21rem;
         margin-top: -6rem;
     }
 

@@ -1,10 +1,18 @@
 import React from "react";
 import {HashLink} from "react-router-hash-link";
 import iconDown from "../assets/iconDown.svg";
+import SEO from "../SEO";
+import logo from "../assets/logo.jpg";
 
 const CustomSASS = () => {
     return (
         <>
+            <SEO
+                title={"Custom Software & SaaS Development  | NMS {dev} "}
+                thumbnail={logo}
+                url={"https://nms-group.family/"}
+                content={"Today the digital revolution is a must for every company! NMS Team has the right spark! Find out how we build custom products and software from concept to live solution!"}
+            />
             <h1 className="customTitleFirst">
                 SaaS Software Development
             </h1>

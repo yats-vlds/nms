@@ -687,7 +687,7 @@
 
     .ellipse {
         margin-left: 14.8rem !important;
-        margin-top: -3rem;
+        margin-top: -3.2rem;
         /*animation: tenellipse375 1s infinite!important;*/
     }
 
@@ -722,25 +722,25 @@
 
     @-webkit-keyframes tenyog375 {
         0% {
-            margin-top: 1.5rem;
+            margin-top: 1.3rem;
         }
         50% {
-            margin-top: 1.8rem;
+            margin-top: 1.5rem;
         }
         100% {
-            margin-top: 1.5rem;
+            margin-top: 1.3rem;
         }
     }
 
     @keyframes tenyog375 {
         0% {
-            margin-top: 1.5rem;
+            margin-top: 1.3rem;
         }
         50% {
-            margin-top: 1.8rem;
+            margin-top: 1.5rem;
         }
         100% {
-            margin-top: 1.5rem;
+            margin-top: 1.3rem;
         }
     }
 }

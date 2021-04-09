@@ -1,10 +1,18 @@
 import React from "react";
 import {HashLink} from "react-router-hash-link";
 import iconDown from "../assets/iconDown.svg";
+import logo from "../assets/logo.jpg";
+import SEO from "../SEO";
 
 const WebDevelopment = () => {
     return (
         <>
+            <SEO
+                title={"Web Development Services | NMS {dev}"}
+                thumbnail={logo}
+                url={"https://nms-group.family/"}
+                content={"With professional web development services, NMS Team creates websites and applications of all kinds of complexity: from functional products to crazy visual web projects."}
+            />
             <h1 className="customTitleFirst">
                 Web Development
             </h1>

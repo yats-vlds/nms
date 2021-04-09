@@ -1,10 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-function SEO({ title, thumbnail, url, content = "" }) {
+function SEO({ title, thumbnail, url, content}) {
     return (
         <Helmet>
-            <title>{`NMS {dev} | ${title}`}</title>
+            <title>{`${title}`}</title>
             <meta property="og:title" content={title} />
             <meta property="og:image" content={thumbnail} />
             <meta property="og:url" content={url} />

@@ -849,24 +849,24 @@
     }
 
     .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
-        width: 4rem;
-        height: 0.8rem;
+        width: 5rem;
+        height: 1rem;
     }
 
     .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
-        width: 2.3rem;
-        height: 0.8rem;
+        width: 3.3rem;
+        height: 1rem;
     }
 
     .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
-        width: 4rem;
-        height: 0.8rem;
+        width: 5rem;
+        height: 1rem;
     }
 
     .btnCustom-fourSloyTitle {
-        font-size: 5px;
-        padding: 0.17rem;
-        padding-top: 0.25rem;
+        font-size: 6.3px;
+        padding-top: 0.3rem;
+        padding-left: 0.23rem;
     }
 
     /*.ellipse-btnStarBefore {*/
@@ -874,8 +874,8 @@
     /*    height: 0.35rem !important;*/
     /*}*/
     .ellipse-btnCustomBefore {
-        width: 0.3rem !important;
-        height: 0.3rem !important;
+        width: 0.4rem !important;
+        height: 0.4rem !important;
         margin-right: 0.4rem;
     }
 
@@ -886,7 +886,7 @@
     .ellipse-btnCustomAfter {
         width: 0.3rem !important;
         height: 0.3rem !important;
-        margin-left: 3.2rem !important;
+        margin-left: 4.2rem !important;
     }
 
     .custom {
