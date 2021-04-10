@@ -1476,6 +1476,42 @@
     .form-request {
         margin-top: -1.2rem !important;
     }
+    .stone {
+        width: 1rem !important;
+        height: 2rem !important;
+        margin-left: -3.2rem;
+    }
+
+    .line {
+        width: 6rem !important;
+        height: 9rem !important;
+        margin-top: -3.8rem !important;
+        margin-left: -3.6rem !important;
+        animation: lined 7s infinite !important;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 9rem !important;
+        margin-top: -18.1rem !important;
+        margin-left: -8.5rem !important;
+        animation: scalesRocket426d 7s infinite !important;
+    }
+
+    .scalesRocketRight {
+        height: 5.8rem !important;
+        width: 2rem !important;
+        margin-left: -1rem !important;
+        margin-top: -3.4rem !important;
+        animation: scalesRocketRight426d 7s infinite !important;
+    }
+
+    .rocket {
+        width: 12rem !important;
+        height: 37rem !important;
+        margin-left: -8.4rem !important;
+        margin-top: -21rem!important;
+    }
 }
 
 @media (max-width: 365px) {
