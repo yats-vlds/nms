@@ -161,13 +161,14 @@
         padding-top: 0rem;
     }
 }
-@media(max-width: 1190px) {
-    .animateHorse {
-        display: flex;
-        margin-left: -17%;
-    }
-}
-@media (max-width: 1025px) {
+
+/*@media(max-width: 1190px) {*/
+/*    .animateHorse {*/
+/*        display: flex;*/
+/*        margin-left: -17%;*/
+/*    }*/
+/*}*/
+@media (max-width: 1200px) {
     .animateRocket {
         margin-left: -40% !important;
     }
@@ -249,7 +250,7 @@
         width: 700px;
         height: 700px;
         padding: 20rem;
-        margin-left: -54% !important;
+        margin-left: -26% !important;
     }
 
     .expertRight {
@@ -379,13 +380,20 @@
         padding-bottom: 7rem;
     }
 }
-
-@media(max-width: 928px) {
+@media(max-width: 992px) {
     .animateRocket {
         width: 700px;
         height: 700px;
         padding: 20rem;
-        margin-left: -70%!important;
+        margin-left: -65% !important;
+    }
+}
+@media (max-width: 928px) {
+    .animateRocket {
+        width: 700px;
+        height: 700px;
+        padding: 20rem;
+        margin-left: -70% !important;
     }
 }
 
@@ -525,62 +533,63 @@
     }
 
 }
-@media(max-width: 767px) {
-    .animateRocket {
-        width: 700px;
-        height: 700px;
-        padding: 20rem;
-        margin-left: -107% !important;
-    }
-}
-@media (max-width: 738px) {
-    .animateRocket {
-        margin-left: -18rem;
-        width: 650px;
-        height: 650px;
-    }
 
-    .expertTwoRow {
-        height: 15rem;
-    }
+/*@media(max-width: 767px) {*/
+/*    .animateRocket {*/
+/*        width: 700px;*/
+/*        height: 700px;*/
+/*        padding: 20rem;*/
+/*        margin-left: -107% !important;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 738px) {*/
+/*    .animateRocket {*/
+/*        margin-left: -18rem;*/
+/*        width: 650px;*/
+/*        height: 650px;*/
+/*    }*/
 
-    .animateRocket {
-        margin-left: -16rem;
-    }
+/*    .expertTwoRow {*/
+/*        height: 15rem;*/
+/*    }*/
 
-    .expertTitleFirst, .expertTitle, .expertTitleRight {
-        font-size: 1rem;
-    }
+/*    .animateRocket {*/
+/*        margin-left: -16rem;*/
+/*    }*/
 
-    .expertText {
-        font-size: 10px;
-    }
-    .animateHorse {
-        margin-left: -2rem;
-    }
-}
+/*    .expertTitleFirst, .expertTitle, .expertTitleRight {*/
+/*        font-size: 1rem;*/
+/*    }*/
 
-@media (max-width: 668px) {
-    .animateHorse {
-        margin-left: -3rem;
-    }
+/*    .expertText {*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .animateHorse {*/
+/*        margin-left: -2rem;*/
+/*    }*/
+/*}*/
 
-    p {
-        font-size: 10px !important;
-    }
-}
+/*@media (max-width: 668px) {*/
+/*    .animateHorse {*/
+/*        margin-left: -3rem;*/
+/*    }*/
 
-@media (max-width: 641px) {
-    .animateHorse {
-        margin-left: -4rem;
-    }
+/*    p {*/
+/*        font-size: 10px !important;*/
+/*    }*/
+/*}*/
 
-    .animateRocket {
-        margin-left: -14.5rem;
-    }
-}
+/*@media (max-width: 641px) {*/
+/*    .animateHorse {*/
+/*        margin-left: -4rem;*/
+/*    }*/
 
-@media (max-width: 629px) {
+/*    .animateRocket {*/
+/*        margin-left: -14.5rem;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 769px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.7rem;
     }
@@ -704,7 +713,7 @@
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 26rem !important;
+        padding-left: 135% !important;
         padding-top: 21rem !important;
     }
 
@@ -851,15 +860,14 @@
     }
 }
 
-@media (max-width: 481px) {
-    .animateRocket {
-        padding-left: 23rem !important;
-    }
-}
 
-@media(max-width: 466px) {
+@media (max-width: 461px) {
     .animateRocket {
-        padding-left: 22rem !important;
+        width: 400px !important;
+        height: 400px !important;
+        padding: 15rem !important;
+        padding-left: 132% !important;
+        padding-top: 21rem !important;
     }
 }
 
@@ -905,7 +913,7 @@
     .scalesRocket {
         height: 33.6rem !important;
         width: 15rem !important;
-        margin-top: -19.8rem!important;
+        margin-top: -19.8rem !important;
         margin-left: -11rem !important;
         animation: scalesRocket426d 7s infinite !important;
     }
@@ -914,7 +922,7 @@
         height: 5.8rem !important;
         width: 3.5rem !important;
         margin-left: 0.4rem !important;
-        margin-top: -4.5rem!important;
+        margin-top: -4.5rem !important;
         animation: scalesRocketRight426d 7s infinite !important;
     }
 
@@ -983,13 +991,6 @@
         height: 156px !important;
     }
 
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 15rem !important;
-        padding-left: 23rem !important;
-        padding-top: 21rem !important;
-    }
 
     .animateHorse {
         margin-left: 0rem;
@@ -1132,38 +1133,75 @@
         height: 302px;
         margin-bottom: -7rem;
     }
-}
 
-@media(max-width: 429px) {
     .animateRocket {
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 20.5rem !important;
+        padding-left: 16.5rem !important;
         padding-top: 21rem !important;
     }
 }
 
 @media (max-width: 415px) {
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 15rem !important;
-        padding-left: 20rem !important;
-        padding-top: 21rem !important;
-    }
     .animateHorse {
         margin-left: -1rem;
     }
 }
 
-@media(max-width: 405px) {
+@media (max-width: 405px) {
     .animateRocket {
         width: 400px !important;
         height: 400px !important;
         padding: 15rem !important;
-        padding-left: 19.5rem !important;
+        padding-left: 15.5rem !important;
         padding-top: 21rem !important;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 11rem !important;
+        margin-top: -18.8rem !important;
+        margin-left: -10rem !important;
+        animation: scalesRocket426d 7s infinite !important;
+    }
+
+    .stone {
+        width: 1.5rem !important;
+        height: 2rem !important;
+        margin-left: -3.2rem;
+    }
+
+    .line {
+        width: 7rem !important;
+        height: 9rem !important;
+        margin-top: -4rem !important;
+        margin-left: -4.3rem !important;
+        animation: lined 7s infinite !important;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 11rem !important;
+        margin-top: -18.8rem !important;
+        margin-left: -9.5rem !important;
+        animation: scalesRocket426d 7s infinite !important;
+    }
+
+    .scalesRocketRight {
+        height: 5.8rem !important;
+        width: 2.5rem !important;
+        margin-left: -0.4rem !important;
+        margin-top: -3.8rem !important;
+        animation: scalesRocketRight426d 7s infinite !important;
+    }
+
+    .rocket {
+        width: 15rem !important;
+        height: 37rem !important;
+        margin-left: -9.4rem !important;
+        margin-top: -22.5rem;
+        animation: rocket426d 7s infinite !important;
     }
 }
 
@@ -1172,43 +1210,9 @@
         margin-left: -1rem;
     }
 
-    .stone {
-        width: 1.3rem !important;
-        height: 1.3rem !important;
-    }
-
-    .line {
-        width: 7rem !important;
-        height: 7rem !important;
-        margin-top: -3.1rem !important;
-        margin-left: -4.3rem !important;
-    }
-
-    .scalesRocket {
-        height: 35.6rem !important;
-        width: 11rem !important;
-        margin-top: -17.7rem;
-        margin-left: -9.5rem !important;
-        animation: scalesRocket376test 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 6.6rem !important;
-        width: 2.5rem !important;
-        margin-left: -0.5rem !important;
-        margin-top: -5.5rem;
-        animation: scalesRocketRight376test 7s infinite !important;
-    }
-
-    .rocket {
-        width: 15rem !important;
-        height: 39rem !important;
-        margin-left: -9.5rem !important;
-        animation: rocket376test 7s infinite !important;
-    }
 
     .animateRocket {
-        padding-left: 18.5rem !important;
+        padding-left: 15.5rem !important;
     }
 
     @-webkit-keyframes scalesRocket376 {
@@ -1288,6 +1292,12 @@
     }
 }
 
+@media (max-width: 380px) {
+    .animateRocket {
+        padding-left: 14.4rem !important;
+    }
+}
+
 @media (max-width: 376px) {
     .expertTitleFirst, .expertTitle, .expertTitleRight {
         font-size: 0.6rem;
@@ -1297,46 +1307,41 @@
         font-size: 5px !important;
     }
 
-    .stone {
-        width: 1.3rem !important;
-        height: 1.3rem !important;
-    }
-
-    .line {
-        width: 7rem !important;
-        height: 7rem !important;
-        margin-top: -3.1rem !important;
-        margin-left: -4.3rem !important;
-    }
-
-    .scalesRocket {
-        height: 35.6rem !important;
-        width: 11rem !important;
-        margin-top: -17.7rem;
-        margin-left: -9.5rem !important;
-        animation: scalesRocket376d 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 6.6rem !important;
-        width: 2.5rem !important;
-        margin-left: -0.5rem !important;
-        margin-top: -5.5rem;
-        animation: scalesRocketRight376d 7s infinite !important;
-    }
-
     .rocket {
-        width: 15rem !important;
-        height: 39rem !important;
-        margin-left: -9.5rem !important;
-        margin-top: -24rem!important;
-        animation: rocket376d 7s infinite !important;
+        margin-top: -22.5rem;
     }
 
-    .animateRocket {
-        padding-left: 18.3rem !important;
-    }
-
+    /*.stone {*/
+    /*    width: 1.3rem !important;*/
+    /*    height: 1.3rem !important;*/
+    /*}*/
+    /*.line {*/
+    /*    width: 7rem !important;*/
+    /*    height: 7rem !important;*/
+    /*    margin-top: -3.1rem !important;*/
+    /*    margin-left: -4.3rem !important;*/
+    /*}*/
+    /*.scalesRocket {*/
+    /*    height: 35.6rem !important;*/
+    /*    width: 11rem !important;*/
+    /*    margin-top: -17.7rem;*/
+    /*    margin-left: -9.5rem !important;*/
+    /*    animation: scalesRocket376d 7s infinite !important;*/
+    /*}*/
+    /*.scalesRocketRight {*/
+    /*    height: 6.6rem !important;*/
+    /*    width: 2.5rem !important;*/
+    /*    margin-left: -0.5rem !important;*/
+    /*    margin-top: -5.5rem;*/
+    /*    animation: scalesRocketRight376d 7s infinite !important;*/
+    /*}*/
+    /*.rocket {*/
+    /*    width: 15rem !important;*/
+    /*    height: 39rem !important;*/
+    /*    margin-left: -9.5rem !important;*/
+    /*    margin-top: -24rem!important;*/
+    /*    animation: rocket376d 7s infinite !important;*/
+    /*}*/
     .animateHorse {
         margin-left: -0.5rem;
     }
@@ -1467,27 +1472,66 @@
     .bootstrap__tableText {
         margin-bottom: 10px !important;
     }
+
     .form-request {
-        margin-top: -1.2rem!important;
+        margin-top: -1.2rem !important;
     }
 }
 
-@media(max-width: 370px) {
+@media (max-width: 365px) {
     .animateRocket {
-        padding-left: 18rem !important;
+        padding-left: 13.7rem !important;
     }
 }
 
 @media (max-width: 361px) {
-    .scalesRocketRight {
-        margin-top: -4.3rem!important;
-        animation: scalesRocketRight376d 7s infinite !important;
-    }
     .form-request {
-        margin-top: -1.4rem!important;
+        margin-top: -1.4rem !important;
     }
-    .animateRocket {
-        padding-left: 17.4rem !important;
+
+    .stone {
+        width: 1rem !important;
+        height: 2rem !important;
+        margin-left: -3.2rem;
+    }
+
+    .line {
+        width: 6rem !important;
+        height: 9rem !important;
+        margin-top: -3.8rem !important;
+        margin-left: -3.6rem !important;
+        animation: lined 7s infinite !important;
+    }
+
+    .scalesRocket {
+        height: 33.6rem !important;
+        width: 9rem !important;
+        margin-top: -18.1rem !important;
+        margin-left: -8.5rem !important;
+        animation: scalesRocket426d 7s infinite !important;
+    }
+
+    .scalesRocketRight {
+        height: 5.8rem !important;
+        width: 2rem !important;
+        margin-left: -1rem !important;
+        margin-top: -3.4rem !important;
+        animation: scalesRocketRight426d 7s infinite !important;
+    }
+
+    .rocket {
+        width: 12rem !important;
+        height: 37rem !important;
+        margin-left: -8.4rem !important;
+        margin-top: -21rem!important;
+    }
+}
+
+
+@media (max-width: 354px) {
+    animateRocket {
+        margin-left: 62% !important;
+        padding-left: 0rem !important;
     }
 }
 

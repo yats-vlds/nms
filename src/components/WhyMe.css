@@ -244,7 +244,7 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
     .why__me, .why__meSloy {
         height: 600px;
     }
@@ -389,13 +389,13 @@
     }
 }
 
-@media (max-width: 927px) {
+@media (max-width: 1250px) {
     .why__me, .why__meSloy {
         height: 500px;
     }
 
     .why__meImageBack {
-        height: 650px;
+        height: auto;
     }
 
     img.star__imageBack {

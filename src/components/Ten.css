@@ -36,36 +36,37 @@
 
 .ten__yog {
     position: absolute;
-    height: 70%;
+    height: 540px;
     object-fit: contain;
     width: 46%;
     margin-left: 44%;
     animation: tenyog 1.2s infinite;
+    margin-top: 7%;
 }
 
-@-webkit-keyframes tenyog {
-    0% {
-        margin-top: 5rem;
-    }
-    50% {
-        margin-top: 5.7rem;
-    }
-    100% {
-        margin-top: 5rem;
-    }
-}
+/*@-webkit-keyframes tenyog {*/
+/*    0% {*/
+/*        margin-top: 5rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: 5.7rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top: 5rem;*/
+/*    }*/
+/*}*/
 
-@keyframes tenyog {
-    0% {
-        margin-top: 5rem;
-    }
-    50% {
-        margin-top: 5.7rem;
-    }
-    100% {
-        margin-top: 5rem;
-    }
-}
+/*@keyframes tenyog {*/
+/*    0% {*/
+/*        margin-top: 5rem;*/
+/*    }*/
+/*    50% {*/
+/*        margin-top: 5.7rem;*/
+/*    }*/
+/*    100% {*/
+/*        margin-top: 5rem;*/
+/*    }*/
+/*}*/
 
 .ellipse {
     position: absolute;
@@ -104,19 +105,10 @@
 /*        margin-top: -16rem;*/
 /*    }*/
 /*}*/
+
+
+
 @media (min-width: 1600px) {
-    .ten__ROW {
-        max-width: 1536px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .ten__content {
-        max-width: 1496px;
-    }
-
     .ten__yog {
         height: 554px;
         margin-left: 50%;
@@ -124,7 +116,8 @@
     }
 
     .ellipse {
-        margin-left: 62%;
+        margin-left: 69%;
+        margin-top: -16rem;
     }
 }
 
@@ -137,7 +130,13 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media(max-width: 1441px) {
+    .ellipse {
+        margin-top: -16rem;
+    }
+}
+
+@media (max-width: 1200px) {
     .ten {
         margin-bottom: -131px;
     }
@@ -158,14 +157,14 @@
         height: 300px;
         object-fit: contain;
         width: 540px;
-        margin-left: 24rem;
+        margin-left: 47%;
         margin-top: 3.5rem;
         animation: tenyog1024 2s infinite !important;
     }
 
     .ellipse {
         margin-top: -9rem;
-        margin-left: 38.5rem;
+        margin-left: 66%;
         animation: tenellipse1024 2s infinite !important;
     }
 
@@ -213,6 +212,24 @@
         100% {
             margin-top: 3.5rem;
         }
+    }
+}
+
+@media(max-width: 1025px) {
+    .ten__yog {
+        position: absolute;
+        height: 300px;
+        object-fit: contain;
+        width: 540px;
+        margin-left: 24rem;
+        margin-top: 3.5rem;
+        animation: tenyog1024 2s infinite !important;
+    }
+
+    .ellipse {
+        margin-top: -9rem;
+        margin-left: 38.5rem;
+        animation: tenellipse1024 2s infinite !important;
     }
 }
 

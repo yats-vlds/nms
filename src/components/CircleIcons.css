@@ -69,7 +69,7 @@
     /*background: red;*/
 }
 
-@media(max-width: 1025px) {
+@media(max-width: 1200px) {
     .iconMessage {
         width: 3rem;
         margin-top: 5rem;

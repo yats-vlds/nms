@@ -267,7 +267,7 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
     .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
         min-height: 700px;
     }
@@ -303,14 +303,14 @@ h1.star__projectLeftTitle {
         width: 9.5rem;
         height: 1.7rem;
         margin-top: -2rem;
-        margin-left: 4rem;
+        margin-left: 1rem;
     }
 
     .btnStarMovement {
         width: 9.5rem;
         height: 1.7rem;
         margin-top: -2rem;
-        margin-left: 4rem;
+        margin-left: 1rem;
         animation: btnStar1025 3s infinite;
         -webkit-animation: btnStar1025 3s infinite;
         transition: 3s;
@@ -318,25 +318,25 @@ h1.star__projectLeftTitle {
 
     @-webkit-keyframes btnStar1025 {
         0% {
-            margin-left: 4rem;
+            margin-left: 1rem;
         }
         50% {
-            margin-left: 5rem;
+            margin-left: 2rem;
         }
         100% {
-            margin-left: 4rem;
+            margin-left: 1rem;
         }
     }
 
     @keyframes btnStar1025 {
         0% {
-            margin-left: 4rem;
+            margin-left: 1rem;
         }
         50% {
-            margin-left: 5rem;
+            margin-left: 2rem;
         }
         100% {
-            margin-left: 4rem;
+            margin-left: 1rem;
         }
     }
 
@@ -507,6 +507,11 @@ h1.star__projectLeftTitle {
 }
 
 @media (max-width: 768px) {
+    .star__projectRowContentRight {
+        width: 50%;
+        padding-top: 4.5rem;
+        margin-left: 0%;
+    }
 }
 
 @media (max-width: 737px) {
@@ -531,7 +536,7 @@ h1.star__projectLeftTitle {
 @media (max-width: 641px) {
 }
 
-@media (max-width: 610px) {
+@media (max-width: 627px) {
     .star__project {
         margin-bottom: -120px;
     }
@@ -557,9 +562,9 @@ h1.star__projectLeftTitle {
     }
 
     .star__projectRowContentRight {
-        padding-top: 0rem;
         width: 50%;
-        padding-left: 1rem;
+        padding-top: 1rem!important;
+        margin-left: -2% !important;
     }
 
     h1.star__projectLeftTitle {
@@ -725,13 +730,50 @@ h1.star__projectLeftTitle {
     }
 
     .star__projectRowContentRight {
-        padding-top: 4rem;
+        padding-top: 4rem!important;
     }
 }
 
 @media (max-width: 569px) {
+
     .star__projectRowContentRight {
-        padding-left: 0rem;
+        width: 50%;
+        padding-top: 4.5rem;
+        margin-left: -5%;
+    }
+}
+
+@media(max-width: 540px) {
+    .star__projectRowContentRight {
+        width: 50%;
+        padding-top: 4.5rem;
+        margin-left: -5% !important;
+    }
+    .btnStar, .btnStar-twoSloy, .btnStarMovement, .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
+        width: 5.5rem;
+        height: 1.1rem;
+    }
+    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
+        width: 3.5rem;
+        height: 1.1rem;
+    }
+    .btnStar-fourSloyTitle {
+        font-size: 7px;
+        padding-top: 0.3rem;
+        padding-left: 0.25rem;
+    }
+    .ellipse-btnStarAfter {
+        margin-left: 4.7rem !important;
+        width: 0.35rem;
+        height: 0.35rem;
+    }
+}
+
+@media(max-width: 520px) {
+    .star__projectRowContentRight {
+        width: 50%;
+        padding-top: 4.5rem;
+        margin-left: -8% !important;
     }
 }
 
@@ -746,17 +788,29 @@ h1.star__projectLeftTitle {
         padding-top: 4rem;
         width: 50%;
         padding-left: 0rem;
-        margin-left: -2rem;
+        margin-left: -2rem!important;
     }
 }
 
-@media (max-width: 429px) {
+@media(max-width: 468px) {
+    .star__projectRowContentRight {
+        padding-top: 4rem;
+        width: 50%;
+        padding-left: 0rem;
+        margin-left: -3rem!important;
+    }
+}
+
+@media (max-width: 460px) {
     .container-for-iconVector {
         width: 60px !important;
         height: 60px !important;
         margin-left: -1.5rem;
+        margin-top: -28%;
     }
-
+    .container-for-iconVector {
+        margin-top: -11%;
+    }
     .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
         min-height: 300px;
     }
@@ -773,7 +827,7 @@ h1.star__projectLeftTitle {
 
     .star__projectRowContentRight {
         padding-top: 0rem !important;
-        margin-left: -1rem !important;
+        margin-left: -1.5rem !important;
     }
 
     .iconDown {
@@ -792,7 +846,7 @@ h1.star__projectLeftTitle {
     }
 
     .btnStar, .btnStarMovement {
-        margin-top: 3.7rem;
+        margin-top: 4.2rem;
         margin-left: 2rem;
     }
 
@@ -906,9 +960,13 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 440px) {
+    .star__projectRowContentRight {
+        padding-top: 0rem !important;
+        margin-left: -2rem !important;
+    }
     .btnStar, .btnStarMovement {
-        margin-top: 2.7rem;
+        margin-top: 3.7rem;
         margin-left: 1rem;
     }
 
@@ -919,22 +977,71 @@ h1.star__projectLeftTitle {
 
     @-webkit-keyframes btnStar415 {
         0% {
+            margin-left: 2.3rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 2.3rem;
+        }
+    }
+
+    @keyframes btnStar415 {
+        0% {
+            margin-left: 2.3rem;
+        }
+        50% {
+            margin-left: 3rem;
+        }
+        100% {
+            margin-left: 2.3rem;
+        }
+    }
+    .btnStar, .btnStarMovement {
+        margin-top: 4.5rem;
+        margin-left: 2.3rem;
+    }
+}
+
+@media(max-width: 429px) {
+    .btnStar, .btnStarMovement {
+        margin-top: 3.5rem;
+        margin-left: 2.3rem;
+    }
+}
+
+@media(max-width: 415px) {
+    .star__projectRowContentRight {
+        padding-top: 2rem !important;
+        margin-left: 0rem !important;
+    }
+    .btnStar, .btnStarMovement {
+        margin-top: 2.8rem;
+        margin-left: 1rem;
+    }
+    .btnStarMovement {
+        animation: btnStar413 3s ease infinite;
+        -webkit-animation: btnStar413 3s ease infinite;
+    }
+    @-webkit-keyframes btnStar413 {
+        0% {
             margin-left: 1rem;
         }
         50% {
-            margin-left: 1.6rem;
+            margin-left: 1.5rem;
         }
         100% {
             margin-left: 1rem;
         }
     }
 
-    @keyframes btnStar415 {
+    @keyframes btnStar413 {
         0% {
             margin-left: 1rem;
         }
         50% {
-            margin-left: 1.6rem;
+            margin-left: 1.5rem;
         }
         100% {
             margin-left: 1rem;
@@ -959,8 +1066,8 @@ h1.star__projectLeftTitle {
     }
 
     .star__projectRowContentRight {
-        padding-top: 0.3rem;
-        margin-left: -3.6rem;
+        padding-top: 2rem !important;
+        margin-left: -1.3rem !important;
     }
 
     .btnStar, .btnStarMovement {
@@ -1045,108 +1152,30 @@ h1.star__projectLeftTitle {
     }
 }
 
-@media(max-width: 361px) {
+@media(max-width: 366px) {
     .star__projectRowContentRight {
-        padding-top: 0rem !important;
-        margin-left: -2rem !important;
+        padding-top: 2rem !important;
+        margin-left: -8% !important;
     }
 }
 
-@media (max-width: 326px) {
-    .star__project, .star__projectSloy, .star__imageBack, .star__projectRowContent {
-        min-height: 262px;
-    }
-
-    .btnStar, .btnStarMovement {
-        margin-top: 4.5rem;
-        margin-left: 3.7em;
-    }
-
-    h1.star__projectLeftTitle {
-        padding-bottom: 0.2rem;
-        font-size: 0.45rem;
-    }
-
-    .star__imageBack {
-        min-height: 256px;
-    }
-
-    .btnStar, .btnStar-twoSloy, .btnStarMovement {
-        width: 3.2rem;
-        height: 0.6rem;
-    }
-
-    .btnStar-threeSloyBefore, .btnStar-fourSloyBefore {
-        width: 2rem;
-        height: 0.6rem;
-    }
-
-    .btnStar-threeSloyAfter, .btnStar-fourSloyAfter {
-        width: 3.2rem;
-        height: 0.6rem;
-    }
-
-    .btnStarMovement {
-        animation: btnStar321 3s ease infinite;
-        -webkit-animation: btnStar321 3s ease infinite;
-    }
-
-    @-webkit-keyframes btnStar321 {
-        0% {
-            margin-left: 3.7rem;
-        }
-        50% {
-            margin-left: 4.3rem;
-        }
-        100% {
-            margin-left: 3.7rem;
-        }
-    }
-
-    @keyframes btnStar321 {
-        0% {
-            margin-left: 3.7rem;
-        }
-        50% {
-            margin-left: 4.3rem;
-        }
-        100% {
-            margin-left: 3.7rem;
-        }
-    }
-
-    .ellipse-btnStarBefore {
-        width: 0.2rem !important;
-        height: 0.2rem !important;
-        margin-right: 0.3rem;
-    }
-
-    .btnStar-fourSloyTitle {
-        font-size: 3px;
-        padding-top: 0.25rem;
-        padding-left: 0.2rem;
-    }
-
+@media(max-width: 355px) {
     .star__projectRowContentRight {
-        margin-left: -5.5rem;
-        margin-top: -2rem;
-    }
-
-    .ellipse-btnStarAfter {
-        margin-left: 2.6rem !important;
-        width: 0.2rem !important;
-        height: 0.2rem !important;
-    }
-
-    .star__projectRowContentLeft {
-        padding-left: 1rem;
+        padding-top: 1.7rem !important;
+        margin-left: -10% !important;
     }
 }
 
-
-@media (max-width: 321px) {
+@media(max-width: 342px) {
     .star__projectRowContentRight {
-        margin-left: -3.5rem;
-        margin-top: -2rem;
+        padding-top: 1.4rem !important;
+        margin-left: -13% !important;
+    }
+}
+
+@media(max-width: 325px) {
+    .star__projectRowContentRight {
+        padding-top: 1.4rem !important;
+        margin-left: -15% !important;
     }
 }

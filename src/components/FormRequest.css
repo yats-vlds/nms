@@ -225,7 +225,7 @@ textarea {
     opacity: 0;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
     .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
         height: 2rem;
     }
@@ -262,6 +262,16 @@ textarea {
         width: 0.75rem;
         height: 0.75rem;
     }
+}
+
+@media(max-width: 995px) {
+    .btn-fourSloyTitle {
+        padding: 0.3rem;
+        padding-left: 0.6rem;
+        padding-top: 0.2rem;
+        font-size: 16px!important;
+    }
+
 }
 
 @media (max-width: 927px) {
@@ -492,6 +502,9 @@ textarea {
 
     .btn-fourSloyTitle {
         font-size: 9px !important;
+    }
+    .from-pryam4, .from-pryam4Safari {
+        font-size: 17px;
     }
 }
 

@@ -277,7 +277,7 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
     .custom {
         width: 100%;
         display: flex;
@@ -352,7 +352,7 @@
     }
 
     .custom__icon {
-        margin-left: 2rem;
+        margin-left: 6%;
     }
 
     .iconCustomMessage {
