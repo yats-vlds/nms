@@ -891,9 +891,9 @@ h1.star__projectLeftTitle {
     }
 
     .btnStar-fourSloyTitle {
-        font-size: 3.3px;
+        font-size: 3px;
         padding-top: 0.25rem;
-        padding-left: 0.4rem;
+        padding-left: 0.15rem;
     }
 
     .star__project {
@@ -930,8 +930,8 @@ h1.star__projectLeftTitle {
 
 
     .btnStar-fourSloyTitle {
-        font-size: 6.3px;
-        padding-top: 0.3rem;
+        font-size: 5.7px;
+        padding-top: 0.36rem;
         padding-left: 0.23rem;
     }
 
@@ -961,6 +961,11 @@ h1.star__projectLeftTitle {
 }
 
 @media (max-width: 440px) {
+    .btnStar-fourSloyTitle {
+        font-size: 5.7px;
+        padding-top: 0.33rem;
+        padding-left: 0.23rem;
+    }
     .star__projectRowContentRight {
         padding-top: 0rem !important;
         margin-left: -2rem !important;
@@ -1005,6 +1010,11 @@ h1.star__projectLeftTitle {
 }
 
 @media(max-width: 429px) {
+    .btnStar-fourSloyTitle {
+        font-size: 5.7px;
+        padding-top: 0.3rem;
+        padding-left: 0.23rem;
+    }
     .btnStar, .btnStarMovement {
         margin-top: 3.5rem;
         margin-left: 2.3rem;
@@ -1120,9 +1130,9 @@ h1.star__projectLeftTitle {
     }
 
     .btnStar-fourSloyTitle {
-        font-size: 3.7px;
-        padding-top: 0.25rem;
-        padding-left: 0.2rem;
+        font-size: 2.3px;
+        padding-top: 0.35rem;
+        padding-left: 0.15rem;
     }
 
     .ellipse-btnStarBefore {
@@ -1132,9 +1142,9 @@ h1.star__projectLeftTitle {
     }
 
     .btnStar-fourSloyTitle {
-        font-size: 6.5px;
+        font-size: 6.2px;
         padding-top: 0.28rem;
-        padding-left: 0.23rem;
+        padding-left: 0.2rem;
     }
 
     .btnStar, .btnStar-twoSloy, .btnStarMovement {

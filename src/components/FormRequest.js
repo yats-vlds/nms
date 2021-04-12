@@ -3,7 +3,7 @@ import "./FormRequest.css"
 import skrepka from "../assets/skrepka.svg"
 import fromPryam1 from "../assets/formPryam1.svg"
 import fromPryam2 from "../assets/fromPryam2.png"
-import fromPryam3 from "../assets/formPryam3.svg"
+import fromPryam3 from "../assets/formPryam3.png"
 import {JsonLd} from "react-schemaorg";
 import {isSafari} from "react-device-detect";
 import emailjs from 'emailjs-com'
@@ -42,6 +42,7 @@ const FormRequest = () => {
                     setName('')
                     setEmail('')
                     setTextarea('')
+
                 }, (error) => {
                     console.log(error.text);
                 });
@@ -51,22 +52,9 @@ const FormRequest = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        {
-                            isSafari ?
-                                <div className="form-header-title">
-                                    <h2 className="from-pryam4Safari text-center">{!ellipse ? formRequestDataText.titleStart : formRequestDataTextAfter.titleStart}
-                                        <br/>
-                                        {!ellipse ? formRequestDataText.titleEnd : formRequestDataTextAfter.titleEnd}</h2>
-                                </div>
-                                :
-                            <div className="form-header-title">
+
                             <FormRequestSchema formRequestDataText={!ellipse ? formRequestDataText : formRequestDataTextAfter }/>
                             <img src={fromPryam3} className="from-pryam1" loading="lazy"/>
-                            <h2 className="from-pryam4 text-center">{!ellipse ? formRequestDataText.titleStart : formRequestDataTextAfter.titleStart}
-                            <br/>
-                                {!ellipse ? formRequestDataText.titleEnd : formRequestDataTextAfter.titleEnd}</h2>
-                            </div>
-                        }
                         <div className="form-request">
                             <div className="card justify-content-center">
                                 <div className="form justify-content-center">
@@ -86,7 +74,7 @@ const FormRequest = () => {
                                 <div className={ellipse ? "btn-threeSloyAfter" : "btn-threeSloyBefore"}>
                                     <div className={ellipse ? "btn-fourSloyAfter" : "btn-fourSloyBefore"}>
                                         <p className="btn-fourSloyTitle">
-                                            Start now
+                                            {!ellipse ? "Start now" : "Thank you"}
                                         </p>
                                     </div>
                                 </div>
