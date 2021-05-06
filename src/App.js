@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import {initialState, reducer} from "./hook/reducer";
 import {useEffect} from "react";
 import Header from "./components/Header";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {

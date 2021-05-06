@@ -7,6 +7,8 @@ import fromPryam3 from "../assets/formPryam3.png"
 import {JsonLd} from "react-schemaorg";
 import {isSafari} from "react-device-detect";
 import emailjs from 'emailjs-com'
+import {toast, ToastContainer} from "react-toastify";
+
 
 const FormRequest = () => {
     const [name, setName] = useState('')
@@ -34,17 +36,45 @@ const FormRequest = () => {
         titleStart: "Thank you mister a good",
         titleEnd: "request."
     }
+
     let sendEmail = (e) => {
             e.preventDefault()
+            if (name === '' || email === '' || textarea === '') {
+                return toast.error('😉All fields must be fill', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            }
             emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
                 .then((result) => {
-                    setEllipse(!ellipse)
                     setName('')
                     setEmail('')
                     setTextarea('')
+                    toast.success('😉Thank you mister a good job', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
 
                 }, (error) => {
-                    console.log(error.text);
+                    toast.error('Network error', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
                 });
     }
     return (
@@ -59,9 +89,9 @@ const FormRequest = () => {
                             <div className="card justify-content-center">
                                 <div className="form justify-content-center">
                                     <form className="form-input" onSubmit={sendEmail}>
-                                        <input type="text" className="input" placeholder="Name" name="to_name" onChange={(e) => setName(e.target.value) } value={name} required/>
-                                        <input type="email" className="input" placeholder="Email" name="to_email" onChange={(e) => setEmail(e.target.value) } value={email} required/>
-                                        <textarea rows="10" cols="45" name="text" placeholder="Message" name="message" onChange={(e) => setTextarea(e.target.value) } value={textarea} required/>
+                                        <input type="text" className="input" placeholder="Name" name="to_name" onChange={(e) => setName(e.target.value) } value={name} />
+                                        <input type="text" className="input" placeholder="Email" name="to_email" onChange={(e) => setEmail(e.target.value) } value={email} />
+                                        <textarea rows="10" cols="45" name="text" placeholder="Please describe your project here" name="message" onChange={(e) => setTextarea(e.target.value) } value={textarea} />
                                         <img src={skrepka} alt="" className="form__skrepka" loading="lazy"/>
                                         <input name="myFile" type="file" className="input-file"/>
                                         <input type="submit" value="Send" className="submit-form"/>
@@ -85,6 +115,19 @@ const FormRequest = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer
+                position="top-right"
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
+            {/* Same as */}
+            <ToastContainer />
         </div>
     )
 }
