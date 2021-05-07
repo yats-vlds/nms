@@ -659,423 +659,423 @@
     }
 }
 
-@media (max-width: 737px) {
-    .logo__container {
-        margin-left: -1rem;
-    }
-    .clip-path {
-        width: 23rem;
-    }
-}
+/*@media (max-width: 737px) {*/
+/*    .logo__container {*/
+/*        margin-left: -1rem;*/
+/*    }*/
+/*    .clip-path {*/
+/*        width: 23rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 668px) {
-    .clip-path {
-        width: 23rem;
-    }
+/*@media (max-width: 668px) {*/
+/*    .clip-path {*/
+/*        width: 23rem;*/
+/*    }*/
 
-    .danfoss {
-        width: 26rem;
-    }
-}
+/*    .danfoss {*/
+/*        width: 26rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 640px) {
-    .why__me, .why__meSloy {
-        height: 300px;
-    }
+/*@media (max-width: 640px) {*/
+/*    .why__me, .why__meSloy {*/
+/*        height: 300px;*/
+/*    }*/
 
-    .why__meImageBack {
-        height: 280px;
-    }
+/*    .why__meImageBack {*/
+/*        height: 280px;*/
+/*    }*/
 
-    .whyme__titleFirst {
-        font-size: 0.9rem !important;
-    }
+/*    .whyme__titleFirst {*/
+/*        font-size: 0.9rem !important;*/
+/*    }*/
 
-    .whyme__title {
-        font-size: 0.7rem;
-        margin-bottom: 0.15rem;
-        font-weight: bold;
-    }
+/*    .whyme__title {*/
+/*        font-size: 0.7rem;*/
+/*        margin-bottom: 0.15rem;*/
+/*        font-weight: bold;*/
+/*    }*/
 
-    .whyme__text {
-        font-size: 5px !important;
-        margin-bottom: 0.3rem !important;
-    }
+/*    .whyme__text {*/
+/*        font-size: 5px !important;*/
+/*        margin-bottom: 0.3rem !important;*/
+/*    }*/
 
-    .why__meContentRight {
-        padding: 1.7rem;
-        padding-left: 2.2rem;
-    }
+/*    .why__meContentRight {*/
+/*        padding: 1.7rem;*/
+/*        padding-left: 2.2rem;*/
+/*    }*/
 
-    .clip-path {
-        width: 14.5rem;
-    }
+/*    .clip-path {*/
+/*        width: 14.5rem;*/
+/*    }*/
 
-    .danfoss {
-        margin-top: -3.3rem;
-        height: 7rem;
-        width: 8rem;
-        margin-left: 2.5rem;
-        animation: iconRotate 7s linear infinite;
-    }
+/*    .danfoss {*/
+/*        margin-top: -3.3rem;*/
+/*        height: 7rem;*/
+/*        width: 8rem;*/
+/*        margin-left: 2.5rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .ct {
-        margin-top: -4rem;
-        margin-left: 8rem;
-        width: 4rem;
-        height: 4rem;
-        animation: iconRotate 7s linear infinite;
-    }
+/*    .ct {*/
+/*        margin-top: -4rem;*/
+/*        margin-left: 8rem;*/
+/*        width: 4rem;*/
+/*        height: 4rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .goprint {
-        width: 11rem !important;
-        height: 7rem !important;
-        margin-top: -7rem;
-        margin-left: -4rem;
-        margin-right: 5rem;
-        animation: iconRotate 7s linear infinite;
-    }
+/*    .goprint {*/
+/*        width: 11rem !important;*/
+/*        height: 7rem !important;*/
+/*        margin-top: -7rem;*/
+/*        margin-left: -4rem;*/
+/*        margin-right: 5rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .inmore {
-        margin-top: -14rem;
-        margin-left: -2.3rem;
-        height: 6rem;
-        width: 6rem;
-        animation: iconRotate 7s linear infinite;
-    }
+/*    .inmore {*/
+/*        margin-top: -14rem;*/
+/*        margin-left: -2.3rem;*/
+/*        height: 6rem;*/
+/*        width: 6rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .listery {
-        margin-top: -21rem;
-        margin-left: -5.7rem;
-        height: 5rem;
-        width: 5rem;
-        animation: iconRotate 7s linear infinite;
-    }
+/*    .listery {*/
+/*        margin-top: -21rem;*/
+/*        margin-left: -5.7rem;*/
+/*        height: 5rem;*/
+/*        width: 5rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .total {
-        margin-top: -25rem;
-        margin-left: -4.3rem;
-        width: 6rem;
-        height: 7rem;
-        animation: iconRotate 7s linear infinite;
-    }
-
-
-    .ukt {
-        height: 6rem;
-        width: 6rem;
-        margin-top: -2rem;
-        margin-left: 7.8rem;
-        animation: iconRotate 7s linear infinite;
-    }
-
-    .lactalis {
-        margin-top: -2rem;
-        width: 5rem;
-        height: 5rem;
-        margin-left: 7.7rem;
-        animation: iconRotate 7s linear infinite;
-    }
-
-    .head {
-        width: 16rem;
-        height: 0.7rem;
-        margin-top: -29rem;
-        animation: iconRotate 7s linear infinite;
-    }
-
-    .agri {
-        width: 4rem;
-        height: 14.6rem;
-        margin-top: -35rem;
-        margin-left: 6rem;
-        transform: rotate(
-                79deg
-        );
-        margin-bottom: -24rem;
-        padding-top: 9rem;
-        background-size: 100%;
-        animation: iconRotates 7s linear infinite;
-    }
+/*    .total {*/
+/*        margin-top: -25rem;*/
+/*        margin-left: -4.3rem;*/
+/*        width: 6rem;*/
+/*        height: 7rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
 
-    .logo__container {
-        width: 190px;
-        height: 190px;
-        border-radius: 50%;
-        margin-top: -1rem;
-        margin-left: 1rem;
-        animation: circleIcons 7s linear infinite;
-    }
-}
+/*    .ukt {*/
+/*        height: 6rem;*/
+/*        width: 6rem;*/
+/*        margin-top: -2rem;*/
+/*        margin-left: 7.8rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-@media (max-width: 429px) {
-    .clip-pathSafari {
-        width: 9.5rem;
-        padding-top: 1.3rem;
-    }
+/*    .lactalis {*/
+/*        margin-top: -2rem;*/
+/*        width: 5rem;*/
+/*        height: 5rem;*/
+/*        margin-left: 7.7rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .logo__containerSafari, .logo__container {
-        animation: circleIconsdasda 7s linear infinite;
-    }
+/*    .head {*/
+/*        width: 16rem;*/
+/*        height: 0.7rem;*/
+/*        margin-top: -29rem;*/
+/*        animation: iconRotate 7s linear infinite;*/
+/*    }*/
 
-    .why__me, .why__meSloy {
-        height: 200px;
-    }
+/*    .agri {*/
+/*        width: 4rem;*/
+/*        height: 14.6rem;*/
+/*        margin-top: -35rem;*/
+/*        margin-left: 6rem;*/
+/*        transform: rotate(*/
+/*                79deg*/
+/*        );*/
+/*        margin-bottom: -24rem;*/
+/*        padding-top: 9rem;*/
+/*        background-size: 100%;*/
+/*        animation: iconRotates 7s linear infinite;*/
+/*    }*/
 
-    .whyme__titleFirst {
-        font-size: 0.6rem !important;
-    }
 
-    .whyme__title {
-        font-size: 0.45rem !important;
-        font-weight: bold;
-    }
+/*    .logo__container {*/
+/*        width: 190px;*/
+/*        height: 190px;*/
+/*        border-radius: 50%;*/
+/*        margin-top: -1rem;*/
+/*        margin-left: 1rem;*/
+/*        animation: circleIcons 7s linear infinite;*/
+/*    }*/
+/*}*/
 
-    .whyme__text {
-        font-size: 5px;
-        line-height: 0.4rem;
-        margin-bottom: 0.45rem;
-    }
+/*@media (max-width: 429px) {*/
+/*    .clip-pathSafari {*/
+/*        width: 9.5rem;*/
+/*        padding-top: 1.3rem;*/
+/*    }*/
 
-    .why__me, .why__meSloy {
-        height: 181px;
-    }
+/*    .logo__containerSafari, .logo__container {*/
+/*        animation: circleIconsdasda 7s linear infinite;*/
+/*    }*/
 
-    .why__meImageBack {
-        height: 247px;
-        margin-top: -14px;
-    }
+/*    .why__me, .why__meSloy {*/
+/*        height: 200px;*/
+/*    }*/
 
-    .why__meContentRight {
-        padding: 0.9rem;
-        padding-left: 2.6rem;
-    }
+/*    .whyme__titleFirst {*/
+/*        font-size: 0.6rem !important;*/
+/*    }*/
 
-    .whyme__titleFirst {
-        margin-bottom: 0.5rem;
-    }
+/*    .whyme__title {*/
+/*        font-size: 0.45rem !important;*/
+/*        font-weight: bold;*/
+/*    }*/
 
-    .clip-path {
-        width: 13.5rem;
-    }
+/*    .whyme__text {*/
+/*        font-size: 5px;*/
+/*        line-height: 0.4rem;*/
+/*        margin-bottom: 0.45rem;*/
+/*    }*/
 
-    .danfoss {
-        margin-top: -2rem;
-        height: 5rem;
-        width: 5rem;
-        margin-left: 4rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .why__me, .why__meSloy {*/
+/*        height: 181px;*/
+/*    }*/
 
-    .ct {
-        margin-top: -4rem;
-        margin-left: 6rem;
-        width: 2rem;
-        height: 2rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .why__meImageBack {*/
+/*        height: 247px;*/
+/*        margin-top: -14px;*/
+/*    }*/
 
-    .ukt {
-        height: 4rem;
-        width: 4rem;
-        margin-top: -4rem;
-        margin-left: 5rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .why__meContentRight {*/
+/*        padding: 0.9rem;*/
+/*        padding-left: 2.6rem;*/
+/*    }*/
 
-    .lactalis {
-        margin-top: -2.5rem;
-        width: 3.4rem;
-        height: 3.4rem;
-        margin-left: 4.5rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .whyme__titleFirst {*/
+/*        margin-bottom: 0.5rem;*/
+/*    }*/
 
-    .goprint {
-        width: 6rem !important;
-        height: 5rem !important;
-        margin-top: -4.5rem;
-        margin-left: -2rem;
-        margin-right: 5rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .clip-path {*/
+/*        width: 13.5rem;*/
+/*    }*/
 
-    .inmore {
-        margin-top: -7rem;
-        margin-left: -10.5rem;
-        height: 4rem;
-        width: 4rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .danfoss {*/
+/*        margin-top: -2rem;*/
+/*        height: 5rem;*/
+/*        width: 5rem;*/
+/*        margin-left: 4rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .listery {
-        margin-top: -11rem;
-        margin-left: -3.7rem;
-        height: 3rem;
-        width: 3rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .ct {*/
+/*        margin-top: -4rem;*/
+/*        margin-left: 6rem;*/
+/*        width: 2rem;*/
+/*        height: 2rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .total {
-        margin-top: -14.2rem;
-        margin-left: -2.7rem;
-        width: 5rem;
-        height: 5rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .ukt {*/
+/*        height: 4rem;*/
+/*        width: 4rem;*/
+/*        margin-top: -4rem;*/
+/*        margin-left: 5rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .logo__container {
-        width: 110px;
-        height: 110px;
-        margin-left: 2rem;
-        margin-top: -1.2rem;
-    }
+/*    .lactalis {*/
+/*        margin-top: -2.5rem;*/
+/*        width: 3.4rem;*/
+/*        height: 3.4rem;*/
+/*        margin-left: 4.5rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .agri {
-        width: 2rem;
-        height: 3.6rem;
-        margin-top: -33rem;
-        margin-left: 0.5rem;
-        transform: rotate(
-                79deg
-        );
-        /* margin-bottom: -24rem; */
-        padding-top: 0rem;
-        background-size: 100%;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .goprint {*/
+/*        width: 6rem !important;*/
+/*        height: 5rem !important;*/
+/*        margin-top: -4.5rem;*/
+/*        margin-left: -2rem;*/
+/*        margin-right: 5rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .head {
-        width: 7rem;
-        height: 0.4rem;
-        margin-top: -19.2rem;
-        animation: iconRotatetest 7s linear infinite;
-    }
+/*    .inmore {*/
+/*        margin-top: -7rem;*/
+/*        margin-left: -10.5rem;*/
+/*        height: 4rem;*/
+/*        width: 4rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .danfossSafari {
-        margin-top: -2rem;
-        height: 5rem;
-        width: 5rem;
-        margin-left: 4rem;
-        animation: iconRotatetestMistake 7s linear infinite;
-    }
+/*    .listery {*/
+/*        margin-top: -11rem;*/
+/*        margin-left: -3.7rem;*/
+/*        height: 3rem;*/
+/*        width: 3rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .ctSafari {
-        margin-top: -4rem;
-        margin-left: 6rem;
-        width: 2rem;
-        height: 2rem;
-        animation: iconRotatetestMistake 7s linear infinite;
-    }
+/*    .total {*/
+/*        margin-top: -14.2rem;*/
+/*        margin-left: -2.7rem;*/
+/*        width: 5rem;*/
+/*        height: 5rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .uktSafari {
-        height: 4rem;
-        width: 4rem;
-        margin-top: -4rem;
-        margin-left: 5rem;
-        animation: iconRotatetestMistake 7s linear infinite;
-    }
+/*    .logo__container {*/
+/*        width: 110px;*/
+/*        height: 110px;*/
+/*        margin-left: 2rem;*/
+/*        margin-top: -1.2rem;*/
+/*    }*/
 
-    .lactalisSafari {
-        margin-top: -2.5rem;
-        width: 3.4rem;
-        height: 3.4rem;
-        margin-left: 4.5rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .agri {*/
+/*        width: 2rem;*/
+/*        height: 3.6rem;*/
+/*        margin-top: -33rem;*/
+/*        margin-left: 0.5rem;*/
+/*        transform: rotate(*/
+/*                79deg*/
+/*        );*/
+/*        !* margin-bottom: -24rem; *!*/
+/*        padding-top: 0rem;*/
+/*        background-size: 100%;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .goprintSafari {
-        width: 6rem !important;
-        height: 5rem !important;
-        margin-top: -4.5rem;
-        margin-left: -2rem;
-        margin-right: 5rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .head {*/
+/*        width: 7rem;*/
+/*        height: 0.4rem;*/
+/*        margin-top: -19.2rem;*/
+/*        animation: iconRotatetest 7s linear infinite;*/
+/*    }*/
 
-    .inmoreSafari {
-        margin-top: -7rem;
-        margin-left: -10.5rem;
-        height: 4rem;
-        width: 4rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .danfossSafari {*/
+/*        margin-top: -2rem;*/
+/*        height: 5rem;*/
+/*        width: 5rem;*/
+/*        margin-left: 4rem;*/
+/*        animation: iconRotatetestMistake 7s linear infinite;*/
+/*    }*/
 
-    .listerySafari {
-        margin-top: -11rem;
-        margin-left: -3.7rem;
-        height: 3rem;
-        width: 3rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .ctSafari {*/
+/*        margin-top: -4rem;*/
+/*        margin-left: 6rem;*/
+/*        width: 2rem;*/
+/*        height: 2rem;*/
+/*        animation: iconRotatetestMistake 7s linear infinite;*/
+/*    }*/
 
-    .totalSafari {
-        margin-top: -14.2rem;
-        margin-left: -2.7rem;
-        width: 5rem;
-        height: 5rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .uktSafari {*/
+/*        height: 4rem;*/
+/*        width: 4rem;*/
+/*        margin-top: -4rem;*/
+/*        margin-left: 5rem;*/
+/*        animation: iconRotatetestMistake 7s linear infinite;*/
+/*    }*/
 
-    .logo__container {
-        width: 110px;
-        height: 110px;
-        margin-left: 2rem;
-        /* margin-bottom: -1rem; */
-        margin-top: -1.2rem;
-    }
+/*    .lactalisSafari {*/
+/*        margin-top: -2.5rem;*/
+/*        width: 3.4rem;*/
+/*        height: 3.4rem;*/
+/*        margin-left: 4.5rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-    .agriSafari {
-        display: none;
-        width: 2rem;
-        height: 3.6rem;
-        margin-top: -33rem;
-        margin-left: 0.5rem;
-        transform: rotate(
-                79deg
-        );
-        /* margin-bottom: -24rem; */
-        padding-top: 0rem;
-        background-size: 100%;
-        animation: iconRotateMistake 7s linear infinite;
-    }
+/*    .goprintSafari {*/
+/*        width: 6rem !important;*/
+/*        height: 5rem !important;*/
+/*        margin-top: -4.5rem;*/
+/*        margin-left: -2rem;*/
+/*        margin-right: 5rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-    .headSafari {
-        width: 7rem;
-        height: 0.4rem;
-        margin-top: -19.2rem;
-        animation: iconRotateMistake 7s linear infinite;
-    }
-}
+/*    .inmoreSafari {*/
+/*        margin-top: -7rem;*/
+/*        margin-left: -10.5rem;*/
+/*        height: 4rem;*/
+/*        width: 4rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-@media (max-width: 376px) {
-    .logo__container {
-        animation: circleIconstest 7s linear infinite;
-    }
+/*    .listerySafari {*/
+/*        margin-top: -11rem;*/
+/*        margin-left: -3.7rem;*/
+/*        height: 3rem;*/
+/*        width: 3rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-    .danfossSafari, .ctSafari, .uktSafari, .lactalisSafari, .agriSafari, .headSafari, .totalSafari, .listerySafari, .inmoreSafari, .goprintSafari {
-        animation: iconRotateWithoutAnySafari 7s linear infinite;
+/*    .totalSafari {*/
+/*        margin-top: -14.2rem;*/
+/*        margin-left: -2.7rem;*/
+/*        width: 5rem;*/
+/*        height: 5rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-    }
+/*    .logo__container {*/
+/*        width: 110px;*/
+/*        height: 110px;*/
+/*        margin-left: 2rem;*/
+/*        !* margin-bottom: -1rem; *!*/
+/*        margin-top: -1.2rem;*/
+/*    }*/
 
-    .agri375Safari {
-        display: none;
-    }
-}
+/*    .agriSafari {*/
+/*        display: none;*/
+/*        width: 2rem;*/
+/*        height: 3.6rem;*/
+/*        margin-top: -33rem;*/
+/*        margin-left: 0.5rem;*/
+/*        transform: rotate(*/
+/*                79deg*/
+/*        );*/
+/*        !* margin-bottom: -24rem; *!*/
+/*        padding-top: 0rem;*/
+/*        background-size: 100%;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
 
-@media (max-width: 321px) {
-    .why__meImageBack {
-        height: 211px;
-        margin-top: -14px;
-    }
+/*    .headSafari {*/
+/*        width: 7rem;*/
+/*        height: 0.4rem;*/
+/*        margin-top: -19.2rem;*/
+/*        animation: iconRotateMistake 7s linear infinite;*/
+/*    }*/
+/*}*/
 
-    .whyme__titleFirst {
-        margin-bottom: 0.5rem;
-    }
+/*@media (max-width: 376px) {*/
+/*    .logo__container {*/
+/*        animation: circleIconstest 7s linear infinite;*/
+/*    }*/
 
-    .logo__container {
-        margin-left: 2rem;
-    }
+/*    .danfossSafari, .ctSafari, .uktSafari, .lactalisSafari, .agriSafari, .headSafari, .totalSafari, .listerySafari, .inmoreSafari, .goprintSafari {*/
+/*        animation: iconRotateWithoutAnySafari 7s linear infinite;*/
 
-}
+/*    }*/
+
+/*    .agri375Safari {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 321px) {*/
+/*    .why__meImageBack {*/
+/*        height: 211px;*/
+/*        margin-top: -14px;*/
+/*    }*/
+
+/*    .whyme__titleFirst {*/
+/*        margin-bottom: 0.5rem;*/
+/*    }*/
+
+/*    .logo__container {*/
+/*        margin-left: 2rem;*/
+/*    }*/
+
+/*}*/

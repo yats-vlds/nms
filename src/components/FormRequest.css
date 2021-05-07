@@ -378,336 +378,336 @@ textarea {
     }
 }
 
-@media (max-width: 601px) {
-    .submit-form {
-        position: absolute;
-        margin-top: 99.5%;
-        margin-left: 29%;
-        width: 10%;
-        height: 7%;
-    }
-    .card {
-        border-radius: 13px;
-    }
+/*@media (max-width: 601px) {*/
+/*    .submit-form {*/
+/*        position: absolute;*/
+/*        margin-top: 99.5%;*/
+/*        margin-left: 29%;*/
+/*        width: 10%;*/
+/*        height: 7%;*/
+/*    }*/
+/*    .card {*/
+/*        border-radius: 13px;*/
+/*    }*/
 
-    .form-request, .card, .form {
-        width: 20rem;
-        height: 20rem;
-    }
+/*    .form-request, .card, .form {*/
+/*        width: 20rem;*/
+/*        height: 20rem;*/
+/*    }*/
 
-    .input {
-        width: 17rem;
-        font-size: 0.7rem;
-        height: 2rem;
-    }
+/*    .input {*/
+/*        width: 17rem;*/
+/*        font-size: 0.7rem;*/
+/*        height: 2rem;*/
+/*    }*/
 
-    textarea {
-        width: 17rem;
-        height: 10rem;
-        font-size: 0.7rem;
-    }
+/*    textarea {*/
+/*        width: 17rem;*/
+/*        height: 10rem;*/
+/*        font-size: 0.7rem;*/
+/*    }*/
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
-        width: 23rem;
-    }
+/*    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {*/
+/*        width: 23rem;*/
+/*    }*/
 
-    .form-header-title {
-        position: relative;
-        z-index: 2;
-        width: 300px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/*    .form-header-title {*/
+/*        position: relative;*/
+/*        z-index: 2;*/
+/*        width: 300px;*/
+/*        display: flex;*/
+/*        margin-left: auto;*/
+/*        margin-right: auto;*/
+/*    }*/
 
-    .form__skrepka {
-        width: 0.3rem;
-        height: 1rem;
-        margin-left: 2.3rem;
-    }
+/*    .form__skrepka {*/
+/*        width: 0.3rem;*/
+/*        height: 1rem;*/
+/*        margin-left: 2.3rem;*/
+/*    }*/
 
-    .from-pryam4. .from-pryam4Safari {
-        font-size: 18px;
-        margin-top: 1.3rem;
-    }
+/*    .from-pryam4. .from-pryam4Safari {*/
+/*        font-size: 18px;*/
+/*        margin-top: 1.3rem;*/
+/*    }*/
 
-    .btnForm, .btnForm-twoSloy {
-        width: 6rem !important;
-        height: 1rem !important;
-    }
+/*    .btnForm, .btnForm-twoSloy {*/
+/*        width: 6rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 3.7rem !important;
-        height: 1rem !important;
-    }
+/*    .btn-threeSloyBefore, .btn-fourSloyBefore {*/
+/*        width: 3.7rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 6rem !important;
-        height: 1rem !important;
-    }
+/*    .btn-threeSloyAfter, .btn-fourSloyAfter {*/
+/*        width: 6rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .ellipse-btnFormBefore {
-        width: 0.5rem;
-        height: 0.5rem;
-        border-radius: 13px;
-        background-color: #4f47ff;
-        margin-right: 0.4rem;
-        cursor: pointer;
-    }
+/*    .ellipse-btnFormBefore {*/
+/*        width: 0.5rem;*/
+/*        height: 0.5rem;*/
+/*        border-radius: 13px;*/
+/*        background-color: #4f47ff;*/
+/*        margin-right: 0.4rem;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-    .ellipse-btnFormAfter {
-        width: 0.5rem;
-        height: 0.5rem;
-        border-radius: 13px;
-        background-color: #4f47ff;
-        margin-left: 5rem;
-        cursor: pointer;
-    }
+/*    .ellipse-btnFormAfter {*/
+/*        width: 0.5rem;*/
+/*        height: 0.5rem;*/
+/*        border-radius: 13px;*/
+/*        background-color: #4f47ff;*/
+/*        margin-left: 5rem;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-    .btn-fourSloyTitle {
-        padding-top: 0.15rem;
-        padding-left: 0.4rem;
-        color: #ffffff;
-        font-size: 0.3rem;
-    }
+/*    .btn-fourSloyTitle {*/
+/*        padding-top: 0.15rem;*/
+/*        padding-left: 0.4rem;*/
+/*        color: #ffffff;*/
+/*        font-size: 0.3rem;*/
+/*    }*/
 
-    .input {
-        margin-bottom: 8px;
-    }
+/*    .input {*/
+/*        margin-bottom: 8px;*/
+/*    }*/
 
 
-    .form-request, .card, .form {
-        width: 15rem;
-        height: 15rem;
-    }
+/*    .form-request, .card, .form {*/
+/*        width: 15rem;*/
+/*        height: 15rem;*/
+/*    }*/
 
-    .form-input {
-        padding-top: 2rem;
-    }
+/*    .form-input {*/
+/*        padding-top: 2rem;*/
+/*    }*/
 
-    .input {
-        width: 12rem;
-        font-size: 0.5rem;
-        height: 1.8rem;
-        padding-left: 0.5rem;
-    }
+/*    .input {*/
+/*        width: 12rem;*/
+/*        font-size: 0.5rem;*/
+/*        height: 1.8rem;*/
+/*        padding-left: 0.5rem;*/
+/*    }*/
 
-    textarea {
-        border-radius: 17px;
-        padding: 0.8rem;
-        font-size: 0.5rem;
-        width: 12rem;
-        height: 6.5rem;
-        border-radius: 11px;
-        background-color: #efefef;
-        border: 1px solid #dedede;
-        padding: 0.5rem;
-        outline: none;
-    }
+/*    textarea {*/
+/*        border-radius: 17px;*/
+/*        padding: 0.8rem;*/
+/*        font-size: 0.5rem;*/
+/*        width: 12rem;*/
+/*        height: 6.5rem;*/
+/*        border-radius: 11px;*/
+/*        background-color: #efefef;*/
+/*        border: 1px solid #dedede;*/
+/*        padding: 0.5rem;*/
+/*        outline: none;*/
+/*    }*/
 
-    .btn-fourSloyTitle {
-        font-size: 9px !important;
-    }
-    .from-pryam4, .from-pryam4Safari {
-        font-size: 17px;
-    }
-}
+/*    .btn-fourSloyTitle {*/
+/*        font-size: 9px !important;*/
+/*    }*/
+/*    .from-pryam4, .from-pryam4Safari {*/
+/*        font-size: 17px;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 430px) {
-    .from-pryam4Safari {
-        margin-bottom: 5rem;
-    }
-    .from-pryam4Safari, .from-pryam4  {
-        font-size: 16px;
-    }
-    .from-pryam4, .from-pryam4Safari {
-        margin-top: 1.5rem;
-    }
-}
+/*@media(max-width: 430px) {*/
+/*    .from-pryam4Safari {*/
+/*        margin-bottom: 5rem;*/
+/*    }*/
+/*    .from-pryam4Safari, .from-pryam4  {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .from-pryam4, .from-pryam4Safari {*/
+/*        margin-top: 1.5rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 376px) {
-    .formRequest {
-        width: 100%;
-    }
+/*@media (max-width: 376px) {*/
+/*    .formRequest {*/
+/*        width: 100%;*/
+/*    }*/
 
-    .form-request, .card, .form {
-        width: 11rem;
-        height: 11rem;
-    }
-    .form-input {
-        padding-top: 1rem;
-    }
+/*    .form-request, .card, .form {*/
+/*        width: 11rem;*/
+/*        height: 11rem;*/
+/*    }*/
+/*    .form-input {*/
+/*        padding-top: 1rem;*/
+/*    }*/
 
-    .input {
-        width: 9rem;
-        font-size: 7px;
-        height: 1.3rem;
-    }
+/*    .input {*/
+/*        width: 9rem;*/
+/*        font-size: 7px;*/
+/*        height: 1.3rem;*/
+/*    }*/
 
-    textarea {
-        border-radius: 11px !important;
-        padding: 0.37rem !important;
-        width: 9rem;
-        height: 5rem;
-        font-size: 7px;
-    }
+/*    textarea {*/
+/*        border-radius: 11px !important;*/
+/*        padding: 0.37rem !important;*/
+/*        width: 9rem;*/
+/*        height: 5rem;*/
+/*        font-size: 7px;*/
+/*    }*/
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
-        width: 16rem;
-    }
-    .from-pryam4Safari {
-        margin-bottom: 2rem;
-    }
+/*    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {*/
+/*        width: 16rem;*/
+/*    }*/
+/*    .from-pryam4Safari {*/
+/*        margin-bottom: 2rem;*/
+/*    }*/
 
-    .from-pryam4, .from-pryam4Safari  {
-        font-size: 12px;
-        margin-top: 1rem;
-    }
+/*    .from-pryam4, .from-pryam4Safari  {*/
+/*        font-size: 12px;*/
+/*        margin-top: 1rem;*/
+/*    }*/
 
-    .form__skrepka {
-        width: 0.3rem;
-        height: 0.5rem;
-        margin-top: 0.35rem;
-        margin-left: 1.7rem;
-    }
+/*    .form__skrepka {*/
+/*        width: 0.3rem;*/
+/*        height: 0.5rem;*/
+/*        margin-top: 0.35rem;*/
+/*        margin-left: 1.7rem;*/
+/*    }*/
 
-    .btnForm, .btnForm-twoSloy {
-        width: 5rem !important;
-        height: 1rem !important;
-    }
+/*    .btnForm, .btnForm-twoSloy {*/
+/*        width: 5rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 3rem !important;
-        height: 1rem !important;
-    }
+/*    .btn-threeSloyBefore, .btn-fourSloyBefore {*/
+/*        width: 3rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 5rem !important;
-        height: 1rem !important;
-    }
+/*    .btn-threeSloyAfter, .btn-fourSloyAfter {*/
+/*        width: 5rem !important;*/
+/*        height: 1rem !important;*/
+/*    }*/
 
-    .btn-fourSloyTitle {
-        padding: 0.2rem;
-        padding-left: 0.4rem;
-        font-size: 7px !important;
-    }
+/*    .btn-fourSloyTitle {*/
+/*        padding: 0.2rem;*/
+/*        padding-left: 0.4rem;*/
+/*        font-size: 7px !important;*/
+/*    }*/
 
-    .ellipse-btnFormAfter {
-        margin-left: 4.2rem;
-        width: 0.35rem;
-        height: 0.35rem;
-    }
+/*    .ellipse-btnFormAfter {*/
+/*        margin-left: 4.2rem;*/
+/*        width: 0.35rem;*/
+/*        height: 0.35rem;*/
+/*    }*/
 
-    .ellipse-btnFormBefore {
-        width: 0.35rem;
-        height: 0.35rem;
-    }
+/*    .ellipse-btnFormBefore {*/
+/*        width: 0.35rem;*/
+/*        height: 0.35rem;*/
+/*    }*/
 
-    .input {
-        margin-bottom: 7px;
-    }
+/*    .input {*/
+/*        margin-bottom: 7px;*/
+/*    }*/
 
-    .form-header-title {
-        position: relative;
-        z-index: 2;
-        width: 75%;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/*    .form-header-title {*/
+/*        position: relative;*/
+/*        z-index: 2;*/
+/*        width: 75%;*/
+/*        display: flex;*/
+/*        margin-left: auto;*/
+/*        margin-right: auto;*/
+/*    }*/
 
-    textarea {
-        border-radius: 8px !important;
-        padding: 0.37rem !important;
-    }
+/*    textarea {*/
+/*        border-radius: 8px !important;*/
+/*        padding: 0.37rem !important;*/
+/*    }*/
 
-    .submit-form {
-        position: absolute;
-        margin-top: 110.5%;
-        margin-left: 29%;
-        width: 10%;
-        height: 7%;
-    }
+/*    .submit-form {*/
+/*        position: absolute;*/
+/*        margin-top: 110.5%;*/
+/*        margin-left: 29%;*/
+/*        width: 10%;*/
+/*        height: 7%;*/
+/*    }*/
 
-}
+/*}*/
 
-@media (max-width: 321px) {
-    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        height: 0.8rem !important;
-    }
+/*@media (max-width: 321px) {*/
+/*    .btnForm, .btnForm-twoSloy, .btn-threeSloyBefore, .btn-fourSloyBefore, .btn-threeSloyAfter, .btn-fourSloyAfter {*/
+/*        height: 0.8rem !important;*/
+/*    }*/
 
-    .form-request, .card, .form {
-        width: 10rem;
-        height: 10rem;
-    }
+/*    .form-request, .card, .form {*/
+/*        width: 10rem;*/
+/*        height: 10rem;*/
+/*    }*/
 
-    .input {
-        width: 9rem;
-        font-size: 7px;
-        height: 1.3rem;
-    }
+/*    .input {*/
+/*        width: 9rem;*/
+/*        font-size: 7px;*/
+/*        height: 1.3rem;*/
+/*    }*/
 
-    textarea {
-        border-radius: 8px !important;
-        padding: 0.37rem !important;
-        width: 9rem;
-        height: 4.3rem;
-        font-size: 7px;
-    }
+/*    textarea {*/
+/*        border-radius: 8px !important;*/
+/*        padding: 0.37rem !important;*/
+/*        width: 9rem;*/
+/*        height: 4.3rem;*/
+/*        font-size: 7px;*/
+/*    }*/
 
-    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {
-        width: 15rem;
-    }
+/*    .from-pryam1, .from-pryam2, .from-pryam3, .from-pryam4, .from-pryam4Safari {*/
+/*        width: 15rem;*/
+/*    }*/
 
-    .form-header-title {
-        width: 200px;
-    }
+/*    .form-header-title {*/
+/*        width: 200px;*/
+/*    }*/
 
-    .btnForm {
-        margin-top: 1rem;
-    }
+/*    .btnForm {*/
+/*        margin-top: 1rem;*/
+/*    }*/
 
-    .input {
-        margin-bottom: 5px;
-    }
+/*    .input {*/
+/*        margin-bottom: 5px;*/
+/*    }*/
 
-    .form__skrepka {
-        width: 0.3rem;
-        height: 0.5rem;
-        margin-top: 0.35rem;
-        margin-left: 1rem;
-    }
+/*    .form__skrepka {*/
+/*        width: 0.3rem;*/
+/*        height: 0.5rem;*/
+/*        margin-top: 0.35rem;*/
+/*        margin-left: 1rem;*/
+/*    }*/
 
-    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {
-        width: 4rem !important;
-    }
+/*    .btnForm, .btnForm-twoSloy, .btn-threeSloyAfter, .btn-fourSloyAfter {*/
+/*        width: 4rem !important;*/
+/*    }*/
 
-    .btn-threeSloyBefore, .btn-fourSloyBefore {
-        width: 2.5rem !important;
-    }
+/*    .btn-threeSloyBefore, .btn-fourSloyBefore {*/
+/*        width: 2.5rem !important;*/
+/*    }*/
 
-    .ellipse-btnFormBefore {
-        width: 0.3rem;
-        height: 0.3rem;
-        border-radius: 13px;
-        background-color: #4f47ff;
-        margin-right: 0.4rem;
-        cursor: pointer;
-    }
+/*    .ellipse-btnFormBefore {*/
+/*        width: 0.3rem;*/
+/*        height: 0.3rem;*/
+/*        border-radius: 13px;*/
+/*        background-color: #4f47ff;*/
+/*        margin-right: 0.4rem;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-    .ellipse-btnFormAfter {
-        width: 0.3rem;
-        height: 0.3rem;
-        border-radius: 13px;
-        background-color: #4f47ff;
-        margin-left: 3.2rem;
-        cursor: pointer;
-    }
+/*    .ellipse-btnFormAfter {*/
+/*        width: 0.3rem;*/
+/*        height: 0.3rem;*/
+/*        border-radius: 13px;*/
+/*        background-color: #4f47ff;*/
+/*        margin-left: 3.2rem;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-    .btn-fourSloyTitle {
-        padding: 0.15rem;
-        padding-left: 1rem;
-        font-size: 6px !important;
-        padding-left: 0.2rem;
-    }
-}
+/*    .btn-fourSloyTitle {*/
+/*        padding: 0.15rem;*/
+/*        padding-left: 1rem;*/
+/*        font-size: 6px !important;*/
+/*        padding-left: 0.2rem;*/
+/*    }*/
+/*}*/

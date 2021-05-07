@@ -68,68 +68,68 @@
     }
 }
 
-@media(max-width: 576px) {
-    .cap__leftTitle {
-        font-size: 2.8rem;
-    }
-}
+/*@media(max-width: 576px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2.8rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 542px) {
-    .cap__leftTitle {
-        font-size: 2.6rem;
-    }
-}
+/*@media(max-width: 542px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2.6rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 501px) {
-    .cap__leftTitle {
-        font-size: 2.4rem;
-    }
-}
+/*@media(max-width: 501px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2.4rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 459px) {
-    .cap__leftTitle {
-        font-size: 2.2rem;
-    }
-}
+/*@media(max-width: 459px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2.2rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 429px) {
-    .cap__leftTitle {
-        font-size: 2.1rem;
-    }
-}
+/*@media(max-width: 429px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2.1rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 405px) {
-    .cap__leftTitle {
-        font-size: 2rem;
-    }
-}
+/*@media(max-width: 405px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 391px) {
-    .cap__leftTitle {
-        font-size: 1.9rem;
-        margin-top: -2.5%;
-    }
-}
+/*@media(max-width: 391px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 1.9rem;*/
+/*        margin-top: -2.5%;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 371px) {
-    .cap__leftTitle {
-        font-size: 1.8rem;
-        margin-top: -2.5%;
-    }
-}
+/*@media(max-width: 371px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 1.8rem;*/
+/*        margin-top: -2.5%;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 350px) {
-    .cap__leftTitle {
-        font-size: 1.6rem;
-        margin-top: -2.5%;
-    }
-}
+/*@media(max-width: 350px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 1.6rem;*/
+/*        margin-top: -2.5%;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 347px) {
-    .cap__leftTitle {
-        font-size: 1.6rem;
-    }
-}
+/*@media(max-width: 347px) {*/
+/*    .cap__leftTitle {*/
+/*        font-size: 1.6rem;*/
+/*    }*/
+/*}*/
 
 /*@media(max-width: 1371px) {*/
 /*    .cap__leftTitle {*/

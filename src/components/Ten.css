@@ -453,414 +453,414 @@
     }
 }
 
-@media (max-width: 736px) {
-    .ten__yog {
-        position: absolute;
-        height: 220px;
-        object-fit: contain;
-        width: 449px;
-        margin-left: 15rem;
-        animation: tenyog768 2s infinite !important;
-    }
+/*@media (max-width: 736px) {*/
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 220px;*/
+/*        object-fit: contain;*/
+/*        width: 449px;*/
+/*        margin-left: 15rem;*/
+/*        animation: tenyog768 2s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 27rem;
-        margin-top: -6.6rem;
-        width: 70px;
-        height: 16px;
-        animation: tenellipse768 2s infinite !important;
-    }
+/*    .ellipse {*/
+/*        margin-left: 27rem;*/
+/*        margin-top: -6.6rem;*/
+/*        width: 70px;*/
+/*        height: 16px;*/
+/*        animation: tenellipse768 2s infinite !important;*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        font-size: 29px;
-    }
-}
+/*    .ten__contentLeftTitle {*/
+/*        font-size: 29px;*/
+/*    }*/
+/*}*/
 
-@media(max-width: 676px) {
-    .ten__yog {
-        position: absolute;
-        height: 220px;
-        object-fit: contain;
-        width: 449px;
-        margin-left: 13rem;
-        animation: tenyog768 2s infinite !important;
-    }
+/*@media(max-width: 676px) {*/
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 220px;*/
+/*        object-fit: contain;*/
+/*        width: 449px;*/
+/*        margin-left: 13rem;*/
+/*        animation: tenyog768 2s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 25rem;
-        margin-top: -6.5rem;
-        width: 80px;
-        height: 16px;
-        animation: tenellipse768 2s infinite !important;
-    }
-}
+/*    .ellipse {*/
+/*        margin-left: 25rem;*/
+/*        margin-top: -6.5rem;*/
+/*        width: 80px;*/
+/*        height: 16px;*/
+/*        animation: tenellipse768 2s infinite !important;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 668px) {
-    .ten__yog {
-        position: absolute;
-        height: 220px;
-        object-fit: contain;
-        width: 449px;
-        margin-left: 13rem;
-        animation: tenyog768 2s infinite !important;
-    }
+/*@media (max-width: 668px) {*/
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 220px;*/
+/*        object-fit: contain;*/
+/*        width: 449px;*/
+/*        margin-left: 13rem;*/
+/*        animation: tenyog768 2s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 24rem;
-        margin-top: -6.5rem;
-        width: 80px;
-        height: 16px;
-        animation: tenellipse768 2s infinite !important;
-    }
+/*    .ellipse {*/
+/*        margin-left: 24rem;*/
+/*        margin-top: -6.5rem;*/
+/*        width: 80px;*/
+/*        height: 16px;*/
+/*        animation: tenellipse768 2s infinite !important;*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        padding-top: 8rem;
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 29px;
-    }
-}
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 8rem;*/
+/*        color: #ffffff;*/
+/*        font-weight: bold;*/
+/*        font-size: 29px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 641px) {
-    .ten__yog {
-        position: absolute;
-        height: 220px;
-        object-fit: contain;
-        width: 418px;
-        margin-left: 13rem;
-        animation: tenyog768 2s infinite !important;
-    }
+/*@media (max-width: 641px) {*/
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 220px;*/
+/*        object-fit: contain;*/
+/*        width: 418px;*/
+/*        margin-left: 13rem;*/
+/*        animation: tenyog768 2s infinite !important;*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        padding-top: 8rem;
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 24px;
-    }
-}
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 8rem;*/
+/*        color: #ffffff;*/
+/*        font-weight: bold;*/
+/*        font-size: 24px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 601px) {
-    .ten, .tenSloy, .ten__img {
-        min-height: 321px;
-    }
+/*@media (max-width: 601px) {*/
+/*    .ten, .tenSloy, .ten__img {*/
+/*        min-height: 321px;*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        padding-top: 7rem;
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 22px;
-    }
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 7rem;*/
+/*        color: #ffffff;*/
+/*        font-weight: bold;*/
+/*        font-size: 22px;*/
+/*    }*/
 
-    .ten__yog {
-        position: absolute;
-        height: 190px;
-        object-fit: contain;
-        width: 449px;
-        margin-left: 19rem;
-        animation: tenyog768 2s infinite !important;
-    }
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 190px;*/
+/*        object-fit: contain;*/
+/*        width: 449px;*/
+/*        margin-left: 19rem;*/
+/*        animation: tenyog768 2s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 22.5rem;
-        margin-top: -5.5rem;
-        width: 80px;
-        height: 16px;
-        animation: tenellipse768 2s infinite !important;
-    }
+/*    .ellipse {*/
+/*        margin-left: 22.5rem;*/
+/*        margin-top: -5.5rem;*/
+/*        width: 80px;*/
+/*        height: 16px;*/
+/*        animation: tenellipse768 2s infinite !important;*/
+/*    }*/
 
-    .ten {
-        margin-bottom: -84px;
-    }
-}
+/*    .ten {*/
+/*        margin-bottom: -84px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 480px) {
-    .ellipse {
-        margin-left: 18.5rem;
-    }
+/*@media (max-width: 480px) {*/
+/*    .ellipse {*/
+/*        margin-left: 18.5rem;*/
+/*    }*/
 
-    .ten__yog {
-        margin-left: 15rem;
-    }
-}
+/*    .ten__yog {*/
+/*        margin-left: 15rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 429px) {
-    .ten {
-        margin-bottom: -57px;
-    }
+/*@media (max-width: 429px) {*/
+/*    .ten {*/
+/*        margin-bottom: -57px;*/
+/*    }*/
 
-    .ten, .tenSloy, .ten__img {
-        min-height: 217px;
-    }
+/*    .ten, .tenSloy, .ten__img {*/
+/*        min-height: 217px;*/
+/*    }*/
 
-    .ten__yog {
-        position: absolute;
-        height: 125px;
-        object-fit: contain;
-        width: 190px !important;
-        margin-left: 12rem;
-        margin-top: 2.5rem;
-        animation: tenyog425 2s infinite !important;
-    }
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 125px;*/
+/*        object-fit: contain;*/
+/*        width: 190px !important;*/
+/*        margin-left: 12rem;*/
+/*        margin-top: 2.5rem;*/
+/*        animation: tenyog425 2s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 16.8rem !important;
-        margin-top: -3.8rem;
-        width: 39px;
-        height: 11px;
-        /* animation: tenellipse425 2s infinite!important; */
-    }
+/*    .ellipse {*/
+/*        margin-left: 16.8rem !important;*/
+/*        margin-top: -3.8rem;*/
+/*        width: 39px;*/
+/*        height: 11px;*/
+/*        !* animation: tenellipse425 2s infinite!important; *!*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        padding-top: 4.5rem;
-        font-size: 17px;
-    }
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 4.5rem;*/
+/*        font-size: 17px;*/
+/*    }*/
 
-    /*@-webkit-keyframes tenellipse425{*/
-    /*    0% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -5.1rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*}*/
-    /*@keyframes tenellipse425{*/
-    /*    0% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -5.1rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*}*/
-    @-webkit-keyframes tenyog425 {
-        0% {
-            margin-top: 1.5rem;
-        }
-        50% {
-            margin-top: 2.1rem;
-        }
-        100% {
-            margin-top: 1.5rem;
-        }
-    }
+/*    !*@-webkit-keyframes tenellipse425{*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -5.1rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    !*@keyframes tenellipse425{*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -5.1rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    @-webkit-keyframes tenyog425 {*/
+/*        0% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 2.1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*    }*/
 
-    @keyframes tenyog425 {
-        0% {
-            margin-top: 1.5rem;
-        }
-        50% {
-            margin-top: 2.1rem;
-        }
-        100% {
-            margin-top: 1.5rem;
-        }
-    }
+/*    @keyframes tenyog425 {*/
+/*        0% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 2.1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*    }*/
 
-}
+/*}*/
 
-@media (max-width: 391px) {
-    .ten__contentLeftTitle {
-        padding-top: 4.5rem;
-        font-size: 15px;
-    }
+/*@media (max-width: 391px) {*/
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 4.5rem;*/
+/*        font-size: 15px;*/
+/*    }*/
 
-    .ten__yog {
-        margin-left: 10rem;
-    }
+/*    .ten__yog {*/
+/*        margin-left: 10rem;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 14.8rem !important;
-    }
-}
+/*    .ellipse {*/
+/*        margin-left: 14.8rem !important;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 376px) {
-    .ten {
-        margin-bottom: -49px;
-    }
+/*@media (max-width: 376px) {*/
+/*    .ten {*/
+/*        margin-bottom: -49px;*/
+/*    }*/
 
-    .ten, .tenSloy, .ten__img {
-        min-height: 192px;
-    }
+/*    .ten, .tenSloy, .ten__img {*/
+/*        min-height: 192px;*/
+/*    }*/
 
-    .formRequest {
-        width: 100%;
-        margin-top: 1rem;
-    }
+/*    .formRequest {*/
+/*        width: 100%;*/
+/*        margin-top: 1rem;*/
+/*    }*/
 
-    .ten__yog {
-        position: absolute;
-        height: 121px;
-        object-fit: contain;
-        width: 222px;
-        margin-left: 10rem;
-        margin-top: 2.5rem;
-        animation: tenyog375 1s infinite !important;
-    }
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 121px;*/
+/*        object-fit: contain;*/
+/*        width: 222px;*/
+/*        margin-left: 10rem;*/
+/*        margin-top: 2.5rem;*/
+/*        animation: tenyog375 1s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 14.8rem !important;
-        margin-top: -3.2rem;
-        /*animation: tenellipse375 1s infinite!important;*/
-    }
+/*    .ellipse {*/
+/*        margin-left: 14.8rem !important;*/
+/*        margin-top: -3.2rem;*/
+/*        !*animation: tenellipse375 1s infinite!important;*!*/
+/*    }*/
 
-    /*@-webkit-keyframes tenellipse375{*/
-    /*    0% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -4.5rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*}*/
-    /*@keyframes tenellipse375{*/
-    /*    0% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -4.5rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -5rem;*/
-    /*    }*/
-    /*}*/
-    .ten__contentLeftTitle {
-        padding-top: 4.3rem;
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 15px;
-    }
+/*    !*@-webkit-keyframes tenellipse375{*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -4.5rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    !*@keyframes tenellipse375{*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -4.5rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -5rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 4.3rem;*/
+/*        color: #ffffff;*/
+/*        font-weight: bold;*/
+/*        font-size: 15px;*/
+/*    }*/
 
-    @-webkit-keyframes tenyog375 {
-        0% {
-            margin-top: 1.3rem;
-        }
-        50% {
-            margin-top: 1.5rem;
-        }
-        100% {
-            margin-top: 1.3rem;
-        }
-    }
+/*    @-webkit-keyframes tenyog375 {*/
+/*        0% {*/
+/*            margin-top: 1.3rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 1.3rem;*/
+/*        }*/
+/*    }*/
 
-    @keyframes tenyog375 {
-        0% {
-            margin-top: 1.3rem;
-        }
-        50% {
-            margin-top: 1.5rem;
-        }
-        100% {
-            margin-top: 1.3rem;
-        }
-    }
-}
+/*    @keyframes tenyog375 {*/
+/*        0% {*/
+/*            margin-top: 1.3rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 1.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 1.3rem;*/
+/*        }*/
+/*    }*/
+/*}*/
 
-@media (max-width: 361px) {
-    .ten__yog {
-        position: absolute;
-        height: 113px;
-        object-fit: contain;
-        width: 222px;
-        margin-left: 9.5rem;
-        margin-top: 2.5rem;
-        animation: tenyog375 1s infinite !important;
-    }
+/*@media (max-width: 361px) {*/
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 113px;*/
+/*        object-fit: contain;*/
+/*        width: 222px;*/
+/*        margin-left: 9.5rem;*/
+/*        margin-top: 2.5rem;*/
+/*        animation: tenyog375 1s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 14.3rem !important;
-        margin-top: -3.3rem;
-    }
-}
+/*    .ellipse {*/
+/*        margin-left: 14.3rem !important;*/
+/*        margin-top: -3.3rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 321px) {
-    .bootstrap__tableThree {
-        margin-top: -3rem;
-    }
+/*@media (max-width: 321px) {*/
+/*    .bootstrap__tableThree {*/
+/*        margin-top: -3rem;*/
+/*    }*/
 
-    .ten {
-        margin-bottom: -40px !important;
-    }
+/*    .ten {*/
+/*        margin-bottom: -40px !important;*/
+/*    }*/
 
-    .ten, .tenSloy, .ten__img {
-        min-height: 155px;
-    }
+/*    .ten, .tenSloy, .ten__img {*/
+/*        min-height: 155px;*/
+/*    }*/
 
-    .ten__yog {
-        position: absolute;
-        height: 99px;
-        object-fit: contain;
-        width: 123px !important;
-        margin-left: 11rem;
-        margin-top: 2.5rem;
-        animation: tenyog320 3s infinite !important;
-    }
+/*    .ten__yog {*/
+/*        position: absolute;*/
+/*        height: 99px;*/
+/*        object-fit: contain;*/
+/*        width: 123px !important;*/
+/*        margin-left: 11rem;*/
+/*        margin-top: 2.5rem;*/
+/*        animation: tenyog320 3s infinite !important;*/
+/*    }*/
 
-    .ellipse {
-        margin-left: 13.5rem !important;
-        margin-top: -2.8rem;
-        /*animation: tenellipse320 3s infinite!important;*/
-    }
+/*    .ellipse {*/
+/*        margin-left: 13.5rem !important;*/
+/*        margin-top: -2.8rem;*/
+/*        !*animation: tenellipse320 3s infinite!important;*!*/
+/*    }*/
 
-    .ten__contentLeftTitle {
-        padding-top: 3.5rem;
-        padding-left: 0.8rem;
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 16px;
-    }
+/*    .ten__contentLeftTitle {*/
+/*        padding-top: 3.5rem;*/
+/*        padding-left: 0.8rem;*/
+/*        color: #ffffff;*/
+/*        font-weight: bold;*/
+/*        font-size: 12px;*/
+/*        line-height: 16px;*/
+/*    }*/
 
-    /*@-webkit-keyframes tenellipse320 {*/
-    /*    0% {*/
-    /*        margin-top: -4.2rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -4.5rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -4.2rem;*/
-    /*    }*/
-    /*}*/
-    /*@keyframes tenellipse320 {*/
-    /*    0% {*/
-    /*        margin-top: -4.2rem;*/
-    /*    }*/
-    /*    50% {*/
-    /*        margin-top: -4.5rem;*/
-    /*    }*/
-    /*    100% {*/
-    /*        margin-top: -4.2rem;*/
-    /*    }*/
-    /*}*/
-    @-webkit-keyframes tenyog320 {
-        0% {
-            margin-top: 0.5rem;
-        }
-        50% {
-            margin-top: 0.8rem;
-        }
-        100% {
-            margin-top: 0.5rem;
-        }
-    }
+/*    !*@-webkit-keyframes tenellipse320 {*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -4.2rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -4.5rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -4.2rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    !*@keyframes tenellipse320 {*!*/
+/*    !*    0% {*!*/
+/*    !*        margin-top: -4.2rem;*!*/
+/*    !*    }*!*/
+/*    !*    50% {*!*/
+/*    !*        margin-top: -4.5rem;*!*/
+/*    !*    }*!*/
+/*    !*    100% {*!*/
+/*    !*        margin-top: -4.2rem;*!*/
+/*    !*    }*!*/
+/*    !*}*!*/
+/*    @-webkit-keyframes tenyog320 {*/
+/*        0% {*/
+/*            margin-top: 0.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 0.8rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 0.5rem;*/
+/*        }*/
+/*    }*/
 
-    @keyframes tenyog320 {
-        0% {
-            margin-top: 0.5rem;
-        }
-        50% {
-            margin-top: 0.8rem;
-        }
-        100% {
-            margin-top: 0.5rem;
-        }
-    }
+/*    @keyframes tenyog320 {*/
+/*        0% {*/
+/*            margin-top: 0.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: 0.8rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: 0.5rem;*/
+/*        }*/
+/*    }*/
 
-}
+/*}*/

@@ -861,773 +861,773 @@
 }
 
 
-@media (max-width: 461px) {
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 15rem !important;
-        padding-left: 132% !important;
-        padding-top: 21rem !important;
-    }
-}
-
-@media (max-width: 429px) {
-    .expertTitleFirst, .expertTitle, .expertTitleRight {
-        font-size: 0.7rem;
-    }
-
-    p {
-        font-size: 8px !important;
-    }
-
-    .expertTwoRow {
-        height: 20rem;
-    }
-
-    .expertLeft {
-        padding-right: 0.5rem;
-    }
-
-    .expertRight {
-        padding-left: 0.5rem;
-    }
-
-    .expertRocket {
-        margin-bottom: 0rem;
-    }
-
-    .stone {
-        width: 2rem !important;
-        height: 2rem !important;
-        margin-left: -3.2rem;
-    }
-
-    .line {
-        width: 9rem !important;
-        height: 9rem !important;
-        margin-top: -4.1rem !important;
-        margin-left: -5.3rem !important;
-        animation: lined 7s infinite !important;
-    }
-
-    .scalesRocket {
-        height: 33.6rem !important;
-        width: 15rem !important;
-        margin-top: -19.8rem !important;
-        margin-left: -11rem !important;
-        animation: scalesRocket426d 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 5.8rem !important;
-        width: 3.5rem !important;
-        margin-left: 0.4rem !important;
-        margin-top: -4.5rem !important;
-        animation: scalesRocketRight426d 7s infinite !important;
-    }
-
-    .rocket {
-        width: 17rem !important;
-        height: 37rem !important;
-        margin-left: -9.5rem !important;
-        animation: rocket426d 7s infinite !important;
-    }
-
-    @-webkit-keyframes scalesRocket426 {
-        0% {
-            margin-top: -19.6rem;
-        }
-        50% {
-            margin-top: -21.5rem;
-        }
-        100% {
-            margin-top: -19.6rem;
-        }
-    }
-
-    @keyframes scalesRocket426 {
-        0% {
-            margin-top: -19.6rem;
-        }
-        50% {
-            margin-top: -21.5rem;
-        }
-        100% {
-            margin-top: -19.6rem;
-        }
-    }
-
-    @-webkit-keyframes scalesRocketRight426 {
-        0% {
-            margin-top: -4.7rem;
-        }
-        50% {
-            margin-top: -2.6rem;
-        }
-        100% {
-            margin-top: -4.7rem;
-        }
-    }
-
-    @keyframes scalesRocketRight426 {
-        0% {
-            margin-top: -4.7rem;
-        }
-        50% {
-            margin-top: -2.6rem;
-        }
-        100% {
-            margin-top: -4.7rem;
-        }
-    }
-
-    .expertTwoRow {
-        height: 20rem;
-        margin-bottom: -13rem;
-    }
-
-    .kon, .kind, .table {
-        width: 160px !important;
-        height: 156px !important;
-    }
-
-
-    .animateHorse {
-        margin-left: 0rem;
-    }
-
-    .expertRocket {
-        margin-bottom: -12rem;
-    }
-
-    .expertLastRow {
-        padding-bottom: 5rem;
-    }
-
-    .expertOneRow {
-        margin-bottom: -6rem;
-    }
-
-    .kon {
-        animation: kon425d 6s infinite !important;
-    }
-
-    .kind {
-        animation: kind425d 6s infinite !important;
-    }
-
-    @-webkit-keyframes rocket426 {
-        0% {
-            margin-top: -24.5rem;
-        }
-        50% {
-            margin-top: -20.2rem;
-        }
-        65% {
-            margin-top: -24.5rem;
-        }
-        100% {
-            margin-top: -25rem;
-        }
-    }
-
-    @keyframes rocket426 {
-        0% {
-            margin-top: -24.5rem;
-        }
-        50% {
-            margin-top: -20.2rem;
-        }
-        65% {
-            margin-top: -24.5rem;
-        }
-        100% {
-            margin-top: -24.5rem;
-        }
-    }
-    @-webkit-keyframes kind425 {
-        0% {
-            margin-left: 0rem;
-        }
-        50% {
-            margin-left: 2rem;
-        }
-        100% {
-            margin-left: 0rem;
-        }
-    }
-
-    @keyframes kind425 {
-        0% {
-            margin-left: 0rem;
-        }
-        50% {
-            margin-left: 2rem;
-        }
-        100% {
-            margin-left: 0rem;
-        }
-    }
-    @-webkit-keyframes kon425 {
-        0% {
-            margin-left: 0rem;
-        }
-        50% {
-            margin-left: -2rem;
-        }
-        100% {
-            margin-left: 0rem;
-        }
-    }
-
-    @keyframes kon425 {
-        0% {
-            margin-left: 0rem;
-        }
-        50% {
-            margin-left: -2rem;
-        }
-        100% {
-            margin-left: 0rem;
-        }
-    }
-    .expertTwoRow {
-        height: 20rem;
-        margin-bottom: -16rem;
-    }
-
-    .img-yog {
-        width: 10rem;
-        height: 7.7rem;
-        animation: yog425 3s infinite !important;
-    }
-
-    @-webkit-keyframes yog425 {
-        /*0% {*/
-        /*    margin-top: 0rem;*/
-        /*}*/
-        /*50% {*/
-        /*    margin-top: -0.5rem;*/
-        /*}*/
-        /*100% {*/
-        /*    margin-top: 0rem;*/
-        /*}*/
-    }
-
-    @keyframes yog425 {
-        /*0% {*/
-        /*    margin-top: 0rem;*/
-        /*}*/
-        /*50% {*/
-        /*    margin-top: 0.5rem;*/
-        /*}*/
-        /*100% {*/
-        /*    margin-top: 0rem;*/
-        /*}*/
-    }
-    .expertLastRow {
-        padding-bottom: 3rem;
-    }
-
-    .bootstrap__tableTwo {
-        height: 302px;
-        margin-bottom: -7rem;
-    }
-
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 15rem !important;
-        padding-left: 16.5rem !important;
-        padding-top: 21rem !important;
-    }
-}
-
-@media (max-width: 415px) {
-    .animateHorse {
-        margin-left: -1rem;
-    }
-}
-
-@media (max-width: 405px) {
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 15rem !important;
-        padding-left: 15.5rem !important;
-        padding-top: 21rem !important;
-    }
-
-    .scalesRocket {
-        height: 33.6rem !important;
-        width: 11rem !important;
-        margin-top: -18.8rem !important;
-        margin-left: -10rem !important;
-        animation: scalesRocket426d 7s infinite !important;
-    }
-
-    .stone {
-        width: 1.5rem !important;
-        height: 2rem !important;
-        margin-left: -3.2rem;
-    }
-
-    .line {
-        width: 7rem !important;
-        height: 9rem !important;
-        margin-top: -4rem !important;
-        margin-left: -4.3rem !important;
-        animation: lined 7s infinite !important;
-    }
-
-    .scalesRocket {
-        height: 33.6rem !important;
-        width: 11rem !important;
-        margin-top: -18.8rem !important;
-        margin-left: -9.5rem !important;
-        animation: scalesRocket426d 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 5.8rem !important;
-        width: 2.5rem !important;
-        margin-left: -0.4rem !important;
-        margin-top: -3.8rem !important;
-        animation: scalesRocketRight426d 7s infinite !important;
-    }
-
-    .rocket {
-        width: 15rem !important;
-        height: 37rem !important;
-        margin-left: -9.4rem !important;
-        margin-top: -22.5rem;
-        animation: rocket426d 7s infinite !important;
-    }
-}
-
-@media (max-width: 391px) {
-    .animateHorse {
-        margin-left: -1rem;
-    }
-
-
-    .animateRocket {
-        padding-left: 15.5rem !important;
-    }
-
-    @-webkit-keyframes scalesRocket376 {
-        0% {
-            margin-top: -19.5rem;
-        }
-        50% {
-            margin-top: -21rem;
-        }
-        100% {
-            margin-top: -19.5rem;
-        }
-    }
-
-    @keyframes scalesRocket376 {
-        0% {
-            margin-top: -19.5rem;
-        }
-        50% {
-            margin-top: -21rem;
-        }
-        100% {
-            margin-top: -19.5rem;
-        }
-    }
-    @-webkit-keyframes rocket376 {
-        0% {
-            margin-top: -23.5rem;
-        }
-        50% {
-            margin-top: -20.2rem;
-        }
-        65% {
-            margin-top: -23.5rem;
-        }
-        100% {
-            margin-top: -23.5rem;
-        }
-    }
-
-    @keyframes rocket376 {
-        0% {
-            margin-top: -23.5rem;
-        }
-        50% {
-            margin-top: -20.4rem;
-        }
-        65% {
-            margin-top: -23.5rem;
-        }
-        100% {
-            margin-top: -23.5rem;
-        }
-    }
-    @-webkit-keyframes scalesRocketRight376 {
-        0% {
-            margin-top: -4.6rem;
-        }
-        50% {
-            margin-top: -2.9rem;
-        }
-        100% {
-            margin-top: -4.6rem;
-        }
-    }
-
-    @keyframes scalesRocketRight376 {
-        0% {
-            margin-top: -4.6rem;
-        }
-        50% {
-            margin-top: -2.9rem;
-        }
-        100% {
-            margin-top: -4.6rem;
-        }
-    }
-}
-
-@media (max-width: 380px) {
-    .animateRocket {
-        padding-left: 14.4rem !important;
-    }
-}
-
-@media (max-width: 376px) {
-    .expertTitleFirst, .expertTitle, .expertTitleRight {
-        font-size: 0.6rem;
-    }
-
-    p {
-        font-size: 5px !important;
-    }
-
-    .rocket {
-        margin-top: -22.5rem;
-    }
-
-    /*.stone {*/
-    /*    width: 1.3rem !important;*/
-    /*    height: 1.3rem !important;*/
-    /*}*/
-    /*.line {*/
-    /*    width: 7rem !important;*/
-    /*    height: 7rem !important;*/
-    /*    margin-top: -3.1rem !important;*/
-    /*    margin-left: -4.3rem !important;*/
-    /*}*/
-    /*.scalesRocket {*/
-    /*    height: 35.6rem !important;*/
-    /*    width: 11rem !important;*/
-    /*    margin-top: -17.7rem;*/
-    /*    margin-left: -9.5rem !important;*/
-    /*    animation: scalesRocket376d 7s infinite !important;*/
-    /*}*/
-    /*.scalesRocketRight {*/
-    /*    height: 6.6rem !important;*/
-    /*    width: 2.5rem !important;*/
-    /*    margin-left: -0.5rem !important;*/
-    /*    margin-top: -5.5rem;*/
-    /*    animation: scalesRocketRight376d 7s infinite !important;*/
-    /*}*/
-    /*.rocket {*/
-    /*    width: 15rem !important;*/
-    /*    height: 39rem !important;*/
-    /*    margin-left: -9.5rem !important;*/
-    /*    margin-top: -24rem!important;*/
-    /*    animation: rocket376d 7s infinite !important;*/
-    /*}*/
-    .animateHorse {
-        margin-left: -0.5rem;
-    }
-
-    .kon, .kind, .table {
-        width: 129px !important;
-        height: 120px !important;
-    }
-
-    .expertTwoRow {
-        height: 20rem;
-        margin-bottom: -20rem;
-    }
-
-    .expertRocket {
-        margin-bottom: -14rem;
-    }
-
-    @-webkit-keyframes scalesRocket376 {
-        0% {
-            margin-top: -19.5rem;
-        }
-        50% {
-            margin-top: -21rem;
-        }
-        100% {
-            margin-top: -19.5rem;
-        }
-    }
-
-    @keyframes scalesRocket376 {
-        0% {
-            margin-top: -19.5rem;
-        }
-        50% {
-            margin-top: -21rem;
-        }
-        100% {
-            margin-top: -19.5rem;
-        }
-    }
-    @-webkit-keyframes rocket376 {
-        0% {
-            margin-top: -23.5rem;
-        }
-        50% {
-            margin-top: -20.2rem;
-        }
-        65% {
-            margin-top: -23.5rem;
-        }
-        100% {
-            margin-top: -23.5rem;
-        }
-    }
-
-    @keyframes rocket376 {
-        0% {
-            margin-top: -23.5rem;
-        }
-        50% {
-            margin-top: -20.4rem;
-        }
-        65% {
-            margin-top: -23.5rem;
-        }
-        100% {
-            margin-top: -23.5rem;
-        }
-    }
-    @-webkit-keyframes scalesRocketRight376 {
-        0% {
-            margin-top: -4.6rem;
-        }
-        50% {
-            margin-top: -2.9rem;
-        }
-        100% {
-            margin-top: -4.6rem;
-        }
-    }
-
-    @keyframes scalesRocketRight376 {
-        0% {
-            margin-top: -4.6rem;
-        }
-        50% {
-            margin-top: -2.9rem;
-        }
-        100% {
-            margin-top: -4.6rem;
-        }
-    }
-    .img-yog {
-        width: 8rem;
-        height: 8rem;
-        animation: aligning375d 3s infinite;
-
-    }
-
-    @-webkit-keyframes aligning375 {
-        0% {
-            padding-right: 0px;
-        }
-        50% {
-            padding-right: 5px;
-        }
-        100% {
-            padding-right: 0px;
-        }
-    }
-
-    @keyframes aligning375 {
-        0% {
-            padding-right: 0px;
-        }
-        50% {
-            padding-right: 5px;
-        }
-        100% {
-            padding-right: 0px;
-        }
-    }
-    h1.bootstrap__tableTitle.bootstrap__marginTop {
-        font-size: 1.2rem;
-    }
-
-    .bootstrap__tableText {
-        margin-bottom: 10px !important;
-    }
-
-    .stone {
-        width: 1rem !important;
-        height: 2rem !important;
-        margin-left: -3.2rem;
-    }
-
-    .line {
-        width: 6rem !important;
-        height: 9rem !important;
-        margin-top: -3.8rem !important;
-        margin-left: -3.6rem !important;
-        animation: lined 7s infinite !important;
-    }
-
-    .scalesRocket {
-        height: 33.6rem !important;
-        width: 9rem !important;
-        margin-top: -18.1rem !important;
-        margin-left: -8.5rem !important;
-        animation: scalesRocket426d 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 5.8rem !important;
-        width: 2rem !important;
-        margin-left: -1rem !important;
-        margin-top: -3.4rem !important;
-        animation: scalesRocketRight426d 7s infinite !important;
-    }
-
-    .rocket {
-        width: 12rem !important;
-        height: 37rem !important;
-        margin-left: -8.4rem !important;
-        margin-top: -21rem!important;
-    }
-}
-
-@media (max-width: 365px) {
-    .animateRocket {
-        padding-left: 13.7rem !important;
-    }
-}
-
-@media (max-width: 361px) {
-    .form-request {
-        margin-top: -1.4rem !important;
-    }
-
-    .stone {
-        width: 1rem !important;
-        height: 2rem !important;
-        margin-left: -3.2rem;
-    }
-
-    .line {
-        width: 6rem !important;
-        height: 9rem !important;
-        margin-top: -3.8rem !important;
-        margin-left: -3.6rem !important;
-        animation: lined 7s infinite !important;
-    }
-
-    .scalesRocket {
-        height: 33.6rem !important;
-        width: 9rem !important;
-        margin-top: -18.1rem !important;
-        margin-left: -8.5rem !important;
-        animation: scalesRocket426d 7s infinite !important;
-    }
-
-    .scalesRocketRight {
-        height: 5.8rem !important;
-        width: 2rem !important;
-        margin-left: -1rem !important;
-        margin-top: -3.4rem !important;
-        animation: scalesRocketRight426d 7s infinite !important;
-    }
-
-    .rocket {
-        width: 12rem !important;
-        height: 37rem !important;
-        margin-left: -8.4rem !important;
-        margin-top: -21rem!important;
-    }
-}
-
-
-@media (max-width: 354px) {
-    animateRocket {
-        margin-left: 62% !important;
-        padding-left: 0rem !important;
-    }
-}
-
-@media (max-width: 321px) {
-    .kon, .kind, .table {
-        width: 119px !important;
-        height: 110px !important;
-    }
-
-    .animateRocket {
-        width: 400px !important;
-        height: 400px !important;
-        padding: 12rem !important;
-        padding-left: 21rem !important;
-        padding-top: 17rem !important;
-        margin-bottom: 2rem;
-    }
-
-    .expertOneRow {
-        margin-bottom: -6rem;
-    }
-
-    .expertTwoRow {
-        height: 20rem;
-        margin-bottom: -15.5rem;
-    }
-
-    .expertRocket {
-        margin-bottom: -13rem;
-    }
-
-    .expertLastRow {
-        padding-bottom: 3rem;
-    }
-
-    h1.bootstrap__tableTitle.bootstrap__marginTop {
-        font-size: 1rem;
-    }
-
-    .bootstrap__tableText {
-        margin-bottom: 6px !important;
-    }
-
-    .bootstrap__tableText {
-        margin-bottom: 10px !important;
-    }
-
-    .bootstrap__table {
-        height: 285px;
-        margin-bottom: 0rem;
-    }
-
-    .bootstrap__tableTwo {
-        height: 302px;
-        margin-bottom: -8rem;
-    }
-
-    .form-header-title {
-        width: 200px;
-        margin-bottom: 1rem;
-    }
-
-    .from-pryam4 {
-        margin-top: 1rem !important;
-    }
-}
+/*@media (max-width: 461px) {*/
+/*    .animateRocket {*/
+/*        width: 400px !important;*/
+/*        height: 400px !important;*/
+/*        padding: 15rem !important;*/
+/*        padding-left: 132% !important;*/
+/*        padding-top: 21rem !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 429px) {*/
+/*    .expertTitleFirst, .expertTitle, .expertTitleRight {*/
+/*        font-size: 0.7rem;*/
+/*    }*/
+
+/*    p {*/
+/*        font-size: 8px !important;*/
+/*    }*/
+
+/*    .expertTwoRow {*/
+/*        height: 20rem;*/
+/*    }*/
+
+/*    .expertLeft {*/
+/*        padding-right: 0.5rem;*/
+/*    }*/
+
+/*    .expertRight {*/
+/*        padding-left: 0.5rem;*/
+/*    }*/
+
+/*    .expertRocket {*/
+/*        margin-bottom: 0rem;*/
+/*    }*/
+
+/*    .stone {*/
+/*        width: 2rem !important;*/
+/*        height: 2rem !important;*/
+/*        margin-left: -3.2rem;*/
+/*    }*/
+
+/*    .line {*/
+/*        width: 9rem !important;*/
+/*        height: 9rem !important;*/
+/*        margin-top: -4.1rem !important;*/
+/*        margin-left: -5.3rem !important;*/
+/*        animation: lined 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocket {*/
+/*        height: 33.6rem !important;*/
+/*        width: 15rem !important;*/
+/*        margin-top: -19.8rem !important;*/
+/*        margin-left: -11rem !important;*/
+/*        animation: scalesRocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocketRight {*/
+/*        height: 5.8rem !important;*/
+/*        width: 3.5rem !important;*/
+/*        margin-left: 0.4rem !important;*/
+/*        margin-top: -4.5rem !important;*/
+/*        animation: scalesRocketRight426d 7s infinite !important;*/
+/*    }*/
+
+/*    .rocket {*/
+/*        width: 17rem !important;*/
+/*        height: 37rem !important;*/
+/*        margin-left: -9.5rem !important;*/
+/*        animation: rocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    @-webkit-keyframes scalesRocket426 {*/
+/*        0% {*/
+/*            margin-top: -19.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.6rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocket426 {*/
+/*        0% {*/
+/*            margin-top: -19.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.6rem;*/
+/*        }*/
+/*    }*/
+
+/*    @-webkit-keyframes scalesRocketRight426 {*/
+/*        0% {*/
+/*            margin-top: -4.7rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.6rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.7rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocketRight426 {*/
+/*        0% {*/
+/*            margin-top: -4.7rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.6rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.7rem;*/
+/*        }*/
+/*    }*/
+
+/*    .expertTwoRow {*/
+/*        height: 20rem;*/
+/*        margin-bottom: -13rem;*/
+/*    }*/
+
+/*    .kon, .kind, .table {*/
+/*        width: 160px !important;*/
+/*        height: 156px !important;*/
+/*    }*/
+
+
+/*    .animateHorse {*/
+/*        margin-left: 0rem;*/
+/*    }*/
+
+/*    .expertRocket {*/
+/*        margin-bottom: -12rem;*/
+/*    }*/
+
+/*    .expertLastRow {*/
+/*        padding-bottom: 5rem;*/
+/*    }*/
+
+/*    .expertOneRow {*/
+/*        margin-bottom: -6rem;*/
+/*    }*/
+
+/*    .kon {*/
+/*        animation: kon425d 6s infinite !important;*/
+/*    }*/
+
+/*    .kind {*/
+/*        animation: kind425d 6s infinite !important;*/
+/*    }*/
+
+/*    @-webkit-keyframes rocket426 {*/
+/*        0% {*/
+/*            margin-top: -24.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.2rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -24.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -25rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes rocket426 {*/
+/*        0% {*/
+/*            margin-top: -24.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.2rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -24.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -24.5rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes kind425 {*/
+/*        0% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes kind425 {*/
+/*        0% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes kon425 {*/
+/*        0% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: -2rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes kon425 {*/
+/*        0% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: -2rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 0rem;*/
+/*        }*/
+/*    }*/
+/*    .expertTwoRow {*/
+/*        height: 20rem;*/
+/*        margin-bottom: -16rem;*/
+/*    }*/
+
+/*    .img-yog {*/
+/*        width: 10rem;*/
+/*        height: 7.7rem;*/
+/*        animation: yog425 3s infinite !important;*/
+/*    }*/
+
+/*    @-webkit-keyframes yog425 {*/
+/*        !*0% {*!*/
+/*        !*    margin-top: 0rem;*!*/
+/*        !*}*!*/
+/*        !*50% {*!*/
+/*        !*    margin-top: -0.5rem;*!*/
+/*        !*}*!*/
+/*        !*100% {*!*/
+/*        !*    margin-top: 0rem;*!*/
+/*        !*}*!*/
+/*    }*/
+
+/*    @keyframes yog425 {*/
+/*        !*0% {*!*/
+/*        !*    margin-top: 0rem;*!*/
+/*        !*}*!*/
+/*        !*50% {*!*/
+/*        !*    margin-top: 0.5rem;*!*/
+/*        !*}*!*/
+/*        !*100% {*!*/
+/*        !*    margin-top: 0rem;*!*/
+/*        !*}*!*/
+/*    }*/
+/*    .expertLastRow {*/
+/*        padding-bottom: 3rem;*/
+/*    }*/
+
+/*    .bootstrap__tableTwo {*/
+/*        height: 302px;*/
+/*        margin-bottom: -7rem;*/
+/*    }*/
+
+/*    .animateRocket {*/
+/*        width: 400px !important;*/
+/*        height: 400px !important;*/
+/*        padding: 15rem !important;*/
+/*        padding-left: 16.5rem !important;*/
+/*        padding-top: 21rem !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 415px) {*/
+/*    .animateHorse {*/
+/*        margin-left: -1rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 405px) {*/
+/*    .animateRocket {*/
+/*        width: 400px !important;*/
+/*        height: 400px !important;*/
+/*        padding: 15rem !important;*/
+/*        padding-left: 15.5rem !important;*/
+/*        padding-top: 21rem !important;*/
+/*    }*/
+
+/*    .scalesRocket {*/
+/*        height: 33.6rem !important;*/
+/*        width: 11rem !important;*/
+/*        margin-top: -18.8rem !important;*/
+/*        margin-left: -10rem !important;*/
+/*        animation: scalesRocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    .stone {*/
+/*        width: 1.5rem !important;*/
+/*        height: 2rem !important;*/
+/*        margin-left: -3.2rem;*/
+/*    }*/
+
+/*    .line {*/
+/*        width: 7rem !important;*/
+/*        height: 9rem !important;*/
+/*        margin-top: -4rem !important;*/
+/*        margin-left: -4.3rem !important;*/
+/*        animation: lined 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocket {*/
+/*        height: 33.6rem !important;*/
+/*        width: 11rem !important;*/
+/*        margin-top: -18.8rem !important;*/
+/*        margin-left: -9.5rem !important;*/
+/*        animation: scalesRocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocketRight {*/
+/*        height: 5.8rem !important;*/
+/*        width: 2.5rem !important;*/
+/*        margin-left: -0.4rem !important;*/
+/*        margin-top: -3.8rem !important;*/
+/*        animation: scalesRocketRight426d 7s infinite !important;*/
+/*    }*/
+
+/*    .rocket {*/
+/*        width: 15rem !important;*/
+/*        height: 37rem !important;*/
+/*        margin-left: -9.4rem !important;*/
+/*        margin-top: -22.5rem;*/
+/*        animation: rocket426d 7s infinite !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 391px) {*/
+/*    .animateHorse {*/
+/*        margin-left: -1rem;*/
+/*    }*/
+
+
+/*    .animateRocket {*/
+/*        padding-left: 15.5rem !important;*/
+/*    }*/
+
+/*    @-webkit-keyframes scalesRocket376 {*/
+/*        0% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocket376 {*/
+/*        0% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes rocket376 {*/
+/*        0% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.2rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes rocket376 {*/
+/*        0% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.4rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes scalesRocketRight376 {*/
+/*        0% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.9rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocketRight376 {*/
+/*        0% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.9rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 380px) {*/
+/*    .animateRocket {*/
+/*        padding-left: 14.4rem !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 376px) {*/
+/*    .expertTitleFirst, .expertTitle, .expertTitleRight {*/
+/*        font-size: 0.6rem;*/
+/*    }*/
+
+/*    p {*/
+/*        font-size: 5px !important;*/
+/*    }*/
+
+/*    .rocket {*/
+/*        margin-top: -22.5rem;*/
+/*    }*/
+
+/*    !*.stone {*!*/
+/*    !*    width: 1.3rem !important;*!*/
+/*    !*    height: 1.3rem !important;*!*/
+/*    !*}*!*/
+/*    !*.line {*!*/
+/*    !*    width: 7rem !important;*!*/
+/*    !*    height: 7rem !important;*!*/
+/*    !*    margin-top: -3.1rem !important;*!*/
+/*    !*    margin-left: -4.3rem !important;*!*/
+/*    !*}*!*/
+/*    !*.scalesRocket {*!*/
+/*    !*    height: 35.6rem !important;*!*/
+/*    !*    width: 11rem !important;*!*/
+/*    !*    margin-top: -17.7rem;*!*/
+/*    !*    margin-left: -9.5rem !important;*!*/
+/*    !*    animation: scalesRocket376d 7s infinite !important;*!*/
+/*    !*}*!*/
+/*    !*.scalesRocketRight {*!*/
+/*    !*    height: 6.6rem !important;*!*/
+/*    !*    width: 2.5rem !important;*!*/
+/*    !*    margin-left: -0.5rem !important;*!*/
+/*    !*    margin-top: -5.5rem;*!*/
+/*    !*    animation: scalesRocketRight376d 7s infinite !important;*!*/
+/*    !*}*!*/
+/*    !*.rocket {*!*/
+/*    !*    width: 15rem !important;*!*/
+/*    !*    height: 39rem !important;*!*/
+/*    !*    margin-left: -9.5rem !important;*!*/
+/*    !*    margin-top: -24rem!important;*!*/
+/*    !*    animation: rocket376d 7s infinite !important;*!*/
+/*    !*}*!*/
+/*    .animateHorse {*/
+/*        margin-left: -0.5rem;*/
+/*    }*/
+
+/*    .kon, .kind, .table {*/
+/*        width: 129px !important;*/
+/*        height: 120px !important;*/
+/*    }*/
+
+/*    .expertTwoRow {*/
+/*        height: 20rem;*/
+/*        margin-bottom: -20rem;*/
+/*    }*/
+
+/*    .expertRocket {*/
+/*        margin-bottom: -14rem;*/
+/*    }*/
+
+/*    @-webkit-keyframes scalesRocket376 {*/
+/*        0% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocket376 {*/
+/*        0% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -21rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -19.5rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes rocket376 {*/
+/*        0% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.2rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes rocket376 {*/
+/*        0% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -20.4rem;*/
+/*        }*/
+/*        65% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -23.5rem;*/
+/*        }*/
+/*    }*/
+/*    @-webkit-keyframes scalesRocketRight376 {*/
+/*        0% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.9rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes scalesRocketRight376 {*/
+/*        0% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-top: -2.9rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-top: -4.6rem;*/
+/*        }*/
+/*    }*/
+/*    .img-yog {*/
+/*        width: 8rem;*/
+/*        height: 8rem;*/
+/*        animation: aligning375d 3s infinite;*/
+
+/*    }*/
+
+/*    @-webkit-keyframes aligning375 {*/
+/*        0% {*/
+/*            padding-right: 0px;*/
+/*        }*/
+/*        50% {*/
+/*            padding-right: 5px;*/
+/*        }*/
+/*        100% {*/
+/*            padding-right: 0px;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes aligning375 {*/
+/*        0% {*/
+/*            padding-right: 0px;*/
+/*        }*/
+/*        50% {*/
+/*            padding-right: 5px;*/
+/*        }*/
+/*        100% {*/
+/*            padding-right: 0px;*/
+/*        }*/
+/*    }*/
+/*    h1.bootstrap__tableTitle.bootstrap__marginTop {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
+
+/*    .bootstrap__tableText {*/
+/*        margin-bottom: 10px !important;*/
+/*    }*/
+
+/*    .stone {*/
+/*        width: 1rem !important;*/
+/*        height: 2rem !important;*/
+/*        margin-left: -3.2rem;*/
+/*    }*/
+
+/*    .line {*/
+/*        width: 6rem !important;*/
+/*        height: 9rem !important;*/
+/*        margin-top: -3.8rem !important;*/
+/*        margin-left: -3.6rem !important;*/
+/*        animation: lined 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocket {*/
+/*        height: 33.6rem !important;*/
+/*        width: 9rem !important;*/
+/*        margin-top: -18.1rem !important;*/
+/*        margin-left: -8.5rem !important;*/
+/*        animation: scalesRocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocketRight {*/
+/*        height: 5.8rem !important;*/
+/*        width: 2rem !important;*/
+/*        margin-left: -1rem !important;*/
+/*        margin-top: -3.4rem !important;*/
+/*        animation: scalesRocketRight426d 7s infinite !important;*/
+/*    }*/
+
+/*    .rocket {*/
+/*        width: 12rem !important;*/
+/*        height: 37rem !important;*/
+/*        margin-left: -8.4rem !important;*/
+/*        margin-top: -21rem!important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 365px) {*/
+/*    .animateRocket {*/
+/*        padding-left: 13.7rem !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 361px) {*/
+/*    .form-request {*/
+/*        margin-top: -1.4rem !important;*/
+/*    }*/
+
+/*    .stone {*/
+/*        width: 1rem !important;*/
+/*        height: 2rem !important;*/
+/*        margin-left: -3.2rem;*/
+/*    }*/
+
+/*    .line {*/
+/*        width: 6rem !important;*/
+/*        height: 9rem !important;*/
+/*        margin-top: -3.8rem !important;*/
+/*        margin-left: -3.6rem !important;*/
+/*        animation: lined 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocket {*/
+/*        height: 33.6rem !important;*/
+/*        width: 9rem !important;*/
+/*        margin-top: -18.1rem !important;*/
+/*        margin-left: -8.5rem !important;*/
+/*        animation: scalesRocket426d 7s infinite !important;*/
+/*    }*/
+
+/*    .scalesRocketRight {*/
+/*        height: 5.8rem !important;*/
+/*        width: 2rem !important;*/
+/*        margin-left: -1rem !important;*/
+/*        margin-top: -3.4rem !important;*/
+/*        animation: scalesRocketRight426d 7s infinite !important;*/
+/*    }*/
+
+/*    .rocket {*/
+/*        width: 12rem !important;*/
+/*        height: 37rem !important;*/
+/*        margin-left: -8.4rem !important;*/
+/*        margin-top: -21rem!important;*/
+/*    }*/
+/*}*/
+
+
+/*@media (max-width: 354px) {*/
+/*    animateRocket {*/
+/*        margin-left: 62% !important;*/
+/*        padding-left: 0rem !important;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 321px) {*/
+/*    .kon, .kind, .table {*/
+/*        width: 119px !important;*/
+/*        height: 110px !important;*/
+/*    }*/
+
+/*    .animateRocket {*/
+/*        width: 400px !important;*/
+/*        height: 400px !important;*/
+/*        padding: 12rem !important;*/
+/*        padding-left: 21rem !important;*/
+/*        padding-top: 17rem !important;*/
+/*        margin-bottom: 2rem;*/
+/*    }*/
+
+/*    .expertOneRow {*/
+/*        margin-bottom: -6rem;*/
+/*    }*/
+
+/*    .expertTwoRow {*/
+/*        height: 20rem;*/
+/*        margin-bottom: -15.5rem;*/
+/*    }*/
+
+/*    .expertRocket {*/
+/*        margin-bottom: -13rem;*/
+/*    }*/
+
+/*    .expertLastRow {*/
+/*        padding-bottom: 3rem;*/
+/*    }*/
+
+/*    h1.bootstrap__tableTitle.bootstrap__marginTop {*/
+/*        font-size: 1rem;*/
+/*    }*/
+
+/*    .bootstrap__tableText {*/
+/*        margin-bottom: 6px !important;*/
+/*    }*/
+
+/*    .bootstrap__tableText {*/
+/*        margin-bottom: 10px !important;*/
+/*    }*/
+
+/*    .bootstrap__table {*/
+/*        height: 285px;*/
+/*        margin-bottom: 0rem;*/
+/*    }*/
+
+/*    .bootstrap__tableTwo {*/
+/*        height: 302px;*/
+/*        margin-bottom: -8rem;*/
+/*    }*/
+
+/*    .form-header-title {*/
+/*        width: 200px;*/
+/*        margin-bottom: 1rem;*/
+/*    }*/
+
+/*    .from-pryam4 {*/
+/*        margin-top: 1rem !important;*/
+/*    }*/
+/*}*/
