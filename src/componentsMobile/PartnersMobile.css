@@ -1,0 +1,100 @@
+.partnersMobile__SeeCasesTitle {
+    min-height: 50vh;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    background: #ECECEC;
+}
+
+i.bi.bi-youtube {
+    vertical-align: -13%;
+}
+
+.partnersMobile__SeeCasesTitleh2 {
+    padding-top: 23vh;
+    padding-left: 10%;
+    font-weight: bold;
+    text-decoration: underline;
+    background: linear-gradient(to right, #4d02f5 0%, #c401ff 0%, #4d02f5 70%, #c401ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: blueviolet;
+}
+
+.partnersMobile__DivForTitle {
+    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+    background: linear-gradient(
+            161.95deg, #A800FF -9.3%, #8000FF 63.5%);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    height: 100vh;
+    margin-top: -25vh;
+}
+
+.partnersMobile__titleOne {
+    padding-top: 23%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.partnersMobile__titleTwo {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.partnersMobileSlider {
+    margin-top: 10%;
+}
+
+.carousel__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__img img {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.whyAreWe__titleOne {
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.whyAreWe__titleTwo {
+    color: #fff;
+}
+
+.whyAreWe__text {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.whyAreWe__element {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.whyAreWeForButton {
+    background: #8000FF;
+    height: 20vh;
+    margin-top: -0.2px;
+}
+.whyAreWe__btnSeeCases {
+background: #fff;
+border: none;
+height: 2.5rem;
+color: #8100FF;
+font-weight: bold;
+outline: none;
+border-radius: 35px;
+width: 30%;
+margin-left: auto;
+display: block;
+margin-right: auto;
+}

@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import {slide as Menu} from 'react-burger-menu'
 import logo from "../assets/mobile-image/logo.png"
 import telegram from "../assets/mobile-image/telegram.png"
@@ -11,9 +11,22 @@ import "../App.css"
 import "./HeaderMobile.css"
 
 const HeaderMobile = () => {
+    const [isOpen, setIsOpen] = useState(false)
+
     function showSettings(event) {
         event.preventDefault();
+        console.log(event, 'event')
     }
+
+    let handleOnOpen = () => {
+        console.log('open')
+    }
+
+    let handleOnClose = () => {
+        console.log('close')
+        setIsOpen(false)
+    }
+
 
     return (
         <>
@@ -32,15 +45,19 @@ const HeaderMobile = () => {
                     <p className="textLogotypeCompanyInBurger">© NMS 2021</p>
                 </div>
             </Menu>
-            <div className="row headerMobile__row">
-                <div className="col-2">
-                </div>
-                <div className="col-10 d-flex mt-2">
-                    <img src={logo} className="headerMobile__logo"/>
-                    <div className="messengers">
-                        <img src={telegram} className="messengersIcon ml-1"/>
-                        <img src={viber} className="messengersIcon ml-1"/>
-                        <img src={whatsapp} className="messengersIcon ml-1"/>
+            <div className="headerMobile__row">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-2">
+                        </div>
+                        <div className="col-10 d-flex mt-2" style={{marginLeft: "auto"}}>
+                            <img src={logo} className="headerMobile__logo"/>
+                            <div className="messengers">
+                                <img src={telegram} className="messengersIcon ml-1"/>
+                                <img src={viber} className="messengersIcon ml-1"/>
+                                <img src={whatsapp} className="messengersIcon ml-1"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

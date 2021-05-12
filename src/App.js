@@ -9,7 +9,13 @@ import {useEffect} from "react";
 import Header from "./components/Header";
 import 'react-toastify/dist/ReactToastify.css';
 import HeaderMobile from "./componentsMobile/HeaderMobile";
-
+import BannerMobile from "./componentsMobile/BannerMobile";
+import ExpertiseMobile from "./componentsMobile/ExpertiseMobile";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import ExpertMobile from "./componentsMobile/ExpertMobile";
+import PartnersMobile from "./componentsMobile/PartnersMobile";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -68,9 +74,14 @@ function App() {
             window.removeEventListener("scroll", handleNavigation);
         };
     }, [handleNavigation]);
+    library.add(fab, faCheckSquare, faCoffee)
     return (
         <Router>
-            <HeaderMobile />
+            {/*<HeaderMobile />*/}
+            <BannerMobile />
+            <ExpertiseMobile />
+            <ExpertMobile />
+            <PartnersMobile />
             {/*<Header/>*/}
             {/*<Switch>*/}
             {/*    <Route path="/" exact>*/}
