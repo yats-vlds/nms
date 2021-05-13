@@ -2,6 +2,8 @@ import React from "react"
 import logos from "../assets/mobile-image/logos1.svg"
 import logos2 from "../assets/mobile-image/logos2.svg"
 import logos3 from "../assets/mobile-image/logos3.svg"
+import logo from "../assets/mobile-image/logoTen.svg"
+import yog from "../assets/mobile-image/yogTen.svg"
 import "./PartnersMobile.css"
 
 const PartnersMobile = () => {
@@ -54,24 +56,40 @@ const PartnersMobile = () => {
 
                                 <h3 className="whyAreWe__titleOne">Why are we?</h3>
                                 <div className="whyAreWe__element">
-                                    <h5 className="whyAreWe__titleTwo"><i className="bi bi-caret-right-fill text-white"/>Cost-efficient</h5>
+                                    <h5 className="whyAreWe__titleTwo"><i
+                                        className="bi bi-caret-right-fill text-white"/>Cost-efficient</h5>
                                     <h6 className="whyAreWe__text">Talanted team based in the Easter europe</h6>
                                 </div>
                                 <div className="whyAreWe__element">
-                                    <h5 className="whyAreWe__titleTwo"><i className="bi bi-caret-right-fill text-white"/>Solution orriented</h5>
+                                    <h5 className="whyAreWe__titleTwo"><i
+                                        className="bi bi-caret-right-fill text-white"/>Solution orriented</h5>
                                     <h6 className="whyAreWe__text">Mathing your business needs</h6>
                                 </div>
                                 <div className="whyAreWe__element">
-                                    <h5 className="whyAreWe__titleTwo"><i className="bi bi-caret-right-fill text-white"/>Professional</h5>
-                                    <h6 className="whyAreWe__text">Skillful developers working with a wide range of thechnologies</h6>
+                                    <h5 className="whyAreWe__titleTwo"><i
+                                        className="bi bi-caret-right-fill text-white"/>Professional</h5>
+                                    <h6 className="whyAreWe__text">Skillful developers working with a wide range of
+                                        thechnologies</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <button className="whyAreWe__btnSeeCases">See cases</button>
                 </div>
             </div>
-            <div className="whyAreWeForButton">
-                <button className="whyAreWe__btnSeeCases">See cases</button>
+            <div className="tenMobile">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-8">
+                            <img src={logo} className="w-75"/>
+                        </div>
+                        <div className="col-10">
+                            <h1 className="tenMobile__number">10<span className="tenMobile__numberPlus">+</span></h1>
+                            <h2 className="tenMobile__numberTitle">YEARS IN THE GAME!</h2>
+                        </div>
+                    </div>
+                    <img src={yog} className="tenMobile__yogImg" />
+                </div>
             </div>
         </>
     )

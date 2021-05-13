@@ -1,5 +1,5 @@
 .partnersMobile__SeeCasesTitle {
-    min-height: 50vh;
+    min-height: 60vh;
     -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
     clip-path: polygon(0 0, 0% 100%, 100% 50%);
     background: #ECECEC;
@@ -22,11 +22,9 @@ i.bi.bi-youtube {
 .partnersMobile__DivForTitle {
     -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-    background: linear-gradient(
-            161.95deg, #A800FF -9.3%, #8000FF 63.5%);
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    height: 100vh;
-    margin-top: -25vh;
+    background: linear-gradient(161.95deg, #A800FF -9.3%, #8000FF 63.5%); /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    height: 120vh;
+    margin-top: -30vh;
 }
 
 .partnersMobile__titleOne {
@@ -82,19 +80,53 @@ i.bi.bi-youtube {
 
 .whyAreWeForButton {
     background: #8000FF;
-    height: 20vh;
-    margin-top: -0.2px;
+    height: 10vh;
+    /* margin-top: 5.8px; */
+    padding-top: 5%;
+    margin-top: -5%;
 }
+
 .whyAreWe__btnSeeCases {
-background: #fff;
-border: none;
-height: 2.5rem;
-color: #8100FF;
-font-weight: bold;
-outline: none;
-border-radius: 35px;
-width: 30%;
-margin-left: auto;
-display: block;
-margin-right: auto;
+    background: #fff;
+    border: none;
+    height: 2.5rem;
+    color: #8100FF;
+    font-weight: bold;
+    outline: none;
+    border-radius: 35px;
+    width: 35%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.tenMobile {
+    background: #8000FF;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.tenMobile__number {
+    color: #FFFFFF;
+    font-size: 13rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.tenMobile__numberTitle {
+    color: #fff;
+    font-weight: bold;
+    margin-top: -10%;
+}
+
+.tenMobile__numberPlus {
+    font-size: 5rem;
+}
+.tenMobile__yogImg {
+    position: absolute;
+    right: 0;
+    margin-top: -68%;
+    width: 30%;
 }
