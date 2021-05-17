@@ -1,8 +1,8 @@
-.partnersMobile__SeeCasesTitle {
-    min-height: 30vh;
-    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+.partnersMobile {
+    height: 15rem;
     background: #ECECEC;
+    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
 }
 
 i.bi.bi-youtube {
@@ -10,29 +10,26 @@ i.bi.bi-youtube {
 }
 
 .partnersMobile__SeeCasesTitleh2 {
-    padding-top: 14vh;
-    padding-left: 10%;
+    padding-top: calc(7rem + 2.1vw);
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
     background: linear-gradient(to right, #4d02f5 0%, #c401ff 0%, #4d02f5 70%, #c401ff 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: blueviolet;
 }
 
 .partnersMobile__DivForTitle {
-    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-    background: linear-gradient(161.95deg, #A800FF -9.3%, #8000FF 63.5%); /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    height: 60vh;
-    margin-top: -15vh;
+    background: linear-gradient(
+            161.95deg, #a800ff -9.3%, #8000ff 63.5%);
 }
 
 .partnersMobile__titleOne {
-    padding-top: 23%;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
+    padding-top: 5%;
 }
 
 .partnersMobile__titleTwo {
@@ -43,6 +40,10 @@ i.bi.bi-youtube {
 
 .partnersMobileSlider {
     margin-top: 10%;
+}
+
+.bi-youtube {
+    padding-left: 1%;
 }
 
 .carousel__img {
@@ -87,23 +88,22 @@ i.bi.bi-youtube {
 }
 
 .whyAreWe__btnSeeCases {
-    background: #fff;
+    background: #FFFFFF;
     border: none;
     height: 2.5rem;
-    color: #8100FF;
-    font-weight: bold;
+    color: #3857F9;
     outline: none;
     border-radius: 35px;
-    width: 35%;
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
+    width: 40%;
+    box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.4);
+    font-size: calc(0.85rem + .3vw);
     margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
 }
 
 .tenMobile {
     background: #8000FF;
-    height: 25vh;
     margin-top: 10%;
 }
 
@@ -124,9 +124,41 @@ i.bi.bi-youtube {
 .tenMobile__numberPlus {
     font-size: 5rem;
 }
+
 .tenMobile__yogImg {
     position: absolute;
     right: 0;
-    margin-top: -68%;
-    width: 28%;
+    margin-top: -60%;
+    width: 22%;
+}
+
+@media (max-width: 481px) {
+    .partnersMobile__titleOne {
+        padding-top: 10vh;
+    }
+
+    .tenMobile__yogImg {
+        position: absolute;
+        right: 0;
+        margin-top: -85%;
+        width: 33%;
+    }
+}
+
+@media (max-width: 421px) {
+    .tenMobile__yogImg {
+        margin-top: -90%;
+    }
+}
+
+@media (max-width: 390px) {
+    .tenMobile__yogImg {
+        margin-top: -96%;
+    }
+}
+
+@media(max-width: 377px) {
+    .tenMobile__yogImg {
+        margin-top: -101%;
+    }
 }

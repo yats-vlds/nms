@@ -18,6 +18,7 @@ import ExpertMobile from "./componentsMobile/ExpertMobile";
 import PartnersMobile from "./componentsMobile/PartnersMobile";
 import FormMobile from "./componentsMobile/FormMobile";
 import FooterMobile from "./componentsMobile/FooterMobile";
+import CustomSASS from "./pagesMobile/CustomSASS";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -79,13 +80,7 @@ function App() {
     library.add(fab, faCheckSquare, faCoffee)
     return (
         <Router>
-            {/*<HeaderMobile />*/}
-            <BannerMobile />
-            <ExpertiseMobile />
-            <ExpertMobile />
-            <PartnersMobile />
-            <FormMobile />
-            <FooterMobile />
+            <CustomSASS />
             {/*<Header/>*/}
             {/*<Switch>*/}
             {/*    <Route path="/" exact>*/}

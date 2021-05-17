@@ -1,3 +1,7 @@
+.headerMobile {
+    background: #F8F8F8;
+}
+
 .headerMobile__row {
     height: 90px;
     display: flex;
@@ -12,20 +16,20 @@
 }
 
 .headerMobile__logo {
-    width: 30%;
+    width: 50%;
     padding-top: 0.6%;
     object-fit: contain;
 }
 
 .logo__burger {
-    width: 40%;
+    width: 55%;
 }
 
-
 .messengersIcon {
-    width: 25%;
+    width: 35%;
     padding-top: 5%;
     margin-left: 5%;
+    object-fit: contain;
 }
 .messengersIconBlack {
     width: 10%;
@@ -34,6 +38,7 @@
 .messengers {
     margin-left: auto;
     padding-top: 0.6%;
+    display: flex;
 }
 
 .messengersBlack {
@@ -48,8 +53,8 @@
 
 @media (max-width: 481px) {
     .headerMobile__logo {
-        width: 45%;
-        padding-left: 5%;
+        width: 55%;
+        padding-left: 2%;
     }
     .menu-item {
         color: black;
@@ -62,14 +67,12 @@
     .bm-menu-wrap {
         width: 40%!important;
     }
-}
-
-@media(max-width: 380px) {
-    .headerMobile__logo {
-        width: 51%;
-        padding-top: 0.6%;
+    .messengersIcon {
+        width: 30%;
+        padding-top: 5%;
+        margin-left: 5%;
         object-fit: contain;
-        padding-left: 10%;
     }
 }
+
 

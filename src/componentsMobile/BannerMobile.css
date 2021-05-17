@@ -3,6 +3,7 @@
 .bannerMobile__titleOne {
     text-align: left;
     font-weight: bold;
+    padding-top: 5%;
 }
 
 .bannerMobile__titleTwo {
@@ -26,8 +27,8 @@
 .bannerMobile__vectorImg {
     position: absolute;
     right: 0;
-    width: 60%;
-    top: 17%;
+    width: 50%;
+    top: 37%;
 }
 
 .vectorImg__row {
@@ -41,9 +42,12 @@
 
 .messageForOpenForm {
     position: fixed;
-    right: 2%;
+    margin-left: auto;
+    left: 0;
+    right: 0;
     bottom: 0;
     object-fit: contain;
+    z-index: 9999;
 }
 
 .popup__modal {
@@ -51,18 +55,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .popup__title {
     color: #5D5FEF;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .input__popup {
     font-size: 1rem;
     width: 70%;
-    height: 2.1rem;
+    height: 2.6rem;
     border-radius: 29px;
     background-color: #efefef;
     border: 1px solid #dedede;
@@ -96,22 +101,33 @@
     color: white;
     outline: none;
     border-radius: 35px;
-    width: 75%;
+    width: 80%;
     box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.4);
+    font-size: calc(0.85rem + .3vw);
 }
-
 .btnInPopup {
     width: 45%;
 }
 
 @media (max-width: 480px) {
     .bannerMobile__titleOne {
-        text-align: left;
-        font-weight: bold;
-        font-size: 1rem;
+        font-size: calc(0.95rem + .3vw);
     }
-
-    .bannerMobile__vectorImg {
-        width: 60%;
+    .bannerMobile__titleTwo {
+        font-size: calc(1.425rem + 3.3vw);
+    }
+    .input__popup, .textarea__popup {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .skrepka__img {
+        margin-left: 8%;
+    }
+    .popup__modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
     }
 }

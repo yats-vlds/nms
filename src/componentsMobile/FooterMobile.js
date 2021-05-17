@@ -21,22 +21,22 @@ const FooterMobile = () => {
                 </div>
                 <div className="row">
                     <div className="col-8">
-                        <h3 className="footerMobile__contactText">
+                        <h6 className="footerMobile__contactText">
                             <i className="bi bi-telephone-fill iconFooter"/>
                             +38 (067) 217-91-94
-                        </h3>
-                        <h3 className="footerMobile__contactText">
+                        </h6>
+                        <h6 className="footerMobile__contactText">
                             <i className="bi bi-envelope-fill iconFooter"/>
                             +38 (067) 217-91-94
-                        </h3>
+                        </h6>
                     </div>
                 </div>
                 <div className="row footerMobile__bottom">
-                    <div className="col-9">
+                    <div className="col-8">
                         <img src={logo} className="footerMobile__logo"/>
                         <h6>Team based in Kyiv, Ukraine</h6>
                     </div>
-                    <div className="col-3" style={{marginTop: "auto"}}>
+                    <div className="col-4" style={{marginTop: "auto"}}>
                         <h6>© NMS 2021</h6>
                     </div>
                 </div>

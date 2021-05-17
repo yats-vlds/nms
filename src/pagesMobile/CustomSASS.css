@@ -1,0 +1,30 @@
+.bi-arrow-left {
+    font-size: 3rem;
+}
+
+.titleForLinkInMobile {
+    font-weight: bold;
+}
+
+.imgHomeForLinkInMobile {
+    width: 50%;
+    object-fit: contain;
+}
+
+.smallIconForLinkInMobile {
+    width: 10%;
+    object-fit: contain;
+    margin-bottom: 5%;
+}
+
+.textForLinkInMobile {
+    font-weight: 400;
+}
+
+li {
+    font-weight: bold;
+}
+
+.technologiesMobileSubTitle {
+    font-size: 8px;
+}

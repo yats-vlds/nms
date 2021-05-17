@@ -20,7 +20,7 @@ const BannerMobile = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h3 className="bannerMobile__titleOne">CUSTOM SOFTWARE DEVELOPMENT TEAM</h3>
+                        <h4 className="bannerMobile__titleOne">CUSTOM SOFTWARE DEVELOPMENT TEAM</h4>
                         <h1 className="bannerMobile__titleTwo display-3">THE GUIDE TO DIGITAL TRANSFORMATION</h1></div>
                 </div>
             </div>
@@ -29,9 +29,9 @@ const BannerMobile = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8">
-                            <h5 className="bannerMobile__titleThree">
+                            <h6 className="bannerMobile__titleThree">
                                 Find out how we build custom products from concept to live solution!
-                            </h5>
+                            </h6>
                         </div>
                         <div className="col-6 divForTitleThree">
                             <button className="btnMobile-starProject" onClick={togglePopup}>Start project</button>
@@ -47,13 +47,14 @@ const BannerMobile = () => {
                            onChange={e => setName(e.target.value)}/>
                     <input className="input__popup" type="text" placeholder="Email" value={email}
                            onChange={e => setEmail(e.target.value)}/>
-                    <textarea className="textarea__popup" rows="1" placeholder="Message" value={name}
+                    <textarea className="textarea__popup" rows="1" placeholder="Message" value={message}
                               onChange={e => setMessage(e.target.value)}/>
                     <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
                                       <button className="btnMobile-starProject btnInPopup" onClick={togglePopup}>Start project</button>
                 </div>}
                 handleClose={togglePopup}
             />}
+            <img src={messageForOpenForm} className="messageForOpenForm" onClick={togglePopup}/>
         </div>
     )
 }

@@ -11,7 +11,7 @@ const ExpertiseMobile = () => {
                     Development <i className="bi bi-caret-down-square-fill text-white" /></h4>
                 <h4 className="expertise__titleTwo"><i className="bi bi-caret-right-fill text-white"/>
                     Web Development <i className="bi bi-caret-down-square-fill text-white" /></h4>
-                <h4 className="expertise__titleTwo"><i className="bi bi-caret-right-fill text-white"/>UI/UX Design
+                <h4 className="expertise__titleTwo pb-3"><i className="bi bi-caret-right-fill text-white"/>UI/UX Design
                     Services <i className="bi bi-caret-down-square-fill text-white" /></h4>
             </div>
         </div>

@@ -1,19 +1,32 @@
 .expertise {
     clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
     background: linear-gradient(145.79deg, #A800FF -33.27%, #8000FF 162.77%);
-    min-height: 40vh;
 }
 
 
 .expertise__titleOne {
-    padding-top: 75%;
-    padding-bottom: 5%;
+    padding-top: 20%;
+    padding-bottom: 1%;
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 600;
 }
 .expertise__titleTwo {
     text-align: left;
     color: white;
     padding-bottom: 2%;
+}
+
+@media(max-width: 481px) {
+    .expertise__titleOne {
+        padding-top: 18vh;
+        padding-bottom: 2%;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: calc(1.175rem + 2.7vw);
+    }
+    .expertise__titleTwo {
+        font-size: calc(1.04rem + .3vw);
+    }
 }

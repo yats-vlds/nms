@@ -192,7 +192,7 @@ a#home {
     margin-top: 5%;
 }
 .bm-menu-wrap {
-    width: 30%!important;
+    width: 50%!important;
 }
 
 
@@ -203,6 +203,7 @@ a#home {
     height: 100vh;
     top: 0;
     left: 0;
+    z-index: 9999;
 }
 
 .box {
@@ -217,13 +218,17 @@ a#home {
     padding: 20px;
     border: 1px solid #999;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .close-icon {
     content: 'x';
     cursor: pointer;
     position: fixed;
-    right: calc(15% - 11px);
+    right: calc(13.7% - 3px);
     top: calc(100vh - 85vh - 33px);
     background: #ededed;
     width: 25px;
@@ -233,4 +238,16 @@ a#home {
     text-align: center;
     border: 1px solid #999;
     font-size: 20px;
+}
+
+@media(max-width: 481px) {
+    .box {
+        width: 92%;
+    }
+    .bm-menu-wrap {
+        width: 50%!important;
+    }
+    .close-icon {
+        right: calc(2.7% - 3px);
+    }
 }

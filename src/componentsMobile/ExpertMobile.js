@@ -1,11 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "../componentsMobile/ExpertMobile.css"
 import perfect from "../assets/mobile-image/perfect.svg"
 import chess from "../assets/mobile-image/chess.svg"
 import rocket from "../assets/mobile-image/rocket.svg"
 import button from "../assets/mobile-image/button.svg";
+import Popup from "./Popup";
+import skrepka from "../assets/skrepka.svg";
 
 const ExpertMobile = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const togglePopup = () => {
+        setIsOpen(!isOpen);
+    }
     return (
         <div className="expertMobile">
             <div className="container">
@@ -50,9 +60,24 @@ const ExpertMobile = () => {
                             with you to your goals keeping timelines and operating budget regardless you are a startup
                             or an enterprise.</h6>
                     </div>
-                    <div className="col-6 expertMobile__elementDivImg">
-                        <button className="btnMobile-starProject">Start project</button>
+                    <div className="col-12 expertMobile__elementDivImg">
+                        <button className="btnMobile-expert" onClick={togglePopup}>Start project</button>
                     </div>
+                    {isOpen && <Popup
+                        content={<div className="popup__modal">
+                            <h3 className="popup__title">Start your product</h3>
+                            <h3 className="popup__title">development right now!</h3>
+                            <input className="input__popup" type="text" placeholder="Name" value={name}
+                                   onChange={e => setName(e.target.value)}/>
+                            <input className="input__popup" type="text" placeholder="Email" value={email}
+                                   onChange={e => setEmail(e.target.value)}/>
+                            <textarea className="textarea__popup" rows="1" placeholder="Message" value={message}
+                                      onChange={e => setMessage(e.target.value)}/>
+                            <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
+                            <button className="btnMobile-starProject btnInPopup" onClick={togglePopup}>Start project</button>
+                        </div>}
+                        handleClose={togglePopup}
+                    />}
                 </div>
             </div>
         </div>

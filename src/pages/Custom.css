@@ -427,707 +427,707 @@
 }
 
 
-@media (max-width: 824px) {
-    li {
-        font-size: 1rem;
-        line-height: 1rem;
-    }
-
-    .custom {
-        margin-bottom: 4rem !important;
-    }
-
-    .custom__rightSubtitle {
-        padding-bottom: 4px;
-    }
-
-    .btnCustom, .btnCustomMovement {
-        margin-top: 12rem;
-        margin-left: 5rem;
-    }
-
-    .btnCustom, .btnCustom-twoSloy {
-        width: 8.5rem;
-        height: 1.6rem;
-    }
-
-    .btnCustomMovement {
-        animation: btnCustom769 3s infinite;
-    }
-
-    @-webkit-keyframes btnCustom769 {
-        0% {
-            margin-left: 5rem;
-        }
-        50% {
-            margin-left: 4rem;
-        }
-        100% {
-            margin-left: 5rem;
-        }
-    }
-
-    @keyframes btnCustom769 {
-        0% {
-            margin-left: 5rem;
-        }
-        50% {
-            margin-left: 4rem;
-        }
-        100% {
-            margin-left: 5rem;
-        }
-    }
-
-    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
-        width: 5.5rem;
-        height: 1.6rem;
-    }
-
-    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
-        width: 8.5rem;
-        height: 1.6rem;
-    }
-
-    .btnCustom-fourSloyTitle {
-        font-size: 0.63rem;
-        padding-top: 7px;
-    }
-
-    .ellipse-btnStarBefore {
-        width: 0.6rem;
-        height: 0.6rem;
-        margin-right: 0.7rem;
-    }
-
-
-    .custom__leftTitle {
-        font-size: 3rem;
-    }
-
-    .ellipse-btnCustomBefore {
-        width: 0.6rem;
-        height: 0.6rem;
-    }
-
-    .ellipse-btnCustomAfter {
-        width: 0.5rem;
-        height: 0.5rem;
-        margin-left: 6.8rem !important;
-    }
-
-    /* ICONS LOGIC */
-    .custom__icon {
-        margin-left: 6rem;
-    }
-
-    .iconCustomMessage {
-        width: 2rem;
-        margin-top: 4rem;
-        margin-left: -10rem;
-    }
-
-    .iconCustomBack {
-        width: 2.2rem;
-        margin-left: -1rem;
-        margin-top: 5rem;
-    }
-
-    .iconCustomWifi {
-        width: 14rem;
-        margin-left: -9rem;
-        margin-top: 2rem;
-    }
-
-    .iconCustomCamera {
-        width: 13rem;
-        height: 7rem;
-        margin-left: 9rem;
-        margin-top: 4rem;
-    }
-
-    .iconCustomContacts {
-        width: 13rem;
-        height: 8rem;
-        margin-left: 15rem;
-        margin-top: 3rem;
-    }
-
-    .iconCustomHome {
-        width: 10rem;
-        height: 9rem;
-        margin-left: -3rem;
-        margin-top: 14rem;
-    }
-
-    .iconCustomCall {
-        width: 17rem;
-        height: 17rem;
-        margin-left: -2.5rem;
-        margin-top: 12rem;
-    }
-
-    .iconCustomSetting {
-        width: 17rem;
-        height: 22rem;
-        margin-left: 8rem;
-        margin-right: 10rem;
-    }
-
-    .iconCustomBrowser {
-        width: 14rem;
-        height: 13rem;
-        margin-left: 13rem;
-        margin-right: 10rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 15rem;
-        height: 20rem;
-        margin-left: 3rem;
-        margin-right: 10rem;
-    }
-
-    .custom__rightSubtitle {
-        line-height: 0px;
-    }
-}
-
-@media (max-width: 737px) {
-    .customLeft {
-        margin-left: -4rem;
-    }
-
-    .customRight {
-        margin-left: 6.8rem;
-    }
-}
-
-@media (max-width: 665px) {
-    .customRight {
-        margin-left: 0rem;
-    }
-
-    .customLeft {
-        margin-left: 1rem;
-    }
-}
-
-@media (max-width: 569px) {
-    .custom {
-        padding-top: 2rem;
-        margin-bottom: 2rem !important;
-    }
-
-    .customTitleFirst {
-        font-size: 0.9rem;
-    }
-
-    .customTitle {
-        font-size: 0.7rem;
-    }
-
-    li {
-        font-size: 0.5rem;
-        line-height: 0.5rem;
-    }
-
-    .custom__rightSubtitle {
-        padding-bottom: 0px;
-        padding-left: 0.7rem;
-    }
-
-    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
-        width: 5.5rem;
-        height: 1.1rem;
-    }
-
-    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
-        width: 3.4rem;
-        height: 1.1rem;
-    }
-
-    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
-        width: 5.5rem;
-        height: 1.1rem;
-    }
-
-    .btnCustom-fourSloyTitle {
-        font-size: 0.6rem;
-    }
-
-    .ellipse-btnStarBefore {
-        width: 0.5rem;
-        height: 0.5rem;
-        margin-right: 0.5rem;
-    }
-
-    .ellipse-btnCustomBefore {
-        width: 0.35rem;
-        height: 0.35rem;
-        margin-right: 0.5rem;
-    }
-
-    .ellipse-btnCustomAfter {
-        margin-left: 4.5rem !important;
-        width: 0.35rem;
-        height: 0.35rem;
-    }
-
-    .btnCustom-fourSloyTitle {
-        font-size: 0.38rem;
-        padding-top: 5px;
-    }
-
-
-    .btnCustom, .btnCustomMovement {
-        margin-top: 7rem;
-        margin-left: 1rem;
-    }
-
-    .btnCustomMovement {
-        animation: btnCustom426 3s infinite;
-    }
-
-    @-webkit-keyframes btnCustom426 {
-        0% {
-            margin-left: 1rem;
-        }
-        50% {
-            margin-left: 0.5rem;
-        }
-        100% {
-            margin-left: 1rem;
-        }
-    }
-
-    @keyframes btnCustom426 {
-        0% {
-            margin-left: 1rem;
-        }
-        50% {
-            margin-left: 0.5rem;
-        }
-        100% {
-            margin-left: 1rem;
-        }
-    }
-
-    .custom__leftTitle {
-        font-size: 1.7rem;
-    }
-
-    /* ICON */
-    .custom__icon {
-        margin-left: 6rem;
-    }
-
-    .iconCustomMessage {
-        width: 1.2rem;
-        margin-top: -1rem;
-        margin-left: -13rem;
-    }
-
-    .iconCustomBack {
-        width: 1.2rem;
-        margin-left: -9rem;
-        margin-top: -1rem;
-    }
-
-    .iconCustomWifi {
-        width: 7rem;
-        margin-left: -12rem;
-        margin-top: -3rem;
-    }
-
-    .iconCustomCamera {
-        width: 7rem;
-        height: 6rem;
-        margin-left: 8.5rem;
-        margin-top: -4rem;
-    }
-
-    .iconCustomCall {
-        width: 8rem;
-        height: 8rem;
-        margin-left: -3.4rem;
-        margin-top: 13.5rem;
-    }
-
-    .iconCustomSetting {
-        width: 8rem;
-        height: 8rem;
-        margin-left: 8.5rem;
-        margin-top: 3.3rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 8rem;
-        height: 8rem;
-        margin-left: 5.5rem;
-        margin-right: 10rem;
-        margin-top: 1rem;
-    }
-
-    .iconCustomContacts {
-        width: 7rem;
-        height: 6rem;
-        margin-left: 11.3rem;
-        margin-top: -3.5rem;
-    }
-
-    .iconCustomHome {
-        width: 5rem;
-        height: 4rem;
-        margin-left: -7.5rem;
-        margin-top: 12rem;
-    }
-
-    .iconCustomBrowser {
-        width: 11rem;
-        height: 5rem;
-        margin-left: 12rem;
-        margin-right: 10rem;
-        margin-top: -1.5rem;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 0.7rem;
-    }
-
-    .custom__rightSubtitle {
-        line-height: 10px;
-    }
-}
-
-@media (max-width: 426px) {
-    .customLeft {
-        margin-left: 0rem;
-    }
-
-    .custom {
-        padding-top: 2rem;
-        margin-bottom: 1.5rem !important;
-    }
-
-    .btnCustom, .btnCustomMovement {
-        margin-top: 5.5rem;
-        margin-left: 2rem;
-    }
-
-    .btnCustomMovement {
-        animation: btnCustom376 3s infinite;
-    }
-
-    @-webkit-keyframes btnCustom376 {
-        0% {
-            margin-left: 2rem;
-        }
-        50% {
-            margin-left: 1rem;
-        }
-        100% {
-            margin-left: 2rem;
-        }
-    }
-
-    @keyframes btnCustom376 {
-        0% {
-            margin-left: 2rem;
-        }
-        50% {
-            margin-left: 1rem;
-        }
-        100% {
-            margin-left: 2rem;
-        }
-    }
-
-    .custom__leftTitle {
-        font-size: 1.4rem;
-    }
-
-    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {
-        width: 5rem;
-        height: 1rem;
-    }
-
-    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {
-        width: 3.3rem;
-        height: 1rem;
-    }
-
-    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {
-        width: 5rem;
-        height: 1rem;
-    }
-
-    .btnCustom-fourSloyTitle {
-        font-size: 6.3px;
-        padding-top: 0.3rem;
-        padding-left: 0.23rem;
-    }
-
-    /*.ellipse-btnStarBefore {*/
-    /*    width: 0.35rem !important;*/
-    /*    height: 0.35rem !important;*/
-    /*}*/
-    .ellipse-btnCustomBefore {
-        width: 0.4rem !important;
-        height: 0.4rem !important;
-        margin-right: 0.4rem;
-    }
-
-    .ellipse-btnStarAfter {
-        margin-left: 4.5rem;
-    }
-
-    .ellipse-btnCustomAfter {
-        width: 0.3rem !important;
-        height: 0.3rem !important;
-        margin-left: 4.2rem !important;
-    }
-
-    .custom {
-        height: fit-content;
-    }
-
-    li {
-        font-size: 0.3rem;
-        line-height: 0.3rem;
-    }
-
-    .customTitleFirst {
-        font-size: 0.9rem;
-    }
-
-    .customTitle {
-        font-size: 0.7rem;
-    }
-
-    /* ICON */
-    .custom__icon {
-        margin-left: 5.5rem;
-    }
-
-    .iconCustomMessage {
-        width: 1rem;
-        margin-top: -3rem;
-        margin-left: -14.5rem;
-    }
-
-    .iconCustomBack {
-        width: 1rem;
-        margin-left: -9rem;
-        margin-top: -2rem;
-    }
-
-    .iconCustomWifi {
-        width: 5rem;
-        margin-left: -11.3rem;
-        margin-top: -4.5rem;
-    }
-
-    .iconCustomCamera {
-        width: 5rem;
-        height: 4rem;
-        margin-left: 9.5rem;
-        margin-top: -5rem;
-    }
-
-
-    .iconCustomCall {
-        width: 7rem;
-        height: 7rem;
-        margin-left: -3.5rem;
-        margin-top: 13rem;
-    }
-
-    .iconCustomSetting {
-        width: 7rem;
-        height: 7rem;
-        margin-left: 9rem;
-        margin-right: 10rem;
-        margin-top: 3rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 7rem;
-        height: 7rem;
-        margin-left: 7.5rem;
-        margin-right: 10rem;
-    }
-
-    .iconCustomContacts {
-        width: 5rem;
-        height: 4rem;
-        margin-left: 13.5rem;
-        margin-top: -6rem;
-    }
-
-    .iconCustomHome {
-        width: 5rem;
-        height: 3rem;
-        margin-left: -8rem;
-        margin-top: 12rem;
-    }
-
-    .iconCustomBrowser {
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        margin-right: 0rem;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 0.4rem;
-    }
-
-    .custom__rightSubtitle {
-        line-height: 0;
-    }
-
-    .customLeft {
-        margin-left: 0rem;
-    }
-}
-
-@media (max-width: 376px) {
-    .customTitleFirst {
-        font-size: 0.7rem;
-    }
-
-    .customTitle {
-        font-size: 0.6rem;
-    }
-}
-
-@media (max-width: 321px) {
-    .custom {
-        padding-top: 2rem;
-        margin-bottom: 1rem !important;
-    }
-
-    .btnCustom, .btnCustomMovement {
-        margin-top: 4.7rem;
-        margin-left: 2rem;
-    }
-
-    .btnCustomMovement {
-        animation: btnCustom321 3s infinite;
-    }
-
-    @-webkit-keyframes btnCustom321 {
-        0% {
-            margin-left: 2rem;
-        }
-        50% {
-            margin-left: 1rem;
-        }
-        100% {
-            margin-left: 2rem;
-        }
-    }
-
-    @keyframes btnCustom321 {
-        0% {
-            margin-left: 2rem;
-        }
-        50% {
-            margin-left: 1rem;
-        }
-        100% {
-            margin-left: 2rem;
-        }
-    }
-
-    .custom {
-        height: fit-content;
-        padding-top: 1rem;
-    }
-
-    /* ICON */
-    .custom__icon {
-        margin-left: 5.5rem;
-    }
-
-    .iconCustomMessage {
-        width: 1rem;
-        margin-top: -4rem;
-        margin-left: -14rem;
-    }
-
-    .iconCustomHome {
-        width: 5rem;
-        height: 3rem;
-        margin-left: -8rem;
-        margin-top: 11.5rem;
-    }
-
-    .iconCustomSetting {
-        width: 7rem;
-        height: 7rem;
-        margin-left: 12.5rem;
-        margin-right: 0rem;
-        margin-top: 5rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 7rem;
-        height: 7rem;
-        margin-left: 12.5rem;
-        margin-right: 0rem;
-        margin-top: 2rem;
-    }
-
-    .iconCustomContacts {
-        width: 5rem;
-        height: 4rem;
-        margin-left: 9.5rem;
-        margin-top: -6.8rem;
-    }
-
-    .iconCustomCamera {
-        width: 5rem;
-        height: 4rem;
-        margin-left: 10rem;
-        margin-top: -6rem;
-    }
-
-    .iconCustomBack {
-        width: 1rem;
-        margin-left: -9rem;
-        margin-top: -2.5rem;
-    }
-
-    .iconCustomMessage2 {
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 0rem;
-    }
-
-    .iconCustomSetting {
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 0rem;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 0.2rem;
-    }
-
-    .customTitleFirst {
-        font-size: 0.63rem;
-    }
-    .customTitle {
-        font-size: 0.55rem;
-    }
-}
+/*@media (max-width: 824px) {*/
+/*    li {*/
+/*        font-size: 1rem;*/
+/*        line-height: 1rem;*/
+/*    }*/
+
+/*    .custom {*/
+/*        margin-bottom: 4rem !important;*/
+/*    }*/
+
+/*    .custom__rightSubtitle {*/
+/*        padding-bottom: 4px;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustomMovement {*/
+/*        margin-top: 12rem;*/
+/*        margin-left: 5rem;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustom-twoSloy {*/
+/*        width: 8.5rem;*/
+/*        height: 1.6rem;*/
+/*    }*/
+
+/*    .btnCustomMovement {*/
+/*        animation: btnCustom769 3s infinite;*/
+/*    }*/
+
+/*    @-webkit-keyframes btnCustom769 {*/
+/*        0% {*/
+/*            margin-left: 5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 4rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 5rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes btnCustom769 {*/
+/*        0% {*/
+/*            margin-left: 5rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 4rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 5rem;*/
+/*        }*/
+/*    }*/
+
+/*    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {*/
+/*        width: 5.5rem;*/
+/*        height: 1.6rem;*/
+/*    }*/
+
+/*    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {*/
+/*        width: 8.5rem;*/
+/*        height: 1.6rem;*/
+/*    }*/
+
+/*    .btnCustom-fourSloyTitle {*/
+/*        font-size: 0.63rem;*/
+/*        padding-top: 7px;*/
+/*    }*/
+
+/*    .ellipse-btnStarBefore {*/
+/*        width: 0.6rem;*/
+/*        height: 0.6rem;*/
+/*        margin-right: 0.7rem;*/
+/*    }*/
+
+
+/*    .custom__leftTitle {*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*    .ellipse-btnCustomBefore {*/
+/*        width: 0.6rem;*/
+/*        height: 0.6rem;*/
+/*    }*/
+
+/*    .ellipse-btnCustomAfter {*/
+/*        width: 0.5rem;*/
+/*        height: 0.5rem;*/
+/*        margin-left: 6.8rem !important;*/
+/*    }*/
+
+/*    !* ICONS LOGIC *!*/
+/*    .custom__icon {*/
+/*        margin-left: 6rem;*/
+/*    }*/
+
+/*    .iconCustomMessage {*/
+/*        width: 2rem;*/
+/*        margin-top: 4rem;*/
+/*        margin-left: -10rem;*/
+/*    }*/
+
+/*    .iconCustomBack {*/
+/*        width: 2.2rem;*/
+/*        margin-left: -1rem;*/
+/*        margin-top: 5rem;*/
+/*    }*/
+
+/*    .iconCustomWifi {*/
+/*        width: 14rem;*/
+/*        margin-left: -9rem;*/
+/*        margin-top: 2rem;*/
+/*    }*/
+
+/*    .iconCustomCamera {*/
+/*        width: 13rem;*/
+/*        height: 7rem;*/
+/*        margin-left: 9rem;*/
+/*        margin-top: 4rem;*/
+/*    }*/
+
+/*    .iconCustomContacts {*/
+/*        width: 13rem;*/
+/*        height: 8rem;*/
+/*        margin-left: 15rem;*/
+/*        margin-top: 3rem;*/
+/*    }*/
+
+/*    .iconCustomHome {*/
+/*        width: 10rem;*/
+/*        height: 9rem;*/
+/*        margin-left: -3rem;*/
+/*        margin-top: 14rem;*/
+/*    }*/
+
+/*    .iconCustomCall {*/
+/*        width: 17rem;*/
+/*        height: 17rem;*/
+/*        margin-left: -2.5rem;*/
+/*        margin-top: 12rem;*/
+/*    }*/
+
+/*    .iconCustomSetting {*/
+/*        width: 17rem;*/
+/*        height: 22rem;*/
+/*        margin-left: 8rem;*/
+/*        margin-right: 10rem;*/
+/*    }*/
+
+/*    .iconCustomBrowser {*/
+/*        width: 14rem;*/
+/*        height: 13rem;*/
+/*        margin-left: 13rem;*/
+/*        margin-right: 10rem;*/
+/*    }*/
+
+/*    .iconCustomMessage2 {*/
+/*        width: 15rem;*/
+/*        height: 20rem;*/
+/*        margin-left: 3rem;*/
+/*        margin-right: 10rem;*/
+/*    }*/
+
+/*    .custom__rightSubtitle {*/
+/*        line-height: 0px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 737px) {*/
+/*    .customLeft {*/
+/*        margin-left: -4rem;*/
+/*    }*/
+
+/*    .customRight {*/
+/*        margin-left: 6.8rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 665px) {*/
+/*    .customRight {*/
+/*        margin-left: 0rem;*/
+/*    }*/
+
+/*    .customLeft {*/
+/*        margin-left: 1rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 569px) {*/
+/*    .custom {*/
+/*        padding-top: 2rem;*/
+/*        margin-bottom: 2rem !important;*/
+/*    }*/
+
+/*    .customTitleFirst {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+
+/*    .customTitle {*/
+/*        font-size: 0.7rem;*/
+/*    }*/
+
+/*    li {*/
+/*        font-size: 0.5rem;*/
+/*        line-height: 0.5rem;*/
+/*    }*/
+
+/*    .custom__rightSubtitle {*/
+/*        padding-bottom: 0px;*/
+/*        padding-left: 0.7rem;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {*/
+/*        width: 5.5rem;*/
+/*        height: 1.1rem;*/
+/*    }*/
+
+/*    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {*/
+/*        width: 3.4rem;*/
+/*        height: 1.1rem;*/
+/*    }*/
+
+/*    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {*/
+/*        width: 5.5rem;*/
+/*        height: 1.1rem;*/
+/*    }*/
+
+/*    .btnCustom-fourSloyTitle {*/
+/*        font-size: 0.6rem;*/
+/*    }*/
+
+/*    .ellipse-btnStarBefore {*/
+/*        width: 0.5rem;*/
+/*        height: 0.5rem;*/
+/*        margin-right: 0.5rem;*/
+/*    }*/
+
+/*    .ellipse-btnCustomBefore {*/
+/*        width: 0.35rem;*/
+/*        height: 0.35rem;*/
+/*        margin-right: 0.5rem;*/
+/*    }*/
+
+/*    .ellipse-btnCustomAfter {*/
+/*        margin-left: 4.5rem !important;*/
+/*        width: 0.35rem;*/
+/*        height: 0.35rem;*/
+/*    }*/
+
+/*    .btnCustom-fourSloyTitle {*/
+/*        font-size: 0.38rem;*/
+/*        padding-top: 5px;*/
+/*    }*/
+
+
+/*    .btnCustom, .btnCustomMovement {*/
+/*        margin-top: 7rem;*/
+/*        margin-left: 1rem;*/
+/*    }*/
+
+/*    .btnCustomMovement {*/
+/*        animation: btnCustom426 3s infinite;*/
+/*    }*/
+
+/*    @-webkit-keyframes btnCustom426 {*/
+/*        0% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 0.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes btnCustom426 {*/
+/*        0% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 0.5rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*    }*/
+
+/*    .custom__leftTitle {*/
+/*        font-size: 1.7rem;*/
+/*    }*/
+
+/*    !* ICON *!*/
+/*    .custom__icon {*/
+/*        margin-left: 6rem;*/
+/*    }*/
+
+/*    .iconCustomMessage {*/
+/*        width: 1.2rem;*/
+/*        margin-top: -1rem;*/
+/*        margin-left: -13rem;*/
+/*    }*/
+
+/*    .iconCustomBack {*/
+/*        width: 1.2rem;*/
+/*        margin-left: -9rem;*/
+/*        margin-top: -1rem;*/
+/*    }*/
+
+/*    .iconCustomWifi {*/
+/*        width: 7rem;*/
+/*        margin-left: -12rem;*/
+/*        margin-top: -3rem;*/
+/*    }*/
+
+/*    .iconCustomCamera {*/
+/*        width: 7rem;*/
+/*        height: 6rem;*/
+/*        margin-left: 8.5rem;*/
+/*        margin-top: -4rem;*/
+/*    }*/
+
+/*    .iconCustomCall {*/
+/*        width: 8rem;*/
+/*        height: 8rem;*/
+/*        margin-left: -3.4rem;*/
+/*        margin-top: 13.5rem;*/
+/*    }*/
+
+/*    .iconCustomSetting {*/
+/*        width: 8rem;*/
+/*        height: 8rem;*/
+/*        margin-left: 8.5rem;*/
+/*        margin-top: 3.3rem;*/
+/*    }*/
+
+/*    .iconCustomMessage2 {*/
+/*        width: 8rem;*/
+/*        height: 8rem;*/
+/*        margin-left: 5.5rem;*/
+/*        margin-right: 10rem;*/
+/*        margin-top: 1rem;*/
+/*    }*/
+
+/*    .iconCustomContacts {*/
+/*        width: 7rem;*/
+/*        height: 6rem;*/
+/*        margin-left: 11.3rem;*/
+/*        margin-top: -3.5rem;*/
+/*    }*/
+
+/*    .iconCustomHome {*/
+/*        width: 5rem;*/
+/*        height: 4rem;*/
+/*        margin-left: -7.5rem;*/
+/*        margin-top: 12rem;*/
+/*    }*/
+
+/*    .iconCustomBrowser {*/
+/*        width: 11rem;*/
+/*        height: 5rem;*/
+/*        margin-left: 12rem;*/
+/*        margin-right: 10rem;*/
+/*        margin-top: -1.5rem;*/
+/*    }*/
+
+/*    p {*/
+/*        margin-top: 0;*/
+/*        margin-bottom: 0.7rem;*/
+/*    }*/
+
+/*    .custom__rightSubtitle {*/
+/*        line-height: 10px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 426px) {*/
+/*    .customLeft {*/
+/*        margin-left: 0rem;*/
+/*    }*/
+
+/*    .custom {*/
+/*        padding-top: 2rem;*/
+/*        margin-bottom: 1.5rem !important;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustomMovement {*/
+/*        margin-top: 5.5rem;*/
+/*        margin-left: 2rem;*/
+/*    }*/
+
+/*    .btnCustomMovement {*/
+/*        animation: btnCustom376 3s infinite;*/
+/*    }*/
+
+/*    @-webkit-keyframes btnCustom376 {*/
+/*        0% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes btnCustom376 {*/
+/*        0% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*    }*/
+
+/*    .custom__leftTitle {*/
+/*        font-size: 1.4rem;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustom-twoSloy, .btnCustomMovement {*/
+/*        width: 5rem;*/
+/*        height: 1rem;*/
+/*    }*/
+
+/*    .btnCustom-threeSloyBefore, .btnCustom-fourSloyBefore {*/
+/*        width: 3.3rem;*/
+/*        height: 1rem;*/
+/*    }*/
+
+/*    .btnCustom-threeSloyAfter, .btnCustom-fourSloyAfter {*/
+/*        width: 5rem;*/
+/*        height: 1rem;*/
+/*    }*/
+
+/*    .btnCustom-fourSloyTitle {*/
+/*        font-size: 6.3px;*/
+/*        padding-top: 0.3rem;*/
+/*        padding-left: 0.23rem;*/
+/*    }*/
+
+/*    !*.ellipse-btnStarBefore {*!*/
+/*    !*    width: 0.35rem !important;*!*/
+/*    !*    height: 0.35rem !important;*!*/
+/*    !*}*!*/
+/*    .ellipse-btnCustomBefore {*/
+/*        width: 0.4rem !important;*/
+/*        height: 0.4rem !important;*/
+/*        margin-right: 0.4rem;*/
+/*    }*/
+
+/*    .ellipse-btnStarAfter {*/
+/*        margin-left: 4.5rem;*/
+/*    }*/
+
+/*    .ellipse-btnCustomAfter {*/
+/*        width: 0.3rem !important;*/
+/*        height: 0.3rem !important;*/
+/*        margin-left: 4.2rem !important;*/
+/*    }*/
+
+/*    .custom {*/
+/*        height: fit-content;*/
+/*    }*/
+
+/*    li {*/
+/*        font-size: 0.3rem;*/
+/*        line-height: 0.3rem;*/
+/*    }*/
+
+/*    .customTitleFirst {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+
+/*    .customTitle {*/
+/*        font-size: 0.7rem;*/
+/*    }*/
+
+/*    !* ICON *!*/
+/*    .custom__icon {*/
+/*        margin-left: 5.5rem;*/
+/*    }*/
+
+/*    .iconCustomMessage {*/
+/*        width: 1rem;*/
+/*        margin-top: -3rem;*/
+/*        margin-left: -14.5rem;*/
+/*    }*/
+
+/*    .iconCustomBack {*/
+/*        width: 1rem;*/
+/*        margin-left: -9rem;*/
+/*        margin-top: -2rem;*/
+/*    }*/
+
+/*    .iconCustomWifi {*/
+/*        width: 5rem;*/
+/*        margin-left: -11.3rem;*/
+/*        margin-top: -4.5rem;*/
+/*    }*/
+
+/*    .iconCustomCamera {*/
+/*        width: 5rem;*/
+/*        height: 4rem;*/
+/*        margin-left: 9.5rem;*/
+/*        margin-top: -5rem;*/
+/*    }*/
+
+
+/*    .iconCustomCall {*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-left: -3.5rem;*/
+/*        margin-top: 13rem;*/
+/*    }*/
+
+/*    .iconCustomSetting {*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-left: 9rem;*/
+/*        margin-right: 10rem;*/
+/*        margin-top: 3rem;*/
+/*    }*/
+
+/*    .iconCustomMessage2 {*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-left: 7.5rem;*/
+/*        margin-right: 10rem;*/
+/*    }*/
+
+/*    .iconCustomContacts {*/
+/*        width: 5rem;*/
+/*        height: 4rem;*/
+/*        margin-left: 13.5rem;*/
+/*        margin-top: -6rem;*/
+/*    }*/
+
+/*    .iconCustomHome {*/
+/*        width: 5rem;*/
+/*        height: 3rem;*/
+/*        margin-left: -8rem;*/
+/*        margin-top: 12rem;*/
+/*    }*/
+
+/*    .iconCustomBrowser {*/
+/*        width: 0rem;*/
+/*        height: 0rem;*/
+/*        margin-left: 0rem;*/
+/*        margin-top: 0rem;*/
+/*        margin-right: 0rem;*/
+/*    }*/
+
+/*    p {*/
+/*        margin-top: 0;*/
+/*        margin-bottom: 0.4rem;*/
+/*    }*/
+
+/*    .custom__rightSubtitle {*/
+/*        line-height: 0;*/
+/*    }*/
+
+/*    .customLeft {*/
+/*        margin-left: 0rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 376px) {*/
+/*    .customTitleFirst {*/
+/*        font-size: 0.7rem;*/
+/*    }*/
+
+/*    .customTitle {*/
+/*        font-size: 0.6rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 321px) {*/
+/*    .custom {*/
+/*        padding-top: 2rem;*/
+/*        margin-bottom: 1rem !important;*/
+/*    }*/
+
+/*    .btnCustom, .btnCustomMovement {*/
+/*        margin-top: 4.7rem;*/
+/*        margin-left: 2rem;*/
+/*    }*/
+
+/*    .btnCustomMovement {*/
+/*        animation: btnCustom321 3s infinite;*/
+/*    }*/
+
+/*    @-webkit-keyframes btnCustom321 {*/
+/*        0% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes btnCustom321 {*/
+/*        0% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*        50% {*/
+/*            margin-left: 1rem;*/
+/*        }*/
+/*        100% {*/
+/*            margin-left: 2rem;*/
+/*        }*/
+/*    }*/
+
+/*    .custom {*/
+/*        height: fit-content;*/
+/*        padding-top: 1rem;*/
+/*    }*/
+
+/*    !* ICON *!*/
+/*    .custom__icon {*/
+/*        margin-left: 5.5rem;*/
+/*    }*/
+
+/*    .iconCustomMessage {*/
+/*        width: 1rem;*/
+/*        margin-top: -4rem;*/
+/*        margin-left: -14rem;*/
+/*    }*/
+
+/*    .iconCustomHome {*/
+/*        width: 5rem;*/
+/*        height: 3rem;*/
+/*        margin-left: -8rem;*/
+/*        margin-top: 11.5rem;*/
+/*    }*/
+
+/*    .iconCustomSetting {*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-left: 12.5rem;*/
+/*        margin-right: 0rem;*/
+/*        margin-top: 5rem;*/
+/*    }*/
+
+/*    .iconCustomMessage2 {*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-left: 12.5rem;*/
+/*        margin-right: 0rem;*/
+/*        margin-top: 2rem;*/
+/*    }*/
+
+/*    .iconCustomContacts {*/
+/*        width: 5rem;*/
+/*        height: 4rem;*/
+/*        margin-left: 9.5rem;*/
+/*        margin-top: -6.8rem;*/
+/*    }*/
+
+/*    .iconCustomCamera {*/
+/*        width: 5rem;*/
+/*        height: 4rem;*/
+/*        margin-left: 10rem;*/
+/*        margin-top: -6rem;*/
+/*    }*/
+
+/*    .iconCustomBack {*/
+/*        width: 1rem;*/
+/*        margin-left: -9rem;*/
+/*        margin-top: -2.5rem;*/
+/*    }*/
+
+/*    .iconCustomMessage2 {*/
+/*        width: 0rem;*/
+/*        height: 0rem;*/
+/*        margin-left: 0rem;*/
+/*        margin-right: 0rem;*/
+/*        margin-top: 0rem;*/
+/*    }*/
+
+/*    .iconCustomSetting {*/
+/*        width: 0rem;*/
+/*        height: 0rem;*/
+/*        margin-left: 0rem;*/
+/*        margin-right: 0rem;*/
+/*        margin-top: 0rem;*/
+/*    }*/
+
+/*    p {*/
+/*        margin-top: 0;*/
+/*        margin-bottom: 0.2rem;*/
+/*    }*/
+
+/*    .customTitleFirst {*/
+/*        font-size: 0.63rem;*/
+/*    }*/
+/*    .customTitle {*/
+/*        font-size: 0.55rem;*/
+/*    }*/
+/*}*/
