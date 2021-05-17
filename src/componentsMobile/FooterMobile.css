@@ -1,0 +1,34 @@
+.footerMobile {
+    background: #F8F8F8;
+    border-radius: 7px 7px 0px 0px;
+    height: 19vh;
+}
+
+.footerMobile__row {
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footerMobile__titleOne {
+    color: #5D5FEF;
+    font-weight: 600;
+}
+.messengersIconFooter {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.footerMobile__logo {
+    width: 50%;
+}
+
+.iconFooter {
+    padding-right: 5%;
+    color: #5D5FEF;
+}
+
+.footerMobile__bottom {
+    padding-top: 7%;
+}

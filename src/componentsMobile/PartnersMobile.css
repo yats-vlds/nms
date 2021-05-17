@@ -1,5 +1,5 @@
 .partnersMobile__SeeCasesTitle {
-    min-height: 60vh;
+    min-height: 30vh;
     -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
     clip-path: polygon(0 0, 0% 100%, 100% 50%);
     background: #ECECEC;
@@ -10,7 +10,7 @@ i.bi.bi-youtube {
 }
 
 .partnersMobile__SeeCasesTitleh2 {
-    padding-top: 23vh;
+    padding-top: 14vh;
     padding-left: 10%;
     font-weight: bold;
     text-decoration: underline;
@@ -23,8 +23,8 @@ i.bi.bi-youtube {
     -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
     background: linear-gradient(161.95deg, #A800FF -9.3%, #8000FF 63.5%); /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    height: 120vh;
-    margin-top: -30vh;
+    height: 60vh;
+    margin-top: -15vh;
 }
 
 .partnersMobile__titleOne {
@@ -103,7 +103,7 @@ i.bi.bi-youtube {
 
 .tenMobile {
     background: #8000FF;
-    height: 50vh;
+    height: 25vh;
     margin-top: 10%;
 }
 
@@ -128,5 +128,5 @@ i.bi.bi-youtube {
     position: absolute;
     right: 0;
     margin-top: -68%;
-    width: 30%;
+    width: 28%;
 }

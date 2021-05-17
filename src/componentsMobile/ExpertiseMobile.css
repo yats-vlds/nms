@@ -1,18 +1,17 @@
 .expertise {
     clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
     background: linear-gradient(145.79deg, #A800FF -33.27%, #8000FF 162.77%);
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 
 .expertise__titleOne {
-    padding-top: 40%;
+    padding-top: 75%;
     padding-bottom: 5%;
     text-align: center;
     color: white;
     font-weight: 600;
 }
-
 .expertise__titleTwo {
     text-align: left;
     color: white;

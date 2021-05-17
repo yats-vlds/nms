@@ -16,6 +16,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import ExpertMobile from "./componentsMobile/ExpertMobile";
 import PartnersMobile from "./componentsMobile/PartnersMobile";
+import FormMobile from "./componentsMobile/FormMobile";
+import FooterMobile from "./componentsMobile/FooterMobile";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -82,6 +84,8 @@ function App() {
             <ExpertiseMobile />
             <ExpertMobile />
             <PartnersMobile />
+            <FormMobile />
+            <FooterMobile />
             {/*<Header/>*/}
             {/*<Switch>*/}
             {/*    <Route path="/" exact>*/}

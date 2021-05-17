@@ -1,0 +1,14 @@
+.formMobile {
+    height: 25vh;
+    margin: 5%;
+    background: #F8F8F8;
+    border-radius: 4%;
+}
+
+.formMobile__element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7%;
+}
