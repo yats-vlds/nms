@@ -20,6 +20,7 @@ import FormMobile from "./componentsMobile/FormMobile";
 import FooterMobile from "./componentsMobile/FooterMobile";
 import CustomSASS from "./pagesMobile/CustomSASS";
 import WebDevelopmentMobile from "./pagesMobile/WebDevelopmentMobile";
+import UIUXMobile from "./pagesMobile/UIUXMobile";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -81,7 +82,7 @@ function App() {
     library.add(fab, faCheckSquare, faCoffee)
     return (
         <Router>
-         <WebDevelopmentMobile />
+        <UIUXMobile />
             {/*<Header/>*/}
             {/*<Switch>*/}
             {/*    <Route path="/" exact>*/}
