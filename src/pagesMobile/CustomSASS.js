@@ -4,7 +4,20 @@ import CustomSaASSImage from "../assets/mobile-image/customsass.svg"
 import handSnake from "../assets/mobile-image/handSnake.svg"
 import rocketCustom from "../assets/mobile-image/rocketCustom.svg"
 import house from "../assets/mobile-image/house.svg"
+import react from "../assets/mobile-image/TECH_REACT.svg"
+import rn from "../assets/mobile-image/TECH_RN.svg"
+import ts from "../assets/mobile-image/TECH_TS.svg"
+import node from "../assets/mobile-image/TECH_NODE.svg"
+import express from "../assets/mobile-image/TECH_EXPRESS.svg"
+import sql from "../assets/mobile-image/TECH_SQL.svg"
+import postgres from "../assets/mobile-image/TECH_POSTGRES.svg"
+import mongo from "../assets/mobile-image/TECH_MONGO.svg"
+import php from "../assets/mobile-image/TECH_PHP.svg"
+import python from "../assets/mobile-image/TECH_PYTHON.svg"
+import nextjs from "../assets/mobile-image/TECH_Next.svg"
 import "./CustomSASS.css"
+import FormMobile from "../componentsMobile/FormMobile";
+import FooterMobile from "../componentsMobile/FooterMobile";
 
 const CustomSASS = () => {
     return (
@@ -79,11 +92,86 @@ const CustomSASS = () => {
                         </h6>
                     </div>
                 </div>
-                <div className="technologiesMobile">
+            </div>
+            <div className="technologiesMobile">
+                <div className="container">
                     <h4 className="titleForLinkInMobile">Technologies</h4>
-                    <h5 className="d-flex align-items-center"><i className="bi bi-circle-fill technologiesMobileSubTitle"></i>&nbsp;&nbsp;Front End</h5>
+                    <div className="row">
+                        <div className="col-12">
+                            <h5 className="d-flex align-items-center technologiesMobileTitle"><i
+                                className="bi bi-circle-fill technologiesMobileSubTitle"></i>&nbsp;&nbsp;Front End:</h5>
+                            <div className="frontendDiv">
+                                <div className="frontendDiv__element">
+                                    <img src={react} className="frontendDiv__img"/>
+                                    <h6>React.js</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={rn} className="frontendDiv__img"/>
+                                    <h6>React Native</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={nextjs} className="frontendDiv__img"/>
+                                    <h6>Next.js</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={ts} className="frontendDiv__img"/>
+                                    <h6>TypeScript</h6>
+                                </div>
+                            </div>
+                            <h5 className="d-flex align-items-center technologiesMobileTitle"><i
+                                className="bi bi-circle-fill technologiesMobileSubTitle"></i>&nbsp;&nbsp;Back End:</h5>
+                            <div className="frontendDiv">
+                                <div className="frontendDiv__element">
+                                    <img src={node} className="frontendDiv__img"/>
+                                    <h6>Node.js</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={express} className="frontendDiv__img"/>
+                                    <h6>Express</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={php} className="frontendDiv__img"/>
+                                    <h6>PHP</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={python} className="frontendDiv__img"/>
+                                    <h6>Python</h6>
+                                </div>
+                            </div>
+                            <h5 className="d-flex align-items-center technologiesMobileTitle"><i
+                                className="bi bi-circle-fill technologiesMobileSubTitle"></i>&nbsp;&nbsp;Databases:</h5>
+                            <div className="frontendDiv">
+                                <div className="frontendDiv__element">
+                                    <img src={postgres} className="frontendDiv__img"/>
+                                    <h6>Postgres</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={mongo} className="frontendDiv__img"/>
+                                    <h6>Mongo</h6>
+                                </div>
+                                <div className="frontendDiv__element">
+                                    <img src={sql} className="frontendDiv__img"/>
+                                    <h6>SQL DBs</h6>
+                                </div>
+                                <div className="frontendDiv__element" style={{opacity: 0}}>
+                                    <img src={""} className="frontendDiv__img"/>
+                                    <h6></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div className="row d-flex justify-content-center align-items-center">
+                <div className="col-2">
+                    <i className="bi bi-arrow-left"></i>
+                </div>
+                <div className="col-10">
+                    <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i className="bi bi-youtube"/></h1>
+                </div>
+            </div>
+            <FormMobile />
+            <FooterMobile />
         </>
     )
 }

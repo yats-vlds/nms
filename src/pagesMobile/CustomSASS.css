@@ -25,6 +25,34 @@ li {
     font-weight: bold;
 }
 
+.technologiesMobile {
+    background: #EDEAEA;
+}
+.titleForLinkInMobile {
+    padding: 5% 0;
+}
+.technologiesMobileTitle {
+    border-top: 2px solid #C6C6C6;
+    padding-top: 4%;
+}
+
 .technologiesMobileSubTitle {
     font-size: 8px;
+}
+
+.frontendDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.frontendDiv__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frontendDiv__img {
+    width: 50px;
+    height: 50px;
 }
