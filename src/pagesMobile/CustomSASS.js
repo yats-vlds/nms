@@ -162,12 +162,14 @@ const CustomSASS = () => {
                     </div>
                 </div>
             </div>
-            <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-2">
-                    <i className="bi bi-arrow-left"></i>
-                </div>
-                <div className="col-10">
-                    <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i className="bi bi-youtube"/></h1>
+            <div className="container">
+                <div className="row d-flex justify-content-center align-items-center">
+                    <div className="col-2">
+                        <i className="bi bi-arrow-left"></i>
+                    </div>
+                    <div className="col-10">
+                        <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i className="bi bi-youtube"/></h1>
+                    </div>
                 </div>
             </div>
             <FormMobile />
