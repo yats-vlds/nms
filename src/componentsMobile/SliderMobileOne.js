@@ -23,7 +23,7 @@ import loko from "../assets/LocoMoco-900x1025-01.png";
 import loko2 from "../assets/LocoMoco-900x1025-02.png";
 import loko3 from "../assets/LocoMoco-900x1025-03.png";
 
-export default class SliderMobile extends Component {
+export default class SliderMobileOne extends Component {
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);

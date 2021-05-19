@@ -38,7 +38,12 @@ import total3 from "../assets/total-900x1025-03.png";
 import loko from "../assets/LocoMoco-900x1025-01.png";
 import loko2 from "../assets/LocoMoco-900x1025-02.png";
 import loko3 from "../assets/LocoMoco-900x1025-03.png";
-import SliderMobile from "../componentsMobile/SliderMobile";
+import SliderMobileOne from "../componentsMobile/SliderMobileOne";
+import SliderMobileTwo from "../componentsMobile/SliderMobileTwo";
+import SliderMobileThree from "../componentsMobile/SliderMobileThree";
+import FormMobile from "../componentsMobile/FormMobile";
+import Footer from "../components/Footer";
+import FooterMobile from "../componentsMobile/FooterMobile";
 
 const WorkMobile = () => {
     const settings = {
@@ -166,7 +171,29 @@ const WorkMobile = () => {
                     </div>
                 </div>
             </div>
-            <SliderMobile />
+            <SliderMobileOne />
+            <div className="div">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="workMobile__titleTwo display-5">Professional Web Development Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <SliderMobileTwo />
+            </div>
+            <div className="div">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="workMobile__titleTwo display-5">UI/UX Design Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <SliderMobileThree />
+            </div>
+            <FormMobile />
+         <FooterMobile />
         </>
     )
 }

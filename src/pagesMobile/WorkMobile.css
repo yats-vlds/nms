@@ -42,4 +42,8 @@
     button.slick-arrow.slick-prev {
         display: none!important;
     }
+    button.slick-arrow.slick-next {
+        display: none!important;
+    }
+
 }
