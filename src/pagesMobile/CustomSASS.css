@@ -1,5 +1,5 @@
 .bi-arrow-left {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .titleForLinkInMobile {
@@ -7,7 +7,13 @@
 }
 
 .imgHomeForLinkInMobile {
-    width: 50%;
+    width: 70%;
+    object-fit: contain;
+    margin-top: 10%;
+}
+
+.imgHomeForLinkInMobileUIUX {
+    width: 100%;
     object-fit: contain;
 }
 

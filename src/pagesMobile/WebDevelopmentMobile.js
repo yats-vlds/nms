@@ -15,17 +15,19 @@ import drupal from "../assets/mobile-image/drupal.svg"
 import FormMobile from "../componentsMobile/FormMobile";
 import FooterMobile from "../componentsMobile/FooterMobile";
 import "../pagesMobile/WebDevelopment.css"
+import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
 
 const WebDevelopmentMobile = () => {
     return (
         <>
+            <img src={messageForOpenForm} className="messageForOpenForm"/>
             <HeaderMobile/>
             <div className="container">
-                <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-2">
+                <div className="row d-flex justify-content-center align-items-center beforeHeader">
+                    <div className="col-1">
                         <i className="bi bi-arrow-left"></i>
                     </div>
-                    <div className="col-10">
+                    <div className="col-11">
                         <h1 className="bannerMobile__titleTwo display-3" style={{textAlign: "center"}}>WEB DEVELOPMENT</h1>
                     </div>
                     <div className="col-12 d-flex justify-content-center align-items-center">

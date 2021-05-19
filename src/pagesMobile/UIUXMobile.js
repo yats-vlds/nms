@@ -16,22 +16,26 @@ import adobePremiere from "../assets/mobile-image/premiere-cc.svg"
 import webflow from "../assets/mobile-image/Webflow.svg"
 import FormMobile from "../componentsMobile/FormMobile";
 import FooterMobile from "../componentsMobile/FooterMobile";
+import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
 
-const UIUX = () => {
+const UIUXMobile = () => {
     return (
         <>
+            <img src={messageForOpenForm} className="messageForOpenForm"/>
             <HeaderMobile/>
             <div className="container">
-                <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-2">
+                <div className="row d-flex justify-content-center align-items-center beforeHeader">
+                    <div className="col-1">
                         <i className="bi bi-arrow-left"></i>
                     </div>
-                    <div className="col-10">
+                    <div className="col-11">
                         <h1 className="bannerMobile__titleTwo display-3 text-center">UI/UX DESIGN SERVICES</h1>
                     </div>
-                    <div className="col-12 d-flex justify-content-center align-items-center">
-                        <img src={UIUXlogo} className="imgHomeForLinkInMobile"/>
-                    </div>
+                </div>
+            </div>
+            <img src={UIUXlogo} className="imgHomeForLinkInMobileUIUX"/>
+            <div className="container">
+                <div className="row">
                     <div className="col-12">
                         <h6 className="textForLinkInMobile">
                             You never have a second chance to make a first impression! We design products and services
@@ -178,4 +182,4 @@ const UIUX = () => {
     )
 }
 
-export default UIUX
+export default UIUXMobile

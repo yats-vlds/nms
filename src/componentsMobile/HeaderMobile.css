@@ -1,5 +1,7 @@
 .headerMobile {
     background: #F8F8F8;
+    position: fixed;
+    width: 100%;
 }
 
 .headerMobile__row {

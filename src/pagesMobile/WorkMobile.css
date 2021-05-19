@@ -1,0 +1,45 @@
+.workMobile__titleTwo {
+    text-align: left;
+    font-weight: bold;
+    background: linear-gradient(to right, #4d02f5 0%, #c401ff 0%, #4d02f5 70%, #c401ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    padding-left: 4%;
+    text-align: left;
+    border-left: 4px solid #c401ff;
+}
+
+@media (max-width: 769px) {
+    .slick-slide img {
+        display: block;
+        height: 400px;
+        width: 400px;
+        object-fit: contain;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul.slick-dots {
+        display: none!important;
+    }
+    .arrowSliderRight {
+        padding-left: 1rem;
+    }
+    .arrowSliderLeft {
+        padding-right: 1rem;
+    }
+    .textForArrow {
+        color: #959595;
+        font-weight: 500;
+        margin-top: 1.2%;
+    }
+    .sliderMobile__titleTwo {
+        font-weight: bold;
+    }
+    .arrowForChangeImage {
+        font-size: 2rem;
+    }
+    button.slick-arrow.slick-prev {
+        display: none!important;
+    }
+}

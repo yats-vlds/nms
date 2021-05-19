@@ -21,6 +21,8 @@ import FooterMobile from "./componentsMobile/FooterMobile";
 import CustomSASS from "./pagesMobile/CustomSASS";
 import WebDevelopmentMobile from "./pagesMobile/WebDevelopmentMobile";
 import UIUXMobile from "./pagesMobile/UIUXMobile";
+import WorkMobile from "./pagesMobile/WorkMobile";
+import SliderComponent3 from "./components/SliderComponent3";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -82,7 +84,10 @@ function App() {
     library.add(fab, faCheckSquare, faCoffee)
     return (
         <Router>
-        <UIUXMobile />
+        {/*<CustomSASS />*/}
+        {/*<WebDevelopmentMobile />*/}
+        {/*<UIUXMobile />*/}
+        <WorkMobile />
             {/*<Header/>*/}
             {/*<Switch>*/}
             {/*    <Route path="/" exact>*/}
