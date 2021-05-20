@@ -34,7 +34,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
     }
 
     const customTitleData = {
-        titleOne: "Custom SaaS",
+        titleOne: "Custom Software",
         titleTwo: "Web Development",
         titleThree: "UI/UX Design"
     }

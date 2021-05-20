@@ -7,15 +7,58 @@ import button from "../assets/mobile-image/button.svg";
 import Popup from "./Popup";
 import skrepka from "../assets/skrepka.svg";
 import {toast, ToastContainer} from "react-toastify";
+import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
+import emailjs from "emailjs-com";
 
 const ExpertMobile = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    const [textarea, setTextarea] = useState('');
 
     const togglePopup = () => {
         setIsOpen(!isOpen);
+    }
+    let sendEmail = (e) => {
+        e.preventDefault()
+        if (name === '' || email === '' || textarea === '') {
+            return toast.error('😉All fields must be fill', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+        }
+        emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
+            .then((result) => {
+                setName('')
+                setEmail('')
+                setTextarea('')
+                toast.success('😉Thank you mister a good job', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+                togglePopup()
+
+            }, (error) => {
+                toast.error('Network error', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            });
     }
     return (
         <div className="expertMobile">
@@ -65,20 +108,37 @@ const ExpertMobile = () => {
                         <button className="btnMobile-expert" onClick={togglePopup} id="partners">Start project</button>
                     </div>
                     {isOpen && <Popup
-                        content={<div className="popup__modal">
-                            <h3 className="popup__title">Start your product</h3>
-                            <h3 className="popup__title">development right now!</h3>
-                            <input className="input__popup" type="text" placeholder="Name" value={name}
-                                   onChange={e => setName(e.target.value)}/>
-                            <input className="input__popup" type="text" placeholder="Email" value={email}
-                                   onChange={e => setEmail(e.target.value)}/>
-                            <textarea className="textarea__popup" rows="1" placeholder="Message" value={message}
-                                      onChange={e => setMessage(e.target.value)}/>
-                            <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
-                            <button className="btnMobile-starProject btnInPopup" onClick={togglePopup}>Start project</button>
-                        </div>}
+                        content={
+                            <form onSubmit={sendEmail} style={{width: "100%"}}>
+                                <div className="popup__modal">
+                                    <h3 className="popup__title">Start your product</h3>
+                                    <h3 className="popup__title">development right now!</h3>
+                                    <input className="input__popup" type="text" placeholder="Name" value={name}
+                                           onChange={e => setName(e.target.value)}/>
+                                    <input className="input__popup" type="text" placeholder="Email" value={email}
+                                           onChange={e => setEmail(e.target.value)}/>
+                                    <textarea className="textarea__popup" rows="1" placeholder="Please describe your project here" value={textarea}
+                                              onChange={e => setTextarea(e.target.value)}/>
+                                    <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
+                                    <button className="btnMobile-starProject btnInPopup">Start project
+                                    </button>
+                                </div>
+                            </form>}
                         handleClose={togglePopup}
                     />}
+                    <ToastContainer
+                        position="top-right"
+                        autoClose={3000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                    />
+                    {/* Same as */}
+                    <ToastContainer />
                 </div>
             </div>
         </div>

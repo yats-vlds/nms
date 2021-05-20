@@ -62,7 +62,7 @@ const FormMobile = () => {
                                    onChange={e => setName(e.target.value)}/>
                             <input className="input__popup" type="text" placeholder="Email" value={email}
                                    onChange={e => setEmail(e.target.value)}/>
-                            <textarea className="textarea__popup" rows="1" placeholder="Message" value={textarea}
+                            <textarea className="textarea__popup" rows="1" placeholder="Please describe your project here" value={textarea}
                                       onChange={e => setTextarea(e.target.value)}/>
                             <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
                             <button className="btnMobile-starProject btnInPopup" id="footerMobileContacts">Start project
