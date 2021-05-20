@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import "../componentsMobile/ExpertMobile.css"
 import perfect from "../assets/mobile-image/perfect.svg"
 import chess from "../assets/mobile-image/chess.svg"
@@ -6,6 +6,7 @@ import rocket from "../assets/mobile-image/rocket.svg"
 import button from "../assets/mobile-image/button.svg";
 import Popup from "./Popup";
 import skrepka from "../assets/skrepka.svg";
+import {toast, ToastContainer} from "react-toastify";
 
 const ExpertMobile = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +62,7 @@ const ExpertMobile = () => {
                             or an enterprise.</h6>
                     </div>
                     <div className="col-12 expertMobile__elementDivImg">
-                        <button className="btnMobile-expert" onClick={togglePopup}>Start project</button>
+                        <button className="btnMobile-expert" onClick={togglePopup} id="partners">Start project</button>
                     </div>
                     {isOpen && <Popup
                         content={<div className="popup__modal">

@@ -8,9 +8,20 @@
     padding-left: 4%;
     text-align: left;
     border-left: 4px solid #c401ff;
+    background: linear-gradient(to right, #4d02f5 0%, #c401ff 0%, #4d02f5 70%, #c401ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    to {
+        background-position: 200%;
+    }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 992px) {
     .slick-slide img {
         display: block;
         height: 400px;
@@ -46,4 +57,22 @@
         display: none!important;
     }
 
+}
+
+
+@media(max-width: 480px) {
+    .slick-slide img {
+        display: block;
+        height: 350px;
+        width: 300px;
+        object-fit: contain;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textForArrow {
+        font-size: 0.8rem;
+    }
+    h3.d-flex {
+        font-size: calc(1.1rem + .6vw);
+    }
 }

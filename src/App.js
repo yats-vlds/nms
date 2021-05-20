@@ -11,9 +11,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import HeaderMobile from "./componentsMobile/HeaderMobile";
 import BannerMobile from "./componentsMobile/BannerMobile";
 import ExpertiseMobile from "./componentsMobile/ExpertiseMobile";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {fab} from '@fortawesome/free-brands-svg-icons'
+import {faCheckSquare, faCoffee} from '@fortawesome/free-solid-svg-icons'
 import ExpertMobile from "./componentsMobile/ExpertMobile";
 import PartnersMobile from "./componentsMobile/PartnersMobile";
 import FormMobile from "./componentsMobile/FormMobile";
@@ -23,6 +23,9 @@ import WebDevelopmentMobile from "./pagesMobile/WebDevelopmentMobile";
 import UIUXMobile from "./pagesMobile/UIUXMobile";
 import WorkMobile from "./pagesMobile/WorkMobile";
 import SliderComponent3 from "./components/SliderComponent3";
+import HomeMobile from "./pagesMobile/HomeMobile";
+import ScrollToTop from "./componentsMobile/ScrollToTop";
+import {ToastContainer} from "react-toastify";
 
 function App() {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -84,33 +87,68 @@ function App() {
     library.add(fab, faCheckSquare, faCoffee)
     return (
         <Router>
-        {/*<CustomSASS />*/}
-        {/*<WebDevelopmentMobile />*/}
-        {/*<UIUXMobile />*/}
-        <WorkMobile />
-            {/*<Header/>*/}
-            {/*<Switch>*/}
-            {/*    <Route path="/" exact>*/}
-            {/*        <Home*/}
-            {/*            state={state}*/}
-            {/*            dispatch={dispatch}*/}
-            {/*            y={y}*/}
-            {/*            border={border}*/}
-            {/*            scrollDown={scrollDown}*/}
-            {/*            scrollUp={scrollUp}*/}
-            {/*        />*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/custom">*/}
-            {/*        <Custom type="custom" state={state} dispatch={dispatch}/>*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/mobile-and-web">*/}
-            {/*        <Custom type="mobile" state={state} dispatch={dispatch}/>*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/ui-ux">*/}
-            {/*        <Custom state={state} dispatch={dispatch}/>*/}
-            {/*    </Route>*/}
-            {/*</Switch>*/}
-            {/*<Footer id="contacts"/>*/}
+            <ScrollToTop/>
+            {window.outerWidth > 992 ?
+                <>
+                    <Header/>
+                    <Switch>
+                        <Route path="/" exact>
+                            <Home
+                                state={state}
+                                dispatch={dispatch}
+                                y={y}
+                                border={border}
+                                scrollDown={scrollDown}
+                                scrollUp={scrollUp}
+                            />
+                        </Route>
+                        <Route path="/custom">
+                            <Custom type="custom" state={state} dispatch={dispatch}/>
+                        </Route>
+                        <Route path="/mobile-and-web">
+                            <Custom type="mobile" state={state} dispatch={dispatch}/>
+                        </Route>
+                        <Route path="/ui-ux">
+                            <Custom state={state} dispatch={dispatch}/>
+                        </Route>
+                    </Switch>
+                    <Footer id="contacts"/>
+                </>
+                : <>
+                    <HeaderMobile/>
+                    <Switch>
+                        <Route path="/" exact>
+                            <HomeMobile/>
+                        </Route>
+                        <Route path="/custom">
+                            <CustomSASS/>
+                        </Route>
+                        <Route path="/mobile-and-web">
+                            <WebDevelopmentMobile/>
+                        </Route>
+                        <Route path="/ui-ux">
+                            <UIUXMobile/>
+                        </Route>
+                        <Route path="/works">
+                            <WorkMobile/>
+                        </Route>
+                    </Switch>
+                    <ToastContainer
+                        position="top-right"
+                        autoClose={3000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                    />
+                    {/* Same as */}
+                    <ToastContainer />
+                </>
+
+            }
         </Router>
     );
 }

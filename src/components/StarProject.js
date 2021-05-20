@@ -102,7 +102,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                                         <img src={circleIcons10} className="iconVectors iconBrowser" loading="lazy"/>
                                     </Tween>
                                 </div>
-                                <div className={!ellipse ? "btnStar" : "btnStarMovement"}>
+                                <div className={!ellipse ? "btnStar" : "btnStarMovement"} onClick={() => setEllipse(!ellipse)}>
                                     <div className="btnStar-twoSloy">
                                         <div className={ellipse ? "btnStar-threeSloyAfter" : "btnStar-threeSloyBefore"}>
                                             <div
@@ -112,8 +112,7 @@ const StarProject = ({id, ellipse, setEllipse}) => {
                                                 </h6>
                                             </div>
                                         </div>
-                                        <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"}
-                                             onClick={() => setEllipse(!ellipse)}>
+                                        <div className={ellipse ? "ellipse-btnStarAfter" : "ellipse-btnStarBefore"}>
                                         </div>
                                     </div>
                                 </div>

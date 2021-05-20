@@ -9,10 +9,18 @@
 .bannerMobile__titleTwo {
     text-align: left;
     font-weight: bold;
+
     background: linear-gradient(to right, #4d02f5 0%, #c401ff 0%, #4d02f5 70%, #c401ff 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    to {
+        background-position: 200%;
+    }
 }
 
 .bannerMobile__titleThree {

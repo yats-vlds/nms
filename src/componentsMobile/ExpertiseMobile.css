@@ -16,6 +16,10 @@
     color: white;
     padding-bottom: 2%;
 }
+.linkInExpertise {
+    text-decoration: none;
+    color: black;
+}
 
 @media(max-width: 481px) {
     .expertise__titleOne {

@@ -1,7 +1,6 @@
 .footerMobile {
     background: #F8F8F8;
     border-radius: 7px 7px 0px 0px;
-    height: 15rem;
 }
 .footerMobile__row {
     display: flex;
@@ -15,7 +14,7 @@
     font-weight: 600;
 }
 .messengersIconFooter {
-    width: 25%;
+    width: 20%;
     margin-left: 5%;
 }
 

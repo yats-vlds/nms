@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import HeaderMobile from "../componentsMobile/HeaderMobile";
 import CustomSaASSImage from "../assets/mobile-image/customsass.svg"
 import handSnake from "../assets/mobile-image/handSnake.svg"
@@ -19,16 +19,73 @@ import "./CustomSASS.css"
 import FormMobile from "../componentsMobile/FormMobile";
 import FooterMobile from "../componentsMobile/FooterMobile";
 import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
+import {Link} from "react-router-dom";
+import Popup from "../componentsMobile/Popup";
+import skrepka from "../assets/skrepka.svg";
+import button from "../assets/mobile-image/button.svg";
+import {toast} from "react-toastify";
+import emailjs from "emailjs-com";
 
 const CustomSASS = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [textarea, setTextarea] = useState('');
+
+    const togglePopup = () => {
+        setIsOpen(!isOpen);
+    }
+    let sendEmail = (e) => {
+        e.preventDefault()
+        if (name === '' || email === '' || textarea === '') {
+            return toast.error('😉All fields must be fill', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+        }
+        emailjs.sendForm('service_zkzewgm', 'template_9iytv3u', e.target, 'user_TbiCItkUAWqX6cvRx50Bn')
+            .then((result) => {
+                setName('')
+                setEmail('')
+                setTextarea('')
+                toast.success('😉Thank you mister a good job', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+                togglePopup()
+
+            }, (error) => {
+                toast.error('Network error', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            });
+    }
     return (
         <>
-            <img src={messageForOpenForm} className="messageForOpenForm" />
+            <img src={messageForOpenForm} className="messageForOpenForm" onClick={togglePopup}/>
             <HeaderMobile/>
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center beforeHeader">
                     <div className="col-1">
-                        <i className="bi bi-arrow-left"></i>
+                        <Link to="/" className="linkInExpertise">
+                            <i className="bi bi-arrow-left"></i>
+                        </Link>
                     </div>
                     <div className="col-11">
                         <h1 className="bannerMobile__titleTwo display-3 text-center">CUSTOM SAAS</h1>
@@ -170,12 +227,35 @@ const CustomSASS = () => {
                         <i className="bi bi-arrow-left"></i>
                     </div>
                     <div className="col-10">
-                        <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i className="bi bi-youtube"/></h1>
+                        <h1 className="bannerMobile__titleTwo display-3 pt-2">
+                            <Link to="/works" className="linkInExpertise">
+                                See cases <i className="bi bi-youtube"/>
+                            </Link>
+                        </h1>
                     </div>
                 </div>
             </div>
-            <FormMobile />
-            <FooterMobile />
+            <FormMobile/>
+            <FooterMobile/>
+            {isOpen && <Popup
+                content={
+                    <form onSubmit={sendEmail} style={{width: "100%"}}>
+                        <div className="popup__modal">
+                            <h3 className="popup__title">Start your product</h3>
+                            <h3 className="popup__title">development right now!</h3>
+                            <input className="input__popup" type="text" placeholder="Name" value={name}
+                                   onChange={e => setName(e.target.value)}/>
+                            <input className="input__popup" type="text" placeholder="Email" value={email}
+                                   onChange={e => setEmail(e.target.value)}/>
+                            <textarea className="textarea__popup" rows="1" placeholder="Message" value={textarea}
+                                      onChange={e => setTextarea(e.target.value)}/>
+                            <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
+                            <button className="btnMobile-starProject btnInPopup">Start project
+                            </button>
+                        </div>
+                    </form>}
+                handleClose={togglePopup}
+            />}
         </>
     )
 }

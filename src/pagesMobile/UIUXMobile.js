@@ -17,6 +17,7 @@ import webflow from "../assets/mobile-image/Webflow.svg"
 import FormMobile from "../componentsMobile/FormMobile";
 import FooterMobile from "../componentsMobile/FooterMobile";
 import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
+import {Link} from "react-router-dom";
 
 const UIUXMobile = () => {
     return (
@@ -26,7 +27,9 @@ const UIUXMobile = () => {
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center beforeHeader">
                     <div className="col-1">
-                        <i className="bi bi-arrow-left"></i>
+                        <Link to="/" className="linkInExpertise">
+                            <i className="bi bi-arrow-left"></i>
+                        </Link>
                     </div>
                     <div className="col-11">
                         <h1 className="bannerMobile__titleTwo display-3 text-center">UI/UX DESIGN SERVICES</h1>
@@ -170,8 +173,11 @@ const UIUXMobile = () => {
                         <i className="bi bi-arrow-left"></i>
                     </div>
                     <div className="col-10">
-                        <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i
-                            className="bi bi-youtube"/>
+                        <h1 className="bannerMobile__titleTwo display-3 pt-2">
+                            <Link to="/works" className="linkInExpertise">
+                                See cases <i
+                                className="bi bi-youtube"/>
+                            </Link>
                         </h1>
                     </div>
                 </div>

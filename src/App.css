@@ -172,7 +172,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     text-decoration: none;
     font-family: "Work Sans";
     color: #000000;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* Styling of overlay */
@@ -214,9 +214,10 @@ a#home {
     position: relative;
     width: 70%;
     margin: 0 auto;
-    height: auto;
-    max-height: 70vh;
-    margin-top: calc(100vh - 85vh - 20px);
+    /* height: auto; */
+    height: 400px;
+    margin-bottom: 2rem;
+    margin-top: calc(95vh - 85vh - 20px);
     background: #fff;
     border-radius: 4px;
     padding: 20px;
@@ -232,8 +233,8 @@ a#home {
     content: 'x';
     cursor: pointer;
     position: fixed;
-    right: calc(13.7% - 3px);
-    top: calc(100vh - 85vh - 33px);
+    right: calc(14% - 3px);
+    top: calc(95vh - 85vh - 33px);
     background: #ededed;
     width: 25px;
     height: 25px;
@@ -264,6 +265,18 @@ a#home {
     margin-top: -7%;
 }
 
+button#footerMobileContacts {
+    outline: none;
+}
+
+button.btnMobile-starProject.btnInPopup {
+    outline: none;
+}
+
+button.btnMobile-starProject {
+    outline: none;
+}
+
 @media (max-width: 481px) {
     .box {
         width: 92%;
@@ -274,6 +287,6 @@ a#home {
     }
 
     .close-icon {
-        right: calc(2.7% - 3px);
+        right: calc(2% - 3px);
     }
 }

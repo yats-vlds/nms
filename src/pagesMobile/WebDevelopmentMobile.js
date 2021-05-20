@@ -16,6 +16,7 @@ import FormMobile from "../componentsMobile/FormMobile";
 import FooterMobile from "../componentsMobile/FooterMobile";
 import "../pagesMobile/WebDevelopment.css"
 import messageForOpenForm from "../assets/mobile-image/messageForOpenForm.svg";
+import {Link} from "react-router-dom";
 
 const WebDevelopmentMobile = () => {
     return (
@@ -25,10 +26,13 @@ const WebDevelopmentMobile = () => {
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center beforeHeader">
                     <div className="col-1">
-                        <i className="bi bi-arrow-left"></i>
+                        <Link to="/" className="linkInExpertise">
+                            <i className="bi bi-arrow-left"></i>
+                        </Link>
                     </div>
                     <div className="col-11">
-                        <h1 className="bannerMobile__titleTwo display-3" style={{textAlign: "center"}}>WEB DEVELOPMENT</h1>
+                        <h1 className="bannerMobile__titleTwo display-3" style={{textAlign: "center"}}>WEB
+                            DEVELOPMENT</h1>
                     </div>
                     <div className="col-12 d-flex justify-content-center align-items-center">
                         <img src={WebDevelopment} className="imgHomeForLinkInMobile"/>
@@ -73,13 +77,15 @@ const WebDevelopmentMobile = () => {
                                 <div className="col-4">
                                     <div className="frontendDiv__element">
                                         <img src={js} className="frontendDiv__img"/>
-                                        <h6 className="frontendDiv__elementTitle">JavaScript (ReactJS Web Development)</h6>
+                                        <h6 className="frontendDiv__elementTitle">JavaScript (ReactJS Web
+                                            Development)</h6>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="frontendDiv__element">
                                         <img src={ts} className="frontendDiv__img"/>
-                                        <h6 className="frontendDiv__elementTitle">TypeScript (AngularJS Web Development)</h6>
+                                        <h6 className="frontendDiv__elementTitle">TypeScript (AngularJS Web
+                                            Development)</h6>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +103,8 @@ const WebDevelopmentMobile = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h5 className="d-flex align-items-center technologiesMobileTitle" style={{fontWeight: "bold"}}>Platforms</h5>
+                            <h5 className="d-flex align-items-center technologiesMobileTitle"
+                                style={{fontWeight: "bold"}}>Platforms</h5>
                             <div className="frontendDiv">
                                 <div className="frontendDiv__element">
                                     <img src={wordpress} className="frontendDiv__img"/>
@@ -126,7 +133,11 @@ const WebDevelopmentMobile = () => {
                         <i className="bi bi-arrow-left"></i>
                     </div>
                     <div className="col-10">
-                        <h1 className="bannerMobile__titleTwo display-3 pt-2">See cases <i className="bi bi-youtube"/>
+
+                        <h1 className="bannerMobile__titleTwo display-3 pt-2">
+                            <Link to="/works" className="linkInExpertise">
+                                See cases <i className="bi bi-youtube"/>
+                            </Link>
                         </h1>
                     </div>
                 </div>

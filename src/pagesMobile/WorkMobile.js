@@ -44,6 +44,7 @@ import SliderMobileThree from "../componentsMobile/SliderMobileThree";
 import FormMobile from "../componentsMobile/FormMobile";
 import Footer from "../components/Footer";
 import FooterMobile from "../componentsMobile/FooterMobile";
+import {Link} from "react-router-dom";
 
 const WorkMobile = () => {
     const settings = {
@@ -158,7 +159,9 @@ const WorkMobile = () => {
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center beforeHeader">
                     <div className="col-1">
-                        <i className="bi bi-arrow-left"></i>
+                        <Link className="linkInExpertise" to="/">
+                            <i className="bi bi-arrow-left"></i>
+                        </Link>
                     </div>
                     <div className="col-11">
                         <h1 className="bannerMobile__titleTwo display-3" style={{textAlign: "center"}}>WORKS</h1>
@@ -171,7 +174,7 @@ const WorkMobile = () => {
                     </div>
                 </div>
             </div>
-            <SliderMobileOne />
+            <SliderMobileOne/>
             <div className="div">
                 <div className="container">
                     <div className="row">
@@ -180,7 +183,7 @@ const WorkMobile = () => {
                         </div>
                     </div>
                 </div>
-                <SliderMobileTwo />
+                <SliderMobileTwo/>
             </div>
             <div className="div">
                 <div className="container">
@@ -190,10 +193,10 @@ const WorkMobile = () => {
                         </div>
                     </div>
                 </div>
-                <SliderMobileThree />
+                <SliderMobileThree/>
             </div>
-            <FormMobile />
-         <FooterMobile />
+            <FormMobile/>
+            <FooterMobile/>
         </>
     )
 }

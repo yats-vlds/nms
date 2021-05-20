@@ -5,14 +5,17 @@ import logos3 from "../assets/mobile-image/logos3.svg"
 import logo from "../assets/mobile-image/logoTen.svg"
 import yog from "../assets/mobile-image/yogTen.svg"
 import "./PartnersMobile.css"
+import {Link} from "react-router-dom";
 
 const PartnersMobile = () => {
     return (
         <>
             <div className="partnersMobile">
                 <div className="partnersMobile__SeeCasesTitle">
-                    <h2 className="partnersMobile__SeeCasesTitleh2 display-5">See cases<i className="bi bi-youtube"/>
-                    </h2>
+                    <Link className="linkInExpertise" to="/works">
+                        <h2 className="partnersMobile__SeeCasesTitleh2 display-5">See cases<i
+                            className="bi bi-youtube"/></h2>
+                    </Link>
                 </div>
             </div>
             <div className="partnersMobile__DivForTitle">
@@ -76,7 +79,11 @@ const PartnersMobile = () => {
                             </div>
                         </div>
                         <div className="col-12 d-flex justify-content-center align-items-center">
-                            <button className="whyAreWe__btnSeeCases">See cases</button>
+                            <button className="whyAreWe__btnSeeCases">
+                                <Link className="linkInExpertise" to="/works" style={{color: "#3857F9"}}>
+                                    See cases
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +99,7 @@ const PartnersMobile = () => {
                             <h2 className="tenMobile__numberTitle">YEARS IN THE GAME!</h2>
                         </div>
                     </div>
-                    <img src={yog} className="tenMobile__yogImg" />
+                    <img src={yog} className="tenMobile__yogImg"/>
                 </div>
             </div>
         </>
