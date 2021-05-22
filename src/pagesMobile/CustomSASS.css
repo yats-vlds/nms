@@ -18,13 +18,12 @@
 }
 
 .smallIconForLinkInMobile {
-    width: 10%;
+    width: 15%;
     object-fit: contain;
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
-
 .textForLinkInMobile {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 li {
@@ -40,6 +39,7 @@ li {
 .technologiesMobileTitle {
     border-top: 2px solid #C6C6C6;
     padding-top: 4%;
+    font-weight: 650;
 }
 
 .technologiesMobileSubTitle {
@@ -61,4 +61,21 @@ li {
 .frontendDiv__img {
     width: 50px;
     height: 50px;
+}
+
+.titleInUl {
+    font-weight: 800;
+}
+.d-flex.align-items-center {
+    outline: none;
+}
+div {
+    outline: none;
+}
+
+@media(max-width: 480px) {
+    i.bi.bi-youtube {
+        vertical-align: -4%;
+        font-size: 24px;
+    }
 }

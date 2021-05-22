@@ -64,10 +64,10 @@ const ExpertMobile = () => {
         <div className="expertMobile">
             <div className="container">
                 <h2 className="expertMobile__titleOne">YOUR PROJECT PATH</h2>
-                <h4 className="expertMobile__titleTwo">
+                <h6 className="expertMobile__titleTwo">
                     How to drive your future Product to <span className="expertMobile__textSuccess">success</span> with
                     NMS SaaS Development Company?
-                </h4>
+                </h6>
                 <div className="row">
                     <div className="col-12 expertMobile__element">
                         <div className="expertMobile__elementDivImg">

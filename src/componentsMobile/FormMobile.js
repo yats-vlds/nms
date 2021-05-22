@@ -13,7 +13,7 @@ const FormMobile = () => {
     let sendEmail = (e) => {
         e.preventDefault()
         if (name === '' || email === '' || textarea === '') {
-            return toast.error('😉All fields must be fill', {
+            return toast.error('All fields must be fill', {
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,
@@ -65,7 +65,7 @@ const FormMobile = () => {
                             <textarea className="textarea__popup" rows="1" placeholder="Please describe your project here" value={textarea}
                                       onChange={e => setTextarea(e.target.value)}/>
                             <img src={skrepka} alt="" className="skrepka__img" loading="lazy"/>
-                            <button className="btnMobile-starProject btnInPopup" id="footerMobileContacts">Start project
+                            <button className="btnMobile-starProject btnInPopup" id="footerMobileContacts">Send message
                             </button>
                         </form>
                     </div>

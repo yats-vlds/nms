@@ -35,7 +35,7 @@ const WebDevelopmentMobile = () => {
                             DEVELOPMENT</h1>
                     </div>
                     <div className="col-12 d-flex justify-content-center align-items-center">
-                        <img src={WebDevelopment} className="imgHomeForLinkInMobile"/>
+                        <img src={WebDevelopment} className="imgHomeForLinkInMobile webDevelopmentIcon"/>
                     </div>
                     <div className="col-12">
                         <h6 className="textForLinkInMobile">
@@ -136,7 +136,7 @@ const WebDevelopmentMobile = () => {
 
                         <h1 className="bannerMobile__titleTwo display-3 pt-2">
                             <Link to="/works" className="linkInExpertise">
-                                See cases <i className="bi bi-youtube"/>
+                                See Cases <i className="bi bi-youtube"/>
                             </Link>
                         </h1>
                     </div>

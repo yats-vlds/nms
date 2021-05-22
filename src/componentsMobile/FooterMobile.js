@@ -1,8 +1,8 @@
 import React from "react"
 import "./FooterMobile.css"
-import telegram from "../assets/mobile-image/telegram.png";
-import viber from "../assets/mobile-image/viber.png";
-import whatsapp from "../assets/mobile-image/whatsapp.png";
+import telegram from "../assets/mobile-image/telegram.svg";
+import viber from "../assets/mobile-image/viber.svg";
+import whatsapp from "../assets/mobile-image/whatsapp.svg";
 import logo from "../assets/mobile-image/logo.svg";
 
 const FooterMobile = () => {
@@ -10,18 +10,18 @@ const FooterMobile = () => {
         <div className="footerMobile">
             <div className="container">
                 <div className="row footerMobile__row">
-                    <div className="col-8">
-                        <h2 className="footerMobile__titleOne">Contact us now</h2>
+                    <div className="col-7">
+                        <h5 className="footerMobile__titleOne">Contact us now</h5>
                     </div>
-                    <div className="col-4">
-                        <a href="https://t.me/joinchat/qnJ1QvS4VUNiZDFi">
-                            <img src={telegram} className="messengersIconFooter ml-1"/>
+                    <div className="col-5">
+                        <a href="https://t.me/joinchat/qnJ1QvS4VUNiZDFi" className="aLinkInHeader">
+                            <img src={telegram} className="messengersIconFooter"/>
                         </a>
-                        <a href="https://invite.viber.com/?g2=AQAw7NVotbLxjUz%2BOeJBKHc%2BvFU521M9HRcizAWe8%2BCcln5iUoxQPEgT0O7sTwkL">
-                            <img src={viber} className="messengersIconFooter ml-1"/>
+                        <a href="https://invite.viber.com/?g2=AQAw7NVotbLxjUz%2BOeJBKHc%2BvFU521M9HRcizAWe8%2BCcln5iUoxQPEgT0O7sTwkL" className="aLinkInHeader">
+                            <img src={viber} className="messengersIconFooter"/>
                         </a>
-                        <a href="https://chat.whatsapp.com/DZp4Mlt9ZVN1doXbL3pHGz">
-                            <img src={whatsapp} className="messengersIconFooter ml-1"/>
+                        <a href="https://chat.whatsapp.com/DZp4Mlt9ZVN1doXbL3pHGz" className="aLinkInHeader">
+                            <img src={whatsapp} className="messengersIconFooter"/>
                         </a>
                     </div>
                 </div>
@@ -37,8 +37,8 @@ const FooterMobile = () => {
                         <h6 className="footerMobile__contactText">
                             <i className="bi bi-envelope-fill iconFooter"/>
                             <a className="footer__link"
-                               href="mailto:dev@nms-group.family">
-                                dev@nms-group.family
+                               href="mailto:team@nms-group.family">
+                                team@nms-group.family
                             </a>
                         </h6>
                     </div>

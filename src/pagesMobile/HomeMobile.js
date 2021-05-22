@@ -11,7 +11,6 @@ import {BrowserRouter as Router} from "react-router-dom";
 const HomeMobile = () => {
     return (
         <>
-            <HeaderMobile/>
             <BannerMobile/>
             <ExpertiseMobile/>
             <ExpertMobile/>

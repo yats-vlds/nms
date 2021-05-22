@@ -20,8 +20,8 @@ const PartnersMobile = () => {
             </div>
             <div className="partnersMobile__DivForTitle">
                 <div className="container">
-                    <h3 className="partnersMobile__titleOne">Partners</h3>
-                    <h4 className="partnersMobile__titleTwo">Because They Trust</h4>
+                    <h1 className="partnersMobile__titleOne">Partners</h1>
+                    <h5 className="partnersMobile__titleTwo">Because They Trust</h5>
                     <div className="partnersMobileSlider">
                         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
@@ -90,13 +90,13 @@ const PartnersMobile = () => {
             </div>
             <div className="tenMobile">
                 <div className="container">
-                    <div className="row">
+                    <div className="row tenMobile__row">
                         <div className="col-8">
-                            <img src={logo} className="w-75"/>
+                            <img src={logo} className="w-75" className="logoInTen"/>
                         </div>
                         <div className="col-10">
                             <h1 className="tenMobile__number">10<span className="tenMobile__numberPlus">+</span></h1>
-                            <h2 className="tenMobile__numberTitle">YEARS IN THE GAME!</h2>
+                            <h2 className="tenMobile__numberTitle" id="forms">YEARS IN THE GAME!</h2>
                         </div>
                     </div>
                     <img src={yog} className="tenMobile__yogImg"/>

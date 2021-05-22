@@ -28,7 +28,7 @@ i.bi.bi-youtube {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
     padding-top: 5%;
 }
 
@@ -62,11 +62,12 @@ i.bi.bi-youtube {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .whyAreWe__titleTwo {
     color: #fff;
+    font-weight: 600;
 }
 
 .whyAreWe__text {
@@ -94,12 +95,12 @@ i.bi.bi-youtube {
     color: #3857F9;
     outline: none;
     border-radius: 35px;
-    width: 40%;
-    box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.4);
-    font-size: calc(0.85rem + .3vw);
+    width: 45%;
+    box-shadow: 0px 10px 17px rgb(0 0 0 / 40%);
+    font-size: calc(0.95rem + .3vw);
     margin-top: 5%;
     margin-bottom: 5%;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .tenMobile {
@@ -119,6 +120,7 @@ i.bi.bi-youtube {
     color: #fff;
     font-weight: bold;
     margin-top: -10%;
+    margin-bottom: 10%;
 }
 
 .tenMobile__numberPlus {
@@ -128,8 +130,16 @@ i.bi.bi-youtube {
 .tenMobile__yogImg {
     position: absolute;
     right: 0;
-    margin-top: -60%;
-    width: 22%;
+    margin-top: -69%;
+    width: 26%;
+}
+
+.tenMobile__row {
+    margin-left: 3%;
+}
+
+.logoInTen {
+    margin-top: 15%;
 }
 
 @media (max-width: 481px) {
@@ -140,25 +150,25 @@ i.bi.bi-youtube {
     .tenMobile__yogImg {
         position: absolute;
         right: 0;
-        margin-top: -85%;
-        width: 33%;
+        margin-top: -103%;
+        width: 40%;
     }
 }
 
 @media (max-width: 421px) {
     .tenMobile__yogImg {
-        margin-top: -90%;
+        margin-top: -109%;
     }
 }
 
 @media (max-width: 390px) {
     .tenMobile__yogImg {
-        margin-top: -96%;
+        margin-top: -110%;
     }
 }
 
-@media(max-width: 377px) {
+@media (max-width: 377px) {
     .tenMobile__yogImg {
-        margin-top: -101%;
+        margin-top: -116%;
     }
 }

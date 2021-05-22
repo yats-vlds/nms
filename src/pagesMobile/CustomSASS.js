@@ -229,7 +229,7 @@ const CustomSASS = () => {
                     <div className="col-10">
                         <h1 className="bannerMobile__titleTwo display-3 pt-2">
                             <Link to="/works" className="linkInExpertise">
-                                See cases <i className="bi bi-youtube"/>
+                                See Cases <i className="bi bi-youtube"/>
                             </Link>
                         </h1>
                     </div>

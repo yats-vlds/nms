@@ -9,26 +9,37 @@
     padding-bottom: 1%;
     text-align: center;
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .expertise__titleTwo {
     text-align: left;
     color: white;
     padding-bottom: 2%;
+    font-weight: 700;
 }
 .linkInExpertise {
     text-decoration: none;
     color: black;
 }
+i.bi.bi-caret-down-square-fill.text-white {
+    margin-left: 1.2%;
+}
+i.bi.bi-caret-right-fill.text-white {
+    margin-right: 2%;
+}
 
 @media(max-width: 481px) {
+    i.bi.bi-caret-down-square-fill.text-white {
+        font-size: 0.6rem;
+        margin-left: 1.2%;
+    }
     .expertise__titleOne {
         padding-top: 18vh;
-        padding-bottom: 2%;
+        padding-bottom: 5%;
         text-align: center;
         color: white;
-        font-weight: 600;
-        font-size: calc(1.175rem + 2.7vw);
+        font-size: calc(1rem + 2.7vw);
     }
     .expertise__titleTwo {
         font-size: calc(1.04rem + .3vw);

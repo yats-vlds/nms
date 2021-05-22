@@ -13,25 +13,34 @@
 }
 
 .headerMobile__inBurgerLogo {
-    width: 130%;
-    object-fit: contain;
-    padding-left: 2.2%;
+    margin: 8%;
 }
 
 .headerMobile__logo {
-    width: 50%;
-    padding-top: 0.6%;
+    width: 40%;
     object-fit: contain;
+}
+
+.headerMobile__logoInLeftWindow {
+    width: 62%;
+    object-fit: contain;
+    margin-left: 5%;
+}
+.burger__img {
+    object-fit: contain;
+}
+
+a.aLinkInHeader {
+    margin-left: 0.5rem;
 }
 
 .logo__burger {
     width: 55%;
+    display: none;
 }
 
 .messengersIcon {
-    width: 80%;
-    padding-top: 30%;
-    margin-left: 5%;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -44,22 +53,36 @@
 .messengersBlack {
     position: absolute;
     bottom: 0;
-    margin-left: 6%;
+    margin-left: 13%;
 }
 .messengersIconBlack {
-    width: 25%;
-    margin-right: 0.3rem;
+    width: 100%;
 }
 
 .textLogotypeCompanyInBurger {
-    margin-top: 1%;
-    font-size: 9px !important;
+    margin-top: 7%;
+    font-size: 11px !important;
+}
+.bm-item.headerMobile__inBurgerLogo.d-flex {
+    outline: none;
+}
+.bm-item.forLinkInWindowLeft.d-flex.flex-column {
+    margin: 10%;
+}
+.nameLinkInHeaderLeftWindow {
+    font-weight: 600;
+    margin-left: 13%;
+    padding: 1%;
 }
 
 @media (max-width: 481px) {
+    .nameLinkInHeaderLeftWindow {
+        font-weight: 600;
+        margin-left: 13%;
+        font-size: calc(1rem + .6vw);
+    }
     .headerMobile__logo {
-        width: 55%;
-        padding-left: 2%;
+        width: 45%;
     }
 
     .menu-item {
@@ -73,10 +96,7 @@
     }
 
     .messengersIcon {
-        width: 83%;
         padding-top: 5%;
-        margin-left: 7%;
-        object-fit: contain;
     }
     .logo__burger {
         width: 50%;

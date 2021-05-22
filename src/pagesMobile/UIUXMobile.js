@@ -36,7 +36,7 @@ const UIUXMobile = () => {
                     </div>
                 </div>
             </div>
-            <img src={UIUXlogo} className="imgHomeForLinkInMobileUIUX"/>
+            <img src={UIUXlogo} className="imgHomeForLinkInMobileUIUX webDevelopmentIcon"/>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -68,7 +68,7 @@ const UIUXMobile = () => {
                             brand and exceed user expectations with our UI/UX design and creative services:
                         </h6>
                         <ul>
-                            <h4>What we do:</h4>
+                            <h4 className="titleInUl">What we do:</h4>
                             <li>
                                 Graphic Design
                             </li>
@@ -102,7 +102,7 @@ const UIUXMobile = () => {
             </div>
             <div className="technologiesMobile">
                 <div className="container">
-                    <h4 className="titleForLinkInMobile">Instruments</h4>
+                    <h4 className="titleForLinkInMobile">Instruments:</h4>
                     <div className="row">
                         <div className="col-3">
                             <div className="frontendDiv__element">
