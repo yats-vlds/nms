@@ -37,6 +37,7 @@
     right: 0;
     width: 55%;
     top: 31%;
+    object-fit: contain;
 }
 
 .vectorImg__row {
@@ -143,6 +144,6 @@
         position: absolute;
         right: 0;
         width: 60%;
-        top: 37%;
+        top: 27%;
     }
 }

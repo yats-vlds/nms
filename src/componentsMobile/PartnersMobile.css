@@ -150,25 +150,25 @@ i.bi.bi-youtube {
     .tenMobile__yogImg {
         position: absolute;
         right: 0;
-        margin-top: -103%;
+        margin-top: -108%;
         width: 40%;
     }
 }
 
 @media (max-width: 421px) {
     .tenMobile__yogImg {
-        margin-top: -109%;
+        margin-top: -113%;
     }
 }
 
 @media (max-width: 390px) {
     .tenMobile__yogImg {
-        margin-top: -110%;
+        margin-top: -125%;
     }
 }
 
 @media (max-width: 377px) {
     .tenMobile__yogImg {
-        margin-top: -116%;
+        margin-top: -130%;
     }
 }
